@@ -20,7 +20,7 @@ Share rules modules distinct from any playkit they were intended for--publishing
 
 Publishing to PDF is necessary for most folks, but please also consider publishing to a web page, epub, or other accessible format as well. Drop a line if you want your work linked on this site.
 
-### Use tags on itch:
+### Use tags on Itch
 
 + Anything tagged flagrant66 will become a part of a broader grassroots library.
 + Tag with the license you’re using - `CCBY`, `CC0`, `OGL`, `NoLaywers`, whatever you’re using.

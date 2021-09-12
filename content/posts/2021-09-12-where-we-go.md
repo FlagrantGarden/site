@@ -10,7 +10,7 @@ summary: |
 # next: /posts/shortcodes
 # # prev: /posts/post-name
 title: Where We Are Going
-weight: 20
+weight: 10
 ---
 
 The Flagrant Garden is a fledgling endeavor to facillitate play and make art.

@@ -10,7 +10,7 @@ summary: |
 # next: /posts/shortcodes
 # # prev: /posts/post-name
 title: Cultivate Flagrantly
-weight: 10
+weight: 20
 ---
 
 This is post is the statement for the Flagrant Garden's declaration, also found [here](/cultivation).

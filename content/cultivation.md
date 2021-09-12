@@ -1,5 +1,7 @@
 ---
 title: Flagrant Cultivation
+description: |
+  Make kitbashable shit. Release as early as possible. Iterate and accelerate collaboration. Build out, not up. Fuck hierarchies.
 type: docs
 ---
 

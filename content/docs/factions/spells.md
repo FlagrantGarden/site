@@ -1,6 +1,6 @@
 ---
 title: "Spells"
-description: "List of Spells"
+description: "Sample spells for Flagrant Factions"
 bookToC: false
 weight: 30
 ---
