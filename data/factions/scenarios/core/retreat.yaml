@@ -1,0 +1,18 @@
+weight: 2
+title: Retreat
+deployment: |
+  Defenders deploy 12-18” from one edge, and attackers within 8” of the same edge.
+  Each side places one Group at a time, alternating between sides after each Group,
+  until both sides have deployed all the Groups they intend to have on the field at the beginning of play.
+firstTurn: |
+  Defenders may choose to go first or allow the attackers to go first.
+
+  After deciding, the defender must immediately make a resilience test for every group they deployed;
+  for each test is failed, that Group starts play shaken.
+victoryConditions: |
+  During the game, defenders may retreat their Groups off of the table (must be from the edge opposite the edge from which they deployed).
+  Play ends immediately when either side has no Groups remaining in play.
+
+  Defenders gain 3VP for each of their Groups that escape.
+
+  Attackers gain 2VP for every enemy Group routed or destroyed—they gain 4VP instead if the enemy Captain’s Group is routed or destroyed.

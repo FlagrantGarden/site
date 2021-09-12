@@ -1,0 +1,38 @@
+<div class="card" style="width: 90%">
+  <div class="card-body">
+    <h3 class="card-title" id="scenario-{{urlize .title}}">
+      {{ .weight }}. {{title .title }}
+    </h3>
+    <table>
+      <table>
+        <tbhody>
+          {{ with .deployment }}
+          <tr>
+            <th scope="row" class="align-middle">Deployment</th>
+            <td>{{ . | markdownify}}</td>
+          </tr>
+          {{ end}}
+          {{ with .firstTurn }}
+          <tr>
+            <th scope="row" class="align-middle">First Turn</th>
+            <td>{{ . | markdownify}}</td>
+          </tr>
+          {{ end}}
+          {{ with .specialRules }}
+          <tr>
+            <th scope="row" class="align-middle">Special Rules</th>
+            <td>{{ . | markdownify}}</td>
+          </tr>
+          {{ end}}
+          {{ with .victoryConditions }}
+          <tr>
+            <th scope="row" class="align-middle">Victory Conditions</th>
+            <td>{{ . | markdownify}}</td>
+          </tr>
+          {{ end}}
+          </tr>
+        </tbhody>
+      </table>
+    </table>
+  </div>
+</div>

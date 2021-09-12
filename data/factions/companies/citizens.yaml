@@ -1,0 +1,74 @@
+name: Citizen's Defense Force
+description: |
+  A neighborhood's best fighters come together to do violence, supported by the wealthy folks on horseback who can afford better equipment and actual training.
+groups:
+  - name: Captain & First Citizens
+    profile: Heavy Cavalry
+    cost: 7
+    me: 5+ / 4+ / 5+
+    mo: 5+ / 10"
+    mi: "- / - / -"
+    r: 6 / 4+
+    t: 3
+    traits:
+      - Defiant
+      - Unerring
+  - name: Neighborhood Defenders
+    profile: Light Foot
+    cost: 3
+    me: 6+ / 5+ / 4+
+    mo: 5+ / 8"
+    mi: 6+ / 5+ / 18"
+    r: 12 / 4+
+    t: 2
+    traits:
+      - Defensive
+      - Shooters
+      - Cowardly
+  - name: Neighborhood Defenders
+    profile: Light Foot
+    cost: 3
+    me: 6+ / 5+ / 4+
+    mo: 5+ / 8"
+    mi: 6+ / 5+ / 18"
+    r: 12 / 4+
+    t: 2
+    traits:
+      - Defensive
+      - Shooters
+      - Cowardly
+  - name: Neighborhood Defenders
+    profile: Light Foot
+    cost: 3
+    me: 6+ / 5+ / 4+
+    mo: 5+ / 8"
+    mi: 6+ / 5+ / 18"
+    r: 12 / 4+
+    t: 2
+    traits:
+      - Defensive
+      - Shooters
+      - Cowardly
+  - name: Street Toughs
+    profile: Light Foot
+    cost: 3
+    me: 6+ / 5+ / 4+
+    mo: 5+ / 8"
+    mi: "- / - / -"
+    r: 12 / 4+
+    t: 2
+    traits:
+      - Defensive
+      - Vicious
+      - Cowardly
+  - name: Kennel Hounds
+    profile: Light Beast
+    cost: 4
+    me: 5+ / 4+ / 6
+    mo: 6+ / 12"
+    mi: "- / - / -"
+    r: 6 / 4+
+    t: 3
+    traits:
+      - Reckless
+      - Nimble

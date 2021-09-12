@@ -1,0 +1,12 @@
+weight: 1
+title: Ambush
+deployment: |
+  Defenders deploy all of their Groups within 24” of the center, then attackers deploy all of their groups anywhere on the table, but no closer than 6” to any defending group.
+firstTurn: |
+  Attackers must go first.
+victoryConditions: |
+  Play ends immediately when either side has no Groups remaining in play.
+
+  Defenders gain 2VP for every friendly Group that escapes and 1VP for every enemy Group they rout or destroy.
+
+  Attackers gain 1VP for every enemy Group whose R is below its starting value at the end of the game (even if they escape off the table), and 2VP for every enemy Group they rout or destroy.

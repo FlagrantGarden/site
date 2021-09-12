@@ -1,0 +1,48 @@
+name: Necromancer's Legion
+description: |
+  A powerful necromancer served by revenant knights, including a skeletal dinosaur and warriors to haunt any field.
+groups:
+  - name: Necromancer & Revenant Knights
+    profile: Elite Foot
+    cost: 12
+    me: 5+ / 3+ / 4+
+    mo: 5+ / 6"
+    mi: "- / - / -"
+    r: 12 / 3+
+    t: 4
+    traits:
+      - Caster
+      - Summoner
+  - name: Skeleton Rex
+    profile: Heavy Beast
+    cost: 6
+    me: 5+ / 3+ / 6
+    mo: 6+ / 10"
+    mi: "- / - / -"
+    r: 6 / 3+
+    t: 4
+    traits:
+      - Reckless
+      - Unfeeling
+  - name: Skeletal Warriors
+    profile: Light Foot
+    cost: 3
+    me: 6+ / 5+ / 4+
+    mo: 5+ / 8"
+    mi: "- / - / -"
+    r: 12 / 4+
+    t: 2
+    traits:
+      - Defensive
+      - Unfeeling
+  - name: Skeletal Warriors
+    profile: Light Foot
+    cost: 3
+    me: 6+ / 5+ / 4+
+    mo: 5+ / 8"
+    mi: "- / - / -"
+    r: 12 / 4+
+    t: 2
+    traits:
+      - Defensive
+      - Unfeeling

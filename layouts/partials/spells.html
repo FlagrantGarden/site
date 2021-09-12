@@ -1,0 +1,11 @@
+<div class="card" style="width: 100%;">
+  <div class="card-body">
+    <h5 id="spell-{{ urlize .name }}" card-title>{{ title .name }}</h5>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><strong>Check:</strong> {{ .check }}</li>
+      <li class="list-group-item"><strong>Target:</strong> {{ .target }}</li>
+      <li class="list-group-item"><strong>Duration:</strong> {{ .duration }}</li>
+      <li class="list-group-item"><strong>Effect:</strong> {{ .effect }}</li>
+    </ul>
+  </div>
+</div>

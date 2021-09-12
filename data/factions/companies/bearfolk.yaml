@@ -1,0 +1,50 @@
+name: Bearfolk War Party
+description: |
+  The bearfolk are powerful warriors entrusted by their people to do violence for their community.
+  They move fast and hit hard, backed up by their elders, the Aurorans, who wield magics.
+groups:
+  - name: Captain & Longbraids
+    profile: Elite Cavalry
+    cost: 8
+    me: 5+ / 3+ / 5+
+    mo: 7+ / 10"
+    mi: "- / - / -"
+    r: 6 / 3+
+    t: 4
+    traits:
+      - Reckless
+      - Defiant
+      - Terrifying
+  - name: Aurorans
+    profile: Heavy Foot
+    cost: 6
+    me: 5+ / 3+ / 4+
+    mo: 5+ / 6"
+    mi: "- / - / -"
+    r: 12 / 4+
+    t: 3
+    traits:
+      - Defensive
+      - Apprentice
+  - name: Hunters
+    profile: Heavy Cavalry
+    cost: 5
+    me: 5+ / 4+ / 5+
+    mo: 5+ / 10"
+    mi: 6+ / 5+ / 6"
+    r: 6 / 4+
+    t: 3
+    traits:
+      - Defiant
+      - Throwers
+  - name: Hunters
+    profile: Heavy Cavalry
+    cost: 5
+    me: 5+ / 4+ / 5+
+    mo: 5+ / 10"
+    mi: 6+ / 5+ / 6"
+    r: 6 / 4+
+    t: 3
+    traits:
+      - Defiant
+      - Throwers

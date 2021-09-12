@@ -1,0 +1,16 @@
+weight: 4
+title: Sortie
+deployment: |
+  Attackers deploy all the Groups they intend to have on the field at the beginning of play,
+  as well as three Siege Tokens representing siege works at least 6” from any edge and no closer than 30” from the center.
+  Then the defenders deploy all the Groups they intend to have on the field at the beginning of play within 24” of the center.
+firstTurn: |
+  Defenders must go first.
+specialRules: |
+  As their activation, any defending group in contact with a Siege Token and not in melee may test to activate on a 6+ to destroy the siege work.
+victoryConditions: |
+  Play ends immediately when either side has no Groups remaining in play, or when the defenders move all of their remaining Groups within 24” of the center and declare an end to their sortie.
+
+  Defenders gain 1VP for every enemy Group routed or destroyed, 2VP for every enemy engine Group routed or destroyed, and 4VP for every Siege Token destroyed.
+
+  Attackers gain 2VP for every enemy Group routed or destroyed, 1VP for each of their engine Groups which was not routed or destroyed, and 3VP for every Siege Token not destroyed.

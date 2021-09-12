@@ -1,0 +1,15 @@
+weight: 0
+title: Pitched Battle
+deployment: |
+  Attackers deploy within 12” of one edge, and defenders within 12” of the opposite edge.
+  Each side deploys one Group at a time, alternating between sides after each Group,
+  until both sides have deployed all the Groups they intend to have on the field at the beginning of play.
+firstTurn: |
+  Attackers may choose to go first or allow the defender to go first.
+victoryConditions: |
+  When fewer than 5 Groups remain across all Companies, roll 1d6 at the beginning of each subsequent turn.
+  If the result is higher than the number of remaining groups across all companies, this is the final turn.
+
+  Add up the points value of enemy groups routed or destroyed before the end of the game;
+  the player with the highest count gains 5VP.
+  In a tie, all players tied for the highest count gain 3VP.
