@@ -1,6 +1,6 @@
 ---
 title: "Companies"
-description: "Companies etc"
+description: "Sample companies to play in Flagrant Factions"
 bookToC: false
 weight: 50
 ---

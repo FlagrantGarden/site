@@ -1,6 +1,6 @@
 ---
 title: "Scenarios"
-description: "Scenarios for play"
+description: "Sample scenarios for Flagrant Factions"
 bookToC: false
 weight: 20
 ---
