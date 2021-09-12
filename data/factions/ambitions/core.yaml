@@ -1,0 +1,33 @@
+- name: We Will Not Break
+  vp: 3
+  condition: No Group routed or retreated out of play.
+- name: Win Without Moving
+  vp: 3
+  condition: Captain’s Group never moved or rolled any dice at all.
+- name: Do Not Waver
+  vp: 3
+  condition: No more than one friendly Group was ever shaken at the same time.
+- name: They Will Reel Before Us
+  vp: 3
+  condition: Made 3+ enemy Groups be shaken.
+- name: We Will Snap Their Spine
+  vp: 3
+  condition: Routed or destroyed the enemy Group with the highest point value in your first turn.
+- name: Give Better Than We Get
+  vp: 2
+  condition: Routed or destroyed more enemy Groups than Groups of your own were routed or destroyed.
+- name: Break Even Their Anvil
+  vp: 2
+  condition: Routed or destroyed the enemy Group with the highest point value.
+- name: Draw First Blood
+  vp: 1
+  condition: A friendly Group was the first to reduce an enemy Group’s R.
+- name: They Will Know My Name
+  vp: 1
+  condition: Captain’s Group caused an enemy Group to be shaken.
+- name: We Will All Shed Blood
+  vp: 1
+  condition: Every Group engaged in melee at least once.
+- name: Rain Hell Upon Them
+  vp: 1
+  condition: Made an enemy group be shaken only by shooting them.

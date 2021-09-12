@@ -1,0 +1,54 @@
+{{ $set := .Get 0 }} {{ with $set }}
+<table class="caption-top" id="spells-{{ urlize $set }}">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Check</th>
+      <th scope="col">Range</th>
+      <th scope="col">Target</th>
+      <th scope="col">Duration</th>
+      <th scope="col">Effect</th>
+    </tr>
+  </thead>
+  <tbhody>
+    {{ range (index $.Site.Data.factions.spells $set) }}
+    <tr>
+      <th scope="row">{{ title .name }}</th>
+      <td>{{ .check }}</td>
+      <td>{{ .range }}</td>
+      <td>{{ .target }}</td>
+      <td>{{ .duration }}</td>
+      <td>{{ .effect }}</td>
+    </tr>
+    {{ end }}
+  </tbhody>
+</table>
+{{ else }} {{ range $set, $spells := $.Site.Data.factions.spells }}
+<table class="caption-top">
+  <caption id="spells-{{ urlize $set }}">
+    {{title $set}} Spells
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Check</th>
+      <th scope="col">Range</th>
+      <th scope="col">Target</th>
+      <th scope="col">Duration</th>
+      <th scope="col">Effect</th>
+    </tr>
+  </thead>
+  <tbhody>
+    {{ range $spells }}
+    <tr>
+      <th scope="row">{{ title .name }}</th>
+      <td>{{ .check }}</td>
+      <td>{{ .range }}</td>
+      <td>{{ .target }}</td>
+      <td>{{ .duration }}</td>
+      <td>{{ .effect }}</td>
+    </tr>
+    {{ end }}
+  </tbhody>
+</table>
+{{ end }} {{ end }}

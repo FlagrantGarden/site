@@ -1,0 +1,6 @@
+{{ range $set, $scenarios := $.Site.Data.factions.scenarios }}
+<h2 id="scenarios-{{ urlize $set }}" class="text-center">
+  {{ title $set }} Scenarios
+</h2>
+{{ range sort $scenarios "weight" "asc" }} {{ partial "scenario" . }} {{ end }}
+{{ end }}

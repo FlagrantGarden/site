@@ -1,0 +1,44 @@
+{{ range $.Site.Data.factions.companies }}
+<div class="card" style="width: 90%">
+  <div class="card-body">
+    <h5 class="card-title text-center" id="{{urlize .name}}">
+      {{title .name }}
+    </h5>
+    <p class="card-text">{{ .description }}</p>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Profile</th>
+          <th scope="col">Cost</th>
+          <th scope="col">ME</th>
+          <th scope="col">MO</th>
+          <th scope="col">MI</th>
+          <th scope="col">R</th>
+          <th scope="col">T</th>
+          <th scope="col">Traits</th>
+        </tr>
+      </thead>
+      <tbhody>
+        {{ range .groups }}
+        <tr>
+          <th scope="row">{{ title .name }}</th>
+          <td>{{ .profile }}</td>
+          <td>{{ .cost }}</td>
+          <td>{{ .me }}</td>
+          <td>{{ .mo }}</td>
+          <td>{{ .mi }}</td>
+          <td>{{ .r }}</td>
+          <td>{{ .t }}</td>
+          {{ with .traits }}
+          <td>{{ delimit . ", " }}</td>
+          {{ else }}
+          <td>-</td>
+          {{ end }}
+        </tr>
+        {{ end }}
+      </tbhody>
+    </table>
+  </div>
+</div>
+{{ end }}

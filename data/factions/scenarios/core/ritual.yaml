@@ -1,0 +1,20 @@
+weight: 6
+title: Retreat
+deployment: |
+  Defenders deploy all the Groups they intend to have on the field at the beginning of play within 24” of the center,
+  and designate one of their Groups as the bodyguards of the ritualists.
+  Then attackers deploy all the Groups they intend to have on the field at the beginning of play within 12” of any edges.
+firstTurn: |
+  The attackers may choose to go first or let the defenders go first.
+specialRules: |
+  The defender group bodyguarding the ritualists may not move.
+  If they would be forced to retreat by losing a melee or becoming shaken, they lose 1R instead.
+
+  At the beginning of each of the defender’s turns, roll 2d6—
+  if the result is less than the current turn number, the ritual has been completed.
+victoryConditions: |
+  Play ends when the ritual is completed or the bodyguard group is destroyed.
+
+  The defenders gain 6VP if the ritual is completed, and 1VP for each enemy group routed or destroyed.
+
+  The attackers gain 4VP if the bodyguard group is destroyed.
