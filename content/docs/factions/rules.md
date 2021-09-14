@@ -133,7 +133,7 @@ Cost in points listed in parenthesis.
 + **Caster (4):** This Group can be given a Casting order, to attempt to Cast any spell (ppxx).
 + **Chariot (2):** Cavalry only. +1 T,but treats difficult terrain as impassable terrain.
 + **Composed (2):** Groups with the Reckless trait only. Remove Reckless, improve MO activation by one.
-+ **Cowardly (2):** When making a Resilience test, this Group must always reroll the highest die.
++ **Cowardly (-2):** When making a Resilience test, this Group must always reroll the highest die.
 + **\[Kind\]-Foe (1):** Choose an enemy type. This Group gains the Reckless trait against those enemies. If this Group is already Reckless, they automatically pass their activation to Attack those enemies instead. If the chosen enemy type is not in any opposing army, reduce the point cost to 0.
 + **\[Kind\]bane (4):** Choose an enemy type. The Group ignores the Terrifying trait for those enemies, and may reroll each to-hit die once each phase when fighting them. If the chosen enemy type is not in any opposing army, reduce the point cost to 0.
 + **Move Freely (2):** The Group ignores all friends, enemies, and terrain while moving.
