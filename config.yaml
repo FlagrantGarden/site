@@ -4,6 +4,7 @@ baseURL: https://flagrant.garden/
 title: Flagrant Garden
 # Google Analytics: uncomment and replace with your own code if you want to use this
 googleAnalytics: UA-207396449-1
+disqusShortname: flagrantgarden
 
 module:
   # Dev use only! Do not uncomment unless you're modifying a theme module!
@@ -107,7 +108,7 @@ params:
   # By default partals/docs/comments.html includes Disqus template
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
-  BookComments: true
+  BookComments: false
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.

@@ -9,8 +9,11 @@ summary: |
 #     parent: tutorials
 # next: /posts/shortcodes
 # # prev: /posts/post-name
+categories:
+  - meta
 title: Cultivate Flagrantly
 weight: 20
+bookComments: true
 ---
 
 This is post is the statement for the Flagrant Garden's declaration, also found [here](/cultivation).
