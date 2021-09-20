@@ -1,5 +1,5 @@
 ---
-title: Flagrant Gardens
+title: Flagrant Garden
 description: A Garden of Play, Flagrantly Cultivated
 type: docs
 ---
