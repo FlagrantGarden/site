@@ -12,7 +12,7 @@ summary: |
 categories:
   - mechanisms
 tags:
-  - factions
+  - flagrant factions
   - experimental
 title: Taunts
 weight: 10
