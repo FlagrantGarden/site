@@ -17,7 +17,7 @@
     max: 6
   toughness: 4
   traits:
-    - reckless
+    - Reckless
 - id: light_beast
   name: Light Beast
   base_cost: 4
@@ -37,8 +37,8 @@
     max: 6
   toughness: 3
   traits:
-    - reckless
-    - nimble
+    - Reckless
+    - Nimble
 - id: elite_cavalry
   name: Elite Cavalry
   base_cost: 6
@@ -58,8 +58,8 @@
     max: 6
   toughness: 4
   traits:
-    - reckless
-    - nimble
+    - Reckless
+    - Defiant
 - id: heavy_cavalry
   name: Heavy Cavalry
   base_cost: 4
@@ -79,7 +79,7 @@
     max: 6
   toughness: 3
   traits:
-    - defiant
+    - Defiant
 - id: light_cavalry
   name: Light Cavalry
   base_cost: 4
@@ -118,7 +118,7 @@
     max: 6
   toughness: 3
   traits:
-    - ponderous
+    - Ponderous
 - id: heavy_engine
   name: Heavy Engine
   base_cost: 4
@@ -138,7 +138,7 @@
     max: 6
   toughness: 2
   traits:
-    - ponderous
+    - Ponderous
 - id: light_engine
   name: Light Engine
   base_cost: 4
@@ -196,7 +196,7 @@
     max: 12
   toughness: 3
   traits:
-    - defensive
+    - Defensive
 - id: light_foot
   name: Light Foot
   base_cost: 3
@@ -216,4 +216,4 @@
     max: 12
   toughness: 2
   traits:
-    - defensive
+    - Defensive

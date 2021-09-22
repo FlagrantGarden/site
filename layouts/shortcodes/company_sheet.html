@@ -1,0 +1,1425 @@
+<div class="card" style="width: 90%">
+
+  <template data-template-name="groupPreview">
+    <fieldset data-groupPreview hidden>
+      <legend data-groupName data-baseProfile></legend>
+      <dl class="groupProfileValues">
+        <dt>Resilience Test: </dt>
+        <dd data-groupResilienceTest data-profile-value-type="roll"></dd>
+        <dt>Max Resilience: </dt>
+        <dd data-groupResilienceMax></dd>
+        <dt>Toughness: </dt>
+        <dd data-groupToughness></dd>
+        <dt>Points Cost: </dt>
+        <dd data-groupPointsCost></dd>
+      </dl>
+      <fieldset data-captainTrait hidden>
+        <legend>Captain's Trait</legend>
+        <dl>
+          <dt data-captainTrait></dt>
+          <dd data-captainTrait></dd>
+        </dl>
+      </fieldset>
+      <fieldset data-groupMelee>
+        <legend>Melee (ME)</legend>
+        <dl class="groupProfileValues">
+          <dt>Activation: </dt>
+          <dd data-groupMeleeActivation data-profile-value-type="roll"></dd>
+          <dt>To Hit (Attacking): </dt>
+          <dd data-groupMeleeAttack data-profile-value-type="roll"></dd>
+          <dt>To Hit (Defending): </dt>
+          <dd data-groupMeleeDefense data-profile-value-type="roll"></dd>
+        </dl>
+      </fieldset>
+      <fieldset data-groupMissile>
+        <legend>Missile (MI)</legend>
+        <dl class="groupProfileValues">
+          <dt>Activation: </dt>
+          <dd data-groupMissileActivation data-profile-value-type="roll"></dd>
+          <dt>To Hit: </dt>
+          <dd data-groupMissileHit data-profile-value-type="roll"></dd>
+          <dt>Range (Inches): </dt>
+          <dd data-groupMissileRange data-profile-value-type="distance"></dd>
+        </dl>
+      </fieldset>
+      <fieldset data-groupMove>
+        <legend>Move (MO)</legend>
+        <dl class="groupProfileValues">
+          <dt>Activation: </dt>
+          <dd data-groupMoveActivation data-profile-value-type="roll"></dd>
+          <dt>Distance (Inches): </dt>
+          <dd data-groupMoveDistance data-profile-value-type="distance"></dd>
+        </dl>
+      </fieldset>
+      <fieldset data-groupTraits>
+        <legend>Traits</legend>
+        <dl data-groupTraits>
+        </dl>
+      </fieldset>
+    </fieldset>
+  </template>
+
+  <template data-template-name="rosterEntry">
+    <li draggable="true" data-roster-entry-uuid="">
+      <button type="button" onclick="editCompanyGroupEntry(this)" data-dialog-name="editGroup">
+        Edit Group
+      </button>
+      <button type="button" onclick="removeCompanyGroupEntry(this)">Remove Group</button>
+      <input type="checkbox" name="roster-entry-uuid" hidden>
+      <label for="roster-entry-uuid"></label>
+    </li>
+  </template>
+
+  <menu>
+    <button type="button" onclick="openDialog(this)" data-dialog-name="editCompany">
+      Edit Company
+    </button>
+    <button type="button" onclick="saveCompany(this)" data-company-uuid="">Save Company</button>
+    <button type="button" onclick="openExportCompanyDialog()" disabled>Export Company</button>
+    <button type="button" onclick="openImportCompanyDialog()" disabled>Import Company</button>
+  </menu>
+
+  <dialog data-dialog-name="editCompany">
+    <form method="dialog" data-form-name="editCompany">
+      <label for="companyName">Company Name:</label>
+      <input type="text" name="companyName" value="My Company Name">
+      <br>
+      <label for="companyDescription">Description:</label>
+      <textarea type="text" name="companyDescription" placeholder="A very good company which..."></textarea>
+      <fieldset>
+        <legend>Groups Selection</legend>
+        <menu>
+          <button type="button" onclick="openDialog(this)" data-dialog-name="newGroup">
+            Create a Group Profile
+          </button>
+          <button type="button" onclick="openDialog(this)" data-dialog-name="deleteGroup" disabled>
+            Delete a Group Profile
+          </button>
+          <button type="button" onclick="openDialog(this)" data-dialog-name="addGroup" disabled>
+            Add a Group to Company Roster
+          </button>
+        </menu>
+        <ul style="list-style-type: none;" data-company-group-list>
+        </ul>
+      </fieldset>
+      <menu>
+        <button type="button" data-cancel-name="editCompany" onclick="cancelDialogForm(this)">Cancel</button>
+        <input type="submit" value="Confirm">
+      </menu>
+    </form>
+  </dialog>
+
+  <dialog data-dialog-name="addGroup">
+    <form method="dialog" data-form-name="addGroup">
+      <fieldset>
+        <legend>Adding Group to Company Roster</legend>
+        <label for="addGroupProfile">Group Profile to Add:</label>
+        <select name="addGroupProfile">
+          <option hidden disabled selected value> Choose one... </option>
+        </select>
+        <br>
+        <menu>
+          <button type="button" data-cancel-name="addGroup" onclick="cancelDialogForm(this)">Cancel</button>
+          <input type="submit" value="Confirm & Add to Roster">
+        </menu>
+      </fieldset>
+    </form>
+  </dialog>
+
+  <dialog data-dialog-name="deleteGroup">
+    <form method="dialog" data-form-name="deleteGroup">
+      <fieldset>
+        <legend>Deleting Group Profile from Company</legend>
+        <label for="deleteGroupProfile">Group Profile to Delete:</label>
+        <select name="deleteGroupProfile">
+          <option hidden disabled selected value> Choose one... </option>
+        </select>
+        <br>
+        <menu>
+          <button type="button" data-cancel-name="deleteGroup" onclick="cancelDialogForm(this)">Cancel</button>
+          <input type="submit" value="Confirm">
+        </menu>
+      </fieldset>
+    </form>
+  </dialog>
+
+  <dialog data-dialog-name="newGroup" draggable>
+    <form method="dialog" id="newGroupForm" data-form-name="newGroup">
+      <div class="book-tabs">
+        <input type="radio" class="toggle" name="new-group-step-tabs" id="new-group-step-tabs-0" checked="checked">
+        <label for="new-group-step-tabs-0">Basics</label>
+        <div class="book-tabs-content markdown-inner">
+          <label for="groupName">Group Name:</label>
+          <input type="text" name="groupName" placeholder="My Group Name" required>
+          <label for="baseProfile">Base Profile:</label>
+          <select name="baseProfile" required>
+            <option hidden disabled selected value> Select an option... </option>
+            <optgroup label="Beast">
+              <option value="light_beast">Light Beast</option>
+              <option value="heavy_beast">Heavy Beast</option>
+            </optgroup>
+            <optgroup label="Cavalry">
+              <option value="elite_cavalry">Elite Cavalry</option>
+              <option value="heavy_cavalry">Heavy Cavalry</option>
+              <option value="light_cavalry">Light Cavalry</option>
+            </optgroup>
+            <optgroup label="Engine">
+              <option value="elite_engine">Elite Engine</option>
+              <option value="heavy_engine">Heavy Engine</option>
+              <option value="light_engine">Light Engine</option>
+            </optgroup>
+            <optgroup label="Foot">
+              <option value="elite_foot">Elite Foot</option>
+              <option value="heavy_foot">Heavy Foot</option>
+              <option value="light_foot">Light Foot</option>
+            </optgroup>
+          </select>
+          <button type="button" data-updateBaseProfile onclick="enableBaseProfileUpdate(this)" hidden disabled>Update
+            Base
+            Profile</button>
+          <br>
+          <label for="isCaptain">Is Captain?</label>
+          <input type="checkbox" name="isCaptain">
+          <label for="captainTrait" style="display: none">Captain Trait:</label>
+          <input type="text" name="captainTrait" disabled hidden>
+          <button type="button" data-rerollCaptainTrait onclick="setRandomCaptainTrait(this)" disabled hidden>Reroll
+            Captain
+            Trait</button>
+          <br>
+          <p data-captainTraitEffect style="display: none"></p>
+        </div>
+        <input type="radio" class="toggle" name="new-group-step-tabs" id="new-group-step-tabs-1">
+        <label for="new-group-step-tabs-1">Details</label>
+        <div class="book-tabs-content markdown-inner">
+          <label for="groupResilienceTest">Resilience Test:</label>
+          <input type="number" name="groupResilienceTest" readonly>
+          <label for="groupResilienceMax">Max Resilience:</label>
+          <input type="number" name="groupResilienceMax" readonly>
+          <label for="groupToughness">Toughness:</label>
+          <input type="number" name="groupToughness" readonly>
+          <label for="groupPointsCost">Points Cost:</label>
+          <input type="number" name="groupPointsCost" readonly>
+          <fieldset>
+            <legend>Melee (ME)</legend>
+            <label for="groupMeleeActivation">Activation:</label>
+            <input type="number" name="groupMeleeActivation" readonly>
+            <label for="groupMeleeAttack">To Hit (Attacking):</label>
+            <input type="number" name="groupMeleeAttack" readonly>
+            <label for="groupMeleeDefense">To Hit (Defending):</label>
+            <input type="number" name="groupMeleeDefense" readonly>
+          </fieldset>
+          <fieldset>
+            <legend>Missile (MI)</legend>
+            <label for="groupMissileActivation">Activation:</label>
+            <input type="number" name="groupMissileActivation" readonly>
+            <label for="groupMissileHit">To Hit:</label>
+            <input type="number" name="groupMissileHit" readonly>
+            <label for="groupMissileRange">Range (Inches):</label>
+            <input type="number" name="groupMissileRange" readonly>
+          </fieldset>
+          <fieldset>
+            <legend>Move (MO)</legend>
+            <label for="groupMoveActivation">Activation:</label>
+            <input type="number" name="groupMoveActivation" readonly>
+            <label for="groupMoveDistance">Distance (Inches):</label>
+            <input type="number" name="groupMoveDistance" readonly>
+          </fieldset>
+          <fieldset>
+            <legend>Traits</legend>
+            <menu>
+              <button type="button" onclick="toggleUnselectedTraitVisibility(this)">Show/Hide Unselected Traits</button>
+            </menu>
+            <ul style="list-style-type: none;">
+              {{ range .Site.Data.factions.traits.group }}
+              <li>
+                <input type="checkbox" name="selectedTrait{{ .name }}" data-trait-type="profile">
+                <strong data-trait-type="profile" data-trait-name="{{ .name }}">{{ .name }}</strong>
+                <p data-trait-type="profile" data-trait-name="{{ .name }}">{{ .effect }}</p>
+              </li>
+              {{ end }}
+              {{ range .Site.Data.factions.traits.optional }}
+              <li>
+                <input type="checkbox" name="selectedTrait{{ .name }}" data-trait-type="optional">
+                <strong data-trait-type="optional" data-trait-name="{{ .name }}">{{ .name }} ({{ .cost }})</strong>
+                <p data-trait-type="optional" data-trait-name="{{ .name }}">{{ .effect }}</p>
+              </li>
+              {{ end }}
+            </ul>
+          </fieldset>
+        </div>
+        <input type="radio" class="toggle" name="new-group-step-tabs" id="new-group-step-tabs-2">
+        <label for="new-group-step-tabs-2">Review &amp; Submit</label>
+        <div class="book-tabs-content markdown-inner">
+          If you are happy with the profile below, click submit; otherwise edit or cancel.
+          <hr>
+          <label for="copyToCompanySheet">
+            Add to Company Sheet on Save
+          </label>
+          <input type="checkbox" name="copyToCompanySheet">
+          <fieldset data-groupPreview hidden>
+            <legend data-groupName data-baseProfile>My Group Name (Select an option)</legend>
+            <dl class="groupProfileValues">
+              <dt>Resilience Test: </dt>
+              <dd data-groupResilienceTest data-profile-value-type="roll"></dd>
+              <dt>Max Resilience: </dt>
+              <dd data-groupResilienceMax></dd>
+              <dt>Toughness: </dt>
+              <dd data-groupToughness></dd>
+              <dt>Points Cost: </dt>
+              <dd data-groupPointsCost></dd>
+            </dl>
+            <fieldset data-captainTrait hidden>
+              <legend>Captain's Trait</legend>
+              <dl>
+                <dt data-captainTrait></dt>
+                <dd data-captainTrait></dd>
+              </dl>
+            </fieldset>
+            <fieldset data-groupMelee>
+              <legend>Melee (ME)</legend>
+              <dl class="groupProfileValues">
+                <dt>Activation: </dt>
+                <dd data-groupMeleeActivation data-profile-value-type="roll"></dd>
+                <dt>To Hit (Attacking): </dt>
+                <dd data-groupMeleeAttack data-profile-value-type="roll"></dd>
+                <dt>To Hit (Defending): </dt>
+                <dd data-groupMeleeDefense data-profile-value-type="roll"></dd>
+              </dl>
+            </fieldset>
+            <fieldset data-groupMissile>
+              <legend>Missile (MI)</legend>
+              <dl class="groupProfileValues">
+                <dt>Activation: </dt>
+                <dd data-groupMissileActivation data-profile-value-type="roll"></dd>
+                <dt>To Hit: </dt>
+                <dd data-groupMissileHit data-profile-value-type="roll"></dd>
+                <dt>Range (Inches): </dt>
+                <dd data-groupMissileRange data-profile-value-type="distance"></dd>
+              </dl>
+            </fieldset>
+            <fieldset data-groupMove>
+              <legend>Move (MO)</legend>
+              <dl class="groupProfileValues">
+                <dt>Activation: </dt>
+                <dd data-groupMoveActivation data-profile-value-type="roll"></dd>
+                <dt>Distance (Inches): </dt>
+                <dd data-groupMoveDistance data-profile-value-type="distance"></dd>
+              </dl>
+            </fieldset>
+            <fieldset data-groupTraits>
+              <legend>Traits</legend>
+              <dl data-groupTraits>
+                <dt>Removed Trait</dt>
+                <dd>You should never see me</dd>
+              </dl>
+            </fieldset>
+          </fieldset>
+          <hr>
+          <menu>
+            <button type="button" data-cancel-name="newGroup" onclick="cancelDialogForm(this)">Cancel</button>
+            <input type="submit" value="Confirm">
+          </menu>
+        </div>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog data-dialog-name="editGroup" draggable>
+    <form method="dialog" data-form-name="editGroup">
+      <div class="book-tabs">
+        <input type="text" name="uuid" value="" hidden>
+        <input type="radio" class="toggle" name="edit-group-step-tabs" id="edit-group-step-tabs-0" checked="checked">
+        <label for="edit-group-step-tabs-0">Basics</label>
+        <div class="book-tabs-content markdown-inner">
+          <label for="groupName">Group Name:</label>
+          <input type="text" name="groupName" value="My Group Name">
+          <label for="baseProfile">Base Profile:</label>
+          <select name="baseProfile">
+            <option hidden disabled selected value> Select an option... </option>
+            <optgroup label="Beast">
+              <option value="light_beast">Light Beast</option>
+              <option value="heavy_beast">Heavy Beast</option>
+            </optgroup>
+            <optgroup label="Cavalry">
+              <option value="elite_cavalry">Elite Cavalry</option>
+              <option value="heavy_cavalry">Heavy Cavalry</option>
+              <option value="light_cavalry">Light Cavalry</option>
+            </optgroup>
+            <optgroup label="Engine">
+              <option value="elite_engine">Elite Engine</option>
+              <option value="heavy_engine">Heavy Engine</option>
+              <option value="light_engine">Light Engine</option>
+            </optgroup>
+            <optgroup label="Foot">
+              <option value="elite_foot">Elite Foot</option>
+              <option value="heavy_foot">Heavy Foot</option>
+              <option value="light_foot">Light Foot</option>
+            </optgroup>
+          </select>
+          <button type="button" data-updateBaseProfile onclick="enableBaseProfileUpdate(this)" hidden disabled>Update
+            Base
+            Profile</button>
+          <br>
+          <label for="isCaptain">Is Captain?</label>
+          <input type="checkbox" name="isCaptain">
+          <label for="captainTrait" style="display: none">Captain Trait:</label>
+          <input type="text" name="captainTrait" disabled hidden>
+          <button type="button" data-rerollCaptainTrait onclick="setRandomCaptainTrait(this)" disabled hidden>Reroll
+            Captain
+            Trait</button>
+          <br>
+          <p data-captainTraitEffect style="display: none"></p>
+        </div>
+        <input type="radio" class="toggle" name="edit-group-step-tabs" id="edit-group-step-tabs-1">
+        <label for="edit-group-step-tabs-1">Details</label>
+        <div class="book-tabs-content markdown-inner">
+          <label for="groupResilienceTest">Resilience Test:</label>
+          <input type="number" name="groupResilienceTest" disabled>
+          <label for="groupResilienceMax">Max Resilience:</label>
+          <input type="number" name="groupResilienceMax" disabled>
+          <label for="groupToughness">Toughness:</label>
+          <input type="number" name="groupToughness" disabled>
+          <label for="groupPointsCost">Points Cost:</label>
+          <input type="number" name="groupPointsCost" disabled>
+          <fieldset>
+            <legend>Melee (ME)</legend>
+            <label for="groupMeleeActivation">Activation:</label>
+            <input type="number" name="groupMeleeActivation" disabled>
+            <label for="groupMeleeAttack">To Hit (Attacking):</label>
+            <input type="number" name="groupMeleeAttack" disabled>
+            <label for="groupMeleeDefense">To Hit (Defending):</label>
+            <input type="number" name="groupMeleeDefense" disabled>
+          </fieldset>
+          <fieldset>
+            <legend>Missile (MI)</legend>
+            <label for="groupMissileActivation">Activation:</label>
+            <input type="number" name="groupMissileActivation" disabled>
+            <label for="groupMissileHit">To Hit:</label>
+            <input type="number" name="groupMissileHit" disabled>
+            <label for="groupMissileRange">Range (Inches):</label>
+            <input type="number" name="groupMissileRange" disabled>
+          </fieldset>
+          <fieldset>
+            <legend>Move (MO)</legend>
+            <label for="groupMoveActivation">Activation:</label>
+            <input type="number" name="groupMoveActivation" disabled>
+            <label for="groupMoveDistance">Distance (Inches):</label>
+            <input type="number" name="groupMoveDistance" disabled>
+          </fieldset>
+          <fieldset>
+            <legend>Traits</legend>
+            <menu>
+              <button type="button" onclick="toggleUnselectedTraitVisibility(this)">Show/Hide Unselected Traits</button>
+            </menu>
+            <ul style="list-style-type: none;">
+              {{ range .Site.Data.factions.traits.group }}
+              <li>
+                <input type="checkbox" name="selectedTrait{{ .name }}" data-trait-type="profile">
+                <strong data-trait-type="profile" data-trait-name="{{ .name }}">{{ .name }}</strong>
+                <p data-trait-type="profile" data-trait-name="{{ .name }}">{{ .effect }}</p>
+              </li>
+              {{ end }}
+              {{ range .Site.Data.factions.traits.optional }}
+              <li>
+                <input type="checkbox" name="selectedTrait{{ .name }}" data-trait-type="optional">
+                <strong data-trait-type="optional" data-trait-name="{{ .name }}">{{ .name }} ({{ .cost }})</strong>
+                <p data-trait-type="optional" data-trait-name="{{ .name }}">{{ .effect }}</p>
+              </li>
+              {{ end }}
+            </ul>
+          </fieldset>
+        </div>
+        <input type="radio" class="toggle" name="edit-group-step-tabs" id="edit-group-step-tabs-2">
+        <label for="edit-group-step-tabs-2">Review &amp; Submit</label>
+        <div class="book-tabs-content markdown-inner">
+          If you are happy with the profile below, click submit; otherwise edit or cancel.
+          <hr>
+          <fieldset data-groupPreview hidden>
+            <legend data-groupName data-baseProfile>My Group Name (Select an option)</legend>
+            <dl class="groupProfileValues">
+              <dt>Resilience Test: </dt>
+              <dd data-groupResilienceTest data-profile-value-type="roll"></dd>
+              <dt>Max Resilience: </dt>
+              <dd data-groupResilienceMax></dd>
+              <dt>Toughness: </dt>
+              <dd data-groupToughness></dd>
+              <dt>Points Cost: </dt>
+              <dd data-groupPointsCost></dd>
+            </dl>
+            <fieldset data-captainTrait hidden>
+              <legend>Captain's Trait</legend>
+              <dl>
+                <dt data-captainTrait></dt>
+                <dd data-captainTrait></dd>
+              </dl>
+            </fieldset>
+            <fieldset data-groupMelee>
+              <legend>Melee (ME)</legend>
+              <dl class="groupProfileValues">
+                <dt>Activation: </dt>
+                <dd data-groupMeleeActivation data-profile-value-type="roll"></dd>
+                <dt>To Hit (Attacking): </dt>
+                <dd data-groupMeleeAttack data-profile-value-type="roll"></dd>
+                <dt>To Hit (Defending): </dt>
+                <dd data-groupMeleeDefense data-profile-value-type="roll"></dd>
+              </dl>
+            </fieldset>
+            <fieldset data-groupMissile>
+              <legend>Missile (MI)</legend>
+              <dl class="groupProfileValues">
+                <dt>Activation: </dt>
+                <dd data-groupMissileActivation data-profile-value-type="roll"></dd>
+                <dt>To Hit: </dt>
+                <dd data-groupMissileHit data-profile-value-type="roll"></dd>
+                <dt>Range (Inches): </dt>
+                <dd data-groupMissileRange data-profile-value-type="distance"></dd>
+              </dl>
+            </fieldset>
+            <fieldset data-groupMove>
+              <legend>Move (MO)</legend>
+              <dl class="groupProfileValues">
+                <dt>Activation: </dt>
+                <dd data-groupMoveActivation data-profile-value-type="roll"></dd>
+                <dt>Distance (Inches): </dt>
+                <dd data-groupMoveDistance data-profile-value-type="distance"></dd>
+              </dl>
+            </fieldset>
+            <fieldset data-groupTraits>
+              <legend>Traits</legend>
+              <dl data-groupTraits>
+                <dt>Removed Trait</dt>
+                <dd>You should never see me</dd>
+              </dl>
+            </fieldset>
+          </fieldset>
+          <hr>
+          <menu>
+            <button value="cancel">Cancel</button>
+            <input type="submit" value="Confirm">
+          </menu>
+        </div>
+      </div>
+    </form>
+  </dialog>
+
+  <fieldset data-company data-company-uuid="">
+    <legend name="companyName">My Company Name</legend>
+    <dl>
+      <dt data-companyPointsCost>Points:</dt>
+      <dd data-companyPointsCost>0</dd>
+      <dt data-companyDescription>Description</dt>
+      <dd data-companyDescription></dd>
+    </dl>
+  </fieldset>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+    integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    //#region Initialize data constants
+    const traitsOptional = JSON.parse({{ jsonify .Site.Data.factions.traits.optional }});
+    const traitsCaptain = JSON.parse({{ jsonify .Site.Data.factions.traits.captain }});
+    const traitsGroup = JSON.parse({{ jsonify .Site.Data.factions.traits.group }});
+    const profileData = JSON.parse({{ jsonify .Site.Data.factions.profiles.core }});
+    const profileDataAccessors = [
+      { 'name': 'groupResilienceTest', 'accessor': 'resilience.test' },
+      { 'name': 'groupResilienceMax', 'accessor': 'resilience.max' },
+      { 'name': 'groupToughness', 'accessor': 'toughness' },
+      { 'name': 'groupPointsCost', 'accessor': 'base_cost' },
+      { 'name': 'groupMeleeActivation', 'accessor': 'melee.activation' },
+      { 'name': 'groupMeleeAttack', 'accessor': 'melee.attack' },
+      { 'name': 'groupMeleeDefense', 'accessor': 'melee.defense' },
+      { 'name': 'groupMissileActivation', 'accessor': 'missile.activation' },
+      { 'name': 'groupMissileHit', 'accessor': 'missile.hit' },
+      { 'name': 'groupMissileRange', 'accessor': 'missile.range' },
+      { 'name': 'groupMoveActivation', 'accessor': 'move.activation' },
+      { 'name': 'groupMoveDistance', 'accessor': 'move.distance' },
+    ]
+    //#endregion
+    //#region Initialize Element Variables
+    var editCompanyDialog = document.querySelector('dialog[data-dialog-name="editCompany"]');
+    var editCompanyForm = document.querySelector('form[data-form-name="editCompany"]');
+    var newGroupDialog = document.querySelector('dialog[data-dialog-name="newGroup"]');
+    var newGroupForm = document.querySelector('form[data-form-name="newGroup"]');
+    var editGroupDialog = document.querySelector('dialog[data-dialog-name="editGroup"]');
+    var editGroupForm = document.querySelector('form[data-form-name="editGroup"]');
+    var companyDisplay = document.querySelector('fieldset[data-company]')
+    //#endregion
+    //#region Initialize Configuration
+    var alertOnProfileUpdate = true
+    var createdGroups = []
+    let companyRoster = []
+    //#endregion
+    //#region Utility Functions
+    function convertFormDataToJson(formData) {
+      let jsonData = {}
+      formData.forEach((value, key) => (jsonData[key] = value))
+      return jsonData
+    }
+
+    function openDialog(button_element) {
+      name = button_element.getAttribute('data-dialog-name')
+      dialog = document.querySelector(`dialog[data-dialog-name="${name}"]`)
+      if (typeof dialog.showModal === "function") {
+        dialog.showModal()
+      } else {
+        alert("The <dialog> API is not supported by this browser")
+      }
+    }
+
+    // Author: Abhishek Dutta, 12 June 2020
+    // License: CC0 (https://creativecommons.org/choose/zero/)
+    // Found At: https://www.robots.ox.ac.uk/~adutta/blog/standalone_uuid_generator_in_javascript.html
+    function uuid() {
+      var temp_url = URL.createObjectURL(new Blob());
+      var uuid = temp_url.toString();
+      URL.revokeObjectURL(temp_url);
+      // remove prefix (e.g. blob:null/, blob:www.test.com/, ...)
+      return uuid.substr(uuid.lastIndexOf('/') + 1);
+    }
+
+    /** Modified from: https://it.knightnet.org.uk/kb/node-js/get-properties/
+    * Get a nested property from an object without returning any errors.
+    * If the property or property chain doesn't exist, undefined is returned.
+    * Property names with spaces may use either dot or bracket "[]" notation.
+    * Note that bracketed property names without surrounding quotes will fail the lookup.
+    *      e.g. embedded variables are not supported.
+    * @param {object} obj The object to check
+    * @param {string} prop The property or property chain to get (e.g. obj.prop1.prop1a or obj['prop1'].prop2)
+    * @returns {*|undefined} The value of the objects property or undefined if the property doesn't exist
+    */
+    function getArbitraryProperty(object, property_string) {
+      if (typeof object !== 'object') {
+        console.error(`getArbitraryProperty: ${object} is not an object`)
+      }
+      if (typeof property_string !== 'string') {
+        console.error(`getArbitraryProperty: ${property_string} is not a string`)
+      }
+
+      // Replace [] notation with dot notation
+      property_string = property_string.replace(/\[["'`](.*)["'`]\]/g, ".$1")
+
+      return property_string.split('.').reduce(function (prev, curr) {
+        return prev ? prev[curr] : undefined
+      }, object || self)
+    }
+
+    function newTemplateElement(template_name) {
+      template = document.querySelector(`template[data-template-name="${template_name}"]`)
+      return template.content.firstElementChild.cloneNode(true)
+    }
+
+    function cancelDialogForm(button_element) {
+      let name_to_close = button_element.getAttribute('data-cancel-name')
+      document.querySelector(`dialog[data-dialog-name="${name_to_close}"]`).close()
+    }
+
+    function listLocalStorageKeys() {
+      return Object.keys(window.localStorage)
+    }
+
+    function getSavedCompanyByUuid(uuid) {
+      return JSON.parse(window.localStorage.getItem(`uuid-${uuid}`))
+    }
+    function listSavedCompanyUuids() {
+      return listLocalStorageKeys()
+        .filter(k => typeof k === 'string' && k.startsWith('uuid-'))
+        .map(k => k.substring(5))
+    }
+    //#endregion
+    //#region Save/Load
+    function saveCompany(button_element) {
+      let uuid = button_element.getAttribute('data-company-uuid')
+      let data = {}
+      data.roster = companyRoster
+      data.roster_menu = document.querySelector('ul[data-company-group-list').innerHTML
+      data.group_profiles = createdGroups
+      data.group_add_options = document.querySelector('select[name="addGroupProfile"]').innerHTML
+      data.group_delete_options = document.querySelector('select[name="deleteGroupProfile"]').innerHTML
+      data.display = companyDisplay.innerHTML
+      window.localStorage.setItem(`uuid-${uuid}`, JSON.stringify(data))
+    }
+    function loadCompany(uuid) {
+      setCompanyUuid(uuid)
+      data = getSavedCompanyByUuid(uuid)
+      console.log(getSavedCompanyByUuid(uuid))
+      companyRoster = data.roster
+      document.querySelector('ul[data-company-group-list').innerHTML = data.roster_menu
+      // enable buttons
+      document.querySelector('button[data-dialog-name="deleteGroup"]').disabled = false
+      document.querySelector('button[data-dialog-name="addGroup"]').disabled = false
+      createdGroups = data.group_profiles
+      document.querySelector('select[name="addGroupProfile"]').innerHTML = data.group_add_options
+      document.querySelector('select[name="deleteGroupProfile"]').innerHTML = data.group_delete_options
+      companyDisplay.innerHTML = data.display
+      editCompanyForm.querySelector('input[name="companyName"]').value = companyDisplay.querySelector('legend').innerText
+      editCompanyForm.querySelector('textarea[name="companyDescription"]').value = companyDisplay.querySelector('dd[data-companydescription]').innerText
+    }
+    function setCompanyUuid(uuid) {
+      let property = 'data-company-uuid'
+      companyDisplay.setAttribute(property, uuid)
+      document.querySelector(`button[${property}]`).setAttribute(property, uuid)
+    }
+    function initializeCompany() {
+      let saved_company_uuids = listSavedCompanyUuids()
+      if (saved_company_uuids.length === 0) {
+        // Create a new UUID for the company
+        let new_uuid = uuid()
+        setCompanyUuid(new_uuid)
+      } else {
+        // Load the first saved company
+        loadCompany(saved_company_uuids[0])
+      }
+    }
+    initializeCompany()
+    //#endregion
+    //#region Edit Company
+    editCompanyForm.onsubmit = async (e) => {
+      e.preventDefault();
+
+      new FormData(editCompanyForm);
+    };
+    editCompanyForm.addEventListener('formdata', (e) => {
+      companyDisplay.querySelector('legend[name="companyName"]').innerHTML = e.formData.get('companyName')
+      companyDisplay.querySelector('dd[data-companyDescription').innerHTML = e.formData.get('companyDescription')
+      editCompanyDialog.close();
+    });
+    //#endregion
+    //#region Handle Roster Edits
+    let addGroupToRosterForm = document.querySelector('form[data-form-name="addGroup"]')
+    addGroupToRosterForm.onsubmit = async (e) => {
+      e.preventDefault();
+      new FormData(addGroupToRosterForm);
+    };
+    addGroupToRosterForm.addEventListener('formdata', (e) => {
+      parent_dialog = addGroupToRosterForm.parentElement
+      group_name = e.formData.get('addGroupProfile')
+      addGroupToCompanyRoster(group_name)
+      parent_dialog.close();
+    });
+
+    let deleteGroupFromOptionsForm = document.querySelector('form[data-form-name="deleteGroup"]')
+    deleteGroupFromOptionsForm.onsubmit = async (e) => {
+      e.preventDefault();
+      new FormData(deleteGroupFromOptionsForm);
+    };
+    deleteGroupFromOptionsForm.addEventListener('formdata', (e) => {
+      parent_dialog = deleteGroupFromOptionsForm.parentElement
+      group_name = e.formData.get('deleteGroupProfile')
+      deleteGroupFromCompanyOptions(group_name)
+      parent_dialog.close();
+    });
+    //#endregion
+    //#region Add New Group
+    function registerGroupEditEventHandlers(form_element) {
+      let form_name = form_element.getAttribute('data-form-name')
+      let verb = form_name.substring(0, (form_name.length - 5))
+      // Handle Captaincy
+      form_element.querySelector('input[name="isCaptain"]').addEventListener('change', (e) => {
+        handleCaptaincy(form_element)
+      });
+      // Handle Base Profile Settings
+      form_element.querySelector('select[name="baseProfile"]').addEventListener('change', (e) => {
+        resetToBaseProfile(form_element);
+      });
+      // Handle Trait Selection
+      let group_points_cost_element = form_element.querySelector('input[name="groupPointsCost"]')
+      traitsOptional.map(t => t.name).forEach(trait => {
+        form_element.querySelector(`input[name="selectedTrait${trait}"]`).addEventListener('change', (event) => {
+          handleTraitToggle(form_element, group_points_cost_element, trait, event)
+        })
+      })
+      form_element.querySelector(`#${verb}-group-step-tabs-2`).addEventListener('change', (event) => {
+        updateReviewAndSubmitGroupTab(form_element, event)
+      })
+    }
+
+    registerGroupEditEventHandlers(newGroupForm)
+    registerGroupEditEventHandlers(editGroupForm)
+
+    newGroupForm.onsubmit = async (e) => {
+      e.preventDefault();
+      // enable base profile test
+      copyToCompanySheet = newGroupForm.querySelector('input[name="copyToCompanySheet"]').checked
+      newGroupForm.querySelector('select[name="baseProfile"]').disabled = false
+      newGroupForm.querySelectorAll('input').forEach(element => { element.disabled = false })
+      newGroupForm.querySelectorAll('input[type="checkbox"]').forEach(element => {
+        if (element.checked) {
+          element.disabled = false
+        } else {
+          element.disabled = true
+        }
+      })
+      new FormData(newGroupForm);
+      newGroupForm.reset();
+      // Temporarily disabled, may reimplement
+      // makeUnselectedTraitsVisible();
+      newGroupDialog.close();
+    }
+    // Handle Form Data
+    newGroupForm.addEventListener('formdata', (e) => {
+      group_data = convertFormDataToJson(e.formData)
+      createdGroups.push(group_data)
+      if (group_data.copyToCompanySheet === 'on') {
+        addGroupToCompanyRoster(group_data.groupName)
+      }
+      addGroupToCompanyOptions(group_data.groupName)
+    })
+
+    editGroupForm.onsubmit = async (e) => {
+      e.preventDefault()
+      let uuid = editGroupForm.querySelector('input[name="uuid"]').value
+      let preview_element = e.target.querySelector('fieldset[data-groupPreview').cloneNode(true)
+      preview_element.setAttribute('data-roster-entry-uuid', uuid)
+
+      companyDisplay.querySelector(`fieldset[data-roster-entry-uuid="${uuid}"]`).replaceWith(preview_element)
+
+      editGroupForm.querySelector('select[name="baseProfile"]').disabled = false
+      editGroupForm.querySelectorAll('input').forEach(element => { element.disabled = false })
+      editGroupForm.querySelectorAll('input[type="checkbox"]').forEach(element => {
+        if (element.checked) {
+          element.disabled = false
+        } else {
+          element.disabled = true
+        }
+      })
+
+      new FormData(editGroupForm)
+      editGroupForm.reset()
+      editGroupDialog.close()
+    }
+
+    editGroupForm.addEventListener('formdata', (e) => {
+      let group_data = convertFormDataToJson(e.formData)
+      console.log(group_data)
+      let uuid = group_data.uuid
+      // update roster data
+      delete group_data.uuid
+      companyRoster.find(entry => entry.uuid === uuid).data = group_data
+      // update roster view
+      editCompanyForm.querySelector(`label[for="roster-entry-${uuid}"]`).innerHTML = group_data.groupName
+      setCompanyPointsCost()
+    })
+
+    //
+    function setCompanyPointsCost() {
+      let points_total = 0
+      if (companyRoster.length > 0) {
+        companyRoster.map(entry => entry.data.groupPointsCost).forEach(cost => { points_total += parseInt(cost) })
+      }
+      companyDisplay.querySelector('dd[data-companyPointsCost]').innerHTML = points_total
+    }
+
+    // Handle Captaincy
+    function handleCaptaincy(form_element) {
+      let isCaptain = form_element.querySelector('input[name="isCaptain"]').checked
+      let captainTraitLabel = form_element.querySelector('label[for="captainTrait"]');
+      let captainTraitName = form_element.querySelector('input[name="captainTrait"]');
+      let captainTraitEffect = form_element.querySelector('p[data-captainTraitEffect]');
+      let captainTraitRerollButton = form_element.querySelector('[data-rerollCaptainTrait]');
+      if (isCaptain) {
+        captainTraitLabel.style.display = 'inline';
+        captainTraitName.hidden = false;
+        captainTraitName.disabled = false;
+        captainTraitEffect.style.display = 'block';
+        captainTraitRerollButton.hidden = false;
+        captainTraitRerollButton.disabled = false;
+        if (captainTraitName.value === '') {
+          setRandomCaptainTrait(captainTraitName, captainTraitEffect);
+        }
+      } else {
+        captainTraitLabel.style.display = 'none';
+        captainTraitName.hidden = true;
+        captainTraitName.disabled = true;
+        captainTraitEffect.style.display = 'none';
+        captainTraitRerollButton.hidden = true;
+        captainTraitRerollButton.disabled = true;
+      }
+    }
+
+    function getRandomCaptainTrait() {
+      return traitsCaptain[Math.floor(Math.random() * traitsCaptain.length)];
+    }
+    function getTraitByName(traitList, traitName) {
+      // Implement Me!
+    }
+    function addGroupToCompanyRoster(group_name) {
+      let data = createdGroups.find(group => group.groupName === group_name)
+      let traits = Object.keys(data).filter(k => k.match(/selectedTrait.*/))
+      groupPreview = newTemplateElement('groupPreview')
+      groupPreview.hidden = false
+      // Set Legend
+      let baseProfileName = profileData.find(profile => { return profile.id === data.baseProfile }).name
+      groupPreview.querySelector('legend[data-groupName]').innerHTML = `${data.groupName} (${baseProfileName})`
+      // Add profile values
+      for (pda of profileDataAccessors) {
+        let definition = groupPreview.querySelector(`dd[data-${pda.name}`)
+        let postscript = getProfileValuePostscript(definition)
+        definition.innerHTML = getArbitraryProperty(data, pda.name) + postscript
+        //groupPreview.querySelector(`dd[data-${pda.name}]`).value = getArbitraryProperty(data, pda.name)
+      }
+      if (data.captainTrait.length > 0) {
+        groupPreview.querySelector('fieldset[data-captainTrait').hidden = false
+        groupPreview.querySelector('dt[data-captainTrait]').innerHTML = data.captainTrait
+        groupPreview.querySelector('dd[data-captainTrait]').innerHTML = traitsCaptain.find(t => t.name === data.captainTrait).effect
+      }
+      if (data.groupMissileActivation === 0) {
+        groupPreview.querySelector('fieldset[data-groupMissile]').hidden = true
+      }
+      if (traits.length > 0) {
+        combinedTraits = traitsGroup.concat(traitsOptional)
+        traitList = groupPreview.querySelector('dl[data-groupTraits]')
+        for (var trait of traits) {
+          let traitName = trait.substring(13)
+          let traitEffect = combinedTraits.find(t => t.name === traitName).effect
+          let name = document.createElement('dt')
+          let effect = document.createElement('dd')
+          name.innerHTML = traitName
+          effect.innerHTML = traitEffect
+          traitList.appendChild(name)
+          traitList.appendChild(effect)
+        }
+      } else {
+        groupPreview.querySelector('fieldset[data-groupTraits]').hidden = true
+      }
+      companyList = document.querySelector('ul[data-company-group-list]')
+      let entry_uuid = uuid()
+      companyRoster.push({ "uuid": entry_uuid, "data": data })
+      groupPreview.setAttribute('data-roster-entry-uuid', entry_uuid)
+      companyList.appendChild(newCompanyGroupEntry(group_name, entry_uuid))
+      companyDisplay.appendChild(groupPreview)
+      setCompanyPointsCost()
+    }
+    function getRosterEntry(entry_uuid) {
+      return companyRoster.find(entry => entry.uuid === entry_uuid)
+    }
+    function removeRosterEntry(entry_uuid) {
+      companyRoster = companyRoster.filter(entry => entry.uuid !== entry_uuid)
+      setCompanyPointsCost()
+    }
+    function setRandomCaptainTrait(captainTraitName, captainTraitEffect) {
+      // If the function was triggered by a button, we need to grab
+      // the correct elements to update from its parent
+      if (captainTraitName.nodeName === 'BUTTON') {
+        parent = captainTraitName.parentElement
+        captainTraitName = parent.querySelector('input[name="captainTrait"]');
+        captainTraitEffect = parent.querySelector('p[data-captainTraitEffect]');
+      }
+      let traitInfo = getRandomCaptainTrait();
+      captainTraitName.value = traitInfo.name
+      captainTraitEffect.innerHTML = traitInfo.effect
+    }
+    function getCreatedGroupProfileData(group_name) {
+      return createdGroups.find(g => g.groupName === group_name)
+    }
+    function deleteGroupFromCompanyOptions(group_name) {
+      // remove from meta list of groups
+      createdGroups = createdGroups.filter(g => g.groupName !== group_name)
+      // remove from selection menus
+      for (listType of ['delete', 'add']) {
+        let list = document.querySelector(`select[name="${listType}GroupProfile"]`)
+        list.querySelector(`option[value="${group_name}"]`).remove()
+      }
+    }
+    function addGroupToCompanyOptions(group_name) {
+      document.querySelector('button[data-dialog-name="addGroup"]').disabled = false
+      document.querySelector('button[data-dialog-name="deleteGroup"]').disabled = false
+      let addGroupSelector = document.querySelector('select[name="addGroupProfile"]')
+      let deleteGroupSelector = document.querySelector('select[name="deleteGroupProfile"]')
+      let newOption = document.createElement('option')
+      newOption.value = group_name
+      newOption.innerHTML = `<strong>${group_name}</strong>`
+      addGroupSelector.appendChild(newOption.cloneNode(true))
+      deleteGroupSelector.appendChild(newOption)
+    }
+    function newRosterEntry(group_name) {
+      entry = newTemplateElement('rosterEntry')
+      entry.querySelector('label').innerHTML = group_name
+      return entry
+    }
+    function setRosterUuid(entry_element, uuid) {
+      let entry_uuid = `roster-entry-${uuid}`
+      entry_element.setAttribute('data-roster-entry-uuid', uuid)
+      entry_element.querySelector('input').name = entry_uuid
+      entry_element.querySelector('label').setAttribute('for', entry_uuid)
+    }
+    function newCompanyGroupEntry(group_name, group_uuid) {
+      let group_entry = newRosterEntry(group_name)
+      setRosterUuid(group_entry, group_uuid)
+      return group_entry
+    }
+    function removeCompanyGroupEntry(button_element) {
+      let list_entry = button_element.parentElement
+      let list_uuid = list_entry.getAttribute('data-roster-entry-uuid')
+      companyDisplay.querySelector(`fieldset[data-roster-entry-uuid="${list_uuid}"]`).remove()
+      list_entry.remove()
+      removeRosterEntry(list_uuid)
+    }
+    function editCompanyGroupEntry(button_element) {
+      let list_entry = button_element.parentElement
+      let list_uuid = list_entry.getAttribute('data-roster-entry-uuid')
+      let entry_data = getRosterEntry(list_uuid)
+      let edit_form = document.querySelector('form[data-form-name="editGroup"]')
+      fillEditGroupForm(edit_form, list_uuid, entry_data.data)
+      openDialog(button_element)
+    }
+    function fillEditGroupForm(form_element, uuid, data) {
+      clearBaseProfileData(form_element)
+      form_element.querySelector('input[name="uuid"]').value = uuid
+      let keys = Object.keys(data)
+      let keys_to_ignore = ['copyToCompanySheet', 'new-group-step-tabs']
+      keys = keys.filter(k => !keys_to_ignore.includes(k))
+      for (key of keys) {
+        let input_element = form_element.querySelector(`[name="${key}"]`)
+        if (data[key] === 'on') {
+          input_element.checked = true
+        } else {
+          input_element.value = data[key]
+        }
+      }
+      // Disable selected profile traits
+      let profile_traits = form_element.querySelectorAll('input[name^="selectedTrait"')
+      let applied_profile_traits = [...profile_traits].filter(e => (e.getAttribute('data-trait-type') === 'profile') && e.checked)
+      for (var trait of applied_profile_traits) {
+        trait.disabled = true
+      }
+      let base_profile_data = getBaseProfileDataFromForm(form_element)
+      // disable and hide unapplicable profile traits
+      setUnapplicableProfileTraits(form_element)
+      // disable the Profile Selector and Enable the Update Base Profile Button
+      lockGroupBaseProfile(form_element)
+      // disable and hide unapplicable optional traits
+      setIncompatibleTraits(form_element, base_profile_data)
+      // disable not-yet applicable optional traits
+      setUnapplicableOptionalTraits(form_element, base_profile_data)
+    }
+    function clearBaseProfileData(parent_form) {
+      for (pda of profileDataAccessors) {
+        parent_form.querySelector(`input[name="${pda.name}"]`).value = null
+      }
+      for (var type of ['profile', 'optional']) {
+        for (var selector of parent_form.querySelectorAll(`input[data-trait-type="${type}"]`)) {
+          selector.checked = false;
+          selector.disabled = false;
+          selector.hidden = false;
+        }
+        for (var header of parent_form.querySelectorAll(`strong[data-trait-type="${type}"]`)) {
+          header.style.display = 'inline'
+        }
+        for (var description of parent_form.querySelectorAll(`p[data-trait-type="${type}"]`)) {
+          description.style.display = 'block'
+        }
+      }
+    }
+    function resetToBaseProfile(parent_form) {
+      let baseProfileData = getBaseProfileDataFromForm(parent_form)
+      // Clear prior profile, if any
+      clearBaseProfileData(parent_form)
+      // Set Group Profile
+      for (pda of profileDataAccessors) {
+        parent_form.querySelector(`input[name="${pda.name}"]`).value = getArbitraryProperty(baseProfileData, pda.accessor)
+      }
+      // set traits
+      for (const trait of baseProfileData.traits) {
+        let traitSelection = parent_form.querySelector(`input[name="selectedTrait${trait}"]`);
+        traitSelection.checked = true;
+        traitSelection.disabled = true;
+      }
+      // disable and hide unapplicable profile traits
+      setUnapplicableProfileTraits(parent_form)
+      // disable the Profile Selector and Enable the Update Base Profile Button
+      lockGroupBaseProfile(parent_form)
+      // disable and hide unapplicable optional traits
+      setIncompatibleTraits(parent_form, baseProfileData)
+      // disable not-yet applicable optional traits
+      setUnapplicableOptionalTraits(parent_form, baseProfileData)
+    }
+    function getBaseProfileDataFromForm(parent_form) {
+      return profileData.find(profile => {
+        return profile.id === parent_form.querySelector('select[name="baseProfile"]').value
+      });
+    }
+    function setUnapplicableProfileTraits(parent_form) {
+      for (var profileTrait of parent_form.querySelectorAll('input[data-trait-type="profile"]')) {
+        if (profileTrait.checked === false) {
+          disableAndHideTrait(parent_form, profileTrait.name.substring(13))
+        }
+      }
+    }
+    function lockGroupBaseProfile(parent_form) {
+      // disable the Base Profile Selector and enable the Update Base Profile Button
+      parent_form.querySelector('select[name="baseProfile"]').disabled = true
+      let updateBaseProfileButton = parent_form.querySelector('button[data-updateBaseProfile]')
+      updateBaseProfileButton.hidden = false
+      updateBaseProfileButton.disabled = false
+    }
+    function setIncompatibleTraits(parent_form, base_profile_data) {
+      let incompatibleTraits = []
+      if (base_profile_data.missile.activation === 0) {
+        incompatibleTraits.push('Short-Ranged')
+      } else {
+        incompatibleTraits.push('Shooters')
+        incompatibleTraits.push('Throwers')
+      }
+      if (!/cavalry/.test(base_profile_data.id)) {
+        incompatibleTraits.push('Chariot')
+      }
+      if (!base_profile_data.traits.includes('Reckless')) {
+        incompatibleTraits.push('Composed')
+      }
+      if (!base_profile_data.traits.includes('Defensive')) {
+        incompatibleTraits.push('Offensive')
+      }
+      for (var incompatibleTrait of incompatibleTraits) {
+        disableAndHideTrait(parent_form, incompatibleTrait)
+        markIncompatibleWithProfile(parent_form, incompatibleTrait)
+      }
+      // disable not-yet applicable optional traits
+      let unapplicableTraits = []
+      if (base_profile_data.missile.activation === 0) {
+        unapplicableTraits.push({ "name": 'Accurate', "reason": "No missile profile" })
+      }
+      for (var unapplicableTrait of unapplicableTraits) {
+        markUnapplicableWithProfile(parent_form, unapplicableTrait.name, unapplicableTrait.reason)
+      }
+    }
+    function setUnapplicableOptionalTraits(parent_form, base_profile_data) {
+      let unapplicableTraits = []
+      if (base_profile_data.missile.activation === 0) {
+        unapplicableTraits.push({ "name": 'Accurate', "reason": "No missile profile" })
+      }
+      for (var unapplicableTrait of unapplicableTraits) {
+        markUnapplicableWithProfile(parent_form, unapplicableTrait.name, unapplicableTrait.reason)
+      }
+    }
+    function disableAndHideTrait(parent_form, traitName) {
+      parent_form.querySelector(`input[name="selectedTrait${traitName}"]`).hidden = true
+      parent_form.querySelector(`strong[data-trait-name="${traitName}"]`).style.display = 'none'
+      parent_form.querySelector(`p[data-trait-name="${traitName}"]`).style.display = 'none'
+    }
+    function enableAndShowTrait(parent_form, traitName) {
+      parent_form.querySelector(`input[name="selectedTrait${traitName}"]`).hidden = false
+      parent_form.querySelector(`strong[data-trait-name="${traitName}"]`).style.display = 'inline'
+      parent_form.querySelector(`p[data-trait-name="${traitName}"]`).style.display = 'block'
+    }
+    function markIncompatibleWithProfile(parent_form, traitName) {
+      let attributeName = 'data-trait-incompatible-with-profile'
+      parent_form.querySelector(`input[name="selectedTrait${traitName}"]`).setAttribute(attributeName, true)
+      parent_form.querySelector(`strong[data-trait-name="${traitName}"]`).setAttribute(attributeName, true)
+      parent_form.querySelector(`p[data-trait-name="${traitName}"]`).setAttribute(attributeName, true)
+    }
+    function markCompatibleWithProfile(parent_form, traitName) {
+      let attributeName = 'data-trait-incompatible-with-profile'
+      parent_form.querySelector(`input[name="selectedTrait${traitName}"]`).removeAttribute(attributeName)
+      parent_form.querySelector(`strong[data-trait-name="${traitName}"]`).removeAttribute(attributeName)
+      parent_form.querySelector(`p[data-trait-name="${traitName}"]`).removeAttribute(attributeName)
+    }
+    function markUnapplicableWithProfile(parent_form, traitName, reason) {
+      parent_form.querySelector(`input[name="selectedTrait${traitName}"]`).disabled = true
+      parent_form.querySelector(`strong[data-trait-name="${traitName}"]`).setAttribute('data-trait-unapplicable-with-profile', reason)
+    }
+    function markApplicableWithProfile(parent_form, traitName) {
+      parent_form.querySelector(`input[name="selectedTrait${traitName}"]`).disabled = false
+      parent_form.querySelector(`strong[data-trait-name="${traitName}"]`).removeAttribute('data-trait-unapplicable-with-profile')
+    }
+
+    function enableBaseProfileUpdate(button_element) {
+      if (alertOnProfileUpdate) {
+        alert("Be careful! If you update the base profile, you'll override all of the details for this group!");
+      }
+      button_element.parentElement.querySelector('select[name="baseProfile"]').disabled = false;
+      button_element.hidden = true;
+      button_element.disabled = true;
+    }
+    function toggleUnselectedTraitVisibility(button_element) {
+      // the button is in a menu in the fieldset
+      parentFieldSet = button_element.parentElement.parentElement
+      let allTraits = parentFieldSet.querySelectorAll('input[type="checkbox"]')
+      let uncheckedTraits = [...allTraits].filter(traitElement => !traitElement.checked)
+      let optionalTraits = parentFieldSet.querySelectorAll('input[data-trait-type="optional"]')
+      let compatibleOptionalTraits = [...optionalTraits].filter(traitElement => !traitElement.getAttribute('data-trait-incompatible-with-profile'))
+      for (var optionalTrait of compatibleOptionalTraits) {
+        let shouldHide = true
+        let headerDisplay = 'none'
+        let descriptionDisplay = 'none'
+        if (optionalTrait.hidden) {
+          shouldHide = false
+          headerDisplay = 'inline'
+          descriptionDisplay = 'block'
+        }
+        if (optionalTrait.checked === false) {
+          let traitName = optionalTrait.name.substring(13);
+          optionalTrait.hidden = shouldHide;
+          let header = parentFieldSet.querySelector(`strong[data-trait-name="${traitName}"]`)
+          let description = parentFieldSet.querySelector(`p[data-trait-name="${traitName}"]`)
+          header.style.display = headerDisplay
+          description.style.display = descriptionDisplay
+        }
+      }
+    }
+    //#endregion
+    //#region Trait Toggles
+    function getTraitCostModifier(traitName) {
+      return traitsOptional.find(trait => { return trait.name === traitName }).cost
+    }
+
+    function handleTraitCostToggle(gpc_element, cost_modifier, event) {
+      if (event.currentTarget.checked) {
+        gpc_element.value = parseInt(gpc_element.value) + cost_modifier
+      } else {
+        gpc_element.value = parseInt(gpc_element.value) - cost_modifier
+      }
+    }
+    function handleProfileModifierToggle(form_element, trait_name, modifier, event) {
+      let profileElement = form_element.querySelector(`input[name="group${trait_name}"]`)
+      if (event.currentTarget.checked) {
+        profileElement.value = parseInt(profileElement.value) + modifier
+      } else {
+        profileElement.value = parseInt(profileElement.value) - modifier
+      }
+    }
+    function handleTraitApplicabilityToggle(form_element, trait_name, reason, event) {
+      if (event.currentTarget.checked) {
+        markUnapplicableWithProfile(form_element, trait_name, reason)
+      } else {
+        markApplicableWithProfile(form_element, trait_name)
+      }
+    }
+    // Some optional traits replace base traits, such as offensive or composed
+    function handleBaseTraitReplacementToggle(form_element, trait_name) {
+      let traitSelector = form_element.querySelector(`input[name="selectedTrait${trait_name}"]`)
+      if (event.currentTarget.checked) {
+        traitSelector.checked = false
+        disableAndHideTrait(form_element, trait_name)
+      } else {
+        traitSelector.checked = true
+        enableAndShowTrait(form_element, trait_name)
+      }
+    }
+    function handleTraitToggle(form_element, gpc_element, trait_name, event) {
+      handleTraitCostToggle(gpc_element, getTraitCostModifier(trait_name), event)
+      switch (trait_name) {
+        case 'Accurate':
+          handleProfileModifierToggle(form_element, 'MissileHit', -1, event)
+          break
+        case 'Apprentice':
+          handleTraitApplicabilityToggle(form_element, 'Caster', 'Cannot be used with Apprentice', event)
+          break
+        case 'Caster':
+          handleTraitApplicabilityToggle(form_element, 'Apprentice', 'Cannot be used with Caster', event)
+          break
+        case 'Chariot':
+          handleProfileModifierToggle(form_element, 'Toughness', 1, event)
+          break
+        case 'Composed':
+          handleBaseTraitReplacementToggle(form_element, 'Reckless')
+          break
+        case '[Kind]-Foe':
+          handleTraitApplicabilityToggle(form_element, '[Kind]bane', 'Cannot be used with [Kind]-Foe', event)
+          break
+        case '[Kind]bane':
+          handleTraitApplicabilityToggle(form_element, '[Kind]-Foe', 'Cannot be used with [Kind]bane', event)
+          break
+        case 'Offensive':
+          handleBaseTraitReplacementToggle(form_element, 'Defensive')
+          handleProfileModifierToggle(form_element, 'MeleeAttack', -1, event)
+          break
+        case 'Shooters':
+          // this is a special case where an entire profile is added/removed
+          // so we can't reuse the more generic toggles
+          var accurateToggle = form_element.querySelector('input[name="selectedTraitAccurate"]')
+          var missileActivation = form_element.querySelector('input[name="groupMissileActivation"]')
+          var missileHit = form_element.querySelector('input[name="groupMissileHit"]')
+          var missileRange = form_element.querySelector('input[name="groupMissileRange"]')
+          if (event.currentTarget.checked) {
+            missileActivation.value = 6
+            missileHit.value = 5
+            missileRange.value = 18
+            markUnapplicableWithProfile(form_element, 'Throwers', 'Cannot be used with Shooters')
+            markApplicableWithProfile(form_element, 'Accurate')
+          } else {
+            if (accurateToggle.checked) {
+              accurateToggle.checked = false
+              gpc_element.value = parseInt(gpc_element.value) - getTraitCostModifier('Accurate')
+            }
+            missileActivation.value = 0
+            missileHit.value = 0
+            missileRange.value = 0
+            markApplicableWithProfile(form_element, 'Throwers')
+            markUnapplicableWithProfile(form_element, 'Accurate', 'No missile profile')
+          }
+          break
+        case 'Short-Ranged':
+          var missileRange = form_element.querySelector('input[name="groupMissileRange"]')
+          if (event.currentTarget.checked) {
+            missileRange.value = parseInt(missileRange.value) / 2
+          } else {
+            missileRange.value = parseInt(missileRange.value) * 2
+          }
+          break
+        case 'Throwers':
+          var accurateToggle = form_element.querySelector('input[name="selectedTraitAccurate"]')
+          var missileActivation = form_element.querySelector('input[name="groupMissileActivation"]')
+          var missileHit = form_element.querySelector('input[name="groupMissileHit"]')
+          var missileRange = form_element.querySelector('input[name="groupMissileRange"]')
+          if (event.currentTarget.checked) {
+            missileActivation.value = 6
+            missileHit.value = 5
+            missileRange.value = 6
+            markUnapplicableWithProfile(form_element, 'Shooters', 'Cannot be used with Throwers')
+            markApplicableWithProfile(form_element, 'Accurate')
+          } else {
+            if (accurateToggle.checked) {
+              accurateToggle.checked = false
+              gpc_element.value = parseInt(gpc_element.value) - getTraitCostModifier('Accurate')
+            }
+            missileActivation.value = 0
+            missileHit.value = 0
+            missileRange.value = 0
+            markApplicableWithProfile(form_element, 'Shooters')
+            markUnapplicableWithProfile(form_element, 'Accurate', 'No missile profile')
+          }
+          break
+        case 'Unerring':
+          handleTraitApplicabilityToggle(form_element, 'Well-Armed', 'Cannot be used with Unerring', event)
+          break
+        case 'Well-Armed':
+          handleTraitApplicabilityToggle(form_element, 'Unerring', 'Cannot be used with Well-Armed', event)
+          break
+        default:
+        //console.log(`No special behavior implemented in trait toggle for: ${trait_name}`)
+      }
+    }
+    //#endregion
+
+    //#region Update Profile Preview
+    function setGroupPreviewName(form_element) {
+      let groupNameValue = form_element.querySelector('input[name="groupName"]').value
+      let baseProfileId = form_element.querySelector('select[name="baseProfile"]').value
+      let baseProfileName = profileData.find(profile => { return profile.id === baseProfileId }).name
+      form_element.querySelector('legend[data-groupName]').innerHTML = `${groupNameValue} (${baseProfileName})`
+    }
+    function setGroupPreviewCaptaincy(form_element) {
+      let captainTraitPreview = form_element.querySelector('fieldset[data-captainTrait]')
+      let captainTraitPreviewName = form_element.querySelector('dt[data-captainTrait]')
+      let captainTraitPreviewDescription = form_element.querySelector('dd[data-captainTrait]')
+      if (form_element.querySelector('input[name="isCaptain"]').checked) {
+        captainTraitPreview.hidden = false
+        captainTraitName = form_element.querySelector('input[name="captainTrait"]').value
+        captainTraitPreviewName.innerHTML = `${captainTraitName}:`
+        captainTraitPreviewDescription.innerHTML = traitsCaptain.find(trait => { return trait.name === captainTraitName }).effect
+      } else {
+        captainTraitPreview.hidden = true
+        captainTraitPreviewName.innerHTML = ''
+        captainTraitPreviewDescription.innerHTML = ''
+      }
+    }
+    function setGroupPreviewUniversalProfile(form_element) {
+      profileAttributes = [
+        'groupResilienceTest',
+        'groupResilienceMax',
+        'groupToughness',
+        'groupPointsCost',
+        'groupMeleeActivation',
+        'groupMeleeAttack',
+        'groupMeleeDefense',
+        'groupMoveActivation',
+        'groupMoveDistance'
+      ]
+      for (var attribute of profileAttributes) {
+        let definition = form_element.querySelector(`dd[data-${attribute}`)
+        let postscript = getProfileValuePostscript(definition)
+        definition.innerHTML = form_element.querySelector(`input[name="${attribute}"]`).value + postscript
+      }
+    }
+    function setGroupPreviewMissileProfile(form_element) {
+      let missilePreview = form_element.querySelector('fieldset[data-groupMissile]')
+      if (form_element.querySelector('input[name="groupMissileActivation"]').value > 0) {
+        missilePreview.hidden = false
+        for (var attribute of ['groupMissileActivation', 'groupMissileHit', 'groupMissileRange']) {
+          let definition = form_element.querySelector(`dd[data-${attribute}`)
+          let postscript = getProfileValuePostscript(definition)
+          definition.innerHTML = form_element.querySelector(`input[name="${attribute}"]`).value + postscript
+        }
+      } else {
+        missilePreview.hidden = true
+      }
+    }
+    function setGroupPreviewTraits(form_element) {
+      let allTraits = form_element.querySelectorAll('input[data-trait-type]')
+      let checkedTraits = [...allTraits].filter(traitElement => traitElement.checked)
+      clearTraitPreview(form_element)
+      traitList = form_element.querySelector('dl[data-groupTraits]')
+      for (var trait of checkedTraits) {
+        let traitName = trait.name.substring(13)
+        let traitType = trait.getAttribute('data-trait-type')
+        let traitEffect = getTraitData(traitType, traitName).effect
+        let name = document.createElement('dt')
+        let effect = document.createElement('dd')
+        name.innerHTML = traitName
+        effect.innerHTML = traitEffect
+        traitList.appendChild(name)
+        traitList.appendChild(effect)
+      }
+      if (traitList.childElementCount === 0) {
+        traitList.parentElement.hidden = true
+      } else {
+        traitList.parentElement.hidden = false
+      }
+    }
+    function updateReviewAndSubmitGroupTab(form_element, event) {
+      let groupPointsCost = form_element.querySelector('input[name="groupPointsCost"]').value
+      let groupPreview = form_element.querySelector('fieldset[data-groupPreview]')
+      copy_element = form_element.querySelector('input[name="copyToCompanySheet"]')
+      if (copy_element !== null) {
+        copy_element.disabled = false
+      }
+      if (groupPointsCost > 0) {
+        groupPreview.hidden = false
+        setGroupPreviewName(form_element)
+        setGroupPreviewCaptaincy(form_element)
+        setGroupPreviewUniversalProfile(form_element)
+        // Missile profiles are handled separately as some Groups don't have them
+        setGroupPreviewMissileProfile(form_element)
+        setGroupPreviewTraits(form_element)
+      } else {
+        groupPreview.hidden = true
+        console.log('Group not set yet')
+      }
+    }
+    function getProfileValuePostscript(element) {
+      let postscript = ''
+      switch (element.getAttribute('data-profile-value-type')) {
+        case 'roll':
+          postscript = "+"
+          break
+        case 'distance':
+          postscript = '"'
+          break
+      }
+      return postscript
+    }
+    function clearTraitPreview(form_element) {
+      form_element.querySelector('dl[data-groupTraits]').innerHTML = ''
+    }
+    function getTraitData(datasetName, traitName) {
+      var dataset
+      switch (datasetName) {
+        case 'captain':
+          dataset = traitsCaptain
+          break;
+        case 'profile':
+          dataset = traitsGroup
+          break
+        case 'optional':
+          dataset = traitsOptional
+          break
+        default:
+          console.log(`Invalid trait name specified: ${traitName}`)
+      }
+      return dataset.find(trait => { return trait.name === traitName })
+    }
+    //#endregion
+  </script>
+</div>
