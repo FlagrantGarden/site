@@ -1,0 +1,219 @@
+- id: heavy_beast
+  name: Heavy Beast
+  base_cost: 6
+  melee:
+    activation: 5
+    attack: 3
+    defense: 6
+  missile:
+    activation: 0
+    hit: 0
+    range: 0
+  move:
+    activation: 6
+    distance: 10
+  resilience:
+    test: 3
+    max: 6
+  toughness: 4
+  traits:
+    - reckless
+- id: light_beast
+  name: Light Beast
+  base_cost: 4
+  melee:
+    activation: 5
+    attack: 3
+    defense: 6
+  missile:
+    activation: 0
+    hit: 0
+    range: 0
+  move:
+    activation: 6
+    distance: 10
+  resilience:
+    test: 4
+    max: 6
+  toughness: 3
+  traits:
+    - reckless
+    - nimble
+- id: elite_cavalry
+  name: Elite Cavalry
+  base_cost: 6
+  melee:
+    activation: 5
+    attack: 3
+    defense: 5
+  missile:
+    activation: 0
+    hit: 0
+    range: 0
+  move:
+    activation: 7
+    distance: 10
+  resilience:
+    test: 3
+    max: 6
+  toughness: 4
+  traits:
+    - reckless
+    - nimble
+- id: heavy_cavalry
+  name: Heavy Cavalry
+  base_cost: 4
+  melee:
+    activation: 5
+    attack: 4
+    defense: 5
+  missile:
+    activation: 0
+    hit: 0
+    range: 0
+  move:
+    activation: 5
+    distance: 10
+  resilience:
+    test: 4
+    max: 6
+  toughness: 3
+  traits:
+    - defiant
+- id: light_cavalry
+  name: Light Cavalry
+  base_cost: 4
+  melee:
+    activation: 7
+    attack: 5
+    defense: 6
+  missile:
+    activation: 6
+    hit: 5
+    range: 12
+  move:
+    activation: 5
+    distance: 12
+  resilience:
+    test: 5
+    max: 6
+  toughness: 3
+  traits: []
+- id: elite_engine
+  name: Elite Engine
+  base_cost: 6
+  melee:
+    activation: 0
+    attack: 0
+    defense: 5
+  missile:
+    activation: 5
+    hit: 4
+    range: 24
+  move:
+    activation: 7
+    distance: 4
+  resilience:
+    test: 4
+    max: 6
+  toughness: 3
+  traits:
+    - ponderous
+- id: heavy_engine
+  name: Heavy Engine
+  base_cost: 4
+  melee:
+    activation: 0
+    attack: 0
+    defense: 6
+  missile:
+    activation: 6
+    hit: 5
+    range: 24
+  move:
+    activation: 8
+    distance: 2
+  resilience:
+    test: 5
+    max: 6
+  toughness: 2
+  traits:
+    - ponderous
+- id: light_engine
+  name: Light Engine
+  base_cost: 4
+  melee:
+    activation: 0
+    attack: 0
+    defense: 6
+  missile:
+    activation: 6
+    hit: 5
+    range: 18
+  move:
+    activation: 8
+    distance: 4
+  resilience:
+    test: 5
+    max: 6
+  toughness: 1
+  traits: []
+- id: elite_foot
+  name: Elite Foot
+  base_cost: 5
+  melee:
+    activation: 5
+    attack: 3
+    defense: 4
+  missile:
+    activation: 0
+    hit: 0
+    range: 0
+  move:
+    activation: 5
+    distance: 6
+  resilience:
+    test: 3
+    max: 12
+  toughness: 4
+  traits: []
+- id: heavy_foot
+  name: Heavy Foot
+  base_cost: 4
+  melee:
+    activation: 5
+    attack: 4
+    defense: 4
+  missile:
+    activation: 0
+    hit: 0
+    range: 0
+  move:
+    activation: 5
+    distance: 6
+  resilience:
+    test: 4
+    max: 12
+  toughness: 3
+  traits:
+    - defensive
+- id: light_foot
+  name: Light Foot
+  base_cost: 3
+  melee:
+    activation: 6
+    attack: 5
+    defense: 4
+  missile:
+    activation: 0
+    hit: 0
+    range: 0
+  move:
+    activation: 5
+    distance: 6
+  resilience:
+    test: 4
+    max: 12
+  toughness: 2
+  traits:
+    - defensive
