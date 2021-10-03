@@ -1,0 +1,31 @@
+strong {
+  &[data-trait-unapplicable-with-profile] {
+    &:after {
+      content: " (Currently Unapplicable: "
+        attr(data-trait-unapplicable-with-profile) ")";
+    }
+  }
+}
+
+input[type="number"] {
+  width: 3em;
+  text-align: center;
+}
+dl.groupProfileValues {
+  dt {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  dd {
+    display: inline-block;
+    margin-right: 2em;
+  }
+}
+
+@media print {
+  iframe,
+  button,
+  img.book-icon {
+    display: none;
+  }
+}

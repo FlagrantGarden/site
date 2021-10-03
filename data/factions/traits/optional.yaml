@@ -14,7 +14,7 @@
   cost: 2
   effect: Groups with the Reckless trait only. Remove Reckless, improve MO activation by one.
 - name: Cowardly
-  cost: 2
+  cost: -2
   effect: When making a Resilience test, this Group must always reroll the highest die.
 - name: "[Kind]-Foe"
   cost: 1
