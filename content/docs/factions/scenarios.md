@@ -5,4 +5,4 @@ bookToC: false
 weight: 20
 ---
 
-{{< scenario >}}
+{{< scenarios >}}

@@ -1,8 +1,8 @@
 name: Necromancer's Legion
 description: |
-  A powerful necromancer served by revenant knights, including a skeletal dinosaur and warriors to haunt any field.
+  The dead arise to the Necromancer's call and do their bidding, held together by malefic energies.
 groups:
-  - name: Necromancer & Revenant Knights
+  - name: "*Necromancer & Revenant Knights*"
     profile: Elite Foot
     cost: 12
     me: 5+ / 3+ / 4+

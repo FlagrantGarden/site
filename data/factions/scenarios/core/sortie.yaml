@@ -7,10 +7,11 @@ deployment: |
 firstTurn: |
   Defenders must go first.
 specialRules: |
-  As their activation, any defending group in contact with a Siege Token and not in melee may test to activate on a 6+ to destroy the siege work.
-victoryConditions: |
-  Play ends immediately when either side has no Groups remaining in play, or when the defenders move all of their remaining Groups within 24” of the center and declare an end to their sortie.
+  Any defending Group in contact with a Siege Token and not in melee may attempt to activate on a 6+ to destroy the siege work.
+closingConditions: |
+  Play ends immediately when either side has no Groups remaining in play,
+  or when the defenders move all of their remaining Groups within 24” of the center and declare an end to their sortie.
 
-  Defenders gain 1VP for every enemy Group routed or destroyed, 2VP for every enemy engine Group routed or destroyed, and 4VP for every Siege Token destroyed.
+  Defenders gain 1VP for every enemy Group Routed, 2VP for every enemy engine Group Routed, and 4VP for every Siege Token destroyed.
 
-  Attackers gain 2VP for every enemy Group routed or destroyed, 1VP for each of their engine Groups which was not routed or destroyed, and 3VP for every Siege Token not destroyed.
+  Attackers gain 2VP for every enemy Group Routed, 1VP for each of their engine Groups which was not Routed, and 3VP for every Siege Token not destroyed.
