@@ -1,8 +1,8 @@
 name: Seafolk
 description: |
-  A band of Bronze Age warriors supported by their naptha-spewing Flamebearers and a sea beast.
+  Mariners, raiders from the mythic dawn, they bring bronze blades and eldritch flame to scour their foes from every beach and river.
 groups:
-  - name: Captain & Bronzeclad
+  - name: "*Bronzeclad*"
     profile: Elite Foot
     cost: 6
     me: 5+ / 3+ / 4+
@@ -53,5 +53,5 @@ groups:
     r: 6 / 4+
     t: 3
     traits:
-      - Reckless
       - Nimble
+      - Reckless

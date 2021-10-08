@@ -22,7 +22,7 @@
       <tbhody>
         {{ range .groups }}
         <tr>
-          <th scope="row">{{ title .name }}</th>
+          <th scope="row">{{ title .name | markdownify }}</th>
           <td>{{ .profile }}</td>
           <td>{{ .cost }}</td>
           <td>{{ .me }}</td>

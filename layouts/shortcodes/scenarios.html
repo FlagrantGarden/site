@@ -1,20 +1,21 @@
 <h2>Core Scenarios</h2>
 {{ range sort $.Site.Data.factions.scenarios.core "weight" "asc" }}
 {{ $odd := eq (mod .weight 2) 1 }}
-<details class="scenario{{if $odd}} odd{{end}}">
-  <summary>
-    <h3>{{ .weight}}. {{ .title }}</h3>
-  </summary>
-  <div class="scenario_contents">
+<fieldset>
+  <legend>
+    <strong>{{ .weight }}. {{ .title }}</strong>
+  </legend>
+  <dl class="scenario_contents">
     {{ with .deployment }}
-    <h4>Deployment</h4>
-    {{ . | markdownify}} {{ end}} {{ with .firstTurn }}
-    <h4>First Turn</h4>
-    {{ . | markdownify}} {{ end}} {{ with .specialRules }}
-    <h4>Special Rules</h4>
-    {{ . | markdownify}} {{ end}} {{ with .victoryConditions }}
-    <h4>Victory Conditions</h4>
-    {{ . | markdownify}} {{ end}}
-  </div>
-</details>
+    <dt>Deployment</dt>
+    <dd>{{ . | markdownify}}</dd> {{ end}} {{ with .firstTurn }}
+    <dt>First Turn</dt>
+    <dd>{{ . | markdownify}}</dd> {{ end}} {{ with .specialRules }}
+    <dt>Special Rules</dt>
+    <dd>{{ . | markdownify}}</dd> {{ end}} {{ with .closingConditions }}
+    <dt>Closing Conditions</dt>
+    <dd>{{ . | markdownify}}</dd> {{ end}}
+  </dl>
+</fieldset>
+<br />
 {{ end}}

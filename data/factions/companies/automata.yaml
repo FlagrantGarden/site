@@ -1,8 +1,8 @@
 name: Automata
 description: |
-  A company of living automatons capable of thought and feeling, led by a huge mechanical being and supported by exploding dog-like machines who are rebuilt after each engagement.
+  Cold steel made warm with sentience, they fulfill their own purpose now, led by their towering Titan.
 groups:
-  - name: Titan Captain
+  - name: "*Titan*"
     profile: Elite Foot
     cost: 5
     me: 5+ / 3+ / 4+
@@ -42,8 +42,8 @@ groups:
     t: 2
     traits:
       - Defensive
-      - Unfeeling
       - Self-Destruct
+      - Unfeeling
   - name: Barking Sparks
     profile: Light Foot
     cost: 5
@@ -54,5 +54,5 @@ groups:
     t: 2
     traits:
       - Defensive
-      - Unfeeling
       - Self-Destruct
+      - Unfeeling

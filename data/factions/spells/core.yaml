@@ -3,13 +3,13 @@
   range: 18”
   target: Another Group
   duration: Until the start of your next turn.
-  effect: Target may reroll their activation test.
+  effect: Target may reroll when attempting to Activate.
 - name: Embolden
   check: 6+
   range: 18”
   target: Another Group
   duration: Until the start of your next turn.
-  effect: Target may reroll resilience tests.
+  effect: Target may reroll when Testing Resilience.
 - name: Heal
   check: 7+
   range: 18”
@@ -45,16 +45,16 @@
   range: 18”
   target: Another Group
   duration: Until the start of your next turn.
-  effect: Target may reroll to-hit dice when Attacking or defending.
+  effect: Target may reroll to-hit dice in melee.
 - name: Fortify
   check: 7+
   range: 18”
   target: Another Group
   duration: Until the start of your next turn.
-  effect: Target may force enemies to reroll to-hit dice against them, once per roll.
+  effect: Target may force enemies to reroll to-hit dice against them.
 - name: Counter
   check: 8+
   range: 18”
   target: Group
   duration: '-'
-  effect: End any spell effect on the target as if its duration had ended.
+  effect: End any Spell effect on the target as if its duration had ended.

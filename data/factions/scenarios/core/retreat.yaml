@@ -9,10 +9,13 @@ firstTurn: |
 
   After deciding, the defender must immediately make a resilience test for every group they deployed;
   for each test is failed, that Group starts play shaken.
-victoryConditions: |
-  During the game, defenders may retreat their Groups off of the table (must be from the edge opposite the edge from which they deployed).
+specialRules: |
+  Defenders may voluntarily Move their Groups off the table edge opposite from the one they deployed along.
+  These Groups do not count as having been Routed but have instead Escaped; so do any Groups forced to Retreat off that edge.
+  Groups which Retreat off any other edge do count as Routed.
+closingConditions: |
   Play ends immediately when either side has no Groups remaining in play.
 
-  Defenders gain 3VP for each of their Groups that escape.
+  Defenders gain 3VP for each of their Groups that Escape.
 
-  Attackers gain 2VP for every enemy Group routed or destroyed—they gain 4VP instead if the enemy Captain’s Group is routed or destroyed.
+  Attackers gain 2VP for every enemy Group Routed—they gain 4VP for each enemy Captain’s Group Routed.

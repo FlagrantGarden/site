@@ -7,14 +7,13 @@ deployment: |
 firstTurn: |
   The attackers may choose to go first or let the defenders go first.
 specialRules: |
-  The defender group bodyguarding the ritualists may not move.
-  If they would be forced to retreat by losing a melee or becoming shaken, they lose 1R instead.
+  The defender Group bodyguarding the ritualists may not Move.
+  If they would be forced to Retreat, they lose 1R instead.
 
-  At the beginning of each of the defender’s turns, roll 2d6—
-  if the result is less than the current turn number, the ritual has been completed.
-victoryConditions: |
-  Play ends when the ritual is completed or the bodyguard group is destroyed.
+  At the beginning of each of the defender’s turns, roll 2d6—if the result is less than the current turn number, the ritual has been completed.
+closingConditions: |
+  Play ends when the ritual is completed or the bodyguard Group is Routed.
 
-  The defenders gain 6VP if the ritual is completed, and 1VP for each enemy group routed or destroyed.
+  The defenders gain 6VP if the ritual is completed, and 1VP for each enemy Group Routed.
 
-  The attackers gain 4VP if the bodyguard group is destroyed.
+  The attackers gain 4VP if the bodyguard Group is Routed.

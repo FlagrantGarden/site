@@ -1,8 +1,8 @@
 name: Freelance Company
 description: |
-  A mercenary company led by an experienced knight, featuring hardy folk seeking fame and fortune.
+  Veteran soldiers cut loose from the powers that bound them, seeking meaning and resources in a bloody world.
 groups:
-  - name: Captain & Lancers
+  - name: "*Lancers*"
     profile: Elite Cavalry
     cost: 10
     me: 5+ / 3+ / 5+
@@ -11,32 +11,10 @@ groups:
     r: 6 / 3+
     t: 4
     traits:
-      - Reckless
       - Defiant
-      - Vicious
+      - Reckless
       - Undead-Foe
-  - name: Shieldkin
-    profile: Heavy Foot
-    cost: 5
-    me: 5+ / 3+ / 4+
-    mo: 5+ / 6"
-    mi: "- / - / -"
-    r: 12 / 4+
-    t: 3
-    traits:
-      - Defensive
-      - Well-Armed
-  - name: Shieldkin
-    profile: Heavy Foot
-    cost: 5
-    me: 5+ / 3+ / 4+
-    mo: 5+ / 6"
-    mi: "- / - / -"
-    r: 12 / 4+
-    t: 3
-    traits:
-      - Defensive
-      - Well-Armed
+      - Vicious
   - name: Mounted Crossbows
     profile: Light Cavalry
     cost: 4
@@ -45,3 +23,25 @@ groups:
     mi: 6+ / 5+ / 12"
     r: 6 / 4+
     t: 3
+  - name: Shieldkin
+    profile: Heavy Foot
+    cost: 5
+    me: 6+ / 5+ / 4+
+    mo: 5+ / 6"
+    mi: "- / - / -"
+    r: 12 / 4+
+    t: 3
+    traits:
+      - Defensive
+      - Well-Armed
+  - name: Shieldkin
+    profile: Heavy Foot
+    cost: 5
+    me: 6+ / 5+ / 4+
+    mo: 5+ / 6"
+    mi: "- / - / -"
+    r: 12 / 4+
+    t: 3
+    traits:
+      - Defensive
+      - Well-Armed
