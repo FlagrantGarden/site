@@ -19,7 +19,7 @@ weight: 10
 bookComments: true
 ---
 
-Thinking about play in [_Flagrant Factions_](/docs/factions) it occurred to me that it would be useful to add automated procedures for playing solo or even just relegating one of multiple companies to automated activations for more complex scenarios.
+Thinking about play in [_Flagrant Factions_]({{< ref "/docs/factions" >}}) it occurred to me that it would be useful to add automated procedures for playing solo or even just relegating one of multiple companies to automated activations for more complex scenarios.
 
 The [onepagerules](https://onepagerules.com/) wargames include some fairly detailed automated processes for solo play and [Richard Cowen wrote some interesting procedures](https://richardcowen.wordpress.com/2020/04/12/wargaming-dragon-rampant-solo-rampant/) for [Dragon Rampant](https://ospreypublishing.com/dragon-rampant).
 This post takes some inspiration from both.
@@ -45,7 +45,7 @@ I believe in you.
 
 ### Traits
 
-Most traits, [captain](/docs/factions/rules/#captains) and [otherwise](/docs/factions/rules/#profile-traits), work fine regardless of whether the Group is automated or player-run.
+Most traits, [captain]({{< ref "/docs/factions/rules#captains" >}}) and [otherwise]({{< ref "/docs/factions/rules#profile-traits" >}}), work fine regardless of whether the Group is automated or player-run.
 Where the traits would be triggered by choice, unless otherwise specified, roll a d6: on a 4+, the trait is triggered.
 
 ### Personalities
@@ -61,7 +61,7 @@ Companies using automated procedures can have a Personality; this impacts the de
 
 ### Initiative
 
-[As usual](/docs/factions/rules/#setup), initiative is a 1d6 roll off, with some preferences:
+[As usual]({{< ref "/docs/factions/rules#setup" >}}), initiative is a 1d6 roll off, with some preferences:
 
 - Bold and Ferocious Companies will prefer to be on the offensive
 - Cuatious and Guarded Companies will prefer to be on the defensive
@@ -94,7 +94,7 @@ Unless otherwise specified, follow this process:
 
 ### Ambitions
 
-Automated Companies may have [Ambitions](/docs/factions/rules/#ambitions).
+Automated Companies may have [Ambitions]({{< ref "/docs/factions/rules#ambitions" >}}).
 For each Ambition listed for the Personality, roll a d6: on a 4+, they are choosing that Ambition.
 Automated Company Ambitions always count as revealed.
 
@@ -107,7 +107,7 @@ Automated Company Ambitions always count as revealed.
 
 ## Automated Turns
 
-Automated Companies [start their turn as normal](/docs/factions/rules/#activation-phase), rallying Shaken Groups and then testing for Reckless Groups.
+Automated Companies [start their turn as normal]({{< ref "/docs/factions/rules#activation-phase" >}}), rallying Shaken Groups and then testing for Reckless Groups.
 
 When activating individual Groups, unless specified, they follow this process:
 
