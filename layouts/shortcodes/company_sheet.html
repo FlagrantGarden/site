@@ -75,6 +75,7 @@
       Edit Company
     </button>
     <button type="button" onclick="saveCompany(this)" data-company-uuid="">Save Company</button>
+    <button type="button" onclick="openDialog(this)" data-dialog-name="swapCompany">Swap Company</button>
     <button type="button" onclick="openExportCompanyDialog()" disabled>Export Company</button>
     <button type="button" onclick="openImportCompanyDialog()" disabled>Import Company</button>
   </menu>
@@ -104,7 +105,20 @@
       </fieldset>
       <menu>
         <button type="button" data-cancel-name="editCompany" onclick="cancelDialogForm(this)">Cancel</button>
-        <input type="submit" value="Confirm">
+
+      </menu>
+    </form>
+  </dialog>
+
+  <dialog data-dialog-name="swapCompany">
+    <form method="dialog" data-form-name="swapCompany">
+      <select>
+        <option>New Company</option>
+        <option>Existing Company</option>
+      </select>
+      <menu>
+        <button type="button" data-cancel-name="swapCompany" onclick="cancelDialogForm(this)">Cancel</button>
+        <input type="submit" value="Swap to Company">
       </menu>
     </form>
   </dialog>
