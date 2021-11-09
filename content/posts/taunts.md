@@ -19,7 +19,7 @@ weight: 10
 bookComments: true
 ---
 
-So in discussions with [Sean Richer](https://twitter.com/HypatiasAngst) earlier, we chatted about some ideas for subsystems and things to play around with on top of the base [Flagrant Factions rules](/docs/factions/rules).
+So in discussions with [Sean Richer](https://twitter.com/HypatiasAngst) earlier, we chatted about some ideas for subsystems and things to play around with on top of the base [Flagrant Factions rules](/games/factions/rules).
 I'll save Sean's own ideas for him to chat more about (but I am HYPED for what he's cooking) and instead talk a little bit about Taunts, which grew out of our chat.
 
 As written, Flagrant Factions has groups with a profile (base numbers for movement/actions) and traits (which modify base assumptions); it also has captains (who have special traits) and it has ambitions (which are things to do in play to earn additional victory points outside of whatever the scenario says).
@@ -39,7 +39,7 @@ the sort of taunt any group might make.
 
 But there's a second type of taunt I think is _even more_ interesting, which is specific to a group or company.
 
-For example, some taunts for the [Necromancer's Legion](/docs/factions/companies#Necromancers-Legion):
+For example, some taunts for the [Necromancer's Legion](/games/factions/companies#Necromancers-Legion):
 
 > **You will join our ranks!**--Taunting group of skeletal warriors must attack whomever they are taunting and may not stop doing so until the group is reduced to 0R or escapes off the map; if they fail to do so, gain the Reckless trait against all living groups and lose the defensive trait
 >

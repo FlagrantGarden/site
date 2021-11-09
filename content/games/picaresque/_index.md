@@ -4,7 +4,7 @@ description: "A Flagrant Factions Supplement for Adventuring"
 weight: 10
 ---
 
-_Flagrant Picaresque_ is a supplement for [_Flagrant Factions_](/docs/factions) which rotates the lens of play to focus on adventures by small groups of powerful, possibly even heroic, figures.
+_Flagrant Picaresque_ is a supplement for [_Flagrant Factions_](/games/factions) which rotates the lens of play to focus on adventures by small groups of powerful, possibly even heroic, figures.
 
 In _Flagrant Picaresque_, two or more players take on the role of singular Adventurers embroiled in a Picaresque. The role of referee--the person who facillitates a Picaresque--can be filled by a player at the table or relegated to Procedural Operations as a sort of artificial intelligence.
 

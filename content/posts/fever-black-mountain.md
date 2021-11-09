@@ -19,7 +19,7 @@ weight: 10
 bookComments: true
 ---
 
-This short post is an experimental sample adventure for [Flagrant Picaresque](/docs/picaresque) which builds on top of [Nate Treme](https://twitter.com/natetreme)'s [_Fever Black Mountain_](https://natetreme.itch.io/feverblackmountain) - a short dungeon I strongly suggest you pick up and read!
+This short post is an experimental sample adventure for [Flagrant Picaresque](/games/picaresque) which builds on top of [Nate Treme](https://twitter.com/natetreme)'s [_Fever Black Mountain_](https://natetreme.itch.io/feverblackmountain) - a short dungeon I strongly suggest you pick up and read!
 
 ## General Notes
 
