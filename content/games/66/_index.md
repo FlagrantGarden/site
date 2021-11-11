@@ -1,6 +1,7 @@
 ---
 title: "Flagrant66"
 description: "A d66 engine for attribute & domain games"
+bookCollapseSection: true
 weight: 10
 ---
 
