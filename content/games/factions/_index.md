@@ -1,6 +1,7 @@
 ---
 title: "Flagrant Factions"
 description: "A Fantastic Skirmish Wargame"
+bookCollapseSection: true
 weight: 10
 ---
 

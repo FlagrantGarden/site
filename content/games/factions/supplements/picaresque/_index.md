@@ -1,6 +1,7 @@
 ---
 title: "Flagrant Picaresque"
 description: "A Flagrant Factions Supplement for Adventuring"
+bookCollapseSection: true
 weight: 10
 ---
 
