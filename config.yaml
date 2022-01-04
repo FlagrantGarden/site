@@ -49,13 +49,19 @@ languages:
     weight: 3
 
 menu:
-  # after: []
+  after:
+    - name: Available Cultivars
+      url: /cultivars
+      weight: 10
   before:
     - name: "Cultivate Flagrantly"
       url: "/cultivation"
       weight: 10
 
 params:
+  description: A nursery for narrative play.
+  images:
+    - /images/site-feature-image.png
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme: "auto"
