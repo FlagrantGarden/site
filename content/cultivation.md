@@ -15,12 +15,11 @@ Default where possible to permissive licensing and actively encourage people to 
 ## Release (Mechanisms) As Early As Possible
 
 Don’t wait until some new subsystem or alternate rule or remix is fully baked, tested, and perfected before you share it out.
-Slam your ideas into a plaintext doc, web page, or basic PDF and throw that shit up with the tags right away.
-Nothing has to be connected or thematically sound or even something you plan to use in a game--
-if an idea comes to you, get it out there asap.
+Slam your ideas into a plaintext doc, web page, or basic PDF and throw that shit up right away.
+Nothing has to be connected or thematically sound or even something you plan to use in a game--if an idea comes to you, get it out there asap.
 What doesn’t exist can’t be kitbashed or iterated on or inspire anyone.
 
-## Iterate and Acceletate Collaboration
+## Iterate and Accelerate Collaboration
 
 If you see some cool shit, hype it up.
 Talk about it.
@@ -33,13 +32,14 @@ Foster an attitude of collaboration and iteration instead of always building fro
 ## Build Out, Not Up
 
 Developing small pieces of rules and mods and subsystems and publishing them early and often and releasing them with permissible licensing means more people can adopt, mod, and build more cool shit more quickly.
+Write content for your thing or any thing, scrawl adventures and supplements and hooks and whatever incites you to _make_.
 The point isn’t to build One Perfect System and align behind it, it’s to plant a thousand gardens and loose a thousand gardeners to cultivate cool shit.
 
 ## Fuck Hierarchies
 
-Be suspicious of anyone claiming to own these ideas and practices or make themselves synonymous with this or any others.
-Build infrastructure to help the community grow and change and publish cool shit.
-Provide mutual aid wherever possible - with cash, support, words, labor, whatever you’ve got.
+Be suspicious of anyone claiming to own these or any ideas and practices or make themselves synonymous with them.
+Build infrastructure to help the scene grow and change and publish cool shit.
+Provide mutual aid wherever possible--with cash, support, words, labor, whatever you’ve got.
 When you find fortresses in the scene, breach them and break the fucking gates.
 Seek to empower and raise the folks around you, make their names bigger than yours.
 If you find a bigoted or fascist or abusive motherfucker, push them out of the spaces you occupy and repudiate their shit.
