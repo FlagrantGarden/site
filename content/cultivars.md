@@ -12,9 +12,9 @@ You can buy any or all of them and/or check out the rest of the creators' works.
 
 ### Adventures and Settings
 
-<iframe frameborder="0" src="https://itch.io/embed/1299168" width="552" height="167"><a href="https://loottheroom.itch.io/reivdene%22%3EReivdene-Upon-The-Moss by Chris Bissette</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1299168" width="552" height="167"></iframe>
 
-<iframe frameborder="0" src="https://itch.io/embed/1175581" width="552"height="167"><a href="https://lukegearing.itch.io/wolves-upon-the-coast-grand-campaign"></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1175581" width="552"height="167"></iframe>
 
 ## Primary Texts ("Games")
 
