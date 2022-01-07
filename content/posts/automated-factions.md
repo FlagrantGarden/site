@@ -13,7 +13,7 @@ tags:
 weight: 10
 bookComments: true
 ---
-Thinking about play in [*Flagrant Factions*]({{/games/factions) it occurred to me that it would be useful to add automated procedures for playing solo or even just relegating one of multiple companies to automated activations for more complex scenarios.
+Thinking about play in [*Flagrant Factions*](/games/factions) it occurred to me that it would be useful to add automated procedures for playing solo or even just relegating one of multiple companies to automated activations for more complex scenarios.
 
 The [onepagerules](https://onepagerules.com/) wargames include some fairly detailed automated processes for solo play and [Richard Cowen wrote some interesting procedures](https://richardcowen.wordpress.com/2020/04/12/wargaming-dragon-rampant-solo-rampant/) for [Dragon Rampant](https://ospreypublishing.com/dragon-rampant).
 This post takes some inspiration from both.
