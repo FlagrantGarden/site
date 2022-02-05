@@ -14,6 +14,10 @@ weight: 10
 bookComments: true
 ---
 
+> You can see the video version of this done off-the-cuff here:
+
+{{< youtube gYvXXRGul_c >}}
+
 This is a sentence.
 Maybe I should really write this blog?
 
@@ -34,5 +38,3 @@ Maybe I should really write this blog?
 > Blockquote
 
 ### A sub header
-
-{{< youtube gYvXXRGul_c >}}
