@@ -3,7 +3,7 @@
 baseURL: https://flagrant.garden/
 title: Flagrant Garden
 # Google Analytics: uncomment and replace with your own code if you want to use this
-googleAnalytics: UA-207396449-1
+# googleAnalytics: UA-207396449-1
 disqusShortname: flagrantgarden
 
 module:
@@ -11,7 +11,9 @@ module:
   # Only used in local testing; make sure to override the path to your own local copy
   # replacements: 'github.com/platenio/hugo-platen -> C:\code\platen\themes\platen'
   # replacements: 'github.com/platenio/hugo-platen-netlify -> C:\code\platen\hugo-platen-netlify'
+  # replacements: 'github.com/platenio/hugo-toroidal -> C:\code\platen\modules\hugo-toroidal'
   imports:
+    - path: github.com/platenio/hugo-toroidal
     - path: github.com/platenio/hugo-platen-netlify
     - path: github.com/platenio/hugo-platen
     - path: github.com/alex-shpak/hugo-book
@@ -131,3 +133,12 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly: false
+
+  Platen:
+    Toroidal:
+      MenuWebRing: "Circle of Gardeners"
+
+  Toroidal:
+    WebringName: Gardener's Circle
+    RandomMemberLink: true
+    Theme: auto

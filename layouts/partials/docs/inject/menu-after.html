@@ -1,0 +1,62 @@
+{{- with .Site.Params.Platen.Toroidal.MenuWebRing -}}
+<nav aria-labelledby="toroidal-menu-label" id="toroidal-member-nav">
+  <ul role="menu" id="toroidal-menu" aria-label="Gardener&#39;s Circle">
+    <header>
+      <h4>Gardener's Circle</h4>
+    </header>
+    <li role="none">
+      <a
+        role="menuitem"
+        aria-haspopup="false"
+        target="_parent"
+        href="https://fourth-member.com"
+        >Previous</a
+      >
+    </li>
+    <li role="none">
+      <a
+        role="menuitem"
+        aria-haspopup="false"
+        target="_parent"
+        href="http://localhost:1313/toroidal/"
+        >Member List</a
+      >
+    </li>
+    <li role="none">
+      <a
+        role="menuitem"
+        aria-haspopup="false"
+        target="_parent"
+        onclick="this.href=getRandomMemberPage()"
+        href="/RandomMember"
+        >Random</a
+      >
+    </li>
+    <li role="none">
+      <a
+        role="menuitem"
+        aria-haspopup="false"
+        target="_parent"
+        href="https://second-member.com"
+        >Next</a
+      >
+    </li>
+  </ul>
+  <footer>
+    <script type="text/javascript">
+      var memberPages = [
+        "https://firstmember.com",
+        "https://second-member.com",
+        "https://third-member.com",
+        "https://fourth-member.com",
+      ];
+      function getRandomMemberPage() {
+        return memberPages[Math.floor(Math.random() * memberPages.length)];
+      }
+      function goToRandomMemberPage() {
+        window.open(getRandomMemberPage(), "_blank");
+      }
+    </script>
+  </footer>
+</nav>
+{{- end -}}
