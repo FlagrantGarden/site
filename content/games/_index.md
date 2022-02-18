@@ -1,6 +1,6 @@
 ---
-title: "Florp"
-description: "A d66 engine for attribute & domain games"
+title: "Games"
+description: "Tools to help players flourish"
 bookFlatSection: true
 weight: 10
 ---
