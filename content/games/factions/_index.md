@@ -16,15 +16,27 @@ Play normally takes 30-45m for a single skirmish and works for fantasy, historic
 
 This text is open and free and always will be.
 
+<!-- Leaving the pitch text above in for now -->
+
+## Introduction
+
+This skirmish wargame is intended to:
+
++ Be used with whatever models you have on hand, in any world you choose.
++ Play out conflicts between factions on a scale of dozens (but not hundreds) of individuals.
++ Lean into scenario-based and narrative play, rather than pitched battles.
++ Explicitly support kitbashing, hacking, reuse, and modularizing.
+
 ## Requirements for Play
 
-To play this game you will need:
+To play this game, you need:
 
-* These rules.
-* Two or more players.
-* A list of Groups and their profiles.
-* Models (paper, plastic, pewter, or otherwise)—probably no more than 60 to a side.
-* Six-sided dice. More is better—you’ll be rolling 2, 3, 6, or 12 of them at a time.
-* A way to measure distance (a tape measure or ruler is probably best but a knotted string works, too).
-* A table to play on. 6’x4’ is a good area for 24-point companies. Terrain, drawn or modeled, is also useful.
-* Something to keep notes with.
++ These rules.
++ Two or more players.
++ A list of Groups and their profiles.
++ Models (paper, plastic, pewter, or otherwise), probably no more than 60 to a side.
++ Six-sided dice. More is better—you’ll often roll 2, 3, 6, or 12 of them at a time.
++ A way to measure distance (a tape measure or ruler is probably best, but a knotted string works, too).
++ A table to play on. 5’ x 3’ is a good size for 24-point companies.
+  Terrain, drawn or modeled, is also useful.
++ Paper and pencil.
