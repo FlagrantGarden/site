@@ -246,6 +246,23 @@ Well-Armed (1)
 |  Fortify   |  7+   |  18”  |    Another Group    | Until the start of your next turn. | Target may force enemies to reroll any number of to-hit dice once against them. |
 |  Counter   |  8+   |  18”  |        Group        |                 -                  | End any Spell effect on the target as if its duration ended.                    |
 
+#### Taunts
+
+| Taunt                          | Check | Requirements                                      | Effect                                                                                                                                                                                            |
+| :----------------------------- | :---: | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Come and Die!                  |  6+   | -                                                 | This Group cannot Move or Retreat (-1 FS instead if they would be forced to do so). All enemy Groups have the Reckless trait against this Group.                                                  |
+| We Are Unbreakable!            |  6+   | -                                                 | This Group rolls 3d6 and keeps the highest two dice when testing Resolve. On failure, they immediately Rout instead.                                                                              |
+| We Leave No Friend Behind!     |  6+   | Must be within 6" of friendly Group.              | While within 6" of a friendly Group, this Group may reroll any dice. This Group loses 1d6 FS whenever a friendly Group within 6" Routs.                                                           |
+| We Never Miss a Shot!          |  6+   | Groups with an MI profile only.                   | When activating to Shoot, this Group must Shoot the farthest enemy Group in range (if any). This Group may reroll any misses when Shooting.                                                       |
+| We'll Never Taste Your Blades! |  6+   | -                                                 | When attacking, this Group has +1 T and +1 on to-hit rolls. Hits against this Group always count twice.                                                                                           |
+| You'll Die with Us!            |  6+   | Must be Bloodied.                                 | -1 T. When Attacked, this Group inflicts one hit against their attackers for each hit they take.                                                                                                  |
+| There Can Be Only One!         |  7+   | -                                                 | Pick an enemy Group. This Group must activate to Attack or Move toward the chosen Group. When Attacking the chosen Group, this Group gains +1 T, and treats their MO as double its written value. |
+| We'll Fight in the Shade!      |  7+   | -                                                 | This Group has +1 T when an enemy Shoots them. They have the Reckless trait against all enemy Groups with an MI profile.                                                                          |
+| You'll Never Take Us Alive!    |  7+   | -                                                 | This Group cannot Retreat (-1 FS instead if they would be forced to do so). They have +1 on to-hit rolls when Attacking or being Attacked.                                                        |
+| For the Captain!               |  8+   | Must be within 12" of Captain.                    | While within 12" of Captain, this Group rerolls all failed Activations. Otherwise, they reroll all successful activations and Resolve tests.                                                      |
+| We'll Run You Down!            |  8+   | Groups with an MO of 8" or more only.             | This Group gains the Reckless trait, +2" MO, and may only activate to Attack or Move.                                                                                                             |
+| Your Magic is Laughable!       |  8+   | Groups with the Apprentice or Caster traits only. | When an enemy activates to Cast at them, this Group may force the enemy to reroll the activation. Any spell which still succeeds is twice as effective.                                           |
+
 ## Ambitions
 
 During setup, players may secretly choose any number of different ambitions to fulfill during the skirmish.
@@ -330,7 +347,7 @@ At the beginning of each turn:
 1. Choose a Group to activate.
    You may not choose a group that checked for Reckless or attempted to Rally this turn.
    Each Group may activate only once each turn.
-1. Assign a valid order to the chosen Group (Move, Shoot, Attack, or any available special orders like Cast or Summon).
+1. Assign a valid order to the chosen Group (Move, Shoot, Attack, Proclaim, Retreat, or any available special orders like Cast or Summon).
 1. Roll 2d6, attempting to meet or exceed the Group’s minimum activation result for their given order.
    On a success, the Group performs the chosen order.
 1. If the Group failed their activation test, end your side’s turn and the next side’s turn begins.
@@ -373,6 +390,13 @@ To Attack:
    Each die that shows a result equal to or higher than the Group’s ME value for attacking or defending as appropriate is a hit.
    Shaken Groups only hit on a 6.
    For each number of hits equal to the enemy’s T, reduce the enemy’s FS by 1.
+
+#### Proclaim
+
+A Group may activate to Proclaim a taunt, potentially introducing a new special rule affecting them for the remainder of the skirmish.
+To Proclaim, the Group must activate with a roll that meets or exceeds the Check value of the specific Taunt they wish to Proclaim. On a successful activation, the Group gains the effects of the chosen Taunt for the remainder of the skirmish.
+
+A Group may Proclaim any number of taunts during a skirmish.
 
 #### Retreat
 
