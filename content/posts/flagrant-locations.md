@@ -19,7 +19,7 @@ weight: 10
 bookComments: true
 ---
 
-So, as usual, I've been talk to [Sean Richer](https://twitter.com/HypatiasAngst) [again]({{< ref "/posts/taunts" >}}), who is a wellspring of incredible ideas and work.
+So, as usual, I've been talk to [Sean Richer](https://twitter.com/HypatiasAngst) [again]({{% ref "/posts/taunts" %}}), who is a wellspring of incredible ideas and work.
 He struck upon a phenomenal idea I think worth sharing and maybe straight up incorporating into _Flagrant Factions_ at its core: _Locations_.
 
 As written, FF assumes you're playing a fairly narrative game, leaning on scenarios and ambitions to change how every skirmish plays out, even if you're using the same two Companies over and over.
