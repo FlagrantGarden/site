@@ -25,3 +25,94 @@ div.book-menu-content nav > ul:not([class^="book"]) {
   // margin-bottom: 1em;
   margin-top: 2.5em;
 }
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  dt {
+    width: 10%;
+    margin-top: 0 !important;
+    margin-bottom: 1em;
+  }
+  dd {
+    margin-left: auto;
+    width: 90%;
+    padding: 0;
+    padding-left: 1em;
+    margin-bottom: 0;
+    align-self: center;
+  }
+}
+
+dl.dt-5 {
+  > dt {
+    width: 5%
+  }
+  > dd {
+    width: 95%
+  }
+}
+
+dl.dt-10 {
+  > dt {
+    width: 10%
+  }
+  > dd {
+    width: 90%
+  }
+}
+
+dl.dt-15 {
+  > dt {
+    width: 15%
+  }
+  > dd {
+    width: 85%
+  }
+}
+
+dl.dt-20 {
+  > dt {
+    width: 20%
+  }
+  > dd {
+    width: 80%
+  }
+}
+
+dl.dt-25 {
+  > dt {
+    width: 25%
+  }
+  > dd {
+    width: 75%
+  }
+}
+
+dl.dt-30 {
+  > dt {
+    width: 30%
+  }
+  > dd {
+    width: 70%
+  }
+}
+
+dl.dt-35 {
+  > dt {
+    width: 35%
+  }
+  > dd {
+    width: 65%
+  }
+}
+
+dl.dt-flat {
+  > dt, > dd {
+    width: 100%
+  }
+}
+
+details {
+  margin-bottom: 1em;
+}
