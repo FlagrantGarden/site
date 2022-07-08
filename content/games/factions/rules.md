@@ -288,14 +288,15 @@ Optionally, players may reveal any of their chosen ambitions before the first tu
 ### Setup
 
 1. Choose point total for each side (typically 24), and construct Companies.
+1. Roll or choose a location.
 1. Set up terrain.
 1. Roll or choose a scenario.
 1. Roll for Captain’s trait (or keep existing trait if using an established character).
 1. Players arrange themselves into two sides, as evenly as possible.
    Each side rolls 1d6 to determine which side will be attackers and which will be defenders: the higher result is the attacker.
    Reroll ties.
-   Unless otherwise specified in the scenario, the attackers are the active side in the first turn.
-1. Deploy companies according to the scenario guidelines.
+   Unless otherwise specified in the location or scenario, the attackers are the active side in the first turn.
+1. Deploy companies according to the location and scenario guidelines.
 1. Choose ambitions.
 1. The active side takes their turn.
 
@@ -466,4 +467,4 @@ While the Captain’s Group is Shaken, none of their special rules affect play.
 
 ### End of Game
 
-When the chosen scenario’s closing conditions are met, total VP according to the scenario guidelines.
+When the chosen scenario’s closing conditions are met, total VP according to the scenario and location guidelines.
