@@ -1,0 +1,4 @@
+{
+  "reflowMarkdown.preferredLineLength": 100,
+  "editor.rulers": [76, 80, 96, 100]
+}
