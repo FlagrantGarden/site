@@ -1,0 +1,8 @@
+extends: capitalization
+message: "'%s' should use title-style capitalization."
+level: suggestion
+scope: heading
+match: $title
+exceptions:
+  - "."
+  - ":"

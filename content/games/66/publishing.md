@@ -16,12 +16,13 @@ This term comes from the [Tech Jam](https://itch.io/jam/tech-jam) hosted by the 
 
 ## Suggested Practices
 
-Share rules modules distinct from any playkit they were intended for--publishing them alongside the playkit in an SRD-like format is good, but publishing them as soon as possible as their own thing is better.
+Share rules modules distinct from any playkit they were intended for. Publishing them alongside the playkit in an SRD-like format is good, but publishing them as soon as possible as their own thing is better.
 
-Publishing to PDF is necessary for most folks, but please also consider publishing to a web page, epub, or other accessible format as well. Drop a line if you want your work linked on this site.
+Publishing to PDF is necessary for most folks, but please also consider publishing to a web page, EPUB, or other accessible format as well. Drop a line if you want your work linked on this site.
 
 ### Use tags on Itch
 
-+ Anything tagged flagrant66 will become a part of a broader grassroots library.
-+ Tag with the license you’re using - `CCBY`, `CC0`, `OGL`, `NoLaywers`, whatever you’re using.
-+ If you're writing a tech pack, please also use the `#techpack` tag if your work is licensed `CCBY` or `CC0`--this will allow your work to be included in _that_ broader library too!
+- Anything tagged flagrant66 will become a part of a broader grassroots library.
+- Tag with the license you’re using - `CCBY`, `CC0`, `OGL`, `NoLaywers`, whatever you’re using.
+- If you're writing a tech pack, please also use the `#techpack` tag if you licensed your work as
+  `CCBY` or `CC0`--this allows us to include your work in _that_ broader library too!

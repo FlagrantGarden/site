@@ -3,13 +3,15 @@ title: Loot the Room
 description: Small games for big people
 ---
 
+<!-- vale off -->
+
 > I'm a musician, writer, and game designer from Manchester, UK. I'm interested in stories and the ways in which we tell them, and in breaking down formal narrative structures and rebuilding them so we can tell stories in ways they've never been told before.
 >
 > ~ Chris Bissette
 
 ## Where to Find
 
-You can find all of Chris Bissette's phenomenal work at:
+You can find all Chris Bissette's phenomenal work at:
 
 - [The Loot the Room Website](https://loottheroom.uk),
 - [On Itch](https://loottheroom.itch.io),

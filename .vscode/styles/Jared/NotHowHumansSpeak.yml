@@ -1,0 +1,12 @@
+extends: existence
+message: "You're presumably a human. Humans don't say '%s.'"
+# link:
+nonword: true
+ignorecase: true
+level: suggestion
+tokens:
+  - utilize
+  - via
+  - so as
+  - ^(?!any.+)(\bwhich\b)
+  - try and

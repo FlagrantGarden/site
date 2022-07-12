@@ -1,0 +1,20 @@
+extends: existence
+message: "Just say what does or doesn't happen."
+# link:
+scope: sentence
+nonword: true
+ignorecase: true
+level: suggestion
+tokens:
+  - in order to
+  - (\b(begin(s|ning)?)\b)(?! with)
+  - \b(will)\b
+  - (?<!you )(\b(may)\b)(?! (agree|not|.+(if|to|when|during)))
+  - often
+  - (?<!(may) )attempts(?! to( \w+)+ until)
+  - (?<!(may( only)?) )attempt[^s]
+  - \b(seem)\b
+  - somewhat
+  - (some(?! number))
+  - apparently
+  - \b(can)\b

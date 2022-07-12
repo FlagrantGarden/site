@@ -1,0 +1,8 @@
+extends: substitution
+message: "Say '%s' instead. '%s' is redundant."
+# link:
+nonword: true
+level: warning
+swap:
+  or else: or
+  and also: and

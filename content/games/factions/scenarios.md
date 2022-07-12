@@ -4,6 +4,9 @@ description: "Sample scenarios for Flagrant Factions"
 weight: 20
 ---
 
+<!-- vale Flagrant.Headings = NO -->
+<!-- markdownlint-disable no-duplicate-heading -->
+
 Each scenario describes how to deploy Companies, who takes the first turn, and its conclusion conditions.
 Some scenarios also have special rules that govern them.
 
@@ -85,6 +88,7 @@ Defenders then place 6 Asset Tokens (representing barrels of wine, prize cattle,
 ### First Turn
 
 Attackers may choose to go first or allow the defenders to go first.
+
 ### Special Rules
 
 Any defending Group may attempt to activate on a 6+ to bring a not-yet-deployed Group into play within 4”.
@@ -166,4 +170,3 @@ At the beginning of each of the defender’s turns, roll 2d6—if the result is 
 Play ends when the ritual is completed or the bodyguard Group is Routed.
 The defenders gain 6 VP if the ritual is completed, and 1 VP for each enemy Group Routed.
 The attackers gain 4 VP if the bodyguard Group is Routed.
-

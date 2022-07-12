@@ -1,0 +1,13 @@
+[kK]itbash(ing|able)?
+[pP]icaresque(s)?
+[pP]laintext
+[pP]laykit(s)?
+[rR]epurpos(e|ed|ing)
+[rR]eroll(s|ing|ed)?
+[sS]hitbird(s)?
+[tT]hemsel(f|ves)
+[wW]argam(e|es|ing|er|ers|ed)
+Bissette
+EPUB
+Flagrant66
+SRD

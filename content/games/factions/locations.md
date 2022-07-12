@@ -4,6 +4,9 @@ description: "Sample locations for Flagrant Factions"
 weight: 15
 ---
 
+<!-- vale Flagrant.Headings = NO -->
+<!-- markdownlint-disable no-duplicate-heading -->
+
 Each location describes a different place where a skirmish may take place. Locations modify a
 skirmish's setup, and add special skirmish-specific rules.
 
@@ -281,7 +284,7 @@ Well-Armed (1)
 
 ## 4. Minotaur's Maze
 
-> _Seemless stone tunnels, winding and meandering. Sharp turns and dead ends, plazas plated in_
+> _Seamless stone tunnels, winding and meandering. Sharp turns and dead ends, plazas plated in_
 > _bronze, shimmering in firelight._
 
 ### Setup

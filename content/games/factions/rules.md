@@ -25,8 +25,12 @@ The distances listed in these rules assume 28mm models, so you may want to modif
 
 ### Fighting Strength
 
+<!-- vale Flagrant.Passive = NO -->
+
 A Group’s ability to fight is defined by their current Fighting Strength (FS).
 FS starts at 6 or 12.
+
+<!-- vale Flagrant.Passive = YES  -->
 
 The current FS of a Group is open information.
 
@@ -248,6 +252,8 @@ Well-Armed (1)
 
 #### Taunts
 
+<!-- vale Contractions.Use = NO -->
+
 | Taunt                          | Check | Requirements                                      | Effect                                                                                                                                                                                            |
 | :----------------------------- | :---: | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Come and Die!                  |  6+   | -                                                 | This Group cannot Move or Retreat (-1 FS instead if they would be forced to do so). All enemy Groups have the Reckless trait against this Group.                                                  |
@@ -262,6 +268,8 @@ Well-Armed (1)
 | For the Captain!               |  8+   | Must be within 12" of Captain.                    | While within 12" of Captain, this Group rerolls all failed Activations. Otherwise, they reroll all successful activations and Resolve tests.                                                      |
 | We'll Run You Down!            |  8+   | Groups with an MO of 8" or more only.             | This Group gains the Reckless trait, +2" MO, and may only activate to Attack or Move.                                                                                                             |
 | Your Magic is Laughable!       |  8+   | Groups with the Apprentice or Caster traits only. | When an enemy activates to Cast at them, this Group may force the enemy to reroll the activation. Any spell which still succeeds is twice as effective.                                           |
+
+<!-- vale Contractions.Use = YES -->
 
 ## Ambitions
 
@@ -411,7 +419,7 @@ If the roll is lower than their current FS, they lose FS equal to the roll and s
 
 If any member of a Group goes off of the table while Retreating, the entire Group Routs.
 
-### Special Orders
+### Special Orders Are Given
 
 #### Cast
 

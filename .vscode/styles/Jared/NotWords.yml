@@ -1,0 +1,20 @@
+extends: existence
+message: "'%s' is not a word."
+# link:
+scope:
+  - sentence
+nonword: true
+level: warning
+tokens:
+  # - /
+  # FF specific, maybe?
+  # This will not match '/' for:
+  #   5 /
+  #   5+ /
+  # But will match:
+  #   and/or
+  #   and / or
+  - (?>!\d+\+?\s)/
+  - \&
+exceptions:
+  - '\d+\+? / \d+\+?'

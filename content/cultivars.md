@@ -5,8 +5,8 @@ description: |
 type: docs
 ---
 
-This page includes a quick list of available texts and projects, flagrantly cultivated.
-You can buy any or all of them and/or check out the rest of the creators' works.
+This page includes a quick list of available texts and projects, flagrantly cultivated. You can buy
+any of them or check out the rest of the creators' works.
 
 ## Supplements
 
