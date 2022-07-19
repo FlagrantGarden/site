@@ -292,12 +292,12 @@ Well-Armed (1)
 When placing terrain, build a maze using this procedure:
 
 1. Note that the entire field is impassable terrain unless otherwise noted.
-2. Each side rolls 1d6. The combined total is the number of plazas (a 6" square of open space) that
+1. Each side rolls 1d6. The combined total is the number of plazas (a 6" square of open space) that
    must be placed. Players take turns placing one plaza at a time, starting with the side that
    rolled higher.
-3. Each side rolls 1d6. From highest roll to lowest, players take turns placing an exit (4" wide) on
+1. Each side rolls 1d6. From highest roll to lowest, players take turns placing an exit (4" wide) on
    the edge of the field. No exit may be placed within 12" of another. Exits are normal terrain.
-4. Each side rolls 3d6. The combined total is the number of corridors (a rectangle of normal
+1. Each side rolls 3d6. The combined total is the number of corridors (a rectangle of normal
    terrain, 2" wide and up to 12" long) that must be placed. Players take turns placing one corridor
    at a time, starting with the side that rolled highest. Every corridor must connect to an exit, a
    plaza, or another corridor. By the end of this placement step, every plaza and exit must
