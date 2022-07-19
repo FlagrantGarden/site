@@ -24,5 +24,5 @@ What to do when Adventurers run into Refereed Groups.
 
 ## XP
 
-After every Picaresque, award each Adventurer all of the VP they earned during play as XP and 1XP for surviving.
-Any VP earned as a group are split amongst the contributing Adventurers.
+After every Picaresque, award each Adventurer the VP they earned during play as XP and 1XP for
+surviving. Any VP earned as a group are split amongst the contributing Adventurers.
