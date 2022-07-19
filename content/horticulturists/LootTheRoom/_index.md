@@ -5,7 +5,9 @@ description: Small games for big people
 
 <!-- vale off -->
 
-> I'm a musician, writer, and game designer from Manchester, UK. I'm interested in stories and the ways in which we tell them, and in breaking down formal narrative structures and rebuilding them so we can tell stories in ways they've never been told before.
+> I'm a musician, writer, and game designer from Manchester, UK. I'm interested in stories and the
+> ways in which we tell them, and in breaking down formal narrative structures and rebuilding them
+> so we can tell stories in ways they've never been told before.
 >
 > ~ Chris Bissette
 
@@ -25,7 +27,8 @@ In particular, you might like these projects:
 
 _Our parish is small but growing. We hope you'll find your visit memorable._
 
-**_The Parish of Reivdene-Upon-The-Moss_** is a modular folk horror setting for the adventure game of your choice. It follows the classic 'village with a dark secret' format.
+**_The Parish of Reivdene-Upon-The-Moss_** is a modular folk horror setting for the adventure game
+of your choice. It follows the classic 'village with a dark secret' format.
 
 <--->
 
