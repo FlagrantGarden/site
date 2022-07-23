@@ -13,17 +13,21 @@ and weaknesses. Each Group comprises some number of models.
 
 Each side must:
 
-- Field 2-8 Groups of 1-12 points each, noting their profile to your opponents—the number of models
+- Field 2--8 Groups of 1--12 points each, noting their profile to your opponents—the number of models
   in a Group doesn’t matter.
 - Spend no more than 24 points total for a standard game.
 
 ### Company Scale
+
+<!-- vale Jared.FakeGamerWords = NO -->
 
 Players may agree to scale their Company points up or down from 24 (increments of 6 work well). Both
 sides should use the same number of points to construct their Companies. Consider using smaller
 tables for smaller Company sizes, and larger tables for larger Companies. The distances listed in
 these rules assume 28mm models, so you may want to modify the distance increments if using larger or
 smaller models.
+
+<!-- vale Jared.FakeGamerWords = YES -->
 
 ### Fighting Strength
 
@@ -66,6 +70,8 @@ unless the Captain’s Group is Shaken.
 
 Captains start with one trait (roll or pick one):
 
+<!-- vale Microsoft.Wordiness = NO -->
+
 |  3d6  |       Trait       | Effect                                                                                                                                                        |
 | :---: | :---------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |   3   | **Reprehensible** | After deployment, whether or not the Captain is on the table, roll 1d6 for every Group except the Captain’s. On a 1, they desert—remove that Group from play. |
@@ -84,6 +90,8 @@ Captains start with one trait (roll or pick one):
 |  16   |    **Calming**    | Once each turn, one Group within 12” of the Captain may ignore a compulsory activation as the result of the Reckless trait.                                   |
 |  17   |    **Abjured**    | The Captain’s Group cannot be targeted by enemies’ spells.                                                                                                    |
 |  18   |  **Incredible**   | Once each turn, the Captain’s Group may reroll three dice when rolling to hit.                                                                                |
+
+<!-- vale Microsoft.Wordiness = YES -->
 
 ### Group Profiles
 
@@ -247,7 +255,7 @@ Well-Armed (1)
 |  Confuse   |  7+   |  18”  |    Another Group    | Until the start of your next turn. | Treat target as Shaken.                                                         |
 |  Entangle  |  7+   |  18”  |    Another Group    | Until the start of your next turn. | Target treats all terrain as difficult.                                         |
 |  Obscure   |  7+   |  18”  | Self, Another Group | Until the start of your next turn. | Target may not be Attacked or Shot at.                                          |
-| Projectile |  7+   |  18”  |    Another Group    |                 -                  | As Shoot. Hit on 4+ within 12”, or on 5+ at 12-18”.                             |
+| Projectile |  7+   |  18”  |    Another Group    |                 -                  | As Shoot. Hit on 4+ within 12”, or on 5+ at 12--18”.                            |
 |   Enrage   |  7+   |  18”  |    Another Group    | Until the start of your next turn. | Target may reroll any number of to-hit dice once in melee.                      |
 |  Fortify   |  7+   |  18”  |    Another Group    | Until the start of your next turn. | Target may force enemies to reroll any number of to-hit dice once against them. |
 |  Counter   |  8+   |  18”  |        Group        |                 -                  | End any Spell effect on the target as if its duration ended.                    |
@@ -276,8 +284,8 @@ Well-Armed (1)
 ## Ambitions
 
 During setup, players may secretly choose any number of different ambitions to fulfill during the
-skirmish. At the end of the skirmish, each fulfilled ambition is worth 1-3 VP, and each unfulfilled
-ambition is worth -1 VP. Optionally, players may reveal any of their chosen ambitions before the
+skirmish. At the end of the skirmish, each fulfilled ambition is worth 1--3 VP, and each unfulfilled
+ambition is worth --1 VP. Optionally, players may reveal any of their chosen ambitions before the
 first turn of the skirmish, increasing their worth by 1 VP.
 
 | Ambition                 |  VP   | Fulfillment Condition                                                   |
@@ -298,6 +306,8 @@ first turn of the skirmish, increasing their worth by 1 VP.
 
 ### Setup
 
+<!-- vale Jared.FakeGamerWords = NO -->
+
 1. Choose point total for each side (typically 24), and construct Companies.
 1. Roll or choose a location.
 1. Set up terrain.
@@ -310,6 +320,8 @@ first turn of the skirmish, increasing their worth by 1 VP.
 1. Deploy companies according to the location and scenario guidelines.
 1. Choose ambitions.
 1. The active side takes their turn.
+
+<!-- vale Jared.FakeGamerWords = YES -->
 
 ### General
 

@@ -32,7 +32,7 @@ are learned, their XP cost increases by one.
 
 - **Caster (1):** Learn two spells and gain access to the casting order. Unlike other orders, an
   Adventurer does need to roll 2d6 against the spell’s check value. If they fail, the spell still
-  goes off but -1R for the Adventurer.
+  goes off but --1R for the Adventurer.
 - **Counter-Attack (2):** +1 to-hit when defending.
 - **Fast (1):** +2” to move distance
 - **Hard to Kill (3):** +1T
@@ -41,7 +41,7 @@ are learned, their XP cost increases by one.
   ignore all but impassable terrain. If taken a third time, ignore even impassable terrain.
   within 12” (no closer than 6” to an enemy) whose value is pulled from the pool. If the check is
 - **Retinue (3):** Gain access to a 3P pool of followers and the summon order (6+) to raise a group
-  failed, the group is still summoned but -1R for the Adventurer. Alternatively, the Adventurer can
+  failed, the group is still summoned but --1R for the Adventurer. Alternatively, the Adventurer can
   place these groups within 12” of themself during Deployment. Each time this lesson is learned, +3P
   to the follower pool. The Adventurer can summon multiple groups or one group worth more points,
   their choice.

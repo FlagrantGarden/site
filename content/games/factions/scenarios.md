@@ -35,8 +35,12 @@ highest count gains 5VP. In a tie, all players tied for the highest count gain 3
 
 ### Deployment
 
+<!-- vale Microsoft.Wordiness = NO -->
+
 The defenders deploy all of their Groups within 24” of the center point, then the attackers deploy
 all of their groups anywhere on the table, but no closer than 6” to any defending group.
+
+<!-- vale Microsoft.Wordiness = YES -->
 
 ### First Turn
 
@@ -59,7 +63,7 @@ off the table), and 2 VP for every enemy Group Routed.
 
 ### Deployment
 
-The defenders deploy 12-18” from one edge, and the attackers deploy within 8” of the same edge. Each
+The defenders deploy 12--18” from one edge, and the attackers deploy within 8” of the same edge. Each
 side places one Group at a time, alternating between sides until both sides have deployed all the
 Groups they intend to have on the field at the beginning of play.
 
@@ -133,11 +137,15 @@ to destroy the Siege Token.
 
 ### Conclusion Conditions
 
+<!-- vale Microsoft.Wordiness = NO -->
+
 When either side has no Groups remaining in play, or when the defenders move all of their remaining
 Groups within 24” of the center and declare an end to their sortie, play ends immediately. Defenders
 gain 1 VP for every enemy Group Routed, 2 VP for every enemy engine Group Routed, and 4 VP for every
 Siege Token destroyed. Attackers gain 2 VP for every enemy Group Routed, 1 VP for each of their
 engine Groups that was not Routed, and 3 VP for every Siege Token that was not destroyed.
+
+<!-- vale Microsoft.Wordiness = YES -->
 
 ## 5. Extraction
 

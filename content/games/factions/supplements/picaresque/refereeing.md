@@ -4,6 +4,8 @@ description: "Rules and guidance for facillitating Flagrant Picaresque"
 weight: 20
 ---
 
+<!-- vale Microsoft.HeadingAcronyms = NO -->
+
 {{< hint info >}}
 This section is still being initially drafted!
 
