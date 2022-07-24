@@ -1,0 +1,14 @@
+# As Microsoft.Negative but use smartypants syntax for en-dash
+extends: existence
+message: "Form a negative number with an en dash (--), not a hyphen."
+link: https://docs.microsoft.com/en-us/style-guide/numbers
+nonword: true
+level: error
+action:
+  name: edit
+  params:
+    - replace
+    - "-"
+    - "--"
+tokens:
+  - '\s-\d+\s'

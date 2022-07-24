@@ -1,0 +1,10 @@
+extends: existence
+message: "'%s' is a fake gamer word."
+# link:
+nonword: true
+ignorecase: true
+level: warning
+tokens:
+  - \bconsider\b
+  - (?<!roll[s]?( \dd\d)? to )(\bdetermine\b)
+  - \bmechanic\b

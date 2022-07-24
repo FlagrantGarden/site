@@ -1,0 +1,79 @@
+name: Linting
+on: [pull_request]
+
+jobs:
+  Syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check Markdown
+        uses: reviewdog/action-markdownlint@v0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-check
+          filter_mode: nofilter
+          level: info
+          fail_on_error: true
+  Prose:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - Name: Repository Files
+          - Name: Blog Posts
+          - Name: Flagrant66
+          - Name: Flagrant Factions
+    steps:
+      - uses: actions/checkout@v2
+      - name: Determine Behavior
+        id: Behavior
+        shell: pwsh
+        run: |
+          switch ('${{ matrix.Name }}') {
+            'Repository Files' {
+              Write-Output "::set-output name=Files::README.md"
+              Write-Output "::set-output name=Flags::--minAlertLevel=info"
+            }
+            'Blog Posts' {
+              Write-Output "::set-output name=Files::content/posts"
+              Write-Output "::set-output name=Flags::--minAlertLevel=warning"
+            }
+            'Site Home' {
+              $Files = @(
+              '"content/_index.md"'
+              '"content/admin.md"'
+              '"content/cultivars.md"'
+              '"content/cultivation.md"'
+              ) -join ', '
+              $Files = "[$Files]"
+              Write-Output "::set-output name=Files::$Files"
+              Write-Output "::set-output name=Flags::--minAlertLevel=info"
+            }
+            'Blog Posts' {
+              Write-Output "::set-output name=Files::content/horticulturists"
+              Write-Output "::set-output name=Flags::--minAlertLevel=warning"
+            }
+            'Flagrant66' {
+              Write-Output "::set-output name=Files::content/games/66"
+              Write-Output "::set-output name=Flags::--minAlertLevel=warning"
+            }
+            'Flagrant Factions' {
+              Write-Output "::set-output name=Files::content/games/factions"
+              $Flags = @(
+                '--minAlertLevel=warning'
+                '--config content/games/factions/.vale.ini'
+              ) -join ' '
+              Write-Output "::set-output name=Flags::$Flags"
+            }
+          }
+      - name: Check Vale
+        uses: errata-ai/vale-action@reviewdog
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        with:
+          fail_on_error: true
+          files: ${{ steps.Behavior.outputs.Files }}
+          filter_mode: diff_context
+          vale_flags: ${{ steps.Behavior.outputs.Flags }}
+          reporter: github-check

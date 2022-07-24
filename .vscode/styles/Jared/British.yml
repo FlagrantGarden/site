@@ -1,0 +1,11 @@
+extends: existence
+message: "Are you British? Is the book British?"
+# link:
+nonword: true
+ignorecase: true
+level: warning
+tokens:
+  - forwards
+  - upwards
+  - downwards
+  - backwards

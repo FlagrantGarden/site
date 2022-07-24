@@ -4,6 +4,9 @@ description: "Sample locations for Flagrant Factions"
 weight: 15
 ---
 
+<!-- vale Flagrant.Headings = NO -->
+<!-- markdownlint-disable no-duplicate-heading -->
+
 Each location describes a different place where a skirmish may take place. Locations modify a
 skirmish's setup, and add special skirmish-specific rules.
 
@@ -37,7 +40,7 @@ see what it is:
 | Result           | Effect                                                                                                                                                                                                                                            |
 | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Grenade       | Activate to Throw (4+) at enemy group within 8". Roll 12d6, hitting on 6+. Count all hits twice. Remove this token after use. +2 Excitement.                                                                                                      |
-| 2. Flaming Sword | Activate to Attack in melee to ignite. Each round it remains ignited, -1 FS to the Group bearing this token. The bearing Group ignores enemy Toughness. +1 Excitement when ignited. -3 Excitement when extinguished.                              |
+| 2. Flaming Sword | Activate to Attack in melee to ignite. Each round it remains ignited, --1 FS to the Group bearing this token. The bearing Group ignores enemy Toughness. +1 Excitement when ignited. --3 Excitement when extinguished.                            |
 | 3. Shrooms       | Make a free activation to ingest, gaining the Reckless, Unfeeling, Unerring, and Vicious traits. Must Test Resolve every turn. On failure, become Reckless even against allies. +1 excitement when ingested, +2 if they turn on their allies.     |
 | 4. Sandscroll    | Activate to Cast to use the scroll. For the remainder of the skirmish, the Group has MO 12" and ignores all terrain except the edge of the arena. +1 Excitement.                                                                                  |
 | 5. Glacial Surge | Test Resolve to activate the crystal. On failure, the Group Routs as they freeze solid (+3 Excitement). On success, the Group gains the Unfeeling and Terrifying traits, +1 T, and halves their MO distance (+1 Excitement).                      |
@@ -53,7 +56,7 @@ may freely drop it at any time. A Group must be carrying a Gimmick or adjacent t
 ### The Crowd
 
 The Crowd may grow bored with the game. At the end of each turn, roll 1d6. If the result is greater
-than the total FS lost by both sides that turn, -1 Excitement. If the Crowd's Excitement reaches 0,
+than the total FS lost by both sides that turn, --1 Excitement. If the Crowd's Excitement reaches 0,
 they vote to shake things up. Roll 2d6:
 
 | Result         | Effect                                                                                                                                                                                           |
@@ -122,7 +125,7 @@ Eldritch Fruit
 
   | Requirements                    | Effect                                                                                        |
   | :------------------------------ | :-------------------------------------------------------------------------------------------- |
-  | Apprentice, Caster, or Summoner | May reroll activations to Cast or Summon. If they fail the reroll, -1 FS.                     |
+  | Apprentice, Caster, or Summoner | May reroll activations to Cast or Summon. If they fail the reroll, --1 FS.                    |
   | Unfeeling and Bloodied          | Regain 1d6 FS. Must test Resolve when dealing with Hungry Figs for the rest of the skirmish.  |
   | Bloodied                        | Regain 1d6 FS. When testing Resolve in response to a Hungry Fig, they reroll the highest die. |
   | Reckless or Defiant             | -1 FS. May lose 1 FS to automatically succeed each time they activate to Attack.              |
@@ -137,7 +140,7 @@ Splintering Throes
 
 Unmoving
 : Hungry Figs cannot Move or Retreat. They only activate when triggered by Capricious Tree
-  or to continue Attacking if already in melee. If they fail when testing Resolve, -1 FS.
+  or to continue Attacking if already in melee. If they fail when testing Resolve, --1 FS.
 
 ### Wandering Spiders
 
@@ -196,7 +199,7 @@ Each time a Group moves within 6" of a Crab Boil token, roll 1d6.
 |   1.   | A Great Crab emerges with a swarm of Little Crabs. They immediately test for Reckless, interrupting the current player's turn. Remove the Crab Boil token.                         |
 |   2.   | A Great Crab emerges, claws waving in the air as it Dances. Remove the Crab Boil token.                                                                                            |
 |   3.   | A swarm of Little Crabs emerges, the mound collapsing as they spill forth. They immediately test for Reckless, interrupting the current player's turn. Remove the Crab Boil token. |
-|   4.   | A single Little Crab emerges from the mound and skitters into the sea. -1 to all future results when passing this mound.                                                           |
+|   4.   | A single Little Crab emerges from the mound and skitters into the sea. --1 to all future results when passing this mound.                                                          |
 |   5.   | The mound shakes, sending loose grains of sand tumbling.                                                                                                                           |
 |   6.   | The mound collapses. Remove the Crab Boil token.                                                                                                                                   |
 
@@ -220,9 +223,9 @@ Dancer
 
   | Result | Effect                                                                                  |
   | :----: | :-------------------------------------------------------------------------------------- |
-  |  5-.   | The Great Crab hops and clacks, claws waving.                                           |
-  |  6-8.  | Until it next Dances, the Great Crab may reroll any dice to activate.                   |
-  | 9-10.  | A swarm of Little Crabs appears in base contact with the Great Crab.                    |
+  |  5--.  | The Great Crab hops and clacks, claws waving.                                           |
+  | 6--8.  | Until it next Dances, the Great Crab may reroll any dice to activate.                   |
+  | 9--10. | A swarm of Little Crabs appears in base contact with the Great Crab.                    |
   |  11.   | Until it next Dances, the Great Crab automatically succeeds when activating.            |
   |  12.   | Until it next Dances, the Great Crab may reroll any dice that miss when rolling to hit. |
 
@@ -281,7 +284,7 @@ Well-Armed (1)
 
 ## 4. Minotaur's Maze
 
-> _Seemless stone tunnels, winding and meandering. Sharp turns and dead ends, plazas plated in_
+> _Seamless stone tunnels, winding and meandering. Sharp turns and dead ends, plazas plated in_
 > _bronze, shimmering in firelight._
 
 ### Setup
@@ -289,12 +292,12 @@ Well-Armed (1)
 When placing terrain, build a maze using this procedure:
 
 1. Note that the entire field is impassable terrain unless otherwise noted.
-2. Each side rolls 1d6. The combined total is the number of plazas (a 6" square of open space) that
+1. Each side rolls 1d6. The combined total is the number of plazas (a 6" square of open space) that
    must be placed. Players take turns placing one plaza at a time, starting with the side that
    rolled higher.
-3. Each side rolls 1d6. From highest roll to lowest, players take turns placing an exit (4" wide) on
+1. Each side rolls 1d6. From highest roll to lowest, players take turns placing an exit (4" wide) on
    the edge of the field. No exit may be placed within 12" of another. Exits are normal terrain.
-4. Each side rolls 3d6. The combined total is the number of corridors (a rectangle of normal
+1. Each side rolls 3d6. The combined total is the number of corridors (a rectangle of normal
    terrain, 2" wide and up to 12" long) that must be placed. Players take turns placing one corridor
    at a time, starting with the side that rolled highest. Every corridor must connect to an exit, a
    plaza, or another corridor. By the end of this placement step, every plaza and exit must
@@ -388,11 +391,15 @@ At the start of the first turn of the skirmish, roll 1d6. The Leviathan will act
 turns unless attacked. If attacked, the Leviathan activates next. After each of the Leviathan’s
 turns, roll 1d6 again. It activates again after that many turns unless attacked, as above.
 
+<!-- vale Jared.CleverestPunctuation = NO -->
+
 The Leviathan moves lazily across the sky, indifferent to the puny airships in its way. When the
 Leviathan would activate normally (not as the result of an attack), the player who took the last
 turn rolls 2d6. If the result is even, the Leviathan moves to its left. If odd, to its right. If the
 result is less than or equal to seven, it moves backward; if more, forward. When it moves, it
 always moves in a straight line at its full MO.
+
+<!-- vale Jared.CleverestPunctuation = YES -->
 
 The Leviathan cannot Attack but it will defend itself against attackers. On its next activation
 after being Attacked, it sings the Skysunder Song.
@@ -447,7 +454,7 @@ turns.
 | Result | Effect                                                                                      |
 | :----: | :------------------------------------------------------------------------------------------ |
 |   1.   | Spawn a Magmatic Hound in base contact with the Fissure.                                    |
-|  2-3.  | The Fissure belches flame and magma. Roll 6d6 against every Group within 6", hitting on 3+. |
+| 2--3.  | The Fissure belches flame and magma. Roll 6d6 against every Group within 6", hitting on 3+. |
 |  4+.   | The Fissure burbles and shakes, steaming ominously.                                         |
 
 ### Soothing Stones

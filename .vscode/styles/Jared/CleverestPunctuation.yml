@@ -1,0 +1,8 @@
+extends: existence
+message: "The period, not '%s', is the cleverest punctuation."
+# link:
+nonword: true
+level: warning
+tokens:
+  - ;
+  - \.\.\.

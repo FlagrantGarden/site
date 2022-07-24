@@ -25,7 +25,7 @@ page to make my boss happy (and I could automate it so _I_ didn't have to keep w
 Along the way though, I really came to appreciate Markdown as a tool in my belt that let me mostly
 just focus on my _writing_ and leave the ✨ _aesthetics_ ✨ for later (or, often, never).
 
-In fact, almost all the content on this site--the blog posts, the game text, the various landing
+In fact, nearly the content on this site--the blog posts, the game text, the various landing
 pages--is written in Markdown. You can actually see the [source][source-site] online, since it's
 public. Even [this page][source-page] is Markdown!
 
@@ -42,14 +42,18 @@ at some more advanced topics you can dive into later.
 
 The first point to make is this:
 
-> _You do not **need** any special tools to write or read Markdown._
+> _You don't **need** any special tools to write or read Markdown._
 
 You can write Markdown in anything--notepad, google docs, ghostwriter, vi--without any special
 workarounds or tools. Markdown is a _markup_ language. You write (mostly) plain-text, which can be
-transformed into something else. Usually, it is transformed into HTML or PDF for online and offline
+transformed into something else. Usually, it's transformed into HTML or PDF for online and offline
 viewing respectively.
 
 Here's an example using _just about_ all the Markdown you'll ever need to know:
+
+<!-- vale off -->
+
+<!-- markdownlint-disable -->
 
 ```markdown
 > ### Example Markdown
@@ -147,6 +151,9 @@ And here it is, rendered:
 >
 > Last, you can add comments<!-- with don't get rendered -->.
 
+<!-- markdownlint-enable -->
+<!-- vale on -->
+
 Okay, so that's Markdown, great. But what if you _do_ want to get a little more out of it than just
 writing it in plaintext? What if you could get some _visible cues_ as to how your Markdown is going?
 
@@ -154,11 +161,18 @@ This is where a text editor can help. I use [VS Code][vscode] both out of habit 
 ecosystem is extremely robust, with lots of extensions and helpers to make my life a lot easier. VS
 Code is free, open source, and gets monthly updates. New features constantly smooth out my workflow.
 
+<!-- vale Microsoft.HeadingAcronyms = NO -->
+
 ### VS Code
+
+<!-- vale Microsoft.HeadingAcronyms = YES -->
+<!-- vale Jared.CleverestPunctuation = NO -->
 
 The first thing to do is [install it][vscode-install]. The link in the prior sentence will take you
 to the instructions, which are better than anything I could write here (especially since whatever I
-write here can become outdated), but it's... just software. Download it, install it, and that's it!
+write here can become outdated), but it is... just software. Download it, install it, and that's it!
+
+<!-- vale Jared.CleverestPunctuation = YES -->
 
 {{< details "Aside: Chocolatey" >}}
 
@@ -179,20 +193,22 @@ for [writing Markdown][vscode-markdown]. For the rest of this post, I'm going to
 VS Code - though _much_ of what I'm doing with it can be done with any similarly modern editor
 software.
 
-Open a new file and copy the example text from the code
-block above. You'll get highlighting automically. On my computer, that looks like this:
+Open a new file and copy the example text from the code block above. You'll get highlighting
+automatically. On my computer, that looks like this:
 
 ![Example screenshot of rendered Markdown in VS Code][vscode-screenshot-rendered]
 
 Now that you have some Markdown text open, you can [see a preview of it][vscode-preview]. This lets
 you view your Markdown with the rendered version of it side-by-side to see how things are going.
 
-You can also see the [outline view][vscode-outline] for your document, which shows you all of the
+You can also see the [outline view][vscode-outline] for your document, which shows you all the
 sections and headers--I use this to navigate around _all_ the time.
 
 There's a lot of [basic editing features][vscode-editing] built into VS Code, but my favorites are
 definitely [multi-cursor editing][vscode-editing-multi], [IntelliSense][vscode-editing-is],
 [find and replace][vscode-editing-fnr], and [auto formatting][vscode-editing-fmt].
+
+<!-- markdownlint-disable MD033 -->
 
 {{< details "Multi-Cursor Editing" >}}
 
@@ -264,7 +280,7 @@ It adds [several keybindings][ext-mdaio-keys], including for toggling whether te
 
 It adds a command for automatically [creating or updating the table of contents][ext-mdaio-toc] for
 a file, makes [editing lists][ext-mdaio-lists] even easier, helps you
-[auto-format tables][ext-mdaio-tables] (<kbd><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd></kbd>
+[auto format tables][ext-mdaio-tables] (<kbd><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd></kbd>
 on Windows, <kbd><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd></kbd> on Linux),
 [auto completion][ext-mdaio-auto] for links, and a ton more.
 
@@ -291,12 +307,12 @@ Sentence: This is the example string
 Title: This Is The Example String
 ```
 
-It's not perfect, but it is quick and easy.
+It's not perfect, but it's quick and functional.
 
 #### Reflow Markdown
 
 The [Reflow Markdown][ext-reflow] extension is one I only started using recently and now I use it
-_all_ the time. In short, it lets you set a maximum line length, and then you can use the
+_all_ the time. In short, it lets you set a maximum line length and use the
 <kbd><kbd>Alt</kbd> + <kbd>Q</kbd></kbd> hotkey to automatically turn a long line into shorter
 lines, aware of their leading markup.
 
@@ -310,21 +326,26 @@ that problem with the <kbd><kbd>Alt/Cmd</kbd> + <kbd>Z</kbd></kbd> hotkey for to
 
 ## Linting
 
-Linting is a way to automatically check your work for common mistakes and problems. For writing Markdown, there's really two distinct types of linting that are useful to us: linting the _markup_--i.e. did you use Markdown's syntax correctly--and linting the _text_--i.e. did you write good.
+Linting is a way to automatically check your work for common mistakes and problems. For writing
+Markdown, there's really two distinct types of linting that are useful to us: linting the
+_markup_--i.e. did you use Markdown's syntax correctly--and linting the _text_--i.e. did you write
+good.
 
 Luckily, both types of linting are well-supported in VS Code (and for Markdown generally).
 
 ### markdownlint
 
 While [markdownlint][ext-mdl] is _technically_ available separately from VS Code, in my experience
-it's a hassle to use that way. I just install the extention [per their docs][ext-mdl-install] and go
+it's a hassle to use that way. I just install the extension [per their docs][ext-mdl-install] and go
 from there.
 
-What this gives you is a long list of rules describing best practices for writing Markdown that is
-easier for you to read and maintain; above all, it helps you write your Markdown _consistently_, so
+What this gives you is a long list of rules describing best practices for writing Markdown that's
+easier for you to read and maintain. Above all, it helps you write your Markdown _consistently_, so
 you can be sure that the syntax you used two weeks ago means what you think it means.
 
 This [shows up in a few ways][vscode-err]:
+
+<!-- markdownlint-disable MD050 MD013 -->
 
 1. When you're typing, it will add some colored squiggles beneath any rule violations (by default,
    orange for a warning and red for an error). If you hover over those squiggles, it tells you
@@ -339,6 +360,8 @@ This [shows up in a few ways][vscode-err]:
    shows you every discovered violation in your file(s). You can click any listed warning or error
    to go straight to the problem in your file.
 1. There's one more way, but we'll cover that when we talk about [ErrorLens](#error-lens).
+
+<!-- markdownlint-enable MD050 MD013 -->
 
 The markdownlint extension can automatically fix errors for you when you save, but it requires
 tweaking your settings. Instead, you can use the [Command Palette][vscode-cmd] (via the
@@ -392,17 +415,23 @@ You _should_ see output like this (ignore my fancy prompt):
 
 ![Gif of vale sync downloading and installing the configured rules in the terminal][vale-sync]
 
-Next, edit your VS Code settings. Use the <kbd><kbd>Ctrl/Cmd</kbd> +
-<kbd>,</kbd></kbd> hotkey to open your user settings, type `vale` into the search bar, then check the box for "Vale > Core: Use CLI."
+Next, edit your VS Code settings. Use the <kbd><kbd>Ctrl/Cmd</kbd> + <kbd>,</kbd></kbd> hotkey to
+open your user settings, type `vale` into the search bar, then check the box for "Vale > Core: Use
+CLI."
 
 ![Screenshot of the settings in VS Code showing the Vale CLI enabled][ext-vale-settings]
 
 Lastly, reload VS Code by opening the Command Palette (<kbd><kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> +
 <kbd>P</kbd></kbd>) and type `reload` and select the option "Developer: Reload Window."
 
-When VS Code restarts, Vale is loaded and any rule violations show up in the editor, just like they did with markdownlint.
+When VS Code restarts, Vale is loaded and any rule violations show up in the editor, just like they
+did with markdownlint.
+
+<!-- vale Microsoft.Contractions = NO -->
 
 ![Screenshot of a vale warning over the text "Do not" suggesting the use of a contraction instead][ext-vale-warning]
+
+<!-- vale Microsoft.Contractions = YES -->
 
 The rules Vale uses to lint your text can be noisy. I'll discuss more about configuring Vale--and
 writing custom rules--in a future post. For now, just know that you can use Vale to check for all
@@ -430,11 +459,11 @@ my experience, this is another extension you don't need until you _really_ need 
 
 ### Error Lens
 
-The last linting extension, [Error Lens][ext-errlens] isn't a linter per se but instead
+The last linting extension, [Error Lens][ext-errlens] isn't a linter itself but instead
 super-charges your linters by being able to show you in-line (without hovering) what problems are
 showing up in your work.
 
-I find that it is too noisy to keep on while I'm writing, however (lots of false-positives when you
+I find that it's too noisy to keep on while I'm writing, however (lots of false-positives when you
 haven't finished your sentence or thought), so I toggle it off until I'm ready to read my draft.
 
 Luckily, you can toggle it quickly from the Command Palette. Open the Command Palette

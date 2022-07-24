@@ -13,8 +13,9 @@ weight: 10
 bookComments: true
 ---
 
-_Gerblinflood_ is an upcoming supplement for [_Flagrant Factions_](/games/factions) bringing new rosters, sample companies, scenarios, spells, and locations.
-Below is the tentative outline of those sections.
+_Gerblinflood_ is an upcoming supplement for [_Flagrant Factions_](/games/factions) bringing new
+rosters, sample companies, scenarios, spells, and locations. Below is the tentative outline of those
+sections.
 
 ## Rosters
 
@@ -46,5 +47,6 @@ Six new locations themed around the gerblins and the scenarios.
 - **Firemount:** The smoking mountain awakens, the ground shakes and the sky lights red
 - **Humbleville:** A quiet, quaint village on the "frontier" sturdy and harboring dark magics
 - **Darkwood:** An ancient forest stalked by the arachnarch and their multitudinous followers
-- **Boxcanyon:** The waterfall of eternity falls here, the bones of ages past rest beside the endless pool
+- **Boxcanyon:** The waterfall of eternity falls here, the bones of ages past rest beside the
+  endless pool
 - **Raging River:** The water breaks the banks and brings new life and muddy horror alike

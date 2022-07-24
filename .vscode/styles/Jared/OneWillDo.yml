@@ -1,0 +1,10 @@
+extends: existence
+message: "You've used two words ('%s') where one will do."
+# link:
+nonword: true
+ignorecase: true
+level: warning
+tokens:
+  - along with
+  - and then
+  - as well
