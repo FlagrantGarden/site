@@ -10,18 +10,18 @@ use judgement.
 
 ## Personalities
 
-Routine companies have a Personality. Roll a d6 or choose for each Routine Company:
+Routine companies have a Personality. Roll 1d6 or choose for each Routine Company:
 
+1. **Incompetent:** Follow default/random orders.
 1. **Arcane:** Prefer to use and acquire magic over mundanity.
 1. **Bold:** Chase objectives and move without concern for enemy action.
 1. **Cautious:** Steer clear of enemies unless odds are favorable.
 1. **Ferocious:** Destroy the enemy whenever possible.
 1. **Guarded:** Avoid attacking directly, prefer to hold and whittle.
-1. **Incompetent:** Follow default/random orders.
 
 ## Traits
 
-Where a trait would be triggered by player choice, roll a d6: on a 4+, the trait is triggered.
+Where a trait would be triggered by player choice, roll 1d6: on 4+, the trait triggers.
 
 ## Setup
 
@@ -50,14 +50,14 @@ this process:
    - If the result is _odd_, deploy the group furthest left in the line to the furthest deployment
      zone.
 1. For each remaining Group, roll 1d6:
-   - Select the Group from the right/left of the line if the result is even/odd respectively.
+   - Select the Group from the left/right of the line if the result is odd/even respectively.
    - If the result is _lower_ than the previous roll, deploy in an adjacent quadrant.
    - If the result is _equal_ to the previous roll, deploy in the same quadrant.
    - If the result is _higher_ than the previous roll, deploy in the opposite quadrant.
 1. Depending on the Company's Personality, these deployments may need to be adjusted, either
    swapping Groups or moving them within their deployment quadrant:
-   - Arcane Companies must deploy their magic using Groups within 6" of a friendly group if
-     possible.
+   - Arcane Companies must deploy Groups with the Casting or Summoning order within 6" of a friendly
+     group if possible.
    - Bold Companies must deploy their Groups as near an enemy or objective as possible.
    - Cautious Companies must deploy their Groups with Shooting, Casting, or Summoning orders within
      6" of a friendly group and as far from enemy Groups as possible.
@@ -92,34 +92,32 @@ When activating individual Groups, unless specified, they follow this process:
    not yet activated.
 1. Roll 1d6 to determine the activation: Move (1--2), Attack (3--4), Shoot (5--6). If the group
    cannot perform the specified action, default to the next lower-order action until they can.
-   - If moving, roll 1d6 and: move away from nearest enemy (1--2), move towards nearest enemy
-     (3--4), move towards nearest objective (5--6).
+   - If Moving, roll 1d6 and: Move away from nearest enemy (1--2), Move towards nearest enemy
+     (3--4), Move towards nearest objective (5--6).
 1. Resolve each activation as normal.
 
 ### Arcane Group Activations
 
-Arcane Companies must activate any Groups with the Casting, Apprentice, or Summoner traits before
-others, from highest to lowest point value. Groups capable of the Casting or Summoning order _must_
-use that order. If capable of both, alternate between them each time.
+Arcane Companies must activate any Groups with the Casting or Summoner order before others, from
+highest to lowest point value. Groups capable of the Casting or Summoning order _must_ use that
+order. If capable of both, alternate between them each time.
 
 ### Bold Group Activations
 
-Bold Companies must activate the Group nearest an enemy or objective first, then the next closest
-Group, and so on. Groups capable of seizing an objective or attacking an enemy must do so,
-preferring objectives over attacking.
+Bold Companies must activate the Group nearest an enemy or objective that has not already activated.
+Groups capable of seizing an objective or attacking an enemy must do so, preferring objectives over
+attacking.
 
 ### Cautious Group Activations
 
-Cautious Companies activate as normal but may not activate to Attack an enemy Group whose R is equal
-to or greater than their own. Groups more than 6" away from a friendly Group must Move towards one
-if possible.
+Cautious Companies may not Attack an enemy Group whose R is equal to or greater than their own.
+Groups more than 6" away from a friendly Group must Move towards one if possible.
 
 ### Ferocious Group Activations
 
-Ferocious Companies must activate the Group nearest an enemy first, then the next closest Group, and
-so on. Groups capable of Attacking or Shooting must do so, preferring whichever activation order has
-a better hit chance. Groups not within range of an objective or enemy must Move towards the nearest
-enemy Group.
+Ferocious Companies must activate the Group nearest an enemy that has not already activated. Groups
+capable of Attacking or Shooting must do so, preferring whichever activation order has a better hit
+chance. Groups not within range of an objective or enemy must Move towards the nearest enemy Group.
 
 ### Guarded Group Activations
 
@@ -129,10 +127,10 @@ friendly Group or defensible position.
 
 ## Eccentrics
 
-- Groups in Bold and Ferocious Companies with the Defiant trait must always test to activate it in
-  response to being Attacked.
-- Groups in Cautious and Guarded Companies with the Elusive trait must always test to activate it in
-  response to being Attacked.
+- Groups in Bold and Ferocious Companies with the Defiant trait must always test to activate it when
+  Attacked.
+- Groups in Cautious and Guarded Companies with the Elusive trait must always test to activate when
+  Attacked.
 - Spells are chosen randomly unless specified beforehand.
 - Groups with the Casting order may not activate to Cast the same spell twice in a row and cast in
   one of two orders:
@@ -140,7 +138,6 @@ friendly Group or defensible position.
      there is a valid target, otherwise cast the next highest difficulty spell. May not recast the
      same spell until all known spells have been attempted at least once.
   1. Otherwise, cast randomly against nearest valid target.
-- Groups with Foe or Bane traits _must_ Move towards and attempt to Attack the nearest specified
+- Groups with Foe or Bane traits must Move towards and attempt to Attack the nearest specified
   Kind of Group if within 18".
-- Groups with Self-Destruct trait _must_ attempt to activate it once they are under half their
-  starting R.
+- Groups with Self-Destruct trait must attempt Self-Destruct once they are Bloodied.
