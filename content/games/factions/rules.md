@@ -313,10 +313,10 @@ first turn of the skirmish, increasing their worth by 1 VP.
 1. Set up terrain.
 1. Roll or choose a scenario.
 1. Roll for Captain’s trait (or keep existing trait if using an established character).
-1. Players arrange themselves into two sides, as evenly as possible. Each side rolls 1d6 to
-   determine which side will be attackers and which will be defenders: the higher result is the
-   attacker. Reroll ties. Unless otherwise specified in the location or scenario, the attackers are
-   the active side in the first turn.
+1. Players arrange themselves into two sides. Each side rolls 1d6 to determine which side will be
+   attackers and which will be defenders: the higher result is the attacker. Reroll ties. Unless
+   otherwise specified in the location or scenario, the attackers are the active side in the first
+   turn.
 1. Deploy companies according to the location and scenario guidelines.
 1. Choose ambitions.
 1. The active side takes their turn.
