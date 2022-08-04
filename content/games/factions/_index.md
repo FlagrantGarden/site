@@ -13,7 +13,7 @@ use whatever models/maps/terrain/ideas you have on hand to get playing fast.
 
 <!-- vale alex.Ablist = NO -->
 
-In _Flagrant Factions_, two or more players field a company of 2+ groups of models (paper, token,
+In _Flagrant Factions_, two players field a company of 2+ groups of models (paper, token,
 miniatures, whatever) to play through narrative scenarios. Instead of dozens of specific profiles,
 _Flagrant Factions_ features base profiles you can change by adding special rules (or not).
 
@@ -40,12 +40,21 @@ This skirmish wargame is intended to:
 
 <!-- vale Flagrant.Passive = YES -->
 
+<!-- vale Contractions.Use = NO -->
+
+{{< hint info >}}
+This text assumes skirmishes fought between two sides, each with a single company. If you're
+playing with more sides or more companies, use your judgment.
+{{< /hint >}}
+
+<!-- vale Contractions.Use = YES -->
+
 ## Requirements for Play
 
 To play this game, you need:
 
 - These rules.
-- Two or more players.
+- Two players.
 - A list of Groups and their profiles.
 - Models (paper, plastic, pewter, or otherwise), probably no more than 60 to a side.
 - Six-sided dice. More is better—you’ll often roll 2, 3, 6, or 12 of them at a time.
