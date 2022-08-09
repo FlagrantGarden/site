@@ -22,7 +22,7 @@ company has their own Taunts they can Proclaim.
 | Hunters (Heavy Cavalry, 5)        | 5+ / 4+ / 5+ | 6+ / 5+ / 6” | 5+ / 10” |   6   |  4+   |   3   | Defiant, Throwers             |
 | Hunters (Heavy Cavalry,5)         | 5+ / 4+ / 5+ | 6+ / 5+ / 6” | 5+ / 10” |   6   |  4+   |   3   | Defiant, Throwers             |
 
-Apprentice (2)
+Apprentice
 : Before the skirmish, choose three spells. This Group may activate to Cast one of those three
   spells.
 
@@ -39,10 +39,10 @@ Defiant
 Reckless
 : If this Group is not Shaken, it must activate to Attack if possible.
 
-Terrifying (2)
+Terrifying
 : When Attacked by this Group, enemies must reroll their highest die when testing Resolve.
 
-Throwers (1)
+Throwers
 : If this Group does not already have a MI profile, add one at 6+ / 5+ / 6”.
 
 <!-- vale Contractions.Use = NO -->
@@ -80,15 +80,15 @@ Defiant
 Reckless
 : If this Group is not Shaken, it must activate to Attack if possible.
 
-Undead-Foe (1)
+Undead-Foe
 : This Group gains the Reckless trait against Undead enemies. If this Group is already Reckless,
   they automatically pass their activation to Attack those enemies instead. If there are no Undead
   in any opposing army, ignore the point cost of this trait.
 
-Vicious (3)
+Vicious
 : To-hit rolls of 6 inflict two hits.
 
-Well-Armed (1)
+Well-Armed
 : Once each turn, may reroll all results of 1 on a single to-hit roll.
 
 | Taunt                 | Check | Requirements                                                                                            | Effect                                                                                                                                                                                                                                          |
@@ -108,7 +108,7 @@ Well-Armed (1)
 | Skeletal Warriors (Light Foot, 3)               | 6+ / 5+ / 4+ |   -   | 5+ / 8”  |  12   |  4+   |   2   | Defensive, Unfeeling |
 | Skeletal Warriors (Light Foot, 3)               | 6+ / 5+ / 4+ |   -   | 5+ / 8”  |  12   |  4+   |   2   | Defensive, Unfeeling |
 
-Caster (4)
+Caster
 : This Group may activate to Cast any spell.
 
 Defensive
@@ -119,11 +119,11 @@ Defensive
 Reckless
 : If the Group is not shaken, it must activate to Attack if possible
 
-Summoner (3)
+Summoner
 : This Group may attempt to activate on 6+ to raise an undeployed Group within 12” (and no closer
   than 6” to an enemy). The summoned Group may attempt to activate this turn.
 
-Unfeeling (0)
+Unfeeling
 : Automatically pass when testing Resolve, but round up hits inflicted against this Group.
 
 <!-- vale Contractions.Use = NO -->
@@ -153,17 +153,17 @@ Defensive
   formation with all models in base contact. They have +1 T until the start of their next
   activation.
 
-Self-Destruct (2)
+Self-Destruct
 : This Group may attempt to activate on 5+ to self-destruct as if Shooting everything within 6”,
   hitting on a 3+. This Group is then Routed at the end of their activation.
 
-Shooters (2)
+Shooters
 : Groups without an MI profile only. Add an MI profile at 6+ / 5+ / 18”.
 
-Throwers (1)
+Throwers
 : If this Group does not already have a MI profile, add one at 6+ / 5+ / 6”.
 
-Unfeeling (0)
+Unfeeling
 : Automatically pass when testing Resolve but round up hits inflicted against this Group.
 
 | Taunt              | Check | Requirements                                                             | Effect                                                                                                                                                                                                                                                                          |
@@ -196,17 +196,17 @@ Nimble
 Reckless
 : If this Group is not Shaken, it must activate to Attack if possible.
 
-Shooters (2)
+Shooters
 : Groups without an MI profile only. Add an MI profile at 6+ / 5+ / 18”.
 
-Short-Ranged (-1)
+Short-Ranged
 : Groups with an MI profile only. Reduce range by half.
 
-Stealthy (3)
+Stealthy
 : Enemies cannot Shoot this Group. This Group does not block line of sight except for Groups in
   melee.
 
-Well-Armed (1)
+Well-Armed
 : Once each turn, may reroll all results of 1 on a single to-hit roll.
 
 | Taunt                        | Check | Requirements                                                          | Effect                                                                                                                                                                               |
@@ -229,7 +229,7 @@ Well-Armed (1)
 | Street Toughs (Light Foot, 4)          | 6 + / 5+ / 4+ |       -       | 5+ / 8"  |  12   |  4+   |   2   | Cowardly, Defensive, Vicious  |
 | Kennel Hounds (Light Beast, 4)         |  5+ / 4+ / 6  |       -       | 6+ / 12" |   6   |  4+   |   3   | Nimble, Reckless              |
 
-Cowardly (-2)
+Cowardly
 : When testing Resolve, this Group must reroll the highest die.
 
 Defensive
@@ -245,14 +245,14 @@ Defiant
 Nimble
 : This Group treats difficult terrain as normal terrain.
 
-Shooters (2)
+Shooters
 : Groups without an MI profile only.
   Add an MI profile at 6+ / 5+ / 18”.
 
-Unerring (3)
+Unerring
 : Once each turn, may reroll any dice on a single to-hit roll.
 
-Vicious (3)
+Vicious
 : To-hit rolls of 6 inflict two hits.
 
 <!-- vale Contractions.Use = NO -->
