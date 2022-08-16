@@ -53,8 +53,8 @@ Mark a circle around the caster's Group. Magic is fully nullified within the cir
 - **Target:** All friendly Groups / All enemy Groups
 - **Duration:** 6 turns
 
-Roll +2 dice to hit (+1 if Bloodied), reroll failed Resilience tests. If reversed, roll --2 dice to
-hit and reroll successful Resilience tests.
+Roll +2 dice to hit (+1 if Bloodied), reroll failed Resolve tests. If reversed, roll --2 dice to
+hit and reroll successful Resolve tests.
 
 ### Charm Monster
 
@@ -62,15 +62,15 @@ hit and reroll successful Resilience tests.
 - **Duration:** Permanent
 
 Target Group follows caster's orders. If given orders antithetical to their nature, they test
-Resilience and break free if successful.
+Resolve and break free if successful.
 
 ### Charm Person
 
 - **Target:** Single-model human or post-human Group
 - **Duration:** Permanent
 
-Target tests Resilience immediately. If they fail, they follow the caster's orders. If given orders
-antithetical to their nature, they test Resilience and break free if successful.
+Target tests Resolve immediately. If they fail, they follow the caster's orders. If given orders
+antithetical to their nature, they test Resolve and break free if successful.
 
 ### Circle of Invisibility
 
@@ -146,7 +146,7 @@ Targets regain 1FS per 6FS of sacrifice.
 
 - **Target:** Group
 
-If targeting a multi-entity Group and a member is disintegrated, test Resilience at -3.
+If targeting a multi-entity Group and a member is disintegrated, test Resolve at -3.
 
 ### Enervate Dead
 
@@ -162,7 +162,7 @@ anyway. If Attacked, treat every die as a hit.
 - **Duration:** 6 turns
 
 Caster's Group gains the Terrifying trait and all enemy Groups within 12" immediately test
-Resilience.
+Resolve.
 
 ### Fireball
 
@@ -176,7 +176,7 @@ Roll 12d6 to hit all Groups in radius on 3+, ignoring T.
 - **Target:** Monster Group
 - **Duration:** End of Skirmish
 
-Target tests Resilience. If they fail, they can't act at all and don't defend themselves in any way.
+Target tests Resolve. If they fail, they can't act at all and don't defend themselves in any way.
 If Attacked, treat every die as a hit.
 
 ### Hold Person
@@ -184,7 +184,7 @@ If Attacked, treat every die as a hit.
 - **Target:** Human Group
 - **Duration:** End of Skirmish
 
-Target tests Resilience. If they fail, they can't act at all and don't defend themselves in any way.
+Target tests Resolve. If they fail, they can't act at all and don't defend themselves in any way.
 If Attacked, treat every die as a hit.
 
 ### Lightning Bolt
@@ -208,8 +208,8 @@ path, hitting on 3+. Any affected Groups break formation (e.g. are no longer in 
 - **Range:** 6"
 
 Add a single-model Group with the following profile within range. It activates before the caster on
-future turns without testing. It has no FS and never tests Resilience. If a Group passes their
-Resilience test when Attacked by it, the Group disappears from the field.
+future turns without testing. It has no FS and never tests Resolve. If a Group passes their
+Resolve test when Attacked by it, the Group disappears from the field.
 
 |   ME    |  MO   |       Traits        |
 | :-----: | :---: | :------------------ |
@@ -234,7 +234,7 @@ Target ignores hits when resolving Shooting.
 
 - Target: Group
 
-If targeting a Champion with 6HD, they test Resilience. If they fail, or if the target isn't a
+If targeting a Champion with 6HD, they test Resolve. If they fail, or if the target isn't a
 Champion, roll 12d6 against target, hitting on 3+ and ignoring T.
 
 ### Sleep
@@ -277,4 +277,4 @@ it shatters.
 
 Wards must be applied to an entire Group to affect them.
 
-Add the Warding bonus to relevant Resilience tests or subtract from inflicted hits.
+Add the Warding bonus to relevant Resolve tests or subtract from inflicted hits.

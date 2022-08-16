@@ -71,15 +71,15 @@ adjacent to another Group with the Shieldwall trait and activate to Form Up (5+)
 linked in a Shieldwall combine their FS and:
 
 - +1 T
-- +1 to Resilience tests per Group in the shieldwall
+- +1 to Resolve tests per Group in the shieldwall
 - Treat normal terrain as difficult and difficult terrain as impassable
 
 When a shieldwall fights, they activate as one Group. Non-shieldwall enemies must still choose one
 of the Shieldwall's Groups to Attack, Shoot, or target with a Spell.
 
-When a Shieldwall loses FS to a non-shieldwall enemy, the targeted Group tests Resilience. If they
+When a Shieldwall loses FS to a non-shieldwall enemy, the targeted Group tests Resolve. If they
 fail, they Retreat as normal, breaking the cohesion of the Shieldwall and every remaining Group in
-the Shieldwall immediately tests Resilience.
+the Shieldwall immediately tests Resolve.
 
 If a Shieldwall is fighting a smaller Shieldwall or a lone Group, they can activate to Envelope the
 enemy (7+). If they are successful, treat the activation like an Attack and roll the to-hit dice for
@@ -87,7 +87,7 @@ every Group in the Shieldwall. When the Envelope order is resolved, the Shieldwa
 and the Groups are singular again.
 
 When a Shieldwall fights another Shieldwall they have no specific target. Distribute hits evenly
-amongst the enemy groups adjacent to the Shieldwall. Test resilience for any Group in a Shieldwall
+amongst the enemy groups adjacent to the Shieldwall. Test Resolve for any Group in a Shieldwall
 that loses FS in the fight.
 
 <!-- Reference Links -->

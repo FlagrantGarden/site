@@ -94,7 +94,7 @@ earn the first trait they meet the requirements of.
     Bloodied.
   - **Passionate**
 
-    _Must have passed 5 Resilience tests while Bloodied._
+    _Must have passed 5 Resolve tests while Bloodied._
 
     Groups within 6" ignore penalties on their Resolve test due to lost FS.
 - At 50 Fame, choose any prior unselected trait, or:
@@ -140,7 +140,7 @@ Glory is the measure of a Group's skill and bravery.
 A Group's Glory affects their ability to fight:
 
 - When activating to Attack a Group with more Glory, --1 to the test result.
-- When Attacked by a Group with more than twice their Glory, test Resilience.
+- When Attacked by a Group with more than twice their Glory, test Resolve.
 - When within 6" of a friendly Group with more than twice their Glory, reroll failed Activations.
 - A Group's Glory is a prerequisite for Bynames. For more information, see [Bynames][1].
 
