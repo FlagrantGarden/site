@@ -137,7 +137,7 @@ If using the [Routine Procedures][1], they are Guarded.
 The Orcs of the fort have no known Captain and 10 Glory. They fight in Groups of 8 worth 4 points
 each.
 
-### Orcs
+If using the [Routine Procedures][1], the Orcs of the fort are Ferocious.
 
 |  Mode   |      ME      |   MO    |      MI       |  FS   |   R   |   T   |  Traits  |
 | :------ | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------- |
