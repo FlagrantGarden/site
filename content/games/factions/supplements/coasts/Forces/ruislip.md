@@ -8,11 +8,13 @@ weight: 10
 ## Stamullen
 
 Macullen has 5 Fame and 0 Glory. The Skirmishers have 5 Glory whether they fight in Small or Large
-Groups. The Bees have 0 Glory. If using the [Routine Procedures][1], the forces of Stamullen are Cautious.
+Groups. The Bees have 0 Glory.
+
+If using the [Routine Procedures][1], the forces of Stamullen are Cautious.
 
 ### Macullen
 
-Macullen fights as a Champion. He rolls 2 dice to hit.
+Macullen fights as a Champion. He rolls 2d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |   Traits   |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :--------- |
@@ -37,8 +39,7 @@ If using the [Routine Procedures][1], the forces of Culemwardern are Guarded.
 
 ### Cioran
 
-Cioran fights as a Champion. He has the [Fame traits][2] Competent and Clever. He rolls 12 dice to
-hit.
+Cioran fights as a Champion. He has the [Fame traits][2] Competent and Clever. He rolls 12d6 to hit.
 
 |     ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :---------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
@@ -54,8 +55,7 @@ Druid, in which case they are Ferocious. The Skirmishers always fight as Small G
 ### Beyf
 
 Beyf fights beside a Small Group of Skirmishers as Captain. When joined to the Skirmishers, the
-Group rolls 14 dice to hit and have +2 when testing Resolve. When Duelling, Beyf rolls 4 dice to
-hit.
+Group rolls 14d6 to hit and have +2 when testing Resolve. When Duelling, Beyf rolls 4d6 to hit.
 
 |    Mode     |      ME      |   MO    |      MI       |  FS   |   R   |   T   |           Traits            |
 | :---------- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :-------------------------- |
@@ -97,8 +97,8 @@ If using the [Routine Procedures][1], the forces of Dorbog are Bold.
 ### Donnagh
 
 Donnagh fights beside a Group of Footmen as Captain and is joined by Mish. He has the
-[Fame traits][2] Willing and Brave. When joined to the Footmen, the Group rolls 19 dice to hit and
-have +7 when testing Resolve. When Duelling, Donnagh rolls 10 dice to hit.
+[Fame traits][2] Willing and Brave. When joined to the Footmen, the Group rolls 19d6 to hit and have
++7 when testing Resolve. When Duelling, Donnagh rolls 10d6 to hit.
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
@@ -114,7 +114,7 @@ If using the [Routine Procedures][1], the Pirates are Ferocious.
 
 ### Niamh
 
-Niamh fights as a Champion. She has the [Fame traits][2] Willing and Lucky. She rolls 10 dice to hit.
+Niamh fights as a Champion. She has the [Fame traits][2] Willing and Lucky. She rolls 10d6 to hit.
 
 |     ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :---------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
@@ -155,8 +155,8 @@ If using the [Routine Procedures][1], the forces of Blulach are Bold.
 ### Glas
 
 Glas fights beside a Group of Armoured Footmen as Captain. He has the [Fame traits][2] Competent and
-Willing. When joined to the Armoured Footmen, the Group rolls 16 dice to hit and have +4 when
-testing Resolve. When Duelling, Glas rolls 8 dice to hit.
+Willing. When joined to the Armoured Footmen, the Group rolls 16d6 to hit and have +4 when testing
+Resolve. When Duelling, Glas rolls 8d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
