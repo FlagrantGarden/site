@@ -1,6 +1,7 @@
 ---
 title: "Forces"
 description: "Captains and Companies in the various domains in Wolves Upon the Coast"
+bookCollapseSection: true
 draft: false
 weight: 80
 ---
