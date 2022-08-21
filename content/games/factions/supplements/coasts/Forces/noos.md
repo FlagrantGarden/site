@@ -297,8 +297,8 @@ Widina fights beside 5 Footmen as Captain. When joined to the Footmen, the Group
 
 ## Spring Kobolds
 
-The Kobolds have no Captain, 0 Fame, and 0 Glory. They always fight in Groups of 8. The Basilisk has
-20 Glory.
+The Kobolds have no Captain, 0 Fame, and 0 Glory. They always fight in Groups of 8 worth 5 points.
+The Basilisk has 20 Glory.
 
 If using the [Routine Procedures][1], the Kobolds are Guarded.
 
