@@ -318,7 +318,7 @@ lines, aware of their leading markup.
 
 This is an extension you probably won't care _too much_ about if you're never going to track your
 work beyond chucking it in a cloud drive or on a thumbstick, but if you end up using source control
-(see the [Tracking section](#tracking) for my thoughts on why you should), it becomes indispensable.
+(in my opinion, you should), it becomes indispensable.
 
 It also makes things easier to read since your lines don't wander forever, but you can _also_ solve
 that problem with the <kbd><kbd>Alt/Cmd</kbd> + <kbd>Z</kbd></kbd> hotkey for toggling word wrapping
@@ -501,13 +501,14 @@ Until next time!
 [ext-mdaio-tables]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#github-flavored-markdown
 [ext-mdaio-toc]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents
 [ext-mdaio]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
-[ext-mdl-image-warning]: /images/writing-markdown/vscode-mdl-warning.png
+[ext-mdl-img-warning]: /images/writing-markdown/vscode-mdl-warning.png
 [ext-mdl]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+[ext-mdl-install]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint#install
 [ext-reflow]: https://marketplace.visualstudio.com/items?itemName=marvhen.reflow-markdown
-[ext-yaml]: https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
 [markdown]: https://www.markdownguide.org/getting-started/
 [source-page]: https://github.com/FlagrantGarden/site/blob/main/content/posts/writing-markdown.md
 [source-site]: https://github.com/FlagrantGarden/site
+[vscode-cmd]: https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette
 [vscode-editing-fmt]: https://code.visualstudio.com/docs/editor/codebasics#_formatting
 [vscode-editing-fnr]: https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace
 [vscode-editing-is]: https://code.visualstudio.com/docs/editor/codebasics#_intellisense
@@ -518,6 +519,7 @@ Until next time!
 [vscode-keys-linux]: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 [vscode-keys-macos]: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
 [vscode-keys-windows]: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+[vscode-markdown]: https://code.visualstudio.com/Docs/languages/markdown
 [vscode-outline]: https://code.visualstudio.com/docs/languages/markdown#_outline-view
 [vscode-preview]: https://code.visualstudio.com/docs/languages/markdown#_markdown-preview
 [vscode-screenshot-rendered]: /images/writing-markdown/vscode-highlight.png
@@ -526,6 +528,7 @@ Until next time!
 [ext-mdl-image-commands]: /images/writing-markdown/vscode-mdl-commands.png
 [ext-mdl-config]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint#configure
 [ext-mdl-rules]: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+[vale-config-gen]: https://vale.sh/generator/
 [vale-install]: https://vale.sh/docs/vale-cli/installation/
 [vale]: https://vale.sh/docs/vale-cli/overview/
 [ext-vale]: https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server
