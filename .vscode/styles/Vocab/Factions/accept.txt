@@ -158,7 +158,7 @@ Malmberget
 Marlfagh
 Maurits
 Meadery
-Merfolk
+[mM]erfolk
 Mergyl
 Methven
 Meza
@@ -253,3 +253,13 @@ Ylmo
 Ymwelydd
 Ynyr
 Yrcoed
+[sS]kybreather(s)?
+Jarl(s)?
+Fortu
+Ergyng
+Mithel
+Guthrum
+FS
+[cC]rownless
+[dD]omovoy
+Albann
