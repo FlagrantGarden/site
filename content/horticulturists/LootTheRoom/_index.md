@@ -1,6 +1,7 @@
 ---
 title: Loot the Room
-description: Small games for big people
+date: 2022-01-06
+summary: Small games for big people
 ---
 
 <!-- vale off -->

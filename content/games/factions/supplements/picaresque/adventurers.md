@@ -1,6 +1,6 @@
 ---
-title: "Adventurers"
-description: "Rules and guidance for playing Adventurers in Flagrant Picaresque"
+title: Adventurers
+summary: Rules and guidance for playing Adventurers in Flagrant Picaresque
 weight: 10
 ---
 

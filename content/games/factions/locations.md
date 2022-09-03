@@ -1,6 +1,7 @@
 ---
-title: "Locations"
-description: "Sample locations for Flagrant Factions"
+title: Locations
+date: 2022-06-05
+summary: Sample locations for Flagrant Factions
 weight: 15
 ---
 

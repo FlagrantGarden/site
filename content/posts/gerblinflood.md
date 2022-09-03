@@ -1,16 +1,15 @@
 ---
-author: Michael T. Lombardi
+author: Mikey Lombardi
 date: 2021-11-11
-linktitle: "Coming Soon: Gerblinflood"
+title: Gerblinflood
 summary: |
   Preview of the upcoming goblin-themed supplement for Flagrant Factions
 categories:
   - preview
 tags:
   - flagrant factions
-title: "Gerblinflood"
 weight: 10
-bookComments: true
+type: Post
 ---
 
 _Gerblinflood_ is an upcoming supplement for [_Flagrant Factions_](/games/factions) bringing new

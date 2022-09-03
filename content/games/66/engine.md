@@ -1,6 +1,7 @@
 ---
-title: "Engine"
-description: "A d66 engine for attribute & domain games"
+title: Engine
+date: 2021-09-12
+summary: A d66 engine for attribute & domain games
 weight: 10
 ---
 

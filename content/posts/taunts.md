@@ -1,22 +1,16 @@
 ---
-author: Michael T. Lombardi
-date: 2021-09-01
-linktitle: Taunts in Flagrant Factions
+author: Mikey Lombardi
+date: 2021-09-15
+title: Taunts in Flagrant Factions
 summary: |
   An experimental subsystem for Flagrant Factions
-# menu:
-#   main:
-#     parent: tutorials
-# next: /posts/shortcodes
-# # prev: /posts/post-name
 categories:
   - mechanisms
 tags:
   - flagrant factions
   - experimental
-title: Taunts
 weight: 10
-bookComments: true
+type: Post
 ---
 
 So in discussions with [Sean Richer](https://twitter.com/HypatiasAngst) earlier, we chatted about

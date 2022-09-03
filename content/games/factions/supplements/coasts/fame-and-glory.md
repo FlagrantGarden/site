@@ -1,6 +1,6 @@
 ---
-title: "Fame and Glory"
-description: "Subystems for measuring Captains and Groups"
+title: Fame and Glory
+summary: Subystems for measuring Captains and Groups
 draft: false
 weight: 10
 ---

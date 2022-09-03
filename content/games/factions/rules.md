@@ -1,6 +1,7 @@
 ---
-title: "Rules"
-description: "Rules for playing Flagrant Factions"
+title: Rules
+date: 2021-09-12
+summary: Rules for playing Flagrant Factions
 weight: 10
 ---
 

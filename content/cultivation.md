@@ -1,6 +1,7 @@
 ---
 title: Flagrant Cultivation
-description: >
+date: 2021-09-12
+summary: >
   Make kitbashable shit. Release as early as possible. Iterate and accelerate collaboration. Build
   out, not up. Fuck hierarchies.
 type: docs

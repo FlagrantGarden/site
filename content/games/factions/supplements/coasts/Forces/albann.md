@@ -1,6 +1,6 @@
 ---
-title: "Albann"
-description: "The forces of Albann"
+title: Albann
+summary: The forces of Albann
 draft: false
 weight: 40
 ---

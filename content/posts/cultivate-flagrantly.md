@@ -1,19 +1,13 @@
 ---
-author: Michael T. Lombardi
-date: 2021-09-01
-linktitle: Cultivate Flagrantly
+author: Mikey Lombardi
+date: 2021-09-12
+title: Cultivate Flagrantly
 summary: |
   The Flagrant Garden's declaration in blog format.
-# menu:
-#   main:
-#     parent: tutorials
-# next: /posts/shortcodes
-# # prev: /posts/post-name
 categories:
   - meta
-title: Cultivate Flagrantly
 weight: 20
-bookComments: true
+type: Post
 ---
 
 This is post is the statement for the Flagrant Garden's declaration, also found

@@ -1,6 +1,6 @@
 ---
-title: "Soldiers"
-description: "Groups and traits for land forces."
+title: Soldiers
+summary: Groups and traits for land forces.
 draft: false
 weight: 50
 ---

@@ -1,6 +1,7 @@
 ---
-title: "Routines"
-description: "Rules for non-player Companies in Flagrant Factions"
+title: Routines
+date: 2022-06-12
+summary: Rules for non-player Companies in Flagrant Factions
 weight: 50
 ---
 

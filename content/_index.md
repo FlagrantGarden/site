@@ -1,6 +1,7 @@
 ---
 title: Flagrant Garden
-description: A Garden of Play, Flagrantly Cultivated
+date: 2021-09-12
+summary: A Garden of Play, Flagrantly Cultivated
 type: docs
 ---
 

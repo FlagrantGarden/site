@@ -1,6 +1,6 @@
 ---
-title: "The Mid-Isles"
-description: "The forces of the Mid-Isles"
+title: The Mid-Isles
+summary: The forces of the Mid-Isles
 draft: false
 weight: 15
 ---

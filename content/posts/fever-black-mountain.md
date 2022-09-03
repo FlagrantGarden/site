@@ -1,22 +1,16 @@
 ---
-author: Michael T. Lombardi
-date: 2021-09-21
-linktitle: "Sample Picaresque: Fever Black Mountain"
+author: Mikey Lombardi
+date: 2021-09-20
+title: "Sample Picaresque: Fever Black Mountain"
 summary: |
   An experimental adventure for Flagrant Picaresque using Nate Treme's Fever Black Mountain
-# menu:
-#   main:
-#     parent: tutorials
-# next: /posts/shortcodes
-# # prev: /posts/post-name
 categories:
   - mechanisms
 tags:
   - flagrant picaresque
   - experimental
-title: "Sample Picaresque: Fever Black Mountain"
 weight: 10
-bookComments: true
+type: Post
 ---
 
 This short post is an experimental sample adventure for [Flagrant Picaresque][fp] which builds on

@@ -1,22 +1,17 @@
 ---
-author: Michael T. Lombardi
+author: Mikey Lombardi
 date: 2022-07-11
-linktitle: Writing Markdown
+title: Writing Markdown
 summary: |
   On writing markdown and tools to make it smoother and easier
-# menu:
-#   main:
-#     parent: tutorials
-# next: /posts/shortcodes
-# # prev: /posts/post-name
 categories:
   - meta
 tags:
   - markdown
   - workflow
   - tools
-title: Writing Markdown
 weight: 10
+type: Post
 ---
 
 I've been writing [Markdown][markdown] for years now. I started writing it when I was working in
