@@ -1,20 +1,54 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.site.baseURL": "https://flagrant.garden",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.taxonomy.seoDescriptionField": "summary",
+  "frontMatter.taxonomy.seoDescriptionLength": 160,
+  "frontMatter.taxonomy.seoSlugLength": 60,
+  "frontMatter.taxonomy.seoTitleLength": 60,
+  "frontMatter.taxonomy.tags": [
+    "experimental",
+    "flagrant factions",
+    "flagrant picaresque",
+    "markdown",
+    "production",
+    "tools",
+    "workflow"
+  ],
+  "frontMatter.taxonomy.categories": [
+    "mechanisms",
+    "meta",
+    "preview",
+    "site"
+  ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
       "pageBundle": false,
-      "previewPath": null,
       "fields": [
         {
           "title": "Title",
           "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Link Title - used when in a list",
+          "name": "linktitle",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Summary - displayed when paginated or in a list and as page description",
+          "name": "summary",
           "type": "string"
         },
         {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
+          "title": "Weight - determines order for pages; lower weight first",
+          "name": "weight",
+          "type": "number"
         },
         {
           "title": "Publishing date",
@@ -34,6 +68,168 @@
           "type": "draft"
         },
         {
+          "title": "Display Table of Contents",
+          "name": "bookToC",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Hide from site menu",
+          "name": "bookHidden",
+          "type": "boolean"
+        },
+        {
+          "title": "Exclude from site search",
+          "name": "bookSearchExclude",
+          "type": "boolean"
+        },
+        {
+          "title": "Display children as a flat list in the site menu",
+          "name": "bookFlatSection",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "docs",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Link Title - used when in a list",
+          "name": "linktitle",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Summary - displayed when paginated or in a list and as page description",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Weight - determines order for pages; lower weight first",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Display Table of Contents",
+          "name": "bookToC",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Hide from site menu",
+          "name": "bookHidden",
+          "type": "boolean"
+        },
+        {
+          "title": "Exclude from site search",
+          "name": "bookSearchExclude",
+          "type": "boolean"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "name": "Post",
+      "pageBundle": false,
+      "previewPath": "posts",
+      "fields": [
+        {
+          "title": "Author's Name",
+          "name": "author",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Link Title - used when in a list",
+          "name": "linktitle",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Summary - displayed when paginated or in a list and as page description",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Weight - determines order for pages; lower weight first",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Display Table of Contents",
+          "name": "bookToC",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Hide from site menu",
+          "name": "bookHidden",
+          "type": "boolean"
+        },
+        {
+          "title": "Exclude from site search",
+          "name": "bookSearchExclude",
+          "type": "boolean"
+        },
+        {
+          "title": "Display Comments",
+          "name": "bookComments",
+          "type": "boolean",
+          "default": false
+        },
+        {
           "title": "Tags",
           "name": "tags",
           "type": "tags"
@@ -42,12 +238,17 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string",
+          "default": "Post",
+          "hidden": true
         }
       ]
     }
   ],
-  "frontMatter.framework.id": "hugo",
-  "frontMatter.content.publicFolder": "static",
   "frontMatter.content.pageFolders": [
     {
       "title": "Posts",
