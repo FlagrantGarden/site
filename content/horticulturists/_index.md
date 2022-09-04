@@ -1,8 +1,4 @@
 ---
-menu:
-  after:
-    name: Friendly Horticulturists
-    weight: 20
 title: Friendly Horticulturists
 date: 2022-01-06
 summary: A list of folks flagrantly cultivating good work where they are as they can.

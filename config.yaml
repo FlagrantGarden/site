@@ -55,10 +55,16 @@ menu:
     - name: Available Cultivars
       url: /cultivars
       weight: 10
+    - name: Friendly Horticulturists
+      url: /horticulturists
+      weight: 20
   before:
     - name: "Cultivate Flagrantly"
       url: "/cultivation"
       weight: 10
+    - name: Posts
+      url: /posts
+      weight: 20
 
 params:
   description: A nursery for narrative play.
