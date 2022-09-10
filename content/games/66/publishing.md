@@ -2,7 +2,7 @@
 title: Publishing
 date: 2021-09-12
 summary: Publishing & Flagrant66
-weight: 10
+weight: 30
 ---
 
 ## Terms
