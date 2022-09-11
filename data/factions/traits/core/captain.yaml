@@ -1,0 +1,86 @@
+- name: Reprehensible
+  kind: captain
+  roll: 3
+  effect: >-
+    After deployment, whether or not the Captain is on the table, roll 1d6 for every Group except
+    the Captain's. On a 1, remove that Group from play—they desert.
+- name: Vapid
+  kind: captain
+  roll: 4
+  effect: >-
+    Captain does not grant a bonus on Resilience tests to nearby Groups.
+- name: Blood-shy
+  kind: captain
+  roll: 5
+  effect: >-
+    Captain's Group may not be ordered to Attack.
+- name: Feeble
+  kind: captain
+  roll: 6
+  effect: >-
+    Captain's Group rolls one fewer die when Attacking or Shooting.
+- name: Vicious
+  kind: captain
+  roll: 7
+  effect: >-
+    When any Group within 12" fails to rally, they may lose 1R to pass instead.
+- name: Shrewd
+  kind: captain
+  roll: 8
+  effect: >-
+    You may add or subtract 1 from your roll when determining attacker and defender at the start of
+    the game.
+- name: Resolute
+  kind: captain
+  roll: 9
+  effect: >-
+    Captain and Captain's Group are unaffected by fear effects.
+- name: Capable
+  kind: captain
+  roll: 10
+  effect: >-
+    Once each turn, Captain's Group may reroll one die when rolling to hit.
+- name: Compelling
+  kind: captain
+  roll: 11
+  effect: >-
+    Once each turn, one Group within 12" of the Captain may reroll a failed activation test.
+- name: Prodding
+  kind: captain
+  roll: 12
+  effect: >-
+    Once each turn, one Group within 12" of the Captain may automatically pass a Move activation
+    test.
+- name: Aggressive
+  kind: captain
+  roll: 13
+  effect: >-
+    Once each turn, one Group within 12" of the Captain may automatically pass an Attack activation
+    test.
+- name: Shooter
+  kind: captain
+  roll: 14
+  effect: >-
+    Once each turn, one Group within 12" of the Captain may automatically pass a Shooting activation
+    test.
+- name: Dangerous
+  kind: captain
+  roll: 15
+  effect: >-
+    Once each turn, Captain's Group may reroll two dice when rolling to hit.
+- name: Calming
+  kind: captain
+  roll: 16
+  effect: >-
+    Once each turn, one Group within 12" of the Captain may ignore a compulsory activation as the
+    result of the Reckless trait.
+- name: Abjured
+  kind: captain
+  roll: 17
+  effect: >-
+    Captain's Group cannot be targeted by enemies' spells.
+- name: Incredible
+  kind: captain
+  roll: 18
+  effect: >-
+    Once each turn, Captain's Group may reroll three dice when rolling to hit.

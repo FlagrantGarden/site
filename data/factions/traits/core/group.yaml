@@ -1,12 +1,18 @@
 - name: Defensive
+  kind: profile
   effect: If the Group is not shaken, in rough ground, or in cover, they may Move into a defensive formation with all models in base contact. They have +1 T until they Move out of base contact.
 - name: Defiant
+  kind: profile
   effect: If the Group is not shaken, when an enemy successfully activates to Attack them, they may test at 7+ to meet the enemy halfway and count both groups as Attacking.
 - name: Elusive
+  kind: profile
   effect: If the Group is not shaken, when an enemy successfully activates to Attack them, they may test at 7+ to move up to half their Move distance and Shoot an enemy.
 - name: Nimble
+  kind: profile
   effect: The Group treats difficult terrain as normal terrain.
 - name: Ponderous
+  kind: profile
   effect: The Group treats difficult terrain as impassable terrain.
 - name: Reckless
+  kind: profile
   effect: If the Group is not shaken, it must activate to Attack if possible.

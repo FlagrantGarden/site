@@ -1,0 +1,63 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://flagrant.garden/schemas/factions/spell.schema.yaml
+title: Spell
+description: >-
+  A Flagrant Factions Spell, a special action a Group may use in play with the Cast Order.
+type: object
+required:
+  - name
+  - target
+  - duration
+  - effect
+properties:
+  name:
+    title: Name
+    description: >-
+      Specifies the name of the Spell (or ability, for non-magical Groups)
+    type: string
+  check:
+    title: Check
+    description: >-
+      The minimum result on 2d6 a Group needs to Cast this Spell.
+    type: integer
+    minimum: 3
+    maximum: 12
+  range:
+    title: Range
+    description: >-
+      Specifies the maximum distance in inches from the Casting Group for the Spell's effect to
+      reach. If targeting another Group, they must be within this distance. If targeting a point on
+      the field, this is the furthest away that point can be.
+    type: integer
+    minimum: 0
+  shape:
+    title: Shape
+    description: >-
+      Specifies the shape of the Spell, if it has an area of effect. If specified, the origin point
+      is the Target and the Range is the distance from the Target that the effect extends.
+    enum:
+      - radius
+      - cone
+      - line
+  target:
+    title: Target
+    description: >-
+      Specifies the list of valid targets for the Spell. Typically one of: Self, Another Group, or
+      Group.
+    type: array
+    items:
+      type: string
+  duration:
+    title: Duration
+    description: >-
+      How long the Spell's effect lasts. If the effect is instantaneous without lingering, do not
+      specify this property. It is typical for Spells to last until the start of the Casting Group's
+      next turn.
+    type: string
+  effect:
+    title: Effect
+    description: >-
+      The Spell's effect on the target Group or Groups or the Groups in the area of effect for a
+      Spell with a Shape.
+    type: string

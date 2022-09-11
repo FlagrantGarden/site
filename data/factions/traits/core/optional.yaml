@@ -1,63 +1,84 @@
 - name: Accurate
+  kind: special
   cost: 2
   effect: If the Group has a MI profile, improve the to-hit value by 1.
 - name: Apprentice
+  kind: special
   cost: 2
   effect: Before the skirmish, choose three spells (ppxx). This Group can be given a Casting order, to attempt to Cast one of those three spells.
 - name: Caster
+  kind: special
   cost: 4
   effect: This Group can be given a Casting order, to attempt to Cast any spell (ppxx).
 - name: Chariot
+  kind: special
   cost: 2
   effect: Cavalry only. +1 T,but treats difficult terrain as impassable terrain.
 - name: Composed
+  kind: special
   cost: 2
   effect: Groups with the Reckless trait only. Remove Reckless, improve MO activation by one.
 - name: Cowardly
+  kind: special
   cost: 2
   effect: When making a Resilience test, this Group must always reroll the highest die.
 - name: "[Kind]-Foe"
+  kind: special
   cost: 1
   effect: Choose an enemy type. This Group gains the Reckless trait against those enemies. If this Group is already Reckless, they automatically pass their activation to Attack those enemies instead. If the chosen enemy type is not in any opposing army, reduce the point cost to 0.
 - name: "[Kind]bane"
+  kind: special
   cost: 4
   effect: Choose an enemy type. The Group ignores the Terrifying trait for those enemies, and may reroll each to-hit die once each phase when fighting them. If the chosen enemy type is not in any opposing army, reduce the point cost to 0.
 - name: Move Freely
+  kind: special
   cost: 2
   effect: The Group ignores all friends, enemies, and terrain while moving.
 - name: Offensive
+  kind: special
   cost: 2
   effect: Groups with the Defensive trait only. Remove Defensive, improve ME to-hit by 1 when Attacking.
 - name: Self-Destruct
+  kind: special
   cost: 2
   effect: The group may test at 5+ to activate and self-destruct as if Shooting everything within 6”, hitting on a 3+. The group is destroyed at the end of their activation.
 - name: Shooters
+  kind: special
   cost: 2
   effect: If the Group does not already have a MI profile, add one at 6+ / 5+ / 18”.
 - name: Short-Ranged
+  kind: special
   cost: -1
   effect: If the Group already has a MI profile, reduce range by half.
 - name: Stealthy
+  kind: special
   cost: 3
   effect: Enemies cannot Shoot this Group. This Group does not block line of sight except for Groups in melee.
 - name: Summoner
+  kind: special
   cost: 3
   effect: This Group can be given a Summon order (6+) to raise an undeployed group within 12” (and no closer than 6” to an enemy). If successful, the summoned group may attempt to activate this turn.
 - name: Terrifying
+  kind: special
   cost: 2
   effect: When being Attacked by this Group, enemies must reroll their highest die when making Resilience tests.
 - name: Throwers
+  kind: special
   cost: 1
   effect: If the Group does not already have a MI profile, add one at 6+ / 5+ / 6”.
 - name: Unerring
+  kind: special
   cost: 3
   effect: Once each activation, may reroll any dice on a single to-hit roll.
 - name: Unfeeling
+  kind: special
   cost: 0
   effect: Automatically pass Resilience tests but round up hits inflicted against the group.
 - name: Vicious
+  kind: special
   cost: 3
   effect: To-hit rolls of 6 inflict two hits.
 - name: Well-Armed
+  kind: special
   cost: 1
   effect: Once each activation, may reroll all results of 1 on a single to-hit roll.

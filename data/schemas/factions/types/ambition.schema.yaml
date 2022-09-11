@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://flagrant.garden/schemas/factions/ambition.schema.yaml
+title: Ambition
+description: >-
+  A Flagrant Factions Ambition with a name, points value, and the conditions for achieving it.
+type: object
+required:
+  - name
+  - points
+  - condition
+properties:
+  name:
+    title: Name
+    description: >-
+      Specify the name of the Ambition. This is how it's referenced in play.
+    type: string
+  points:
+    title: Victory Points
+    description: >-
+      Specify how many VP the Ambition is worth if fulfilled in a Skirmish.
+    type: integer
+    minimum: 1
+  condition:
+    title: Fulfillment Condition
+    description: >-
+      Specify the fullfillment conditions for the Ambition.
+    type: string
+  source:
+    title: Source
+    description: >-
+      Specify the text the Ambition belongs to, such as the name of the supplement or playkit.
+    type: string

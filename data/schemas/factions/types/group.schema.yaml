@@ -1,0 +1,176 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://flagrant.garden/schemas/factions/group.schema.yaml
+title: Group
+description: >-
+  A Flagrant Factions Group, the basic unit of a Company.
+type: object
+required:
+  - name
+  - melee
+  - move
+  - fighting_strength
+  - resolve
+  - toughness
+properties:
+  name:
+    title: Name
+    description: >-
+      The name of the Group
+    type: string
+  profile:
+    title: Profile
+    description: >-
+      Choose a valid base profile for the Group.
+    enum:
+      - Heavy Beast
+      - Light Beast
+      - Elite Cavalry
+      - Heavy Cavalry
+      - Light Cavalry
+      - Elite Engine
+      - Heavy Engine
+      - Light Engine
+      - Elite Foot
+      - Heavy Foot
+      - Light Foot
+  cost:
+    title: Points Cost
+    description: >-
+      How many points the Group is worth. Used for setup and some conditional triggers in play.
+    type: integer
+    minimum: 1
+    maximum: 12
+  melee:
+    title: Melee (ME)
+    description: >-
+      How good the Group is at fighting in close quarters.
+    type: object
+    required:
+      - activation
+      - to_hit_attack
+      - to_hit_defend
+    properties:
+      activation:
+        title: Attack Activation
+        description: >-
+          Minimum result on 2d6 to Attack another Group. If null, the Group can't activate to
+          Attack.
+        oneOf:
+          - type: integer
+            minimum: 3
+            maximum: 12
+          - type: "null"
+      to_hit_attack:
+        title: To-Hit when Attacking
+        description: >-
+          Minimum result on a d6 rolled while Attacking to hit an enemy Group. If null, the Group
+          can't hit when Attacking (Activation must also be null).
+        oneOf:
+          - type: integer
+            minimum: 2
+            maximum: 6
+          - type: "null"
+      to_hit_defend:
+        title: To-Hit when Attacked
+        description: >-
+          Minimum result on a d6 rolled to hit an enemy Group when it Attacks this one. If null, the
+          Group can't hit when Attacked.
+        oneOf:
+          - type: integer
+            minimum: 2
+            maximum: 6
+          - type: "null"
+    if:
+      properties:
+        to_hit_attack:
+          type: integer
+    then:
+      properties:
+        activation:
+          type: integer
+  missile:
+    title: Missile (MI)
+    description: >-
+      How good the Group is at fighting at range. If the Group can't Shoot, they don't have an MI
+      profile.
+    type: object
+    required:
+      - activation
+      - to_hit
+      - range
+    properties:
+      activation:
+        title: Shoot Activation
+        description: >-
+          Minimum result on 2d6 to Shoot another Group.
+        type: integer
+        minimum: 3
+        maximum: 12
+      to_hit:
+        title: To-Hit when Shooting
+        description: >-
+          Minimum result on a d6 rolled while Shooting to hit an enemy Group.
+        type: integer
+        minimum: 2
+        maximum: 6
+      range:
+        title: Shooting Range
+        description: >-
+          Maximum distance from this Group for selecting a valid target when giving the Shoot Order.
+          Must be null if Activation is null.
+        type: integer
+        minimum: 2
+  move:
+    title: Movement (Mo)
+    description: >-
+      How quickly and easily the Group can cover ground.
+    type: object
+    required:
+      - activation
+      - distance
+    properties:
+      activation:
+        title: Move Activation
+        description: >-
+          Minimum result on 2d6 to Move during a Skirmish.
+        type: integer
+        minimum: 3
+        maximum: 12
+      distance:
+        title: Distance
+        description: >-
+          Maximum distance this Group can travel when Moving or Attacking.
+        type: integer
+        minimum: 2
+  fighting_strength:
+    title: Fighting Strength (FS)
+    description: >-
+      How long a Group can stay in a fight when taking hits. This value is the Group's maximum FS
+      under normal conditions.
+    type: integer
+    minimum: 1
+  resolve:
+    title: Resolve (R)
+    description: >-
+      How able the Group is to stay in the fight when losing FS. This value is the minimum result on
+      2d6 the Group needs to get to pass when Testing Resolve.
+    type: integer
+    minimum: 3
+    maximum: 12
+  toughness:
+    title: Toughness (T)
+    description: >-
+      How many hits the Group can take before losing 1FS. With 1T, every hit reduces their FS. With
+      3T: 1-2 hits don't reduce any FS, 3-5 hits inflict -1FS, 6-8 hits inflict -2FS, and so on.
+    type: integer
+    minimum: 1
+  traits:
+    title: Traits
+    description: >-
+      Any traits the Group has. Each trait is a special rule that modifies a Group's profile or how
+      they fight in a Skirmish.
+    type: array
+    items:
+      type: string
+    uniqueItems: true
