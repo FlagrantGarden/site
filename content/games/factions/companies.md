@@ -1,6 +1,7 @@
 ---
-title: "Companies"
-description: "Sample companies to play in Flagrant Factions"
+title: Companies
+date: 2022-09-12
+summary: Sample companies to play in Flagrant Factions.
 bookToC: false
 weight: 60
 ---

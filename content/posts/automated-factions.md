@@ -1,22 +1,17 @@
 ---
-author: Michael T. Lombardi
-date: 2021-09-20
+author: Mikey Lombardi
+title: Automated Companies
 linktitle: Automated Companies in Flagrant Factions
-summary: |
+date: 2021-09-20
+summary: >
   An experimental option for non-player controlled Companies in Flagrant Factions
-# menu:
-#   main:
-#     parent: tutorials
-# next: /posts/shortcodes
-# # prev: /posts/post-name
 categories:
   - mechanisms
 tags:
   - flagrant factions
   - experimental
-title: Automated Companies
 weight: 10
-bookComments: true
+type: Post
 ---
 
 <!-- vale Microsoft.HeadingPunctuation = NO -->

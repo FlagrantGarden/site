@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://flagrant.garden/schemas/factions/company.schema.yaml
+title: Company
+description: >-
+  A Flagrant Factions Company, the basic unit of a Company.
+type: object
+required:
+  - name
+  - summary
+  - captain
+  - groups
+properties: 
+  name:
+    title: Company Name
+    description: The Company's name.
+    type: string
+  summary:
+    title: Company Description
+    description: An overview of the Company in Markdown.
+    type: string
+    contentMediaType: text/markdown
+  captain:
+    title: Captain's Group
+    description: >-
+      Specify the name of the Group that is Captain of this Company. If the Company has no
+      Captain, specify an empty string.
+    type: string
+  groups:
+    title: Groups
+    description: >-
+      List the Groups that make up the Company. Include any modifications to their Profile from
+      their Traits.
+    type: array
+    items:
+      $ref: group.schema.yaml
+    minItems: 1
+    uniqueItems: false

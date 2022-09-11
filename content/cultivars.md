@@ -1,6 +1,7 @@
 ---
 title: Available Cultivars
-description: |
+date: 2022-01-04
+summary: |
   A quick list of available texts and projects, flagrantly cultivated.
 type: docs
 ---

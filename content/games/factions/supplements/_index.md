@@ -1,6 +1,6 @@
 ---
-title: "Supplements"
-description: "Addenda for Flagrant Factions"
+title: Supplements
+summary: Addenda for Flagrant Factions
 bookCollapseSection: true
 weight: 99
 ---

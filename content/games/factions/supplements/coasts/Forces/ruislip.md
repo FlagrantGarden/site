@@ -1,6 +1,6 @@
 ---
-title: "Ruislip"
-description: "The forces of Ruislip and its surroundings"
+title: Ruislip
+summary: The forces of Ruislip and its surroundings
 draft: false
 weight: 10
 ---

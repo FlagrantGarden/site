@@ -1,6 +1,6 @@
 ---
-title: "Noos"
-description: "The forces of the isle of Noos"
+title: Noos
+summary: The forces of the isle of Noos
 draft: false
 weight: 20
 ---

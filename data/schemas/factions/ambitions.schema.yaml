@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://flagrant.garden/schemas/factions/ambitions.schema.yaml
+title: Ambitions
+description: >-
+  A Flagrant Factions Ambition list, meant for defining the Ambitions provided by a supplement.
+  Usually, Ambitions are defined in a single file.
+type: array
+items:
+  $ref: types/ambition.schema.yaml

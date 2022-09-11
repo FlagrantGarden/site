@@ -1,6 +1,6 @@
 ---
-title: "Refereeing"
-description: "Rules and guidance for facillitating Flagrant Picaresque"
+title: Refereeing
+summary: Rules and guidance for facillitating Flagrant Picaresque
 weight: 20
 ---
 

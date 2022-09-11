@@ -1,0 +1,79 @@
+name: Bearfolk War Party
+summary: |
+  Tall humanoid bears with spears and the mantle of winter; fast, tough, and dedicated to each
+  other.
+captain: Longbraids
+groups:
+  - name: Longbraids
+    profile: Elite Cavalry
+    cost: 8
+    melee:
+      activation: 5
+      to_hit_attack: 3
+      to_hit_defend: 5
+    move:
+      activation: 7
+      distance: 10
+    fighting_strength: 6
+    resolve: 3
+    toughness: 4
+    traits:
+      - Defiant
+      - Reckless
+      - Terrifying
+  - name: Aurorans
+    profile: Heavy Foot
+    cost: 6
+    melee:
+      activation: 6
+      to_hit_attack: 5
+      to_hit_defend: 4
+    move:
+      activation: 5
+      distance: 6
+    fighting_strength: 12
+    resolve: 4
+    toughness: 3
+    traits:
+      - Apprentice
+      - Defensive
+  - name: Hunters
+    profile: Heavy Cavalry
+    cost: 5
+    melee:
+      activation: 5
+      to_hit_attack: 4
+      to_hit_defend: 5
+    missile:
+      activation: 6
+      to_hit: 5
+      range: 6
+    move:
+      activation: 5
+      distance: 10
+    fighting_strength: 6
+    resolve: 4
+    toughness: 3
+    traits:
+      - Defiant
+      - Throwers
+  - name: Hunters
+    profile: Heavy Cavalry
+    cost: 5
+    melee:
+      activation: 5
+      to_hit_attack: 4
+      to_hit_defend: 5
+    missile:
+      activation: 6
+      to_hit: 5
+      range: 6
+    move:
+      activation: 5
+      distance: 10
+    fighting_strength: 6
+    resolve: 4
+    toughness: 3
+    traits:
+      - Defiant
+      - Throwers

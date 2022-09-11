@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://flagrant.garden/schemas/factions/spells.schema.yaml
+title: Spells
+description: >-
+  A Flagrant Factions Spell list, meant for defining the Spells provided by a supplement. Usually,
+  Spells are defined in a single file.
+type: array
+items:
+  $ref: types/spell.schema.yaml

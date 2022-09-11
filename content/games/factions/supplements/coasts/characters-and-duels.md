@@ -1,6 +1,6 @@
 ---
-title: "Characters and Duels"
-description: "Guidance for WutC characters as Groups and personal combat"
+title: Characters and Duels
+summary: Guidance for WutC characters as Groups and personal combat
 draft: false
 weight: 30
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Faroe"
-description: "The forces of Faroe"
+title: Faroe
+summary: The forces of Faroe
 draft: false
 weight: 30
 ---

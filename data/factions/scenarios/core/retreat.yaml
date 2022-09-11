@@ -1,21 +1,23 @@
 weight: 2
-title: Retreat
+name: Retreat
+summary: ""
 deployment: |
-  Defenders deploy 12-18” from one edge, and attackers within 8” of the same edge.
-  Each side places one Group at a time, alternating between sides after each Group,
-  until both sides have deployed all the Groups they intend to have on the field at the beginning of play.
-firstTurn: |
+  Defenders deploy 12-18" from one edge, and attackers within 8" of the same edge. Each side places
+  one Group at a time, alternating between sides after each Group, until both sides have deployed
+  all the Groups they intend to have on the field at the beginning of play.
+first_turn: |
   Defenders may choose to go first or allow the attackers to go first.
 
-  After deciding, the defender must immediately make a resilience test for every group they deployed;
-  for each test is failed, that Group starts play shaken.
-specialRules: |
-  Defenders may voluntarily Move their Groups off the table edge opposite from the one they deployed along.
-  These Groups do not count as having been Routed but have instead Escaped; so do any Groups forced to Retreat off that edge.
-  Groups which Retreat off any other edge do count as Routed.
-closingConditions: |
+  After deciding, the defender must immediately make a resilience test for every group they
+  deployed; for each test is failed, that Group starts play shaken.
+special_rules: |
+  Defenders may voluntarily Move their Groups off the table edge opposite from the one they deployed
+  along. These Groups do not count as having been Routed but have instead Escaped; so do any Groups
+  forced to Retreat off that edge. Groups which Retreat off any other edge do count as Routed.
+conclusion_conditions: |
   Play ends immediately when either side has no Groups remaining in play.
 
   Defenders gain 3VP for each of their Groups that Escape.
 
-  Attackers gain 2VP for every enemy Group Routed—they gain 4VP for each enemy Captain’s Group Routed.
+  Attackers gain 2VP for every enemy Group Routed—they gain 4VP for each enemy Captain's Group
+  Routed.

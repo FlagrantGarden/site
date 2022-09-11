@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://flagrant.garden/schemas/factions/location.schema.yaml
+title: Location
+description: >-
+  A Flagrant Factions Location, where a Skirmish takes place and how those special rules affect
+  play.
+type: object
+required:
+  - name
+  - setup
+  - details
+properties:
+  name:
+    title: Name
+    description: >-
+      Specifies the titular name for the location.
+    type: string
+  setup:
+    title: Setup Instructions
+    description: >-
+      Specifies any special rules and considerations for a Skirmish before play starts by extending
+      or replacing default rules and specifying terrain and/or tokens.
+    type: string
+  details:
+    title: Details
+    description: >-
+      Markdown text describing special rules and information dictating how a Skirmish in the
+      Location is played. Best if broken into several sections for longer locations.
+    type: string

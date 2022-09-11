@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://flagrant.garden/schemas/factions/traits.schema.yaml
+title: Trait
+description: >-
+  A Flagrant Factions Trait list, meant for defining the traits provided by a supplement. Usually,
+  traits are defined in separate files by kind. For example, `captain.yaml`, `group.yaml`, and
+  `special.yaml`.
+type: array
+items:
+  $ref: types/trait.schema.yaml

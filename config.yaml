@@ -18,7 +18,7 @@ module:
 
 # Book configuration
 disablePathToLower: true
-# enableGitInfo: true
+enableGitInfo: true
 
 # Needed for mermaid/katex shortcodes
 markup:
@@ -41,29 +41,36 @@ languages:
     languageName: English
     contentDir: content
     weight: 1
-  ru:
-    languageName: Russian
-    contentDir: content.ru
-    weight: 2
-  zh:
-    languageName: Chinese
-    contentDir: content.zh
-    weight: 3
+  # ru:
+  #   languageName: Russian
+  #   contentDir: content.ru
+  #   weight: 2
+  # zh:
+  #   languageName: Chinese
+  #   contentDir: content.zh
+  #   weight: 3
 
 menu:
   after:
     - name: Available Cultivars
       url: /cultivars
       weight: 10
+    - name: Friendly Horticulturists
+      url: /horticulturists
+      weight: 20
   before:
     - name: "Cultivate Flagrantly"
       url: "/cultivation"
       weight: 10
+    - name: Posts
+      url: /posts
+      weight: 20
 
 params:
   description: A nursery for narrative play.
   images:
     - /images/site-feature-image.png
+
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme: "auto"

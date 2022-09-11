@@ -1,6 +1,6 @@
 ---
-title: "Flagrant Coasts"
-description: "A supplement for skirmishes in Wolves Upon the Coast."
+title: Flagrant Coasts
+summary: A supplement for skirmishes in Wolves Upon the Coast.
 bookCollapseSection: true
 draft: false
 weight: 90

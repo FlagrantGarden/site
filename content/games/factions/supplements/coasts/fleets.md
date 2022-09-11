@@ -1,6 +1,6 @@
 ---
-title: "Fleets"
-description: "Rules, groups, and traits for naval forces."
+title: Fleets
+summary: Rules, groups, and traits for naval forces.
 draft: false
 weight: 60
 ---

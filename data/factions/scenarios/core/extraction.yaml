@@ -1,14 +1,16 @@
 weight: 5
-title: Extraction
+name: Extraction
+summary: ""
 deployment: |
-  Attackers deploy all the Groups they intend to have on the field at the beginning of play at least 18” from the center.
-  Then defenders deploy one Group (the extractees) within 6” of the center,
-  and all the remaining Groups they intend to have on the field at the beginning of play within 12” of any edge.
-firstTurn: |
+  Attackers deploy all the Groups they intend to have on the field at the beginning of play at least
+  18" from the center. Then defenders deploy one Group (the extractees) within 6" of the center, and
+  all the remaining Groups they intend to have on the field at the beginning of play within 12" of
+  any edge.
+first_turn: |
   The defenders must go first.
-specialRules: |
+special_rules: |
   If the Extractees Move or Retreat off the table, they count as having Escaped, not Routed.
-closingConditions: |
+conclusion_conditions: |
   Play ends when the extractees Escape or are Routed.
 
   Defenders gain 6VP if the extractees Escape and 1VP for every enemy Group Routed.

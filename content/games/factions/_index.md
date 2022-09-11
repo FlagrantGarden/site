@@ -1,6 +1,7 @@
 ---
-title: "Flagrant Factions"
-description: "A Fantastic Skirmish Wargame"
+title: Flagrant Factions
+date: 2021-09-12
+summary: A Fantastic Skirmish Wargame
 bookCollapseSection: true
 weight: 10
 ---

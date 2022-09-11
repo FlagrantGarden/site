@@ -1,6 +1,7 @@
 ---
 author: Mikey Lombardi
 date: 2022-07-28
+title: The WOP Model
 linktitle: The 🤌🏻 WOP 🤌🏻 Model
 summary: |
   Thoughts on the Web, Offline, Physical (WOP) model of tabletop text production
@@ -9,8 +10,8 @@ categories:
 tags:
   - workflow
   - production
-title: The WOP Model
 weight: 10
+type: Post
 ---
 
 There's endless ways to work on games-adjacent texts and projects. This one is mine.

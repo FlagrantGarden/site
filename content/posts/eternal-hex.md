@@ -1,22 +1,16 @@
 ---
-author: Michael T. Lombardi
+author: Mikey Lombardi
 date: 2022-01-17
-linktitle: The Eternal Hex
+title: "The Eternal Hex: A Campaign for Conflict Unending"
 summary: |
   An exploration of a campaign setting for longterm Flagrant Factions play.
-# menu:
-#   main:
-#     parent: tutorials
-# next: /posts/shortcodes
-# # prev: /posts/post-name
 categories:
   - preview
 tags:
   - flagrant factions
   - experimental
-title: "The Eternal Hex: A Campaign for Conflict Unending"
 weight: 10
-bookComments: true
+type: Post
 ---
 
 > A purgatorial plane of battle, of life and death unending. A warrior's heaven turned hell.

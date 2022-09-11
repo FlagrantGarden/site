@@ -1,16 +1,19 @@
 weight: 1
-title: Ambush
+name: Ambush
+summary: ""
 deployment: |
-  Defenders deploy all of their Groups within 24” of the center, then attackers deploy all of their Groups anywhere on the table, but no closer than 6” to any defending Group.
-firstTurn: |
+  Defenders deploy all of their Groups within 24" of the center, then attackers deploy all of their
+  Groups anywhere on the table, but no closer than 6" to any defending Group.
+first_turn: |
   Attackers must go first.
-specialRules: |
-  Defenders may voluntarily Move their Groups off any table edge;
-  these Groups do not count as having been Routed but have instead Escaped.
-  Defender Groups forced to Retreat off the table also count as Escaped instead of Routed.
-closingConditions: |
+special_rules: |
+  Defenders may voluntarily Move their Groups off any table edge; these Groups do not count as
+  having been Routed but have instead Escaped. Defender Groups forced to Retreat off the table also
+  count as Escaped instead of Routed.
+conclusion_conditions: |
   Play ends immediately when either side has no Groups remaining in play.
 
   Defenders gain 2VP for every friendly Group that Escapes and 1VP for every enemy Group Routed.
 
-  Attackers gain 1VP for every enemy Group whose R is below its starting value at the end of the game (even if they Escape off the table), and 2VP for every enemy Group Routed.
+  Attackers gain 1VP for every enemy Group whose R is below its starting value at the end of the
+  game (even if they Escape off the table), and 2VP for every enemy Group Routed.

@@ -1,6 +1,7 @@
 ---
-title: "Scenarios"
-description: "Sample scenarios for Flagrant Factions"
+title: Scenarios
+date: 2021-09-12
+summary: Sample scenarios for Flagrant Factions
 weight: 20
 ---
 

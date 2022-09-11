@@ -1,6 +1,6 @@
 ---
-title: "Spells and Wards"
-description: "Guidance for WutC spells and wards in a skirmish"
+title: Spells and Wards
+summary: Guidance for WutC spells and wards in a skirmish
 draft: false
 weight: 90
 ---

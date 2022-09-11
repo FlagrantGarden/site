@@ -1,0 +1,69 @@
+name: Necromancer's Legion
+summary: |
+  The dead arise to the Necromancer's call and do their bidding, held together by malefic energies.
+captain:  Necromancer & Revenant Knights
+groups:
+  - name: Necromancer & Revenant Knights
+    profile: Elite Foot
+    cost: 12
+    melee:
+      activation: 5
+      to_hit_attack: 3
+      to_hit_defend: 4
+    move:
+      activation: 5
+      distance: 6
+    fighting_strength: 12
+    resolve: 3
+    toughness: 4
+    traits:
+      - Caster
+      - Summoner
+  - name: Skeleton Rex
+    profile: Heavy Beast
+    cost: 6
+    melee:
+      activation: 5
+      to_hit_attack: 3
+      to_hit_defend: 6
+    move:
+      activation: 6
+      distance: 10
+    fighting_strength: 6
+    resolve: 3
+    toughness: 4
+    traits:
+      - Reckless
+      - Unfeeling
+  - name: Skeletal Warriors
+    profile: Light Foot
+    cost: 3
+    melee:
+      activation: 6
+      to_hit_attack: 5
+      to_hit_defend: 4
+    move:
+      activation: 5
+      distance: 8
+    fighting_strength: 12
+    resolve: 4
+    toughness: 2
+    traits:
+      - Defensive
+      - Unfeeling
+  - name: Skeletal Warriors
+    profile: Light Foot
+    cost: 3
+    melee:
+      activation: 6
+      to_hit_attack: 5
+      to_hit_defend: 4
+    move:
+      activation: 5
+      distance: 8
+    fighting_strength: 12
+    resolve: 4
+    toughness: 2
+    traits:
+      - Defensive
+      - Unfeeling

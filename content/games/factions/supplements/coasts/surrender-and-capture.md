@@ -1,6 +1,6 @@
 ---
-title: "Surrender and Capture"
-description: "Special rules for taking prisoners"
+title: Surrender and Capture
+summary: Special rules for taking prisoners
 draft: false
 weight: 20
 ---

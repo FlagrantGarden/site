@@ -1,22 +1,16 @@
 ---
-author: Michael T. Lombardi
+author: Mikey Lombardi
 date: 2021-10-08
-linktitle: Locations in Flagrant Factions
+title: Locations in Flagrant Factions
 summary: |
   An experimental option for non-player controlled Companies in Flagrant Factions
-# menu:
-#   main:
-#     parent: tutorials
-# next: /posts/shortcodes
-# # prev: /posts/post-name
 categories:
   - mechanisms
 tags:
   - flagrant factions
   - experimental
-title: Locations
 weight: 10
-bookComments: true
+type: Post
 ---
 
 So, as usual, I've been talk to [Sean Richer](https://twitter.com/HypatiasAngst) [again]({{% ref

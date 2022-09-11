@@ -1,20 +1,14 @@
 ---
-author: Michael T. Lombardi
-date: 2021-09-01
-linktitle: Where We Are Going
+author: Mikey Lombardi
+date: 2021-09-12
+title: Where We Are Going
 summary: |
   What the loose plans are for this project
-# menu:
-#   main:
-#     parent: tutorials
-# next: /posts/shortcodes
-# # prev: /posts/post-name
 categories:
   - meta
   - site
-title: Where We Are Going
 weight: 10
-bookComments: true
+type: Post
 ---
 
 The Flagrant Garden is a fledgling endeavor to facilitate play and make art.

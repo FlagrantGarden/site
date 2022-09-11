@@ -1,27 +1,31 @@
 weight: 3
-title: Raid
+name: Raid
+summary: ""
 deployment: |
-  Defenders deploy their Captain’s Group and up to half of their remaining Groups within 24” of the center
-  (leaving the remaining Groups out of play at the beginning of play),
-  then attackers deploy all the Groups they intend to have on the field at the beginning of play within 12” of any edges.
+  Defenders deploy their Captain's Group and up to half of their remaining Groups within 24" of the
+  center (leaving the remaining Groups out of play at the beginning of play), then attackers deploy
+  all the Groups they intend to have on the field at the beginning of play within 12" of any edges.
 
-  Defenders then place 6 Asset Tokens (representing barrels of wine, prize cattle, sacred stones, etc)
-  within 24” of the center, representing valuable commodities the attackers may seek to capture.
-firstTurn: |
+  Defenders then place 6 Asset Tokens (representing barrels of wine, prize cattle, sacred stones,
+  etc) within 24" of the center, representing valuable commodities the attackers may seek to
+  capture.
+first_turn: |
   Attackers may choose to go first or allow the defenders to go first.
-specialRules: |
-  Any defending Group may attempt to activate on a 6+ to bring a not-yet-deployed Group into play within 4”.
-  The defending Captain’s Group may attempt to activate on a 4+ to bring a not-yet-deployed Group into play within 8”.
-  Defending Groups cannot pick up Asset Tokens.
+special_rules: |
+  Any defending Group may attempt to activate on a 6+ to bring a not-yet-deployed Group into play
+  within 4". The defending Captain's Group may attempt to activate on a 4+ to bring a
+  not-yet-deployed Group into play within 8". Defending Groups cannot pick up Asset Tokens.
 
-  Any attacking Group in contact with an Asset Token and not in melee may attempt to activate on a 5+ to pick up the Asset.
-  On a result of 12, the Group picks up the Asset and may immediately attempt to activate to Move.
+  Any attacking Group in contact with an Asset Token and not in melee may attempt to activate on a
+  5+ to pick up the Asset. On a result of 12, the Group picks up the Asset and may immediately
+  attempt to activate to Move.
 
-  Groups carrying an Asset Token Move at half their normal speed and may carry the Asset off any table edge.
-  Groups may only hold one Asset Token at a time.
-closingConditions: |
+  Groups carrying an Asset Token Move at half their normal speed and may carry the Asset off any
+  table edge. Groups may only hold one Asset Token at a time.
+conclusion_conditions: |
   Play ends immediately when either side has no Groups remaining in play.
 
-  The defenders gain 2VP for each enemy group routed or destroyed, and 1VP for each Asset Token still on the table (either carried by a Group or not).
+  The defenders gain 2VP for each enemy group routed or destroyed, and 1VP for each Asset Token
+  still on the table (either carried by a Group or not).
 
   The attackers gain 3VP for each Asset Token taken off the table.

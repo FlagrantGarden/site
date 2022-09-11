@@ -1,6 +1,6 @@
 ---
-title: "Bynames"
-description: "Traits Groups gain and lose by their actions and Glory."
+title: Bynames
+summary: Traits Groups gain and lose by their actions and Glory.
 draft: false
 weight: 40
 ---
