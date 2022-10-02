@@ -1,0 +1,94 @@
+{
+  "$schema": "https://beta.frontmatter.codes/config/data.types.schema.json",
+  "id": "Factions.Trait",
+  "schema": {
+    "title": "Trait",
+    "type": "object",
+    "required": ["name", "kind", "effect"],
+    "properties": {
+      "name": {
+        "title": "Name",
+        "description": "Specifies the name of the trait.",
+        "type": "string"
+      },
+      "kind": {
+        "title": "Type",
+        "description": "Specifies what sort of trait this is. Captain traits have a roll value and apply only to the Group acting as Captain for a Company. Profile Traits are inherent to a Base Profile and can't be added or removed except by Special Traits. Special Traits modify the Group's profile, add special abilities, or modify the rules that apply to the Group.",
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "enum": ["captain", "profile", "special"]
+          }
+        ]
+      },
+      "roll": {
+        "title": "Roll Result",
+        "description": "Specifies what result maps to this trait when rolling 3d6 to randomly determine a Captain's Trait.",
+        "type": "integer",
+        "minimum": 3,
+        "maximum": 18
+      },
+      "cost": {
+        "title": "Points Cost",
+        "description": "Specifies how many points this Special Trait is worth. The Company must spend this many points to add the trait to a Group. If the value is negative, they get that many points from assigning the trait to a Group.",
+        "type": "integer",
+        "minimum": -12,
+        "maximum": 12
+      },
+      "effect": {
+        "title": "Effect",
+        "description": "The effect the trait has on the Group. Usually it modifies the Group's profile, adds a special ability, or changes how the rules apply to the Group.",
+        "type": "string",
+        "contentMediaType": "text/markdown"
+      }
+    },
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "kind": {
+              "const": "captain"
+            }
+          }
+        },
+        "then": {
+          "required": ["roll"],
+          "not": {
+            "required": ["cost"]
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "kind": {
+              "const": "profile"
+            }
+          }
+        },
+        "then": {
+          "not": {
+            "required": ["cost", "roll"]
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "kind": {
+              "const": "special"
+            }
+          }
+        },
+        "then": {
+          "required": ["cost"],
+          "not": {
+            "required": ["roll"]
+          }
+        }
+      }
+    ]
+  }
+}
