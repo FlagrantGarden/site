@@ -1,0 +1,7 @@
+{
+  "$schema": "https://beta.frontmatter.codes/config/data.folders.schema.json",
+  "id": "Ambitions",
+  "labelField": "name",
+  "path": "[[workspace]]/data/factions/ambitions",
+  "type": "Factions.Ambition"
+}

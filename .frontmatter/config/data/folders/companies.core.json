@@ -1,0 +1,8 @@
+{
+  "$schema": "https://beta.frontmatter.codes/config/data.folders.schema.json",
+  "id": "Companies",
+  "labelField": "name",
+  "path": "[[workspace]]/data/factions/companies/core",
+  "type": "Factions.Company",
+  "singleEntry": true
+}

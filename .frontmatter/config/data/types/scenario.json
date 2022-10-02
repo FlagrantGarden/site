@@ -1,0 +1,42 @@
+{
+  "$schema": "https://beta.frontmatter.codes/config/data.types.schema.json",
+  "id": "Factions.Scenario",
+  "schema": {
+    "title": "Scenario",
+    "type": "object",
+    "description": "A Flagrant Factions Scenario, the rules of engagement for a specific Skirmish.",
+    "required": ["name", "summary", "deployment", "conclusion_conditions"],
+    "properties": {
+      "name": {
+        "title": "Name",
+        "description": "The name of the Scenario.",
+        "type": "string"
+      },
+      "summary": {
+        "title": "Summary",
+        "description": "1-3 sentences describing the Scenario.",
+        "type": "string"
+      },
+      "deployment": {
+        "title": "Deployment",
+        "description": "Specifies considerations for deploying sides, including setting up terrain and tokens.",
+        "type": "string"
+      },
+      "first_turn": {
+        "title": "First Turn",
+        "description": "Specifies which side goes first and any considerations for the start of a Skirmish after Deployment.",
+        "type": "string"
+      },
+      "special_rules": {
+        "title": "Special Rules",
+        "description": "Specifies any additional rules or changes to default rules affecting how the Skirmish is played.",
+        "type": "string"
+      },
+      "conclusion_conditions": {
+        "title": "Conclusion Conditions",
+        "description": "Specifies when the Scenario ends and how victory points (VP) are scored.",
+        "type": "string"
+      }
+    }
+  }
+}
