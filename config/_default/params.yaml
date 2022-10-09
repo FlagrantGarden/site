@@ -1,16 +1,12 @@
-# These parameters are for sharing links to your site. They affect both Open
-# Graph and Twitter Cards.
 description: A nursery for narrative play.
 images:
   - /images/site-feature-image.png
-
-# This section is for hugo-book's parameters, the theme that Platen is built on.
-BookTheme: "auto"
+BookTheme: auto
 BookToC: true
 BookLogo: /images/title.svg
 BookSection: games
-BookRepo: https://github.com/FlagrantGarden/site
-BookDateFormat: January 2, 2006
+BookRepo: "https://github.com/FlagrantGarden/site"
+BookDateFormat: "January 2, 2006"
 BookSearch: true
 BookComments: false
 BookPortableLinks: true
