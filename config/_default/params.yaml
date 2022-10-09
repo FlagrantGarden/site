@@ -1,0 +1,14 @@
+description: A nursery for narrative play.
+images:
+  - /images/site-feature-image.png
+BookTheme: auto
+BookToC: true
+BookLogo: /images/title.svg
+BookSection: games
+BookRepo: "https://github.com/FlagrantGarden/site"
+BookDateFormat: "January 2, 2006"
+BookSearch: true
+BookComments: false
+BookPortableLinks: true
+BookServiceWorker: true
+BookTranslatedOnly: false

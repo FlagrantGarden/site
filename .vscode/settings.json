@@ -3,14 +3,18 @@
   "editor.tabSize": 2,
   // Ensure lines do not exceed 100 characters; code lines should not exceed 80.
   "editor.rulers": [76, 80, 96, 100],
-  "reflowMarkdown.preferredLineLength": 100,
+  "reflowMarkdown.preferredLineLength": 77,
   // Define and use local schemas for data files:
   "yaml.schemas": {
+    ".vscode/schemas/hugo/config/base.yaml": "config.yaml",
+    ".vscode/schemas/hugo/config/params/book.yaml": "config/**/params.yaml",
+    ".vscode/schemas/hugo/config/params/sharing.yaml": "config/**/params.yaml",
+    ".vscode/schemas/hugo/config/params/toroidal.yaml": "config/**/params.Toroidal.yaml",
     "data/schemas/factions/ambitions.schema.yaml": "/data/factions/ambitions/**/*.yaml",
-    "data/schemas/factions/types/company.schema.yaml": "/data/factions/companies/**/*.yaml",
-    "data/schemas/factions/types/scenario.schema.yaml": "/data/factions/scenarios/**/*.yaml",
     "data/schemas/factions/spells.schema.yaml": "/data/factions/spells/**/*.yaml",
     "data/schemas/factions/traits.schema.yaml": "/data/factions/traits/**/*.yaml",
+    "data/schemas/factions/types/company.schema.yaml": "/data/factions/companies/**/*.yaml",
+    "data/schemas/factions/types/scenario.schema.yaml": "/data/factions/scenarios/**/*.yaml"
   },
   // Use Vale to lint prose. Change alert level to "suggestion" for first draft.
   "vale.core.useCLI": true,
