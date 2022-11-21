@@ -2,8 +2,10 @@
 title: Flagrant66
 date: 2021-09-12
 summary: A d66 engine for attribute & domain games
-bookCollapseSection: true
 weight: 10
+Platen:
+  Menu:
+    CollapseSection: true
 ---
 
 _Flagrant66_ is a lightweight engine for narrative tabletop gaming intended to be a slim core for

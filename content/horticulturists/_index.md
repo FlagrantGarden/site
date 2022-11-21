@@ -2,6 +2,9 @@
 title: Friendly Horticulturists
 date: 2022-01-06
 summary: A list of folks flagrantly cultivating good work where they are as they can.
+Platen:
+  Menu:
+    Hide: true
 ---
 
 <!-- vale off -->

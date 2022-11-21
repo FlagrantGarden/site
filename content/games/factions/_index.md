@@ -2,8 +2,10 @@
 title: Flagrant Factions
 date: 2021-09-12
 summary: A Fantastic Skirmish Wargame
-bookCollapseSection: true
 weight: 10
+Platen:
+  Menu:
+    CollapseSection: true
 ---
 
 <!-- vale Jared.JustSayIt = NO -->

@@ -1,4 +1,4 @@
-.book-brand {
+.platen-brand {
   // Hide the Title except for screen readers
   span {
     position: absolute;
@@ -21,7 +21,7 @@
   }
 }
 
-div.book-menu-content nav > ul:not([class^="book"]) {
+div.platen-menu-content nav > ul:not([class^="platen"]) {
   // margin-bottom: 1em;
   margin-top: 2.5em;
 }

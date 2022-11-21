@@ -6,15 +6,13 @@
   "reflowMarkdown.preferredLineLength": 77,
   // Define and use local schemas for data files:
   "yaml.schemas": {
-    ".vscode/schemas/hugo/config/base.yaml": "config.yaml",
-    ".vscode/schemas/hugo/config/params/book.yaml": "config/**/params.yaml",
-    ".vscode/schemas/hugo/config/params/sharing.yaml": "config/**/params.yaml",
-    ".vscode/schemas/hugo/config/params/toroidal.yaml": "config/**/params.Toroidal.yaml",
     "data/schemas/factions/ambitions.schema.yaml": "/data/factions/ambitions/**/*.yaml",
     "data/schemas/factions/spells.schema.yaml": "/data/factions/spells/**/*.yaml",
     "data/schemas/factions/traits.schema.yaml": "/data/factions/traits/**/*.yaml",
     "data/schemas/factions/types/company.schema.yaml": "/data/factions/companies/**/*.yaml",
-    "data/schemas/factions/types/scenario.schema.yaml": "/data/factions/scenarios/**/*.yaml"
+    "data/schemas/factions/types/scenario.schema.yaml": "/data/factions/scenarios/**/*.yaml",
+    "https://platen.io/schemas/config/schema.json": "config/**/config.yaml",
+    "https://platen.io/schemas/params/schema.json": "config/**/params.yaml"
   },
   // Use Vale to lint prose. Change alert level to "suggestion" for first draft.
   "vale.core.useCLI": true,

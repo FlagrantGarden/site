@@ -8,9 +8,7 @@ module:
   # replacements: 'github.com/platenio/hugo-platen -> C:\code\platen\themes\platen'
   # replacements: 'github.com/platenio/hugo-platen-netlify -> C:\code\platen\hugo-platen-netlify'
   imports:
-    - path: github.com/platenio/hugo-platen-netlify
-    - path: github.com/platenio/hugo-platen
-    - path: github.com/alex-shpak/hugo-book
+    - path: github.com/platenio/platen/modules/platen
 
 disablePathToLower: true
 enableGitInfo: true
