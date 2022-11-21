@@ -5,9 +5,10 @@ summary: >
   Make kitbashable shit. Release as early as possible. Iterate and accelerate collaboration. Build
   out, not up. Fuck hierarchies.
 type: docs
+Platen:
+  Menu:
+    Hide: true
 ---
-
-Cultivate Flagrantly
 
 ## Make Kitbashable Shit
 

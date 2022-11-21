@@ -1,14 +1,22 @@
 description: A nursery for narrative play.
 images:
   - /images/site-feature-image.png
-BookTheme: auto
-BookToC: true
-BookLogo: /images/title.svg
-BookSection: games
-BookRepo: "https://github.com/FlagrantGarden/site"
-BookDateFormat: "January 2, 2006"
-BookSearch: true
-BookComments: false
-BookPortableLinks: true
-BookServiceWorker: true
-BookTranslatedOnly: false
+
+Platen:
+  Theme:
+    Fonts:
+      Settings:
+        Body: 
+          Family: "'Spectral', serif"
+          Selector: body
+        Headings:
+          Family: "'Merriweather', serif"
+          Selector: h1, h2, h3, h4, h5, h6
+      Styles:
+        - merriweather
+        - spectral
+  Display:
+    Logo:
+      URL: /images/title.svg
+  Repository:
+    URL: https://github.com/FlagrantGarden/site

@@ -1,9 +1,11 @@
 ---
 title: Forces
 summary: Captains and Companies in the various domains in Wolves Upon the Coast
-bookCollapseSection: true
 draft: false
 weight: 80
+Platen:
+  Menu:
+    CollapseSection: true
 ---
 
 The pages in this section include information about the forces of various villages and strongholds

@@ -2,8 +2,10 @@
 title: Companies
 date: 2022-09-12
 summary: Sample companies to play in Flagrant Factions.
-bookToC: false
 weight: 60
+Platen:
+  TableOfContents:
+    Render: false
 ---
 
 Each of these sample Companies consists of Groups worth a total of 24 points. The Captain’s Group is

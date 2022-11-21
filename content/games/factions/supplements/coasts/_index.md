@@ -1,9 +1,11 @@
 ---
 title: Flagrant Coasts
 summary: A supplement for skirmishes in Wolves Upon the Coast.
-bookCollapseSection: true
 draft: false
 weight: 90
+Platen:
+  Menu:
+    CollapseSection: true
 ---
 
 _Flagrant Coasts_ is a supplement for in [_Wolves Upon the Coast_][1] by [Luke Gearing][2]. It uses
