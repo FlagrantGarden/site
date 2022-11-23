@@ -25,16 +25,16 @@ This supplement introduces:
 - Fleet skirmishes, with guidance for fighting at sea
 - Converted Spells, Rosters, and pre-made Companies for various strongholds
 
-> If you don't already have your very own copy of _Wolves Upon the Coast_, you can get it here!
+If you don't already have your very own copy of _Wolves Upon the Coast_, you can get it here!
+
+<iframe frameborder="0"
+        src="https://itch.io/embed/1175581"
+        width="552"
+        height="167"
+        style="display: block; margin: 0 auto;"
 >
-> <iframe frameborder="0"
->         src="https://itch.io/embed/1175581"
->         width="552"
->         height="167"
->         style="display: block; margin: 0 auto;"
-> >
->   [Wolves Upon the Coast Grand Campaign by Luke Gearing][1]
-> </iframe>
+  [Wolves Upon the Coast Grand Campaign by Luke Gearing][1]
+</iframe>
 
 <!-- Reference Links -->
 

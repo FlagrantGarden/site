@@ -101,11 +101,17 @@ If using the [Routine Procedures][1], the Berserkers are Ferocious.
 
 ### Berserkers
 
-All fight as Champions and roll 4d6 to hit. The Old Berserkers have the [Berserker][3] Byname.
+All fight as Champions. The Old Berserkers roll 8d6 to hit and have the [Berserker][2] Byname. The
+Aspirant Berserkers roll 4d6 to hit.
 
-|      ME      |   MO    |     MI      |  FS   |   R   |   T   |          Traits          |
-| :----------: | :-----: | :---------: | :---: | :---: | :---: | :----------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   4   |  4+   |   2   | Self-Destruct, Unfeeling |
+|   Type   |      ME      |   MO    |     MI      |  FS   |   R   |   T   |          Traits          |
+| :------- | :----------: | :-----: | :---------: | :---: | :---: | :---: | :----------------------- |
+| Old      | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   8   |  4+   |   3   | Self-Destruct, Unfeeling |
+| Aspirant | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   4   |  4+   |   2   | Berserker Berries        |
+
+Berserker Berries
+: Activate freely to devour, gaining the Reckless trait, +1T, +4FS, and +4d6 to hit for 3d6 rounds.
+  Reckless applies against friendly Groups and enemies alike.
 
 ## Rhus
 
@@ -210,5 +216,4 @@ If using the [Routine Procedures][1], the forces in Follega are Guarded.
 <!-- Reference Links -->
 
 [1]: {{% ref "/games/factions/routines" %}}
-[2]: ../fame-and-glory.md
-[3]: ../bynames.md#berserker
+[2]: ../bynames.md#berserker
