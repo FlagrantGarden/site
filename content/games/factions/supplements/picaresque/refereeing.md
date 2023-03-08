@@ -6,23 +6,23 @@ weight: 20
 
 <!-- vale Microsoft.HeadingAcronyms = NO -->
 
-{{< hint info >}}
+``````details { summary="TODO" }
 This section is still being initially drafted!
 
 It will include advice on running picaresque adventures for Adventurers.
-{{< /hint >}}
+``````
 
 ## Puzzles and Obstacles
 
-{{< hint info >}}
+``````details { summary="TODO" }
 How to facilitate non-combat problems for Adventurers.
-{{< /hint >}}
+``````
 
 ## Encountering Adventurers
 
-{{< hint info >}}
+``````details { summary="TODO" }
 What to do when Adventurers run into Refereed Groups.
-{{< /hint >}}
+``````
 
 ## XP
 

@@ -11,7 +11,7 @@ tags:
   - workflow
   - tools
 weight: 10
-type: Post
+type: posts
 ---
 
 I've been writing [Markdown][markdown] for years now. I started writing it when I was working in
@@ -169,11 +169,11 @@ write here can become outdated), but it is... just software. Download it, instal
 
 <!-- vale Jared.CleverestPunctuation = YES -->
 
-{{< details "Aside: Chocolatey" >}}
-
-I won't go into detail in this post, but for those of you using Windows, there's a neat tool called
-[Chocolatey][choco] which makes installing and updating software way easier. For example, you could
-install VS Code like this:
+``````details { summary="Aside: Chocolatey" }
+I won't go into detail in this post, but for those of you using Windows,
+there's a neat tool called [Chocolatey][choco] which makes installing and
+updating software way easier. For example, you could install VS Code like
+this:
 
 ```powershell
 choco install vscode -y
@@ -181,7 +181,8 @@ choco install vscode -y
 
 I strongly recommend it, if only to make your life a little easier on Windows.
 
-{{< /details >}}
+[choco]: https://docs.chocolatey.org/en-us/getting-started
+``````
 
 Once you have VS Code installed, you may be pleasantly surprised to learn that it's already setup
 for [writing Markdown][vscode-markdown]. For the rest of this post, I'm going to assume you're using
@@ -205,49 +206,47 @@ definitely [multi-cursor editing][vscode-editing-multi], [IntelliSense][vscode-e
 
 <!-- markdownlint-disable MD033 -->
 
-{{< details "Multi-Cursor Editing" >}}
+``````details { summary="Multi-Cursor Editing" }
+I can't go back to not having multiple cursors. This lets you edit several
+lines or words at once. I use this when I want to change some wording, turn a
+list into a table, and a lot more. It doesn't sound wild, but once you get
+used to having them, they're very hard to give up.
+``````
 
-I can't go back to not having multiple cursors. This lets you edit several lines or words at once. I
-use this when I want to change some wording, turn a list into a table, and a lot more. It doesn't
-sound wild, but once you get used to having them, they're very hard to give up.
+``````details { summary="IntelliSense" }
+If you press <kbd>Ctrl</kbd> + <kbd>Space</kbd> while typing a Markdown
+document, you'll also see a list of options pop up - these are _snippets_,
+and they're shortcuts for writing. They'll help you insert the right things
+until you learn the syntax better.
+``````
 
-{{< /details >}}
+``````details { summary="Find and Replace" }
+This is a sort of super-charged version of the <kbd><kbd>Ctrl</kbd> +
+<kbd>F</kbd></kbd> and <kbd><kbd>Ctrl</kbd> + <kbd>H</kbd></kbd> experience
+for finding and replacing text you might be used to.
 
-{{< details IntelliSense >}}
+If you use either hot key with a word selected, that word becomes the search
+text. If you highlight a section, you can search _just_ in that section. You
+can search with and without case-sensitivity and, if you're a _nerd_, you can
+use regular expressions too (both to _find_ text and for replacing it, too).
 
-If you press <kbd>Ctrl</kbd> + <kbd>Space</kbd> while typing a Markdown document, you'll also see a
-list of options pop up - these are _snippets_, and they're shortcuts for writing. They'll help you
-insert the right things until you learn the syntax better.
+It can find and replace multiple lines and you can use the same functionality
+across files. Updated some terminology in your draft? You can use the
+folder-level find-and-replace to update it everywhere.
+``````
 
-{{< /details >}}
+``````details { summary="Auto Formatting" }
 
-{{< details "Find and Replace" >}}
+The editor has some _very_ good support for automatic formatting--for
+modifying your Markdown text based on some configurable rules. You may not
+care _too_ much about this right now, but it will make maintaining and
+reviewing your work later _much_ easier.
 
-This is a sort of super-charged version of the <kbd><kbd>Ctrl</kbd> + <kbd>F</kbd></kbd> and
-<kbd><kbd>Ctrl</kbd> + <kbd>H</kbd></kbd> experience for finding and replacing text you might be
-used to.
+You can set it to format when you save a file (my recommendation), when you
+type, and when you paste text in. We'll dig into this a bit more in the
+[Linting section](#linting).
 
-If you use either hot key with a word selected, that word becomes the search text. If you highlight
-a section, you can search _just_ in that section. You can search with and without case-sensitivity
-and, if you're a _nerd_, you can use regular expressions too (both to _find_ text and for replacing
-it, too).
-
-It can find and replace multiple lines and you can use the same functionality across files. Updated
-some terminology in your draft? You can use the folder-level find-and-replace to update it
-everywhere.
-
-{{< /details >}}
-
-{{< details "Auto Formatting" >}}
-
-The editor has some _very_ good support for automatic formatting--for modifying your Markdown text
-based on some configurable rules. You may not care _too_ much about this right now, but it will make
-maintaining and reviewing your work later _much_ easier.
-
-You can set it to format when you save a file (my recommendation), when you type, and when you paste
-text in. We'll dig into this a bit more in the [Linting section](#linting).
-
-{{< /details >}}
+``````
 
 You can also use familiar keyboard shortcuts for [Windows][vscode-keys-windows],
 [MacOS][vscode-keys-macos], and [Linux][vscode-keys-linux].
@@ -488,7 +487,6 @@ Until next time!
 
 <!-- Reference Links -->
 
-[choco]: https://docs.chocolatey.org/en-us/getting-started
 [ext-cc]: https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case
 [ext-mdaio-auto]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#auto-completions
 [ext-mdaio-keys]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#keyboard-shortcuts-1

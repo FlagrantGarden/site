@@ -26,7 +26,7 @@ If a character fights as a Champion, they use this profile:
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - | 2xHD  |  4+   |   1   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - | 2xHD  |  4+   |   1   | Champion, Challenger |
 
 Champions don't have a fixed FS. Instead their FS is double their HD.
 
@@ -48,7 +48,7 @@ equals their HD.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   6   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   6   |  4+   |   3   | Champion, Challenger |
 
 This champion rolls 6d6 to hit (3d6 if Bloodied). When they test Resolve, they roll 2d6+3.
 
@@ -63,7 +63,7 @@ the declining Group's Glory from the result. If the enemy accepts, the Duel begi
 Until a Duel is concluded, normal turn order is suspended as the battle pauses to observe. Duels
 follow this procedure:
 
-1. The sides start 6" apart.
+1. The sides start 6” apart.
 1. Both sides roll 1d6. The higher roll acts first. If there is a tie, roll again until there isn't.
 1. The acting side can activate however they please. Activating to do anything but Attack costs them
    1 Glory. Using magic costs them 1d6 Glory.

@@ -9,7 +9,7 @@ categories:
 tags:
   - flagrant factions
 weight: 10
-type: Post
+type: posts
 ---
 
 _Gerblinflood_ is an upcoming supplement for [_Flagrant Factions_](/games/factions) bringing new

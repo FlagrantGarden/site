@@ -11,7 +11,7 @@ Spells as written in Flagrant Factions are unavailable. Instead, use the followi
 Where there isn't specific guidance, use the spells as written in _Wolves Upon the Coast_ or use
 your judgement.
 
-Unless otherwise specified, activating to cast a spell requires a 6+ and the range is 12". If they
+Unless otherwise specified, activating to cast a spell requires a 6+ and the range is 12”. If they
 succeed, the spell takes effect immediately. If they fail, the enemy seizes initiative and the spell
 takes effect when the caster's side regains initiative.
 
@@ -20,7 +20,7 @@ _Wolves Upon the Coast Book 2 - Magic_.
 
 ### Animal Growth
 
-- **Range:** 6"
+- **Range:** 6”
 - **Target:** Beast Group
 - **Duration:** 12 turns
 
@@ -30,7 +30,7 @@ the Light Beast profile.
 
 ### Animate Dead
 
-- **Range:** 6"
+- **Range:** 6”
 - **Target:** Beast Group
 - **Duration:** Permanent
 
@@ -38,11 +38,11 @@ Summon the following Group of skeletons under the caster's command:
 
 |      ME      |  MI   |   MO    |  FS   |   R   |   T   |        Traits        |
 | :----------: | :---: | :-----: | :---: | :---: | :---: | :------------------- |
-| 6+ / 5+ / 4+ |   -   | 5+ / 8" |  12   |  4+   |   2   | Defensive, Unfeeling |
+| 6+ / 5+ / 4+ |   -   | 5+ / 8” |  12   |  4+   |   2   | Defensive, Unfeeling |
 
 ### Anti-Magic Shield
 
-- **Range:** 3" radius
+- **Range:** 3” radius
 - **Target:** Self
 - **Duration:** Permanent
 
@@ -74,7 +74,7 @@ antithetical to their nature, they test Resolve and break free if successful.
 
 ### Circle of Invisibility
 
-- **Range:** 3" radius
+- **Range:** 3” radius
 - **Target:** Self
 - **Duration:** Permanent
 
@@ -83,7 +83,7 @@ outside the circle.
 
 ### Circle of Protection
 
-- Range: 6"
+- Range: 6”
 - Target: Self and friendly Groups
 - Duration: 6 turns
 
@@ -91,12 +91,12 @@ Enemies the protection is against reroll hits against target Groups.
 
 ### Cloudkill
 
-- Range: 18"
+- Range: 18”
 - Duration: Permanent
 
 <!-- vale Microsoft.Terms = NO -->
 
-Everything within 6" of a target point is affected. Roll 12d6 against every Group in contact with
+Everything within 6” of a target point is affected. Roll 12d6 against every Group in contact with
 the cloud, hitting on 2+, ignoring T, and counting 6s twice. Roll again anytime a Group comes in
 contact with the cloud or starts their turn in it.
 
@@ -161,13 +161,13 @@ anyway. If Attacked, treat every die as a hit.
 - **Target:** Self
 - **Duration:** 6 turns
 
-Caster's Group gains the Terrifying trait and all enemy Groups within 12" immediately test
+Caster's Group gains the Terrifying trait and all enemy Groups within 12” immediately test
 Resolve.
 
 ### Fireball
 
-- **Range:** 18"
-- **Target:** 10" radius
+- **Range:** 18”
+- **Target:** 10” radius
 
 Roll 12d6 to hit all Groups in radius on 3+, ignoring T.
 
@@ -196,16 +196,16 @@ rolling until no dice roll can be rerolled.
 
 ### Move Earth
 
-- **Range:** 36"
-- **Target:** 12" radius of hilly terrain
+- **Range:** 36”
+- **Target:** 12” radius of hilly terrain
 - **Duration:** Permanent
 
-Target terrain moves in a direct line to a destination within 18". Roll 12d6 to hit any Group in the
+Target terrain moves in a direct line to a destination within 18”. Roll 12d6 to hit any Group in the
 path, hitting on 3+. Any affected Groups break formation (e.g. are no longer in a Shieldwall).
 
 ### Phantasm
 
-- **Range:** 6"
+- **Range:** 6”
 
 Add a single-model Group with the following profile within range. It activates before the caster on
 future turns without testing. It has no FS and never tests Resolve. If a Group passes their
@@ -213,7 +213,7 @@ Resolve test when Attacked by it, the Group disappears from the field.
 
 |   ME    |  MO   |       Traits        |
 | :-----: | :---: | :------------------ |
-| 5+ / 5+ |  8"   | Terrifying, Vicious |
+| 5+ / 5+ |  8”   | Terrifying, Vicious |
 
 ### Protection
 
@@ -247,14 +247,14 @@ every die as a hit. An adjacent friendly Group can activate (4+) to wake them.
 
 ### Transmute Rock to Mud
 
-- Target: 6" square
+- Target: 6” square
 - Duration: Permanent
 
 Target area becomes difficult terrain.
 
 ### Wall of Fire
 
-- Target: 6" long wall
+- Target: 6” long wall
 - Duration: Concentration
 
 Roll 12d6, hitting on 3+, against any Group in the wall when it ignites. Roll 6d6 to hit any Group
@@ -262,7 +262,7 @@ passing through it. Each turn, the caster may activate (no test) to keep the wal
 
 ### Wall of Ice
 
-- Target: 6" long wall
+- Target: 6” long wall
 - Duration: 6 turns
 
 The wall is impassable terrain. A Group can Attack it. If they inflict 6 or more hits in an attack,
@@ -270,7 +270,7 @@ it shatters.
 
 ### Web
 
-- Target: 3" radius
+- Target: 3” radius
 - Duration: 3 turns
 
 ## Wards

@@ -10,7 +10,7 @@ tags:
   - flagrant factions
   - experimental
 weight: 10
-type: Post
+type: posts
 ---
 
 > A purgatorial plane of battle, of life and death unending. A warrior's heaven turned hell.

@@ -18,7 +18,7 @@ Macullen fights as a Champion. He rolls 2d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |   Traits   |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :--------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   4   |  4+   |   1   | Bee Father |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   4   |  4+   |   1   | Bee Father |
 
 Bee Father
 : Macullen may (3+) commanded one Bee Swarm when activating. While commanded by Macullen, the Bee
@@ -28,7 +28,7 @@ Bee Father
 
 |     ME     |    MO    |    MI     |  FS   |   R   |   T   |       Traits        |
 | :--------: | :------: | :-------: | :---: | :---: | :---: | :------------------ |
-| 5+ / 6 / 6 | 7+ / 10" | - / - / - |   2   |   -   |   5   | Reckless, Unfeeling |
+| 5+ / 6 / 6 | 7+ / 10” | - / - / - |   2   |   -   |   5   | Reckless, Unfeeling |
 
 ## Culemwardern
 
@@ -43,7 +43,7 @@ Cioran fights as a Champion. He has the [Fame traits][2] Competent and Clever. H
 
 |     ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :---------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ /5+ | 5+ / 6" | 6+ / 5+ / - |   8   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ /5+ | 5+ / 6” | 6+ / 5+ / - |   8   |  4+   |   3   | Champion, Challenger |
 
 ## Cloyne
 
@@ -59,8 +59,8 @@ Group rolls 14d6 to hit and have +2 when testing Resolve. When Duelling, Beyf ro
 
 |    Mode     |      ME      |   MO    |      MI       |  FS   |   R   |   T   |           Traits            |
 | :---------- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :-------------------------- |
-| Skirmishers | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   6   |  5+   |   1   | Challenger, Elusive, Nimble |
-| Champion    | 5+ / 5+ / 5+ | 5+ / 8" |  6+ / 5+ / -  |   4   |  4+   |   3   |                             |
+| Skirmishers | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   6   |  5+   |   1   | Challenger, Elusive, Nimble |
+| Champion    | 5+ / 5+ / 5+ | 5+ / 8” |  6+ / 5+ / -  |   4   |  4+   |   3   |                             |
 
 ## Donenashoe
 
@@ -72,8 +72,8 @@ united by a Captain.
 
 | Size  |      ME      |   MO    |    MI     |  FS   |   R   |   T   |          Traits           |
 | :---- | :----------: | :-----: | :-------: | :---: | :---: | :---: | :------------------------ |
-| Small | 6+ / 5+ / 5+ | 5+ / 8" | - / - / - |   4   |  5+   |   2   | Cowardly, Nimble, Vicious |
-| Large | 6+ / 5+ / 5+ | 5+ / 8" | - / - / - |   8   |  5+   |   2   | Cowardly, Nimble, Vicious |
+| Small | 6+ / 5+ / 5+ | 5+ / 8” | - / - / - |   4   |  5+   |   2   | Cowardly, Nimble, Vicious |
+| Large | 6+ / 5+ / 5+ | 5+ / 8” | - / - / - |   8   |  5+   |   2   | Cowardly, Nimble, Vicious |
 
 ## Belcarra
 
@@ -85,7 +85,7 @@ If using the [Routine Procedures][1], the forces of Belcarra are Ferocious.
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |      Traits       |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :---------------- |
-| 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  12   |  4+   |   2   | Reckless, Vicious |
+| 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  12   |  4+   |   2   | Reckless, Vicious |
 
 ## Dorbog
 
@@ -102,8 +102,8 @@ Donnagh fights beside a Group of Footmen as Captain and is joined by Mish. He ha
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  12   |  4+   |   2   | Defensive, Shieldwall |
-| Champion | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / -  |  10   |  4+   |   3   |                       |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  12   |  4+   |   2   | Defensive, Shieldwall |
+| Champion | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / -  |  10   |  4+   |   3   |                       |
 
 ## Pirates
 
@@ -118,13 +118,13 @@ Niamh fights as a Champion. She has the [Fame traits][2] Willing and Lucky. She 
 
 |     ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :---------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ /5+ | 5+ / 8" | 6+ / 5+ / - |  10   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ /5+ | 5+ / 8” | 6+ / 5+ / - |  10   |  4+   |   2   | Champion, Challenger |
 
 ### Bandits
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   | Traits |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :----- |
-| 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   6   |  5+   |   2   | Nimble |
+| 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   6   |  5+   |   2   | Nimble |
 
 ## Ogonnelloe
 
@@ -141,8 +141,8 @@ If using the [Routine Procedures][1], the Orcs of the fort are Ferocious.
 
 |  Mode   |      ME      |   MO    |      MI       |  FS   |   R   |   T   |  Traits  |
 | :------ | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------- |
-| Warband | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 6"  |  12   |  4+   |   1   | Reckless |
-| Archer  | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |  12   |  4+   |   1   | -        |
+| Warband | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 6”  |  12   |  4+   |   1   | Reckless |
+| Archer  | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |  12   |  4+   |   1   | -        |
 
 ## Blulach
 
@@ -160,8 +160,8 @@ Resolve. When Duelling, Glas rolls 8d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  16   |  4+   |   3   | Shieldwall |
-| Champion         | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / -  |  10   |  4+   |   3   |            |
+| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  16   |  4+   |   3   | Shieldwall |
+| Champion         | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / -  |  10   |  4+   |   3   |            |
 
 ## Killucan
 

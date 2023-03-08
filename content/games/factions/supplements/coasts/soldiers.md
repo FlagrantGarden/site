@@ -21,8 +21,8 @@ dice to hit and are worth 1 points each. Large Groups are worth 2 points each.
 
 | Size  |      ME      |   MO    |      MI       |  FS   |   R   |   T   |     Traits      |
 | :---- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :-------------- |
-| Small | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   4   |  5+   |   1   | Elusive, Nimble |
-| Large | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   8   |  5+   |   1   | Elusive, Nimble |
+| Small | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   4   |  5+   |   1   | Elusive, Nimble |
+| Large | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   8   |  5+   |   1   | Elusive, Nimble |
 
 ### Footmen
 
@@ -30,7 +30,7 @@ Footmen fight in 10-person Groups worth 3 points each.
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  12   |  4+   |   2   | Defensive, Shieldwall |
+| 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  12   |  4+   |   2   | Defensive, Shieldwall |
 
 ### Armoured Footmen
 
@@ -38,7 +38,7 @@ Armoured footmen fight in 10-person Groups worth 6 points each.
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| 6+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  12   |  4+   |   3   | Shieldwall |
+| 6+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  12   |  4+   |   3   | Shieldwall |
 
 ### Marines
 
@@ -47,8 +47,8 @@ to hit and are worth 3 points each. Large Groups are worth 6 points each.
 
 | Size  |      ME      |   MO    |      MI      |  FS   |   R   |   T   |  Traits   |
 | :---- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------- |
-| Small | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   6   |  4+   |   2   | Sealegged |
-| Large | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  12   |  4+   |   2   | Sealegged |
+| Small | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   6   |  4+   |   2   | Sealegged |
+| Large | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  12   |  4+   |   2   | Sealegged |
 
 ### Horsemen
 
@@ -56,7 +56,7 @@ Horsemen fight in 6-rider Groups worth 6 points each.
 
 |      ME      |    MO    |  MI   |  FS   |   R   |   T   | Traits  |
 | :----------: | :------: | :---: | :---: | :---: | :---: | :------ |
-| 5+ / 4+ / 5+ | 5+ / 12" |   -   |   6   |  4+   |   3   | Defiant |
+| 5+ / 4+ / 5+ | 5+ / 12” |   -   |   6   |  4+   |   3   | Defiant |
 
 ## Traits
 

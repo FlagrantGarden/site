@@ -68,7 +68,7 @@ earn the first trait they meet the requirements of.
 
     _Must have the Willing Trait and Attacked 5 Groups with more FS while Bloodied._
 
-    Captain's Group ignores the Terrifying trait and +1 when testing Resolve for Groups within 12".
+    Captain's Group ignores the Terrifying trait and +1 when testing Resolve for Groups within 12”.
   - **Clever**
 
     _Must have the Competent Trait and won 3 consecutive Skirmishes against enemies with more Fame._
@@ -96,13 +96,13 @@ earn the first trait they meet the requirements of.
 
     _Must have passed 5 Resolve tests while Bloodied._
 
-    Groups within 6" ignore penalties on their Resolve test due to lost FS.
+    Groups within 6” ignore penalties on their Resolve test due to lost FS.
 - At 50 Fame, choose any prior unselected trait, or:
   - **Fearless**
 
     _Must have the Brave trait and Attacked at least 20 Groups with more FS or Glory._
 
-    Groups within 12" are immune to the Terrifying trait and reroll failed activations to Attack.
+    Groups within 12” are immune to the Terrifying trait and reroll failed activations to Attack.
   - **Implacable**
 
     _Must have fully Routed or Captured at least 3 Companies._
@@ -119,7 +119,7 @@ earn the first trait they meet the requirements of.
 
     _Must have won at least 20 Skirmishes, 3 without any of their Groups Routing or Surrendering._
 
-    +2FS for all Groups. Groups within 12" have +2 when testing Resolve or activating.
+    +2FS for all Groups. Groups within 12” have +2 when testing Resolve or activating.
   - **Chieftain**
 
     _Must hold a domain, have won 5 Duels, and have at least 50 Glory._
@@ -141,7 +141,7 @@ A Group's Glory affects their ability to fight:
 
 - When activating to Attack a Group with more Glory, --1 to the test result.
 - When Attacked by a Group with more than twice their Glory, test Resolve.
-- When within 6" of a friendly Group with more than twice their Glory, reroll failed Activations.
+- When within 6” of a friendly Group with more than twice their Glory, reroll failed Activations.
 - A Group's Glory is a prerequisite for Bynames. For more information, see [Bynames][1].
 
 All groups gain Glory:

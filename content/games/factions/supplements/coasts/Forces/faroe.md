@@ -18,7 +18,7 @@ Hlif fights as a Champion. She rolls 4d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   4   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   4   |  4+   |   3   | Champion, Challenger |
 
 ## Axlarhagi
 
@@ -34,8 +34,8 @@ when testing Resolve. When Duelling, Hunbogi rolls 12d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  16   |  4+   |   3   | Shieldwall |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |   8   |  4+   |   3   | -          |
+| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  16   |  4+   |   3   | Shieldwall |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |   8   |  4+   |   3   | -          |
 
 ### Æstrid
 
@@ -45,8 +45,8 @@ when testing Resolve. When Duelling, Æstrid rolls 6d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI       |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :--------- |
-| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6"  |  15   |  4+   |   3   | Shieldwall |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 12" |   6   |  4+   |   3   | -          |
+| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6”  |  15   |  4+   |   3   | Shieldwall |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 12” |   6   |  4+   |   3   | -          |
 
 ## Hlodvir the Blooded
 
@@ -54,7 +54,7 @@ Hlodvir has 0 Fame and 30 Glory. He fights as a Champion and rolls 15d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 4+ / 4+ | 5+ / 8" | 6+ / 5+ / - |  10   |  4+   |   3   | Champion, Challenger |
+| 5+ / 4+ / 4+ | 5+ / 8” | 6+ / 5+ / - |  10   |  4+   |   3   | Champion, Challenger |
 
 ## Goblin Lair
 
@@ -66,8 +66,8 @@ Captain.
 
 | Size  |      ME      |   MO    |    MI     |  FS   |   R   |   T   |          Traits           |
 | :---- | :----------: | :-----: | :-------: | :---: | :---: | :---: | :------------------------ |
-| Small | 6+ / 5+ / 5+ | 5+ / 8" | - / - / - |   4   |  5+   |   2   | Cowardly, Nimble, Vicious |
-| Large | 6+ / 5+ / 5+ | 5+ / 8" | - / - / - |   8   |  5+   |   2   | Cowardly, Nimble, Vicious |
+| Small | 6+ / 5+ / 5+ | 5+ / 8” | - / - / - |   4   |  5+   |   2   | Cowardly, Nimble, Vicious |
+| Large | 6+ / 5+ / 5+ | 5+ / 8” | - / - / - |   8   |  5+   |   2   | Cowardly, Nimble, Vicious |
 
 ## Haubrekker
 
@@ -83,8 +83,8 @@ rolls 2d6 to hit.
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   8   |  4+   |   2   | Defensive, Shieldwall |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / -  |   2   |  4+   |   3   |                       |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   8   |  4+   |   2   | Defensive, Shieldwall |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / -  |   2   |  4+   |   3   |                       |
 
 ## Fullsteinn
 
@@ -98,7 +98,7 @@ Ingjald fights as a Champion and rolls 9d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |             Traits             |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :----------------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   6   |  4+   |   3   | Champion, Challenger, Reckless |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   6   |  4+   |   3   | Champion, Challenger, Reckless |
 
 ## Klaholm
 
@@ -112,7 +112,7 @@ Skap fights as a Champion and rolls 6d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   6   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   6   |  4+   |   2   | Champion, Challenger |
 
 ## Uluum's Fastness
 
@@ -127,19 +127,19 @@ Uluum rolls 4d6 to hit.
 
 |     ME     |   MO    |     MI      |  FS   |   R   |   T   |       Traits       |
 | :--------: | :-----: | :---------: | :---: | :---: | :---: | :----------------- |
-| 5+ / 6 / 6 | 5+ / 8" | 6+ / 5+ / - |   8   |  4+   |   4   | Caster, Terrifying |
+| 5+ / 6 / 6 | 5+ / 8” | 6+ / 5+ / - |   8   |  4+   |   4   | Caster, Terrifying |
 
 ### Honor Guard
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |       Traits       |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :----------------- |
-| 5+ / 4+ / 5+ | 5+ / 6" |   -   |  12   |  4+   |   3   | Unfeeling, Vicious |
+| 5+ / 4+ / 5+ | 5+ / 6” |   -   |  12   |  4+   |   3   | Unfeeling, Vicious |
 
 ### Skeletons
 
 |     ME      |   MO    |  MI   |  FS   |   R   |   T   |  Traits   |
 | :---------: | :-----: | :---: | :---: | :---: | :---: | :-------- |
-| 6+ / 5+ / 6 | 5+ / 8" |   -   |  12   |  4+   |   2   | Unfeeling |
+| 6+ / 5+ / 6 | 5+ / 8” |   -   |  12   |  4+   |   2   | Unfeeling |
 
 ## Malmberget
 
@@ -156,8 +156,8 @@ when testing Resolve, and have the [Unbreakable][3] Byname. When Duelling, Ljot 
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  16   |  4+   |   3   | Shieldwall |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |   8   |  4+   |   4   | -          |
+| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  16   |  4+   |   3   | Shieldwall |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |   8   |  4+   |   4   | -          |
 
 ## Elf-Cave
 
@@ -168,7 +168,7 @@ If using the [Routine Procedures][1], the Elves are Guarded.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |     Traits      |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :-------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   6   |  4+   |   2   | Elusive, Nimble |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   6   |  4+   |   2   | Elusive, Nimble |
 
 ## The Pit
 
@@ -178,7 +178,7 @@ If using the [Routine Procedures][1], the Ghouls are Ferocious.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |      Traits       |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :---------------- |
-| 5+ / 4+ / 5+ | 5+ / 8" |   -   |  12   |  4+   |   2   | Reckless, Vicious |
+| 5+ / 4+ / 5+ | 5+ / 8” |   -   |  12   |  4+   |   2   | Reckless, Vicious |
 
 ## Malmberget Mine
 
@@ -190,8 +190,8 @@ If using the [Routine Procedures][1], the Orcs are Ferocious.
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |  Traits  |
 | :------: | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------- |
-| Warband  | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  16   |  4+   |   1   | Reckless |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |   8   |  4+   |   3   | -        |
+| Warband  | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  16   |  4+   |   1   | Reckless |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |   8   |  4+   |   3   | -        |
 
 ## Haugr
 
@@ -206,8 +206,8 @@ rolls 9d6 to hit and has +3 when testing Resolve. When Duelling, Hundi rolls 6d6
 
 |    Mode     |      ME      |   MO    |      MI       |  FS   |   R   |   T   |     Traits      |
 | :---------- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :-------------- |
-| Skirmishers | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   7   |  5+   |   1   | Elusive, Nimble |
-| Duelling    | 5+ / 5+ / 5+ | 5+ / 6" |  6+ / 5+ / -  |   6   |  4+   |   2   | -               |
+| Skirmishers | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   7   |  5+   |   1   | Elusive, Nimble |
+| Duelling    | 5+ / 5+ / 5+ | 5+ / 6” |  6+ / 5+ / -  |   6   |  4+   |   2   | -               |
 
 ## Gnoll Keep
 
@@ -220,8 +220,8 @@ If using the [Routine Procedures][1], the Gnolls are Bold.
 
 |  Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :------ | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Gnolls  | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  16   |  4+   |   3   | Shieldwall |
-| Captain | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |   8   |  4+   |   3   | -          |
+| Gnolls  | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  16   |  4+   |   3   | Shieldwall |
+| Captain | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |   8   |  4+   |   3   | -          |
 
 ## Fort Kalbrekka
 
@@ -238,8 +238,8 @@ the [Boar's Tusk][6] Byname. When Duelling, Kraki rolls 8d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  15   |  4+   |   3   | Shieldwall |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |   6   |  4+   |   3   | -          |
+| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  15   |  4+   |   3   | Shieldwall |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |   6   |  4+   |   3   | -          |
 
 ## Osvig the Whip
 
@@ -248,7 +248,7 @@ melee.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 18" |   8   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 18” |   8   |  4+   |   3   | Champion, Challenger |
 
 ## Volle
 
@@ -263,7 +263,7 @@ Byname.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   8   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   8   |  4+   |   2   | Champion, Challenger |
 
 ## Turnholm
 
@@ -279,8 +279,8 @@ to hit and has +2 when testing Resolve. When Duelling, Raghild rolls 4d6 to hit.
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   8   |  4+   |   2   | Defensive, Shieldwall |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   2   |  4+   |   2   |                       |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   8   |  4+   |   2   | Defensive, Shieldwall |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   2   |  4+   |   2   |                       |
 
 ## Hring the Drowned
 
@@ -292,8 +292,8 @@ If using the [Routine Procedures][1], Hring's forces are Guarded.
 
 |   Mode    |      ME      |   MO    |  MI   |  FS   |   R   |   T   |        Traits        |
 | :-------- | :----------: | :-----: | :---: | :---: | :---: | :---: | :------------------- |
-| Skeletons | 6+ / 5+ / 5+ | 5+ / 8" |   -   |  12   |  4+   |   2   | Unfeeling            |
-| Hring     | 5+ / 5+ / 5+ | 5+ / 6" |   -   |   8   |  4+   |   3   | Champion, Challenger |
+| Skeletons | 6+ / 5+ / 5+ | 5+ / 8” |   -   |  12   |  4+   |   2   | Unfeeling            |
+| Hring     | 5+ / 5+ / 5+ | 5+ / 6” |   -   |   8   |  4+   |   3   | Champion, Challenger |
 
 ## Goblins Victorious
 
@@ -305,8 +305,8 @@ Captain.
 
 | Size  |      ME      |   MO    |    MI     |  FS   |   R   |   T   |          Traits           |
 | :---- | :----------: | :-----: | :-------: | :---: | :---: | :---: | :------------------------ |
-| Small | 6+ / 5+ / 5+ | 5+ / 8" | - / - / - |   4   |  5+   |   2   | Cowardly, Nimble, Vicious |
-| Large | 6+ / 5+ / 5+ | 5+ / 8" | - / - / - |   8   |  5+   |   2   | Cowardly, Nimble, Vicious |
+| Small | 6+ / 5+ / 5+ | 5+ / 8” | - / - / - |   4   |  5+   |   2   | Cowardly, Nimble, Vicious |
+| Large | 6+ / 5+ / 5+ | 5+ / 8” | - / - / - |   8   |  5+   |   2   | Cowardly, Nimble, Vicious |
 
 ## Hoveringen
 
@@ -320,7 +320,7 @@ Thorgærd fights as a Champion and rolls 3d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   2   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   2   |  4+   |   2   | Champion, Challenger |
 
 ## Borg
 
@@ -339,8 +339,8 @@ Armoured Footmen, the Group rolls 18d6 to hit and has +6 when testing Resolve. T
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits    |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :---------- |
-| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  18   |  4+   |   3   | Shieldwall  |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |  12   |  4+   |   3   | Caster-Bane |
+| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  18   |  4+   |   3   | Shieldwall  |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |  12   |  4+   |   3   | Caster-Bane |
 
 ## Holmlaug's Bandits
 
@@ -353,8 +353,8 @@ If using the [Routine Procedures][1], Borg's forces are Bold.
 
 |   Name   |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :------: | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| Holmlaug | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   8   |  4+   |   2   | Champion, Challenger |
-| Bandits  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6"  |  10   |  4+   |   3   | Shieldwall           |
+| Holmlaug | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   8   |  4+   |   2   | Champion, Challenger |
+| Bandits  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6”  |  10   |  4+   |   3   | Shieldwall           |
 
 ## Forest Orcs
 
@@ -365,7 +365,7 @@ If using the [Routine Procedures][1], the Orcs of the fort are Cautious.
 
 |     ME      |   MO    |     MI      |  FS   |   R   |   T   | Traits |
 | :---------: | :-----: | :---------: | :---: | :---: | :---: | :----- |
-| 6+ / 5+ / 6 | 5+ / 8" | 6+ / 6 / 6" |   8   |  4+   |   2   | -      |
+| 6+ / 5+ / 6 | 5+ / 8” | 6+ / 6 / 6” |   8   |  4+   |   2   | -      |
 
 ## Grindheim
 
@@ -381,8 +381,8 @@ Svala fights beside the Group of Footmen as Captain. When joined to the Footmen,
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   8   |  4+   |   2   | Defensive, Shieldwall |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   2   |  4+   |   2   |                       |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   8   |  4+   |   2   | Defensive, Shieldwall |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   2   |  4+   |   2   |                       |
 
 ## Torpa
 
@@ -397,8 +397,8 @@ If using the [Routine Procedures][1], the forces of Torpa are Ferocious.
 
 |    Mode     |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :---------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Skirmishing | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  10   |  4+   |   3   | Shieldwall |
-| Duelling    | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   6   |  4+   |   3   | -          |
+| Skirmishing | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  10   |  4+   |   3   | Shieldwall |
+| Duelling    | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   6   |  4+   |   3   | -          |
 
 <!-- Reference Links -->
 

@@ -21,8 +21,8 @@ when testing Resolve, and the [Unbreakable][3] Byname. When Duelling, Cadoc roll
 
 |    Mode     |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :---------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Royal Guard | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  16   |  4+   |   3   | Druid-Foe, Shieldwall |
-| Duelling    | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |   8   |  4+   |   3   | -                     |
+| Royal Guard | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  16   |  4+   |   3   | Druid-Foe, Shieldwall |
+| Duelling    | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |   8   |  4+   |   3   | -                     |
 
 ### Royal Guard
 
@@ -30,7 +30,7 @@ The Royal Guard Groups not joined by Cadoc have the [Hounds][4] Byname.
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  12   |  4+   |   3   | Druid-Foe, Shieldwall |
+| 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  12   |  4+   |   3   | Druid-Foe, Shieldwall |
 
 ## Flodaigh
 
@@ -40,7 +40,7 @@ If using the [Routine Procedures][1], the Unnamed Warrior is Ferocious.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |             Traits             |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :----------------------------- |
-| 4+ / 4+ / 4+ | 5+ / 8" | 6+ / 5+ / - |   8   |  4+   |   3   | Champion, Challenger, Reckless |
+| 4+ / 4+ / 4+ | 5+ / 8” | 6+ / 5+ / - |   8   |  4+   |   3   | Champion, Challenger, Reckless |
 
 ## Sanndraigh
 
@@ -54,8 +54,8 @@ Baeddan fights as a Champion and rolls 12d6 to hit (8d6 when Duelling).
 
 |    Mode     |      ME      |   MO    |      MI      |  FS   |   R   |   T   |              Traits              |
 | :---------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------------------- |
-| Duelling    | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   8   |  4+   |   3   | Champion, Shield-Bash, Unfeeling |
-| Skirmishing | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  16   |  4+   |   3   | Champion, Shield-Bash, Unfeeling |
+| Duelling    | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   8   |  4+   |   3   | Champion, Shield-Bash, Unfeeling |
+| Skirmishing | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  16   |  4+   |   3   | Champion, Shield-Bash, Unfeeling |
 
 Shield-Bash
 : Activate (5+) to Attack, hitting on 4+. Until their next activation, --1 T.
@@ -66,11 +66,11 @@ Bedwyr fights as a Champion and rolls 15d6 to hit (10d6 when Duelling).
 
 |    Mode     |      ME      |    MO    |  MI   |  FS   |   R   |   T   |           Traits            |
 | :---------- | :----------: | :------: | :---: | :---: | :---: | :---: | :-------------------------- |
-| Duelling    | 5+ / 5+ / 5+ | 5+ / 10" |   -   |  10   |  4+   |   3   | Champion, Charge, Unfeeling |
-| Skirmishing | 5+ / 5+ / 5+ | 5+ / 10" |   -   |  20   |  4+   |   3   | Champion, Charge, Unfeeling |
+| Duelling    | 5+ / 5+ / 5+ | 5+ / 10” |   -   |  10   |  4+   |   3   | Champion, Charge, Unfeeling |
+| Skirmishing | 5+ / 5+ / 5+ | 5+ / 10” |   -   |  20   |  4+   |   3   | Champion, Charge, Unfeeling |
 
 Charge
-: When mounted and not Duelling, activate (5+) to Attack an enemy at least 6" away, hitting on 4+.
+: When mounted and not Duelling, activate (5+) to Attack an enemy at least 6” away, hitting on 4+.
 
 ### Esni
 
@@ -78,8 +78,8 @@ Esni fights as a Champion and rolls 20d6 to hit (15d6 when Duelling).
 
 |    Mode     |      ME      |   MO    |  MI   |  FS   |   R   |   T   |             Traits             |
 | :---------- | :----------: | :-----: | :---: | :---: | :---: | :---: | :----------------------------- |
-| Duelling    | 5+ / 5+ / 5+ | 5+ / 6" |   -   |  10   |  4+   |   3   | Champion, Kick Sand, Unfeeling |
-| Skirmishing | 5+ / 5+ / 5+ | 5+ / 6" |   -   |  20   |  4+   |   3   | Champion, Kick Sand, Unfeeling |
+| Duelling    | 5+ / 5+ / 5+ | 5+ / 6” |   -   |  10   |  4+   |   3   | Champion, Kick Sand, Unfeeling |
+| Skirmishing | 5+ / 5+ / 5+ | 5+ / 6” |   -   |  20   |  4+   |   3   | Champion, Kick Sand, Unfeeling |
 
 Kick Sand
 : Activate (7+) to blind an adjacent enemy Group. Until they clear the sand from their eyes
@@ -91,8 +91,8 @@ Cei fights as a Champion and rolls 21d6 to hit (14d6 when Duelling).
 
 |    Mode     |      ME      |   MO    |  MI   |  FS   |   R   |   T   |       Traits        |
 | :---------- | :----------: | :-----: | :---: | :---: | :---: | :---: | :------------------ |
-| Duelling    | 5+ / 5+ / 5+ | 5+ / 8" |   -   |  14   |  4+   |   3   | Champion, Unfeeling |
-| Skirmishing | 5+ / 5+ / 5+ | 5+ / 8" |   -   |  28   |  4+   |   3   | Champion, Unfeeling |
+| Duelling    | 5+ / 5+ / 5+ | 5+ / 8” |   -   |  14   |  4+   |   3   | Champion, Unfeeling |
+| Skirmishing | 5+ / 5+ / 5+ | 5+ / 8” |   -   |  28   |  4+   |   3   | Champion, Unfeeling |
 
 ## Lothing
 
@@ -102,7 +102,7 @@ If using the [Routine Procedures][1], the forces of Lothing are Cautious.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |     Traits      |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :-------------- |
-| 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   4   |  5+   |   1   | Elusive, Nimble |
+| 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   4   |  5+   |   1   | Elusive, Nimble |
 
 ## Mhealasta
 
@@ -112,10 +112,10 @@ If using the [Routine Procedures][1], Bheithir is Bold.
 
 |      ME      |    MO    |     MI      |  FS   |   R   |   T   |           Traits           |
 | :----------: | :------: | :---------: | :---: | :---: | :---: | :------------------------- |
-| 3+ / 3+ / 3+ | 5+ / 16" | 6+ / 5+ / - |  18   |  5+   |   6   | Breathe Flame, Move Freely |
+| 3+ / 3+ / 3+ | 5+ / 16” | 6+ / 5+ / - |  18   |  5+   |   6   | Breathe Flame, Move Freely |
 
 Breathe Flame
-: Bheithir may activate (7+) targeting a Group within 6". Roll 12d6 to hit (6d6 if Bloodied) on 4+,
+: Bheithir may activate (7+) targeting a Group within 6”. Roll 12d6 to hit (6d6 if Bloodied) on 4+,
   ignoring T.
 
 ## Dead Meadery
@@ -127,9 +127,9 @@ If using the [Routine Procedures][1], the Gnolls are Guarded.
 
 |   Name    |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits        |
 | :-------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------- |
-| Latin     | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |   6   |  4+   |   4   | Champion, Challenger |
-| Norsefolk | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   6   |  4+   |   2   | Champion, Challenger |
-| Pictish   | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / -  |   6   |  4+   |   1   | Champion, Challenger |
+| Latin     | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |   6   |  4+   |   4   | Champion, Challenger |
+| Norsefolk | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   6   |  4+   |   2   | Champion, Challenger |
+| Pictish   | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / -  |   6   |  4+   |   1   | Champion, Challenger |
 
 ## Caelkirk
 
@@ -146,8 +146,8 @@ When Duelling, Lutrin rolls 10d6 to hit.
 
 |   Mode   |      ME      |    MO    |     MI      |  FS   |   R   |   T   | Traits  |
 | :------- | :----------: | :------: | :---------: | :---: | :---: | :---: | :------ |
-| Horsemen | 5+ / 4+ / 5+ | 5+ / 12" |      -      |   11   |  4+   |   3   | Defiant |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6"  | 6+ / 5+ / - |   10   |  4+   |   3   | -       |
+| Horsemen | 5+ / 4+ / 5+ | 5+ / 12” |      -      |   11   |  4+   |   3   | Defiant |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6”  | 6+ / 5+ / - |   10   |  4+   |   3   | -       |
 
 ## Eanverness
 
@@ -165,8 +165,8 @@ hit and have +5 when testing Resolve. When Duelling, Coblaith rolls 15d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  17   |  4+   |   3   | Druid-Foe, Shieldwall |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |  10   |  4+   |   3   | -                     |
+| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  17   |  4+   |   3   | Druid-Foe, Shieldwall |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |  10   |  4+   |   3   | -                     |
 
 ## Corrimony
 
@@ -181,11 +181,11 @@ James fights as a Champion and rolls 4d6 to hit (6d6 when Shooting).
 
 | Name  |     ME      |    MO    |      MI       |  FS   |   R   |   T   |      Traits      |
 | :---- | :---------: | :------: | :-----------: | :---: | :---: | :---: | :--------------- |
-| James | 5+ / 6 / 6  | 5+ / 8"  | 6+ / 5+ / 18" |   4   |  4+   |   1   | Shepherd         |
-| Dogs  | 5+ / 4+ / 6 | 6+ / 12" |       -       |   6   |  4+   |   1   | Reckless, Nimble |
+| James | 5+ / 6 / 6  | 5+ / 8”  | 6+ / 5+ / 18” |   4   |  4+   |   1   | Shepherd         |
+| Dogs  | 5+ / 4+ / 6 | 6+ / 12” |       -       |   6   |  4+   |   1   | Reckless, Nimble |
 
 Shepherd
-: James may activate (7+) to command all Groups of Dogs within 18" to Move or Attack without needing
+: James may activate (7+) to command all Groups of Dogs within 18” to Move or Attack without needing
   to activate themselves.
 
 ## Rhyndwyrm
@@ -196,12 +196,12 @@ If using the [Routine Procedures][1], the Rhyndwyrm is Ferocious.
 
 |     ME      |    MO    |  MI   |  FS   |   R   |   T   |             Traits             |
 | :---------: | :------: | :---: | :---: | :---: | :---: | :----------------------------- |
-| 5+ / 3+ / 6 | 6+ / 10" |   -   |  14   |  3+   |   2   | Legged-Bane, Reckless, Vicious |
+| 5+ / 3+ / 6 | 6+ / 10” |   -   |  14   |  3+   |   2   | Legged-Bane, Reckless, Vicious |
 
 ## Methven
 
 The Footmen have no Captain, 5 Fame, and 25 Glory. Both Groups have the [Cloud of Steel][5] Byname,
-roll 18d6 to hit when Shooting, and carry longbows (increasing range to 12").
+roll 18d6 to hit when Shooting, and carry longbows (increasing range to 12”).
 
 If using the [Routine Procedures][1], the forces of Methven are Guarded.
 
@@ -218,7 +218,7 @@ Howar fights as a Champion and rolls 6d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   6   |  4+   |   1   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   6   |  4+   |   1   | Champion, Challenger |
 
 ## Deserter Camp
 
@@ -232,7 +232,7 @@ Crummock fights as a Champion and rolls 8d6 to hit.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   8   |  4+   |   1   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   8   |  4+   |   1   | Champion, Challenger |
 
 ## Wyvern Lair
 
@@ -242,7 +242,7 @@ If using the [Routine Procedures][1], the Wyvern is Ferocious.
 
 |     ME      |    MO    |  MI   |  FS   |   R   |   T   |             Traits             |
 | :---------: | :------: | :---: | :---: | :---: | :---: | :----------------------------- |
-| 5+ / 4+ / 6 | 6+ / 12" |   -   |  12   |  4+   |   3   | Move Freely, Reckless, Vicious |
+| 5+ / 4+ / 6 | 6+ / 12” |   -   |  12   |  4+   |   3   | Move Freely, Reckless, Vicious |
 
 ## Dun Dulnadd
 
@@ -259,8 +259,8 @@ Duelling, Drest rolls 12d6 to hit.
 
 |   Mode   |      ME      |    MO    |     MI      |  FS   |   R   |   T   | Traits  |
 | :------- | :----------: | :------: | :---------: | :---: | :---: | :---: | :------ |
-| Horsemen | 5+ / 4+ / 5+ | 5+ / 12" |      -      |  10   |  4+   |   3   | Defiant |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6"  | 6+ / 5+ / - |   8   |  4+   |   3   | -       |
+| Horsemen | 5+ / 4+ / 5+ | 5+ / 12” |      -      |  10   |  4+   |   3   | Defiant |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6”  | 6+ / 5+ / - |   8   |  4+   |   3   | -       |
 
 ## Arboreal Palace
 
@@ -273,9 +273,9 @@ The Dryad fights as a Champion. All roll 6d6 to hit.
 
 | Group |      ME      |   MO    |  MI   |  FS   |   R   |   T   | Traits |
 | :---- | :----------: | :-----: | :---: | :---: | :---: | :---: | :----- |
-| Dryad | 5+ / 5+ / 5+ | 5+ / 8" |   -   |   6   |  4+   |   2   | Nimble |
-| Orcs  | 6+ / 5+ / 6  | 5+ / 8" |   -   |   4   |  5+   |   1   | Nimble |
-| Picts | 6+ / 5+ / 6  | 5+ / 8" |   -   |   4   |  5+   |   1   | Nimble |
+| Dryad | 5+ / 5+ / 5+ | 5+ / 8” |   -   |   6   |  4+   |   2   | Nimble |
+| Orcs  | 6+ / 5+ / 6  | 5+ / 8” |   -   |   4   |  5+   |   1   | Nimble |
+| Picts | 6+ / 5+ / 6  | 5+ / 8” |   -   |   4   |  5+   |   1   | Nimble |
 
 ## Marlfagh
 
@@ -304,7 +304,7 @@ Seonaid fights as a Champion and rolls 6d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / - |   6   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / - |   6   |  4+   |   2   | Champion, Challenger |
 
 ## Occupied Fort
 
@@ -318,9 +318,9 @@ Brave.
 
 |   Group   |      ME      |   MO    |      MI       |  FS   |   R   |   T   |  Traits  |
 | :-------- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------- |
-| Archer    | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |  14   |  4+   |   2   | -        |
-| Commander | 5+ / 4+ / 5+ | 5+ / 8" |  5+ / 5+ / -  |   6   |  4+   |   3   | -        |
-| Warband   | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 6"  |  14   |  4+   |   2   | Reckless |
+| Archer    | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |  14   |  4+   |   2   | -        |
+| Commander | 5+ / 4+ / 5+ | 5+ / 8” |  5+ / 5+ / -  |   6   |  4+   |   3   | -        |
+| Warband   | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 6”  |  14   |  4+   |   2   | Reckless |
 
 ## First Fortress
 
@@ -332,9 +332,9 @@ If using the [Routine Procedures][1], the orcs not led by the Commander are Fero
 
 |  Group  |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :------ | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| Archer  | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |  14   |  4+   |   1   | -                    |
-| Elders  | 5+ / 4+ / 5+ | 5+ / 8" |  5+ / 5+ / -  |  18   |  4+   |   2   | Shieldwall           |
-| Warband | 6+ / 4+ / 5+ | 5+ / 8" | 6+ / 5+ / 6"  |  14   |  4+   |   2   | Reckless, Shieldwall |
+| Archer  | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |  14   |  4+   |   1   | -                    |
+| Elders  | 5+ / 4+ / 5+ | 5+ / 8” |  5+ / 5+ / -  |  18   |  4+   |   2   | Shieldwall           |
+| Warband | 6+ / 4+ / 5+ | 5+ / 8” | 6+ / 5+ / 6”  |  14   |  4+   |   2   | Reckless, Shieldwall |
 
 ## Dun Morbhaidh
 
@@ -351,8 +351,8 @@ When Duelling, Tharain rolls 12d6 to hit.
 
 |   Mode   |      ME      |    MO    |     MI      |  FS   |   R   |   T   | Traits  |
 | :------- | :----------: | :------: | :---------: | :---: | :---: | :---: | :------ |
-| Horsemen | 5+ / 4+ / 5+ | 5+ / 12" |      -      |  10   |  4+   |   3   | Defiant |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6"  | 6+ / 5+ / - |   8   |  4+   |   4   | -       |
+| Horsemen | 5+ / 4+ / 5+ | 5+ / 12” |      -      |  10   |  4+   |   3   | Defiant |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6”  | 6+ / 5+ / - |   8   |  4+   |   4   | -       |
 
 ## Trimontium
 
@@ -367,8 +367,8 @@ hit and have +1 when testing Resolve. When Duelling, Irb rolls 2d6 to hit.
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  13   |  4+   |   2   | Defensive, Shieldwall |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |   8   |  4+   |   1   | -                     |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  13   |  4+   |   2   | Defensive, Shieldwall |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |   8   |  4+   |   1   | -                     |
 
 ### Áine
 
@@ -376,7 +376,7 @@ hit and have +1 when testing Resolve. When Duelling, Irb rolls 2d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   6   |  4+   |   1   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   6   |  4+   |   1   | Champion, Challenger |
 
 ## Cuimridh
 
@@ -393,8 +393,8 @@ rolls 4d6 to hit.
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  14   |  4+   |   2   | Defensive, Shieldwall |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |   4   |  4+   |   4   | -                     |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  14   |  4+   |   2   | Defensive, Shieldwall |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |   4   |  4+   |   4   | -                     |
 
 ## Guthram
 
@@ -410,7 +410,7 @@ Lucky, and Passionate.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / - |   10   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / - |   10   |  4+   |   2   | Champion, Challenger |
 
 ### Birger
 
@@ -418,7 +418,7 @@ Birger fights as a Champion and rolls 6d6 to hit.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 12" |   6   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 12” |   6   |  4+   |   2   | Champion, Challenger |
 
 ## Hunger Manse
 
@@ -428,7 +428,7 @@ If using the [Routine Procedures][1], the Ghouls are Ferocious.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |      Traits       |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :---------------- |
-| 5+ / 4+ / 5+ | 5+ / 8" |   -   |   6   |  4+   |   2   | Reckless, Vicious |
+| 5+ / 4+ / 5+ | 5+ / 8” |   -   |   6   |  4+   |   2   | Reckless, Vicious |
 
 ## Crumbling Tower
 
@@ -438,7 +438,7 @@ If using the [Routine Procedures][1], the Mergyl is Cautious.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   6   |  4+   |   1   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   6   |  4+   |   1   | Champion, Challenger |
 
 ## Surface Caverns
 
@@ -448,7 +448,7 @@ If using the [Routine Procedures][1], the nameless creature is Bold.
 
 |     ME      |    MO    |  MI   |  FS   |   R   |   T   |      Traits      |
 | :---------: | :------: | :---: | :---: | :---: | :---: | :--------------- |
-| 5+ / 4+ / 6 | 6+ / 12" |   -   |  16   |  4+   |   2   | Nimble, Reckless |
+| 5+ / 4+ / 6 | 6+ / 12” |   -   |  16   |  4+   |   2   | Nimble, Reckless |
 
 ## Driven Warrior
 
@@ -458,7 +458,7 @@ If using the [Routine Procedures][1], Ortor is Bold.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   4   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   4   |  4+   |   2   | Champion, Challenger |
 
 ## Brychdyn
 
@@ -474,8 +474,8 @@ Shooting).
 
 |   Mode   |      ME      |    MO    |     MI      |  FS   |   R   |   T   | Traits  |
 | :------- | :----------: | :------: | :---------: | :---: | :---: | :---: | :------ |
-| Horsemen | 5+ / 4+ / 5+ | 5+ / 12" |      -      |   8   |  4+   |   2   | Defiant |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 8"  | 6+ / 5+ / - |   4   |  4+   |   2   | -       |
+| Horsemen | 5+ / 4+ / 5+ | 5+ / 12” |      -      |   8   |  4+   |   2   | Defiant |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 8”  | 6+ / 5+ / - |   4   |  4+   |   2   | -       |
 
 ### Ednyfed
 
@@ -484,8 +484,8 @@ and have +1 when testing Resolve. When Duelling, Ednyfed rolls 2d6 to hit.
 
 |   Mode   |      ME      |    MO    |     MI      |  FS   |   R   |   T   | Traits  |
 | :------- | :----------: | :------: | :---------: | :---: | :---: | :---: | :------ |
-| Horsemen | 5+ / 4+ / 5+ | 5+ / 12" |      -      |   7   |  4+   |   2   | Defiant |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6"  | 6+ / 5+ / - |   2   |  4+   |   2   | -       |
+| Horsemen | 5+ / 4+ / 5+ | 5+ / 12” |      -      |   7   |  4+   |   2   | Defiant |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6”  | 6+ / 5+ / - |   2   |  4+   |   2   | -       |
 
 ## Dun Bedale
 
@@ -502,7 +502,7 @@ If using the [Routine Procedures][1], Thomas is Bold.
 
 |      ME      |    MO    |     MI      |  FS   |   R   |   T   | Traits |
 | :----------: | :------: | :---------: | :---: | :---: | :---: | :----- |
-| 5+ / 5+ / 5+ | 5+ / 10" | 6+ / 5+ / - |  20   |  4+   |   2   | -      |
+| 5+ / 5+ / 5+ | 5+ / 10” | 6+ / 5+ / - |  20   |  4+   |   2   | -      |
 
 ## Rhaglan
 
@@ -518,8 +518,8 @@ and have +3 when testing Resolve. When Duelling, Siôn rolls 6d6 to hit.
 
 |   Mode   |      ME      |    MO    |      MI       |  FS   |   R   |   T   | Traits  |
 | :------- | :----------: | :------: | :-----------: | :---: | :---: | :---: | :------ |
-| Horsemen | 5+ / 4+ / 5+ | 5+ / 12" |       -       |   9   |  4+   |   2   | Defiant |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6"  | 6+ / 5+ / 12" |   2   |  4+   |   1   | -       |
+| Horsemen | 5+ / 4+ / 5+ | 5+ / 12” |       -       |   9   |  4+   |   2   | Defiant |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6”  | 6+ / 5+ / 12” |   2   |  4+   |   1   | -       |
 
 ## Carchar y Ymwelydd
 
@@ -529,7 +529,7 @@ If using the [Routine Procedures][1], the Green Slime is Ferocious.
 
 |  ME   |   MO    |  MI   |  FS   |   R   |   T   |          Traits           |
 | :---: | :-----: | :---: | :---: | :---: | :---: | :------------------------ |
-|   -   | 4+ / 8" |   -   |  20   |  4+   |   2   | Consume, Jelly, Unfeeling |
+|   -   | 4+ / 8” |   -   |  20   |  4+   |   2   | Consume, Jelly, Unfeeling |
 
 Consume
 : If the Group starts or ends its turn adjacent to a Group, is Attacked by a Group, or Moves
@@ -550,8 +550,8 @@ Each Wraith fights as a Champion and rolls 8d6 to hit. The Zombies roll 6d6 to h
 
 | Group  |      ME      |   MO    |  MI   |  FS   |   R   |   T   |              Traits              |
 | :----- | :----------: | :-----: | :---: | :---: | :---: | :---: | :------------------------------- |
-| Wraith | 5+ / 5+ / 5+ | 5+ / 8" |   -   |   4   |  4+   |   1   | Incorporeal, Reckless, Unfeeling |
-| Zombie | 5+ / 4+ / 5+ | 5+ / 6" |   -   |   8   |  4+   |   2   | Unfeeling                        |
+| Wraith | 5+ / 5+ / 5+ | 5+ / 8” |   -   |   4   |  4+   |   1   | Incorporeal, Reckless, Unfeeling |
+| Zombie | 5+ / 4+ / 5+ | 5+ / 6” |   -   |   8   |  4+   |   2   | Unfeeling                        |
 
 Incorporeal
 : The Group can't be hurt by Attacking or Shooting (don't roll to hit) unless the weapons are silver
@@ -565,7 +565,7 @@ If using the [Routine Procedures][1], Emyr is Bold.
 
 |     ME      |    MO    |  MI   |  FS   |   R   |   T   |  Traits  |
 | :---------: | :------: | :---: | :---: | :---: | :---: | :------- |
-| 5+ / 4+ / 6 | 6+ / 10" |   -   |  18   |  3+   |   4   | Reckless |
+| 5+ / 4+ / 6 | 6+ / 10” |   -   |  18   |  3+   |   4   | Reckless |
 
 ## Treorci
 
@@ -582,8 +582,8 @@ Donnchadh rolls 6d6 to hit.
 
 |   Mode   |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6"  |  15   |  4+   |   2   | Defensive, Shieldwall |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 12" |   4   |  4+   |   2   | -                     |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6”  |  15   |  4+   |   2   | Defensive, Shieldwall |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 12” |   4   |  4+   |   2   | -                     |
 
 ## Centaur Grove
 
@@ -593,10 +593,10 @@ If using the [Routine Procedures][1], the Centaurs are Bold.
 
 |      ME      |    MO    |  MI   |  FS   |   R   |   T   |     Traits      |
 | :----------: | :------: | :---: | :---: | :---: | :---: | :-------------- |
-| 5+ / 5+ / 5+ | 5+ / 10" |   -   |   8   |  4+   |   2   | Charge, Defiant |
+| 5+ / 5+ / 5+ | 5+ / 10” |   -   |   8   |  4+   |   2   | Charge, Defiant |
 
 Charge
-: Activate (5+) to Attack an enemy at least 6" away, hitting on 4+.
+: Activate (5+) to Attack an enemy at least 6” away, hitting on 4+.
 
 ## Maeyfed
 
@@ -611,7 +611,7 @@ Cathan fights as a Champion and rolls 4d6 to hit (6d6 when Shooting).
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 18" |   4   |  4+   |   1   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 18” |   4   |  4+   |   1   | Champion, Challenger |
 
 ### Seren
 
@@ -619,7 +619,7 @@ Seren fights as a Champion and rolls 6d6 to hit.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   6   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   6   |  4+   |   2   | Champion, Challenger |
 
 ## Eightfold Sacrifice Returned
 
@@ -629,10 +629,10 @@ If using the [Routine Procedures][1], the Mummies are Ferocious.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |       Traits       |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :----------------- |
-| 5+ / 5+ / 5+ | 5+ / 6" |   -   |  10   |  4+   |   3   | Chained, Unfeeling |
+| 5+ / 5+ / 5+ | 5+ / 6” |   -   |  10   |  4+   |   3   | Chained, Unfeeling |
 
 Chained
-: The Group can never move more than 3" from other Chained Groups.
+: The Group can never move more than 3” from other Chained Groups.
 
 ## The Ringfort
 
@@ -649,8 +649,8 @@ Duelling, Bo rolls 8d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  16   |  4+   |   3   | Shieldwall |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |   8   |  4+   |   3   | -          |
+| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  16   |  4+   |   3   | Shieldwall |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |   8   |  4+   |   3   | -          |
 
 ## Ylmo, The Last Bear
 
@@ -660,7 +660,7 @@ If using the [Routine Procedures][1], Ylmo is Cautious.
 
 |      ME      |    MO    |  MI   |  FS   |   R   |   T   | Traits |
 | :----------: | :------: | :---: | :---: | :---: | :---: | :----- |
-| 5+ / 3+ / 5+ | 6+ / 10" |   -   |  28   |  3+   |   3   | -      |
+| 5+ / 3+ / 5+ | 6+ / 10” |   -   |  28   |  3+   |   3   | -      |
 
 ## Cernyff
 
@@ -678,8 +678,8 @@ testing Resolve. When Duelling, Llwelyn rolls 6d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  17   |  4+   |   3   | Shieldwall |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |  10   |  4+   |   3   | -          |
+| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  17   |  4+   |   3   | Shieldwall |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |  10   |  4+   |   3   | -          |
 
 ## Elfhome
 
@@ -689,7 +689,7 @@ If using the [Routine Procedures][1], the Elves are Incompetent.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |            Traits            |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :--------------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   4   |  4+   |   1   | Champion, Challenger, Nimble |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   4   |  4+   |   1   | Champion, Challenger, Nimble |
 
 ## Llanisien
 
@@ -703,7 +703,7 @@ Carys fights as a Champion and rolls 4d6 to hit.
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   4   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   4   |  4+   |   2   | Champion, Challenger |
 
 ## Rhydaman
 
@@ -735,8 +735,8 @@ them). When Duelling, Ulfr rolls 10d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  17   |  4+   |   3   | Shieldwall |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |  10   |  4+   |   4   | -          |
+| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  17   |  4+   |   3   | Shieldwall |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |  10   |  4+   |   4   | -          |
 
 ## Sandclad Dead
 
@@ -746,7 +746,7 @@ If using the [Routine Procedures][1], the Zombies are Ferocious.
 
 | Group  |     ME      |   MO    |  MI   |  FS   |   R   |   T   |  Traits   |
 | :----- | :---------: | :-----: | :---: | :---: | :---: | :---: | :-------- |
-| Zombie | 5+ / 5+ / 6 | 5+ / 6" |   -   |  16   |  4+   |   1   | Unfeeling |
+| Zombie | 5+ / 5+ / 6 | 5+ / 6” |   -   |  16   |  4+   |   1   | Unfeeling |
 
 ## Wryddymbre
 
@@ -761,8 +761,8 @@ rolls 9d6 to hit and has +3 when testing Resolve. When Duelling, Seisyll rolls 6
 
 |    Mode     |      ME      |   MO    |      MI       |  FS   |   R   |   T   |     Traits      |
 | :---------- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :-------------- |
-| Skirmishers | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   7   |  5+   |   1   | Elusive, Nimble |
-| Duelling    | 5+ / 5+ / 5+ | 5+ / 6" |  6+ / 5+ / -  |   6   |  4+   |   2   | -               |
+| Skirmishers | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   7   |  5+   |   1   | Elusive, Nimble |
+| Duelling    | 5+ / 5+ / 5+ | 5+ / 6” |  6+ / 5+ / -  |   6   |  4+   |   2   | -               |
 
 ## Faceless Tomb
 
@@ -773,7 +773,7 @@ If using the [Routine Procedures][1], the Skeletons are Ferocious.
 
 |     ME      |   MO    |  MI   |  FS   |   R   |   T   |  Traits   |
 | :---------: | :-----: | :---: | :---: | :---: | :---: | :-------- |
-| 6+ / 5+ / 6 | 5+ / 8" |   -   |  12   |  4+   |   2   | Unfeeling |
+| 6+ / 5+ / 6 | 5+ / 8” |   -   |  12   |  4+   |   2   | Unfeeling |
 
 ## Diserth
 
@@ -788,7 +788,7 @@ Atiq fights as a Champion and rolls 9d6 to hit. He has the [Fame traits][2] Comp
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   6   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   6   |  4+   |   2   | Champion, Challenger |
 
 ## Owrtyn
 
@@ -805,7 +805,7 @@ If using the [Routine Procedures][1], the Conar is Bold.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 18" |   4   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 18” |   4   |  4+   |   3   | Champion, Challenger |
 
 ## A Witch
 
@@ -815,7 +815,7 @@ If using the [Routine Procedures][1], Enid is Cautious.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 18" |   6   |  4+   |   1   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 18” |   6   |  4+   |   1   | Champion, Challenger |
 
 ## Rhedynfre
 
@@ -832,7 +832,7 @@ to hit.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |           Traits           |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 18" |   8   |  4+   |   5   | Nimble, Reckless, Werewolf |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 18” |   8   |  4+   |   5   | Nimble, Reckless, Werewolf |
 
 Werewolf
 : When Attacked or Shot by enemies with silvered weapons, --3T.
@@ -856,7 +856,7 @@ Olaf fights as a Champion and rolls 12d6 to hit. He has the [Fame traits][2] Com
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   8   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   8   |  4+   |   2   | Champion, Challenger |
 
 ## Dirnbych
 
@@ -872,8 +872,8 @@ rolls 9d6 to hit.
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |  15   |  4+   |   2   | Defensive, Shieldwall |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |   9   |  4+   |   1   | -                     |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |  15   |  4+   |   2   | Defensive, Shieldwall |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |   9   |  4+   |   1   | -                     |
 
 ## Haunted Flint Mine
 
@@ -890,8 +890,8 @@ COmpetent, Clever, Passionate, and Implacable.
 
 |       Group       |     ME      |    MO    |      MI      |  FS   |   R   |   T   |  Traits  |
 | :---------------- | :---------: | :------: | :----------: | :---: | :---: | :---: | :------- |
-| Kobolds           | 6+ / 6 / 6  | 5+ / 8"  | 6+ / 5+ / 6" |  10   |  5+   |   2   | Nimble   |
-| Breaker of Crowns | 5+ / 3+ / 6 | 6+ / 10" |      -       |  20   |  3+   |   4   | Reckless |
+| Kobolds           | 6+ / 6 / 6  | 5+ / 8”  | 6+ / 5+ / 6” |  10   |  5+   |   2   | Nimble   |
+| Breaker of Crowns | 5+ / 3+ / 6 | 6+ / 10” |      -       |  20   |  3+   |   4   | Reckless |
 
 ## St Glanyrafor's Monastery
 
@@ -905,7 +905,7 @@ Chulagh fights as a Champion and rolls 6d6 to hit. He has the Willing [Fame trai
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 18" |   6   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 18” |   6   |  4+   |   3   | Champion, Challenger |
 
 ## Fallen Druid Sentries
 
@@ -916,7 +916,7 @@ If using the [Routine Procedures][1], Olwyn's forces are Bold.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   | Traits |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :----- |
-| 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   5   |  5+   |   1   | Nimble |
+| 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   5   |  5+   |   1   | Nimble |
 
 ## Fallen Druidic Circle
 
@@ -927,8 +927,8 @@ If using the [Routine Procedures][1], the circle's forces are Bold.
 
 |   Size   |      ME      |   MO    |      MI      |  FS   |   R   |   T   | Traits |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :----- |
-| Druids   | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / -  |  12   |  5+   |   1   | Nimble |
-| Warriors | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   8   |  5+   |   2   | Nimble |
+| Druids   | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / -  |  12   |  5+   |   1   | Nimble |
+| Warriors | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   8   |  5+   |   2   | Nimble |
 
 ## Caernfon
 
@@ -944,8 +944,8 @@ Ynyr rolls 15d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits   |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------- |
-| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  17   |  4+   |   3   | Shieldwall |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / -  |  10   |  4+   |   3   | -          |
+| Armoured Footmen | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  17   |  4+   |   3   | Shieldwall |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / -  |  10   |  4+   |   3   | -          |
 
 ## Llanelli
 
@@ -959,8 +959,8 @@ rolls 8d6 to hit and has +2 when testing Resolve. When Duelling, Mari rolls 4d6 
 
 |    Mode     |      ME      |   MO    |      MI       |  FS   |   R   |   T   |     Traits      |
 | :---------- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :-------------- |
-| Skirmishers | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   4   |  5+   |   1   | Elusive, Nimble |
-| Duelling    | 5+ / 5+ / 5+ | 5+ / 6" |  6+ / 5+ / -  |  10   |  4+   |   3   | -               |
+| Skirmishers | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   4   |  5+   |   1   | Elusive, Nimble |
+| Duelling    | 5+ / 5+ / 5+ | 5+ / 6” |  6+ / 5+ / -  |  10   |  4+   |   3   | -               |
 
 ## Captive Village
 
@@ -972,7 +972,7 @@ The Dryads fight as Champions. All roll 6d6 to hit.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   | Traits |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :----- |
-| 5+ / 5+ / 5+ | 5+ / 8" |   -   |   6   |  4+   |   2   | Nimble |
+| 5+ / 5+ / 5+ | 5+ / 8” |   -   |   6   |  4+   |   2   | Nimble |
 
 ## Brujwalhaz
 
@@ -988,8 +988,8 @@ hit and have +3 when testing Resolve. When Duelling, Ouen rolls 6d6 to hit.
 
 |   Mode   |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6"  |   9   |  4+   |   2   | Defensive, Shieldwall |
-| Duelling | 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 12" |   6   |  4+   |   1   | -                     |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6”  |   9   |  4+   |   2   | Defensive, Shieldwall |
+| Duelling | 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 12” |   6   |  4+   |   1   | -                     |
 
 ## Yrcoed
 
@@ -1000,7 +1000,7 @@ If using the [Routine Procedures][1], Boudicca is Bold.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |            Traits             |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :---------------------------- |
-| 5+ / 4+ / 4+ | 5+ / 8" |   -   |  16   |  4+   |   3   | Champion, Challenger, Vampire |
+| 5+ / 4+ / 4+ | 5+ / 8” |   -   |  16   |  4+   |   3   | Champion, Challenger, Vampire |
 
 Vampire
 : When Attacked or Shot, ignore all hits unless the enemy uses magic weapons.
@@ -1011,7 +1011,7 @@ Kerwyn has 0 Fame and 25 Glory. She fights as a Champion and rolls 12d6 to hit.
 
 |      ME      |    MO    |  MI   |  FS   |   R   |   T   |  Traits  |
 | :----------: | :------: | :---: | :---: | :---: | :---: | :------- |
-| 5+ / 4+ / 5+ | 6+ / 10" |   -   |   8   |  5+   |   2   | Reckless |
+| 5+ / 4+ / 5+ | 6+ / 10” |   -   |   8   |  5+   |   2   | Reckless |
 
 ## Llanyndras
 
@@ -1019,7 +1019,7 @@ Vaughn has 0 Fame and 5 Glory. He fights as a Champion and rolls 4d6 to hit.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   | Traits |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :----- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 18" |   4   |  4+   |   1   | -      |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 18” |   4   |  4+   |   1   | -      |
 
 ## Flower Cage
 
@@ -1037,12 +1037,12 @@ The first head to activate moves the body and may Shoot or Move it. All three he
 
 |  Name  |     ME      |    MO    |  MI   |  FS   |   R   |   T   |         Traits          |
 | :----- | :---------: | :------: | :---: | :---: | :---: | :---: | :---------------------- |
-| Lion   | 5+ / 3+ / 6 | 6+ / 10" |   -   |   6   |  3+   |   4   | Defiant, Vicious        |
-| Dragon | 5+ / 3+ / 6 | 6+ / 10" |   -   |   6   |  3+   |   4   | Breathe Flame, Reckless |
-| Goat   | 5+ / 3+ / 6 | 6+ / 10" |   -   |   6   |  3+   |   4   | Elusive, Unfeeling      |
+| Lion   | 5+ / 3+ / 6 | 6+ / 10” |   -   |   6   |  3+   |   4   | Defiant, Vicious        |
+| Dragon | 5+ / 3+ / 6 | 6+ / 10” |   -   |   6   |  3+   |   4   | Breathe Flame, Reckless |
+| Goat   | 5+ / 3+ / 6 | 6+ / 10” |   -   |   6   |  3+   |   4   | Elusive, Unfeeling      |
 
 Breathe Flame
-: May activate (7+) targeting a Group within 6". Roll 12d6 to hit (6d6 if Bloodied) on 4+, ignoring
+: May activate (7+) targeting a Group within 6”. Roll 12d6 to hit (6d6 if Bloodied) on 4+, ignoring
   T.
 
 ## Ancient Wolf-Den
@@ -1056,8 +1056,8 @@ The Primordial Wolf-Mother fights as a Champion and rolls 14d6 to hit.
 
 |    Group    |      ME      |    MO    |  MI   |  FS   |   R   |   T   |      Traits      |
 | :---------- | :----------: | :------: | :---: | :---: | :---: | :---: | :--------------- |
-| Wolf-Mother | 5+ / 5+ / 5+ | 5+ / 8"  |   -   |  14   |  4+   |   2   | Reckless, Nimble |
-| Wolves      | 5+ / 4+ / 6  | 6+ / 12" |   -   |   8   |  4+   |   1   | Reckless, Nimble |
+| Wolf-Mother | 5+ / 5+ / 5+ | 5+ / 8”  |   -   |  14   |  4+   |   2   | Reckless, Nimble |
+| Wolves      | 5+ / 4+ / 6  | 6+ / 12” |   -   |   8   |  4+   |   1   | Reckless, Nimble |
 
 ## Carngwent
 
@@ -1089,7 +1089,7 @@ If using the [Routine Procedures][1], Heledd's forces are Guarded.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   | Traits |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :----- |
-| 6+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   5   |  5+   |   1   | Nimble |
+| 6+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   5   |  5+   |   1   | Nimble |
 
 <!-- Reference Links -->
 

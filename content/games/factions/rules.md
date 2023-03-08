@@ -9,13 +9,13 @@ weight: 10
 
 ### Company Construction
 
-Each side’s army, known as their Company, consists of two or more Groups with different abilities
+Each side's army, known as their Company, consists of two or more Groups with different abilities
 and weaknesses. Each Group comprises some number of models.
 
 Each side must:
 
 - Field 2--8 Groups of 1--12 points each, noting their profile to your opponents—the number of models
-  in a Group doesn’t matter.
+  in a Group doesn't matter.
 - Spend no more than 24 points total for a standard game.
 
 ### Company Scale
@@ -34,7 +34,7 @@ smaller models.
 
 <!-- vale Flagrant.Passive = NO -->
 
-A Group’s ability to fight is defined by their current Fighting Strength (FS).
+A Group's ability to fight is defined by their current Fighting Strength (FS).
 FS starts at 6 or 12.
 
 <!-- vale Flagrant.Passive = YES  -->
@@ -42,7 +42,7 @@ FS starts at 6 or 12.
 The current FS of a Group is open information.
 
 Losing FS represents a combination of shock, fatigue, injury, and death in a Group, and reduces the
-Group’s ability to engage in the skirmish. While reduced to half or less of their initial FS, a
+Group's ability to engage in the skirmish. While reduced to half or less of their initial FS, a
 Group is Bloodied—they roll half as many dice to hit, and are more vulnerable to psychological
 status effects. When reduced to 0 FS, a Group is Routed and can no longer participate in the
 skirmish: they are broken, captured, or slaughtered.
@@ -60,14 +60,14 @@ assuming a Group with 12 FS:
 - If the Group consists of 24 models, remove two models each time the Group loses 1 FS.
 
 > 🛠 It is best to ensure your model count divides evenly into the FS of the group, but you can have
-> any number you please. Just remember to update each Group’s FS on their profile as it changes.
+> any number you please. Just remember to update each Group's FS on their profile as it changes.
 
 ### Captains
 
 Designate one model in each Company as the Captain. This model is part of a Group—the Captain may
 not join any other Groups, does not increase the FS of the Group they are in, and costs no
-additional points. Friendly Groups within 12” of the Captain’s Group have +1 when testing Resolve,
-unless the Captain’s Group is Shaken.
+additional points. Friendly Groups within 12” of the Captain's Group have +1 when testing Resolve,
+unless the Captain's Group is Shaken.
 
 Captains start with one trait (roll or pick one):
 
@@ -75,22 +75,22 @@ Captains start with one trait (roll or pick one):
 
 |  3d6  |       Trait       | Effect                                                                                                                                                        |
 | :---: | :---------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|   3   | **Reprehensible** | After deployment, whether or not the Captain is on the table, roll 1d6 for every Group except the Captain’s. On a 1, they desert—remove that Group from play. |
+|   3   | **Reprehensible** | After deployment, whether or not the Captain is on the table, roll 1d6 for every Group except the Captain's. On a 1, they desert—remove that Group from play. |
 |   4   |     **Vapid**     | The Captain does not grant a bonus for Groups testing Resolve.                                                                                                |
-|   5   |   **Blood-shy**   | The Captain’s Group may not be ordered to Attack.                                                                                                             |
-|   6   |    **Feeble**     | The Captain’s Group rolls one fewer die when Attacking or Shooting.                                                                                           |
-|   7   |    **Wicked**     | When any Group within 12” of the Captain’s Group fails to Rally, they may lose 1 FS to pass instead.                                                          |
+|   5   |   **Blood-shy**   | The Captain's Group may not be ordered to Attack.                                                                                                             |
+|   6   |    **Feeble**     | The Captain's Group rolls one fewer die when Attacking or Shooting.                                                                                           |
+|   7   |    **Wicked**     | When any Group within 12” of the Captain's Group fails to Rally, they may lose 1 FS to pass instead.                                                          |
 |   8   |    **Shrewd**     | You may add or subtract 1 from your roll when determining attacker and defender at the start of the game.                                                     |
-|   9   |   **Resolute**    | The Captain and Captain’s Group are unaffected by fear effects.                                                                                               |
-|  10   |    **Capable**    | Once each turn, the Captain’s Group may reroll one die when rolling to hit.                                                                                   |
+|   9   |   **Resolute**    | The Captain and Captain's Group are unaffected by fear effects.                                                                                               |
+|  10   |    **Capable**    | Once each turn, the Captain's Group may reroll one die when rolling to hit.                                                                                   |
 |  11   |  **Compelling**   | Once each turn, one Group within 12” of the Captain may reroll a failed activation test.                                                                      |
 |  12   |   **Prodding**    | Once each turn, one Group within 12” of the Captain may automatically pass a Move activation test.                                                            |
 |  13   |  **Aggressive**   | Once each turn, one Group within 12” of the Captain may automatically pass an Attack activation test.                                                         |
 |  14   |  **Projectile**   | Once each turn, one Group within 12” of the Captain may automatically pass a Shooting activation test.                                                        |
-|  15   |   **Dangerous**   | Once each turn, the Captain’s Group may reroll two dice when rolling to hit.                                                                                  |
+|  15   |   **Dangerous**   | Once each turn, the Captain's Group may reroll two dice when rolling to hit.                                                                                  |
 |  16   |    **Calming**    | Once each turn, one Group within 12” of the Captain may ignore a compulsory activation as the result of the Reckless trait.                                   |
-|  17   |    **Abjured**    | The Captain’s Group cannot be targeted by enemies’ spells.                                                                                                    |
-|  18   |  **Incredible**   | Once each turn, the Captain’s Group may reroll three dice when rolling to hit.                                                                                |
+|  17   |    **Abjured**    | The Captain's Group cannot be targeted by enemies' spells.                                                                                                    |
+|  18   |  **Incredible**   | Once each turn, the Captain's Group may reroll three dice when rolling to hit.                                                                                |
 
 <!-- vale Microsoft.Wordiness = YES -->
 
@@ -124,24 +124,24 @@ Resolve (R)
 : The minimum result to pass when testing Resolve.
 
 Toughness (T)
-: The number of simultaneous hits required to reduce the Group’s FS by 1.
+: The number of simultaneous hits required to reduce the Group's FS by 1.
 
 Traits
 : Any additional rules that apply to the Group.
 
 |       Name        |      ME      |    MO    |      MI       |  FS   |   R   |   T   | Traits            |
 | :---------------: | :----------: | :------: | :-----------: | :---: | :---: | :---: | :---------------- |
-|  Heavy Beast (6)  | 5+ / 3+ / 6  | 6+ / 10" |       -       |   6   |  3+   |   4   | Reckless          |
-|  Light Beast (4)  | 5+ / 4+ / 6  | 6+ / 12" |       -       |   6   |  4+   |   3   | Reckless, Nimble  |
-| Elite Cavalry (6) | 5+ / 3+ / 5+ | 7+ / 10" |       -       |   6   |  3+   |   4   | Reckless, Defiant |
-| Heavy Cavalry (4) | 5+ / 4+ / 5+ | 5+ / 10" |       -       |   6   |  4+   |   3   | Defiant           |
-| Light Cavalry (4) | 7+ / 5+ / 6  | 5+ / 12" | 6+ / 5+ / 12" |   6   |  5+   |   3   | -                 |
-| Elite Engine (6)  |  - / - / 5+  | 7+ / 4"  | 5+ / 4+ / 24" |   6   |  4+   |   3   | Ponderous         |
-| Heavy Engine (4)  |  - / - / 6   | 8+ / 2"  | 6+ / 5+ / 24" |   6   |  5+   |   2   | Ponderous         |
-| Light Engine (4)  |  - / - / 6   | 8+ / 4"  | 6+ / 5+ / 18" |   6   |  5+   |   1   | -                 |
-|  Elite Foot (5)   | 5+ / 3+ / 4+ | 5+ / 6"  |       -       |  12   |  3+   |   4   | -                 |
-|  Heavy Foot (4)   | 6+ / 5+ / 4+ | 5+ / 6"  |       -       |  12   |  4+   |   3   | Defensive         |
-|  Light Foot (3)   | 6+ / 5+ / 4+ | 5+ / 8"  |       -       |  12   |  4+   |   2   | Defensive         |
+|  Heavy Beast (6)  | 5+ / 3+ / 6  | 6+ / 10” |       -       |   6   |  3+   |   4   | Reckless          |
+|  Light Beast (4)  | 5+ / 4+ / 6  | 6+ / 12” |       -       |   6   |  4+   |   3   | Reckless, Nimble  |
+| Elite Cavalry (6) | 5+ / 3+ / 5+ | 7+ / 10” |       -       |   6   |  3+   |   4   | Reckless, Defiant |
+| Heavy Cavalry (4) | 5+ / 4+ / 5+ | 5+ / 10” |       -       |   6   |  4+   |   3   | Defiant           |
+| Light Cavalry (4) | 7+ / 5+ / 6  | 5+ / 12” | 6+ / 5+ / 12” |   6   |  5+   |   3   | -                 |
+| Elite Engine (6)  |  - / - / 5+  | 7+ / 4”  | 5+ / 4+ / 24” |   6   |  4+   |   3   | Ponderous         |
+| Heavy Engine (4)  |  - / - / 6   | 8+ / 2”  | 6+ / 5+ / 24” |   6   |  5+   |   2   | Ponderous         |
+| Light Engine (4)  |  - / - / 6   | 8+ / 4”  | 6+ / 5+ / 18” |   6   |  5+   |   1   | -                 |
+|  Elite Foot (5)   | 5+ / 3+ / 4+ | 5+ / 6”  |       -       |  12   |  3+   |   4   | -                 |
+|  Heavy Foot (4)   | 6+ / 5+ / 4+ | 5+ / 6”  |       -       |  12   |  4+   |   3   | Defensive         |
+|  Light Foot (3)   | 6+ / 5+ / 4+ | 5+ / 8”  |       -       |  12   |  4+   |   2   | Defensive         |
 
 #### Profile Traits
 
@@ -175,7 +175,7 @@ When constructing a Company, you can apply any number of special traits to any q
 the Company, on a case-by-case basis. The point cost of each trait is listed in parenthesis.
 
 Accurate (2)
-: Groups with an MI profile only. Improve this Group’s MI to-hit value by 1.
+: Groups with an MI profile only. Improve this Group's MI to-hit value by 1.
 
 Apprentice (2)
 : Before the first turn of the skirmish, choose three spells. This Group may activate to Cast one of
@@ -269,15 +269,15 @@ Well-Armed (1)
 | :----------------------------- | :---: | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Come and Die!                  |  6+   | -                                                 | This Group cannot Move or Retreat (-1 FS instead if they would be forced to do so). All enemy Groups have the Reckless trait against this Group.                                                  |
 | We Are Unbreakable!            |  6+   | -                                                 | This Group rolls 3d6 and keeps the highest two dice when testing Resolve. On failure, they immediately Rout instead.                                                                              |
-| We Leave No Friend Behind!     |  6+   | Must be within 6" of friendly Group.              | While within 6" of a friendly Group, this Group may reroll any dice. This Group loses 1d6 FS whenever a friendly Group within 6" Routs.                                                           |
+| We Leave No Friend Behind!     |  6+   | Must be within 6” of friendly Group.              | While within 6” of a friendly Group, this Group may reroll any dice. This Group loses 1d6 FS whenever a friendly Group within 6” Routs.                                                           |
 | We Never Miss a Shot!          |  6+   | Groups with an MI profile only.                   | When activating to Shoot, this Group must Shoot the farthest enemy Group in range (if any). This Group may reroll any misses when Shooting.                                                       |
 | We'll Never Taste Your Blades! |  6+   | -                                                 | When attacking, this Group has +1 T and +1 on to-hit rolls. Hits against this Group always count twice.                                                                                           |
 | You'll Die with Us!            |  6+   | Must be Bloodied.                                 | -1 T. When Attacked, this Group inflicts one hit against their attackers for each hit they take.                                                                                                  |
 | There Can Be Only One!         |  7+   | -                                                 | Pick an enemy Group. This Group must activate to Attack or Move toward the chosen Group. When Attacking the chosen Group, this Group gains +1 T, and treats their MO as double its written value. |
 | We'll Fight in the Shade!      |  7+   | -                                                 | This Group has +1 T when an enemy Shoots them. They have the Reckless trait against all enemy Groups with an MI profile.                                                                          |
 | You'll Never Take Us Alive!    |  7+   | -                                                 | This Group cannot Retreat (-1 FS instead if they would be forced to do so). They have +1 on to-hit rolls when Attacking or being Attacked.                                                        |
-| For the Captain!               |  8+   | Must be within 12" of Captain.                    | While within 12" of Captain, this Group rerolls all failed Activations. Otherwise, they reroll all successful activations and Resolve tests.                                                      |
-| We'll Run You Down!            |  8+   | Groups with an MO of 8" or more only.             | This Group gains the Reckless trait, +2" MO, and may only activate to Attack or Move.                                                                                                             |
+| For the Captain!               |  8+   | Must be within 12” of Captain.                    | While within 12” of Captain, this Group rerolls all failed Activations. Otherwise, they reroll all successful activations and Resolve tests.                                                      |
+| We'll Run You Down!            |  8+   | Groups with an MO of 8” or more only.             | This Group gains the Reckless trait, +2” MO, and may only activate to Attack or Move.                                                                                                             |
 | Your Magic is Laughable!       |  8+   | Groups with the Apprentice or Caster traits only. | When an enemy activates to Cast at them, this Group may force the enemy to reroll the activation. Any spell which still succeeds is twice as effective.                                           |
 
 <!-- vale Contractions.Use = YES -->
@@ -292,14 +292,14 @@ first turn of the skirmish, increasing their worth by 1 VP.
 | Ambition                 |  VP   | Fulfillment Condition                                                   |
 | :----------------------- | :---: | :---------------------------------------------------------------------- |
 | We Will Not Break        |   3   | No Group in this Company Routed.                                        |
-| Win Without Moving       |   3   | Captain’s Group never moved or rolled any dice.                         |
+| Win Without Moving       |   3   | Captain's Group never moved or rolled any dice.                         |
 | Do Not Waver             |   3   | No more than one friendly Group was Shaken at the same time.            |
 | They Will Reel Before Us |   3   | Made 3+ enemy Groups become Shaken.                                     |
 | We Will Snap Their Spine |   3   | Routed the enemy Group with the highest point value on your first turn. |
 | Give Better Than We Get  |   2   | Routed more enemy Groups than Groups of your own were Routed.           |
 | Break Even Their Anvil   |   2   | Routed the enemy Group with the highest point value.                    |
-| Draw First Blood         |   1   | A Group in this Company was first to reduce an enemy Group’s FS.        |
-| They Will Know My Name   |   1   | Captain’s Group caused an enemy Group to become Shaken.                 |
+| Draw First Blood         |   1   | A Group in this Company was first to reduce an enemy Group's FS.        |
+| They Will Know My Name   |   1   | Captain's Group caused an enemy Group to become Shaken.                 |
 | We Will All Shed Blood   |   1   | Every Group in this Company engaged in melee at least once.             |
 | Rain Hell Upon Them      |   1   | Made an enemy Group become Shaken during a Shoot activation.            |
 
@@ -313,7 +313,7 @@ first turn of the skirmish, increasing their worth by 1 VP.
 1. Roll or choose a location.
 1. Set up terrain.
 1. Roll or choose a scenario.
-1. Roll for Captain’s trait (or keep existing trait if using an established character).
+1. Roll for Captain's trait (or keep existing trait if using an established character).
 1. Players arrange themselves into two sides. Each side rolls 1d6 to determine which side will be
    attackers and which will be defenders: the higher result is the attacker. Reroll ties. Unless
    otherwise specified in the location or scenario, the attackers are the active side in the first
@@ -328,7 +328,7 @@ first turn of the skirmish, increasing their worth by 1 VP.
 
 - Round down unless otherwise noted.
 - Measure Distance and Range between the closest models in each Group.
-- Facing doesn’t matter.
+- Facing doesn't matter.
 - Remove Routed groups from play.
 - Groups on the same side (attackers or defenders) are friendly. Groups on opposing sides are
   enemies.
@@ -336,7 +336,7 @@ first turn of the skirmish, increasing their worth by 1 VP.
 ### Terrain
 
 Difficult
-: 1” of movement through Difficult terrain costs 2” of a model’s MO instead.
+: 1” of movement through Difficult terrain costs 2” of a model's MO instead.
 
 Obstacle
 : If a model comes into base contact with an Obstacle, it stops its Move for this activation
@@ -373,16 +373,16 @@ At the beginning of each turn:
    Rally this turn. Each Group may activate only once each turn.
 1. Assign a valid order to the chosen Group (Move, Shoot, Attack, Proclaim, Retreat, or any
    available special orders like Cast or Summon).
-1. Roll 2d6, attempting to meet or exceed the Group’s minimum activation result for their given
+1. Roll 2d6, attempting to meet or exceed the Group's minimum activation result for their given
    order. On a success, the Group performs the chosen order.
-1. If the Group failed their activation test, end your side’s turn and the next side’s turn begins.
+1. If the Group failed their activation test, end your side's turn and the next side's turn begins.
    Otherwise, choose another friendly Group to activate, or choose to end your turn.
 
 ### Orders
 
 #### Move
 
-Move each model individually, up to their Group’s MO. Models may not move through other models
+Move each model individually, up to their Group's MO. Models may not move through other models
 unless otherwise stated.
 
 ##### Cohesion
@@ -396,7 +396,7 @@ If the activating Group has a MI profile, they may choose to Shoot an enemy Grou
 they can see.
 
 Roll 12d6 to hit, or 6d6 instead if Bloodied. Each die that shows a result equal to or higher than
-the Shooting Group’s MI value is a hit. For each number of hits equal to the target’s T, reduce
+the Shooting Group's MI value is a hit. For each number of hits equal to the target's T, reduce
 their FS by 1. If the target Group lost at least 1 FS, they must test Resolve.
 
 #### Attack
@@ -414,9 +414,9 @@ To Attack:
      successful, resolve their interrupting action before proceeding. Otherwise, the Attack
      continues as normal.
 1. Both Groups try to hit each other. They each roll 12d6 to hit, or 6d6 if Bloodied. Each die that
-   shows a result equal to or higher than the Group’s ME value for attacking or defending as
-   appropriate is a hit. Shaken Groups only hit on a 6. For each number of hits equal to the enemy’s
-   T, reduce the enemy’s FS by 1.
+   shows a result equal to or higher than the Group's ME value for attacking or defending as
+   appropriate is a hit. Shaken Groups only hit on a 6. For each number of hits equal to the enemy's
+   T, reduce the enemy's FS by 1.
 
 #### Proclaim
 
@@ -468,7 +468,7 @@ Test Resolve for a specific Group immediately when they:
 
 Test Resolve once for every remaining Group immediately when:
 
-- The Captain’s Group is Routed.
+- The Captain's Group is Routed.
 - The Company has lost Groups worth half or more of the total points fielded by their Company.
 
 To test Resolve:
@@ -476,9 +476,9 @@ To test Resolve:
 1. Roll 2d6.
 1. Modify the roll:
    - -1 for each FS lost (if testing due to lost FS).
-   - -1 if the Group’s Company has less than half of their total points still in play.
-   - +1 if the Captain’s Group is within 12”.
-1. If the final result is equal to or higher than the Group’s Resolve, they succeed.
+   - -1 if the Group's Company has less than half of their total points still in play.
+   - +1 if the Captain's Group is within 12”.
+1. If the final result is equal to or higher than the Group's Resolve, they succeed.
 
 If successful and Rallying, the Group is no longer Shaken.
 
@@ -494,9 +494,9 @@ While a Group is Shaken, they:
 - Only hit on a 6 when Attacking or defending against an Attack.
 - Lose 1 FS and Retreat when they fail a Resolve test.
 
-While the Captain’s Group is Shaken, none of their special rules affect play.
+While the Captain's Group is Shaken, none of their special rules affect play.
 
 ### End of Game
 
-When the chosen scenario’s closing conditions are met, total VP according to the scenario and
+When the chosen scenario's closing conditions are met, total VP according to the scenario and
 location guidelines.

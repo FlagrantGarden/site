@@ -85,13 +85,13 @@ Routed, as normal.
 
 When either side has no Groups remaining in play, the skirmish ends immediately. Defenders gain 3 VP
 for each of their Groups that Escape. Attackers gain 2 VP for every enemy Group Routed—they gain 4
-VP instead for each enemy Captain’s Group Routed.
+VP instead for each enemy Captain's Group Routed.
 
 ## 3. Raid
 
 ### Deployment
 
-The defenders deploy their Captain’s Group and up to half of their remaining Groups within 24” of
+The defenders deploy their Captain's Group and up to half of their remaining Groups within 24” of
 the center point (leaving the remaining Groups out of play at the beginning of play). Then, the
 attackers deploy all the Groups they intend to have on the field at the beginning of play within 12”
 of any edges. Defenders then place 6 Asset Tokens (representing barrels of wine, prize cattle,
@@ -103,8 +103,9 @@ Attackers may choose to go first or allow the defenders to go first.
 
 ### Special Rules
 
+
 Any defending Group may attempt to activate on a 6+ to bring a not-yet-deployed Group into play
-within 4”. The defending Captain’s Group may attempt to activate on a 4+ to bring a not-yet-deployed
+within 4”. The defending Captain's Group may attempt to activate on a 4+ to bring a not-yet-deployed
 Group into play within 8”. Defending Groups cannot pick up Asset Tokens.
 
 Any attacking Group in contact with an Asset Token and not in melee may attempt to activate on a 5+
@@ -187,7 +188,7 @@ The attackers may choose to go first or let the defenders go first.
 ### Special Rules
 
 The Bodyguards may not Move. If they would be forced to Retreat, they lose 1 FS instead. At the
-beginning of each of the defender’s turns, roll 2d6—if the result is less than the current turn
+beginning of each of the defender's turns, roll 2d6—if the result is less than the current turn
 number, then the ritual is completed.
 
 ### Conclusion Conditions

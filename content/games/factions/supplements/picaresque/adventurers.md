@@ -11,27 +11,27 @@ Adventurers begin play with the following profile, an Adventurer trait, and 5XP 
 
 |   ME    |  MO   |   MI    |  FS   |   R   |   T   |
 | :-----: | :---: | :-----: | :---: | :---: | :---: |
-| 5+ / 5+ |  10"  | 5+ / 6" |   6   |  3+   |   2   |
+| 5+ / 5+ |  10”  | 5+ / 6” |   6   |  3+   |   2   |
 
 ## Adventurer Traits
 
-Roll 1d6 to determine your Adventurer’s starting trait:
+Roll 1d6 to determine your Adventurer's starting trait:
 
-1. **Call Lightning:** Spend 1R to Shoot every group within 6", hitting on a 5+
+1. **Call Lightning:** Spend 1R to Shoot every group within 6”, hitting on a 5+
 1. **Darken the Sky:**  Roll an additional 3d6 when Shooting
-1. **Knit Flesh:** Spend 1R to have a friendly group within 6" regain 1d6 R
+1. **Knit Flesh:** Spend 1R to have a friendly group within 6” regain 1d6 R
 1. **Knives Out:** When below half R, 6's explode while defending
 1. **Rage:** When below half R, reroll misses when attacking
-1. **Warcry:** May opt to test R whenever a friendly group within 12" must test. If either pass,
+1. **Warcry:** May opt to test R whenever a friendly group within 12” must test. If either pass,
    both do.
 
 ## Lessons
 
-Lessons improve an Adventurer’s capacity for action. Lessons may be learned again. Each time they
+Lessons improve an Adventurer's capacity for action. Lessons may be learned again. Each time they
 are learned, their XP cost increases by one.
 
 - **Caster (1):** Learn two spells and gain access to the casting order. Unlike other orders, an
-  Adventurer does need to roll 2d6 against the spell’s check value. If they fail, the spell still
+  Adventurer does need to roll 2d6 against the spell's check value. If they fail, the spell still
   goes off but --1R for the Adventurer.
 - **Counter-Attack (2):** +1 to-hit when defending.
 - **Fast (1):** +2” to move distance
@@ -60,7 +60,7 @@ are learned, their XP cost increases by one.
 Playing as an Adventurer follows the normal flow of _Flagrant Factions_ with the following exceptions:
 
 1. Adventurers do not need to check to activate unless otherwise noted.
-1. When an Adventurer’s R is reduced to half or less, +1 R in their next fight if they survive. Max
+1. When an Adventurer's R is reduced to half or less, +1 R in their next fight if they survive. Max
    R of 18.
 1. When an Adventurer's R is reduced to 0, they are not routed or destroyed and are instead
    [Out of the Fight](#out-of-the-fight)
@@ -93,7 +93,7 @@ reduction of R for the rest of the Picaresque immediately makes them Incapacitat
 
 ### Special Items
 
-Most equipment doesn’t make a difference to Adventurers so there’s no point in tracking it. Items
+Most equipment doesn't make a difference to Adventurers so there is no point in tracking it. Items
 that confer abilities are special. They may be acquired from enemies or picked up in play by
 spending an activation. Between Picaresques, they may be freely traded between Adventurers.
 Adventurers do not need to bring every item they have acquired to a Picaresque.
@@ -101,7 +101,7 @@ Adventurers do not need to bring every item they have acquired to a Picaresque.
 Some items are Consumable. Use them once and they are gone forever. Others have a Cooldown time
 noted in their description. After that many turns they are usable again.
 
-Adventurer’s have four sets of item slots available to them: Worn (5), Displayed (3), Held (2), and
+Adventurer's have four sets of item slots available to them: Worn (5), Displayed (3), Held (2), and
 Carried (12).
 
 - Worn slots are body-part specific: **head**, **shoulders**, **body**, **hands**, and **feet**.
@@ -111,8 +111,8 @@ Carried (12).
   enough slots.
 - Adventurers can hold an item in each hand or a two-slot item with both hands.
 - Adventurers can carry up to 12 additional slots of items. Each slot is numbered for position. To
-  retrieve and use a Carried item in the same activation, an Adventurer must roll 2d6 vs the item’s
-  slot position. If the roll is under the item’s position, this activation is spent rummaging in
+  retrieve and use a Carried item in the same activation, an Adventurer must roll 2d6 vs the item's
+  slot position. If the roll is under the item's position, this activation is spent rummaging in
   their pack for it and the item will count as held from then on.
 
 Some items have set bonuses. Unless otherwise noted, these items only gain the set bonus if all

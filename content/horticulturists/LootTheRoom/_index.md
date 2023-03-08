@@ -24,15 +24,18 @@ In particular, you might like these projects:
 
 ## The Parish of Reivdene-Upon-The-Moss
 
-{{< columns>}}
+````columns { #parish }
 
+```column
 _Our parish is small but growing. We hope you'll find your visit memorable._
 
-**_The Parish of Reivdene-Upon-The-Moss_** is a modular folk horror setting for the adventure game
-of your choice. It follows the classic 'village with a dark secret' format.
+**_The Parish of Reivdene-Upon-The-Moss_** is a modular folk horror setting
+for the adventure game of your choice. It follows the classic 'village with a
+dark secret' format.
+```
 
-<--->
-
-{{< itchio id="1299168" square="true" >}}
-
-{{< /columns >}}
+```column
+![itch:The Parish of Reivdene-Upon-The-Moss](1299168)
+{ square=true }
+```
+````

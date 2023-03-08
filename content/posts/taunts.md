@@ -10,7 +10,7 @@ tags:
   - flagrant factions
   - experimental
 weight: 10
-type: Post
+type: posts
 ---
 
 So in discussions with [Sean Richer](https://twitter.com/HypatiasAngst) earlier, we chatted about

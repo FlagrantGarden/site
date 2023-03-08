@@ -64,7 +64,7 @@ If, _only if_, all three answers are yes, Test.
 
 Order of operations for a test:
 
-1. Adjudicator calls for the most relevant stat as determined by player’s approach
+1. Adjudicator calls for the most relevant stat as determined by player's approach
 1. Player states their highest relevant domain, if any
 1. Player rolls d6:6, looking to roll under the higher rating of the specified stat and domain to succeed.
 1. If the roll is equal to either their stat or domain they triumph, getting the best possible outcome.

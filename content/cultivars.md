@@ -3,10 +3,9 @@ title: Available Cultivars
 date: 2022-01-04
 summary: |
   A quick list of available texts and projects, flagrantly cultivated.
-type: docs
-Platen:
-  Menu:
-    Hide: true
+platen:
+  menu:
+    hide: true
 ---
 
 <!-- markdownlint-disable MD033 -->
@@ -18,10 +17,6 @@ any of them or check out the rest of the creators' works.
 
 ### Adventures and Settings
 
-<iframe frameborder="0" src="https://itch.io/embed/1299168" width="552" height="167"></iframe>
+![itch:The Parish of Reivdene-Upon-The-Moss](1299168)
 
-<iframe frameborder="0" src="https://itch.io/embed/1175581" width="552"height="167"></iframe>
-
-## Primary Texts ("Games")
-
-<iframe frameborder="0" src="https://itch.io/embed/1167997" width="552" height="167"></iframe>
+![itch:Wolves Upon the Coast Grand Campaign](1175581)

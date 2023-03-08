@@ -2,9 +2,9 @@
 title: Flagrant Picaresque
 summary: A Flagrant Factions Supplement for Adventuring
 weight: 10
-Platen:
-  Menu:
-    CollapseSection: true
+platen:
+  menu:
+    collapse_section: true
 ---
 
 _Flagrant Picaresque_ is a supplement for [_Flagrant Factions_](/games/factions) which rotates the
