@@ -13,7 +13,7 @@ For naval skirmishes, characters must join a Group. They still fight as a [Champ
 Ship Groups have their own profile and are crewed by one or more Crewing Groups. Each Ship Group
 requires a minimum number of Crewing Groups to row at full speed. Count each Bloodied Crewing Group
 as 1/2 a Group for this purpose. If the Ship Group is reduced to fewer than half their required
-Crewing Groups, they may only move 1" or [Drift][3].
+Crewing Groups, they may only move 1” or [Drift][3].
 
 Ship Groups have an alternate ME profile for [Boarding][4] or [Ramming][5]. The first value is the
 target for activating to Board. The second value is the target for activating to Ram. The third
@@ -36,25 +36,25 @@ distance in the same direction on their next turn unless they Weigh Anchor or Mo
 
 Ship Groups can freely activate to Weigh Anchor, holding themselves in position. Unless a Ship Group
 Weighs Anchor, they Drift every turn they are not Moving or Attacking. Ship Groups are less prone to
-drifting the larger they are. Ship Groups that are Drifting always move at least 1". Adjust how much
+drifting the larger they are. Ship Groups that are Drifting always move at least 1”. Adjust how much
 a Ship Group Drifts by their initial FS:
 
 |  FS   | Drift Rate Reduction |
 | :---: | :------------------: |
 |  <4   |          -           |
-| 4--5  |         --1"         |
-| 6--8  |         --2"         |
-| 9--11 |         --3"         |
-|  12+  |         --4"         |
+| 4--5  |         --1”         |
+| 6--8  |         --2”         |
+| 9--11 |         --3”         |
+|  12+  |         --4”         |
 
 In a river, Ship Groups move downstream with the current. The distance they move is the river's
 Drift Rate, based on the size and speed of the river.
 
 | Size / Speed | Slow  | Moderate | Fast  |
 | :----------: | :---: | :------: | :---: |
-|  **Small**   |  1"   |    2"    |  3"   |
-|  **Medium**  |  2"   |    3"    |  4"   |
-|  **Large**   |  3"   |    4"    |  5"   |
+|  **Small**   |  1”   |    2”    |  3”   |
+|  **Medium**  |  2”   |    3”    |  4”   |
+|  **Large**   |  3”   |    4”    |  5”   |
 
 When sailing upriver, subtract the river's Drift Rate from the Ship Group's speed. When sailing
 downriver, add it. A Ship Group's size modifier affects both directions.
@@ -64,9 +64,9 @@ At sea, Ship Groups drift with the wind. The wind's Drift Rate correlates to its
 |     Wind      | Distance |
 | :-----------: | :------: |
 |     Calm      |  - / -  |
-| Light Breeze  | 1" / 1"  |
-| Strong Breeze | 3" / 2"  |
-| Gale / Storm  | 5" / 3"  |
+| Light Breeze  | 1” / 1”  |
+| Strong Breeze | 3” / 2”  |
+| Gale / Storm  | 5” / 3”  |
 
 When Drifting with sails unfurled, move the Drift Rate's first value in the wind's direction. When
 Drifting with sails furled, move the Drift Rate's second value instead.
@@ -188,15 +188,15 @@ they have.
 
 |     Name      |      ME      |       MO       |  FS   |   T   |  Traits   |
 | :------------ | :----------: | :------------: | :---: | :---: | :-------- |
-| Raft          |  5+ / - / -  |  5+ / 6" / -   |   2   |       | Beachable |
-| Boat          |  5+ / 6 / 6  |  5+ / 8" / 8"  |   4   |   1   | Beachable |
-| Karvi         | 4+ / 6 / 5+  | 5+ / 8" / 12"  |   6   |   2   | Beachable |
-| Knarr         | 5+ / 6 / 5+  | 5+ / 6" / 14"  |   6   |   2   | -         |
-| Snekkja       | 4+ / 6 / 4+  | 5+ / 8" / 16"  |   8   |   2   | Beachable |
-| Galley, Noos  | 5+ / 4+ / 3+ | 5+ / 6" / 16"  |   8   |   3   | Ramming   |
-| Galley, Small | 5+ / 6 / 4+  | 5+ / 6" / 16"  |   8   |   3   | -         |
-| Galley, Large | 5+ / 6 / 3+  | 5+ / 8" / 20"  |  12   |   4   | -         |
-| Skeid         | 3+ / 5+ / 4+ | 5+ / 10" / 18" |  10   |   4   | Beachable |
+| Raft          |  5+ / - / -  |  5+ / 6” / -   |   2   |       | Beachable |
+| Boat          |  5+ / 6 / 6  |  5+ / 8” / 8”  |   4   |   1   | Beachable |
+| Karvi         | 4+ / 6 / 5+  | 5+ / 8” / 12”  |   6   |   2   | Beachable |
+| Knarr         | 5+ / 6 / 5+  | 5+ / 6” / 14”  |   6   |   2   | -         |
+| Snekkja       | 4+ / 6 / 4+  | 5+ / 8” / 16”  |   8   |   2   | Beachable |
+| Galley, Noos  | 5+ / 4+ / 3+ | 5+ / 6” / 16”  |   8   |   3   | Ramming   |
+| Galley, Small | 5+ / 6 / 4+  | 5+ / 6” / 16”  |   8   |   3   | -         |
+| Galley, Large | 5+ / 6 / 3+  | 5+ / 8” / 20”  |  12   |   4   | -         |
+| Skeid         | 3+ / 5+ / 4+ | 5+ / 10” / 18” |  10   |   4   | Beachable |
 
 ## Ship Group Traits
 

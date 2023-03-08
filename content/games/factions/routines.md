@@ -11,10 +11,11 @@ use judgement.
 
 <!-- vale Contractions.Use = NO -->
 
-{{< hint info >}}
-This section assumes skirmishes fought between two sides, each with a single company. If you're
-playing with more sides or more companies, use your judgment.
-{{< /hint >}}
+``````details { summary="Note" .info }
+This section assumes skirmishes fought between two sides, each with a single
+company. If you're playing with more sides or more companies, use your
+judgment.
+``````
 
 <!-- vale Contractions.Use = YES -->
 
@@ -68,13 +69,13 @@ scenario. Follow this process:
    - If the result is _equal_ to the previous roll, deploy in the same quadrant.
    - If the result is _higher_ than the previous roll, deploy in the opposite quadrant.
 1. Adjust the Company's deployment based on their personality, as needed:
-   - Arcane Companies must deploy Groups with the Casting or Summoning order within 6" of a friendly
+   - Arcane Companies must deploy Groups with the Casting or Summoning order within 6” of a friendly
      group, if possible.
    - Bold Companies must deploy their Groups as close an enemy or objective as possible.
    - Cautious Companies must deploy their Groups with Shooting, Casting, or Summoning orders within
-     6" of a friendly group and as far away from enemy Groups as possible.
+     6” of a friendly group and as far away from enemy Groups as possible.
    - Ferocious Companies must deploy their Groups within range to Attack or Shoot, if possible.
-   - Guarded Companies must deploy their groups within 6" of a friendly Group. If any Groups have
+   - Guarded Companies must deploy their groups within 6” of a friendly Group. If any Groups have
      the Defensive trait, they must be as evenly dispersed among Group clusters as possible.
    - Whenever a decision is unclear, choose at random.
 
@@ -124,7 +125,7 @@ attacking.
 ### Cautious Group Activations
 
 Cautious Companies never Attack an enemy Group whose R is equal to or greater than their own.
-Groups more than 6" away from a friendly Group must Move toward one, if possible.
+Groups more than 6” away from a friendly Group must Move toward one, if possible.
 
 ### Ferocious Group Activations
 
@@ -135,7 +136,7 @@ Groups not within range of an objective or enemy must Move toward the nearest en
 ### Guarded Group Activations
 
 Guarded Companies may not activate to Attack an enemy Group unless there is a friendly
-Group within 12". Groups not within 12" of a friendly Group must move toward the nearest
+Group within 12”. Groups not within 12” of a friendly Group must move toward the nearest
 friendly Group if possible, or toward the nearest defensible position otherwise.
 
 ## Eccentrics
@@ -151,7 +152,7 @@ friendly Group if possible, or toward the nearest defensible position otherwise.
   the remaining spell with the highest activation difficulty from among those with a valid target.
   Otherwise, they must Cast a random spell against the nearest valid target.
 - Groups with Foe or Bane traits must Move towards and attempt to Attack the nearest specified type
-  of Group if within 18" of one.
+  of Group if within 18” of one.
 - Groups with Self-Destruct trait must attempt Self-Destruct once they are Bloodied.
 
 <!-- Reference Links -->

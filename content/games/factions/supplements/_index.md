@@ -2,9 +2,10 @@
 title: Supplements
 summary: Addenda for Flagrant Factions
 weight: 99
-Platen:
-  Menu:
-    CollapseSection: true
+platen:
+  menu:
+    collapse_section: true
 ---
 
-{{< section >}}
+```section
+```

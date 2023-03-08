@@ -3,9 +3,9 @@ title: Flagrant Factions
 date: 2021-09-12
 summary: A Fantastic Skirmish Wargame
 weight: 10
-Platen:
-  Menu:
-    CollapseSection: true
+platen:
+  menu:
+    collapse_section: true
 ---
 
 <!-- vale Jared.JustSayIt = NO -->
@@ -45,10 +45,11 @@ This skirmish wargame is intended to:
 
 <!-- vale Contractions.Use = NO -->
 
-{{< hint info >}}
-This text assumes skirmishes fought between two sides, each with a single company. If you're
-playing with more sides or more companies, use your judgment.
-{{< /hint >}}
+``````details { summary="Note" .info }
+This text assumes skirmishes fought between two sides, each with a single
+company. If you're playing with more sides or more companies, use your
+judgment.
+``````
 
 <!-- vale Contractions.Use = YES -->
 
@@ -60,7 +61,7 @@ To play this game, you need:
 - Two players.
 - A list of Groups and their profiles.
 - Models (paper, plastic, pewter, or otherwise), probably no more than 60 to a side.
-- Six-sided dice. More is better—you’ll often roll 2, 3, 6, or 12 of them at a time.
+- Six-sided dice. More is better—you will often roll 2, 3, 6, or 12 of them at a time.
 - A way to measure distance (a tape measure or ruler is probably best, but a knotted string works,
   too).
 - A table to play on. 5’ x 3’ is a good size for 24-point companies. Terrain, drawn or modeled, is

@@ -11,7 +11,7 @@ tags:
   - workflow
   - production
 weight: 10
-type: Post
+type: posts
 ---
 
 There's endless ways to work on games-adjacent texts and projects. This one is mine.

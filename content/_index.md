@@ -2,7 +2,6 @@
 title: Flagrant Garden
 date: 2021-09-12
 summary: A Garden of Play, Flagrantly Cultivated
-type: docs
 ---
 
 Welcome to the Flagrant Garden, a nursery for narrative play.

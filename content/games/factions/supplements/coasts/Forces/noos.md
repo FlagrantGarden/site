@@ -18,7 +18,7 @@ Nashuja fights as a Champion. They have the [Fame traits][2] Competent and Lucky
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   6   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   6   |  4+   |   3   | Champion, Challenger |
 
 ## Jamidare
 
@@ -32,7 +32,7 @@ Kitane fights as a Champion. She has the Competent [Fame trait][2]. She rolls 6d
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   6   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   6   |  4+   |   2   | Champion, Challenger |
 
 ## Ika
 
@@ -46,7 +46,7 @@ Kikeru fights as a Champion. They roll 6d6 to hit when Shooting with their sling
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 18" |   4   |  4+   |   1   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 18” |   4   |  4+   |   1   | Champion, Challenger |
 
 ## Patada
 
@@ -62,8 +62,8 @@ rolls 6d6 to hit.
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits         |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------------------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  15   |  4+   |   2   | Defensive, Shieldwall |
-| Champion | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / -  |  10   |  4+   |   3   | -                     |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  15   |  4+   |   2   | Defensive, Shieldwall |
+| Champion | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / -  |  10   |  4+   |   3   | -                     |
 
 ## Ghoul Raiding Camp
 
@@ -73,7 +73,7 @@ If using the [Routine Procedures][1], the Ghouls are Ferocious.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |      Traits       |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :---------------- |
-| 5+ / 4+ / 5+ | 5+ / 8" |   -   |   6   |  4+   |   2   | Reckless, Vicious |
+| 5+ / 4+ / 5+ | 5+ / 8” |   -   |   6   |  4+   |   2   | Reckless, Vicious |
 
 ## Qeka
 
@@ -88,7 +88,7 @@ Shooting with their sling, 4d6 otherwise.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 18" |   4   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 18” |   4   |  4+   |   2   | Champion, Challenger |
 
 ## Qitune
 
@@ -103,7 +103,7 @@ Rusa fights as a Champion. He has the [Fame traits][2] Willing and Brave. He rol
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 4+ / 4+ | 5+ / 8" | 6+ / 5+ / 6" |   8   |  4+   |   3   | Champion, Challenger |
+| 5+ / 4+ / 4+ | 5+ / 8” | 6+ / 5+ / 6” |   8   |  4+   |   3   | Champion, Challenger |
 
 ## Sidare
 
@@ -117,7 +117,7 @@ Ariad fights as a Champion. She rolls 4d6 to hit.
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   4   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   4   |  4+   |   2   | Champion, Challenger |
 
 ## Wadunimi
 
@@ -130,8 +130,8 @@ Jadikira fights beside a Group of Footmen as Captain. When joined to the Footmen
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |  Traits   |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |   9   |  4+   |   2   | Defensive |
-| Champion | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   6   |  4+   |   2   | -         |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |   9   |  4+   |   2   | Defensive |
+| Champion | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   6   |  4+   |   2   | -         |
 
 ## Iruja
 
@@ -144,7 +144,7 @@ If using the [Routine Procedures][1], the forces of Sidare are Guarded.
 
 |      ME      |    MO    |      MI       |  FS   |   R   |   T   | Traits            |
 | :----------: | :------: | :-----------: | :---: | :---: | :---: | :---------------- |
-| 5+ / 4+ / 6  | 6+ / 12" |       -       |   4   |  4+   |   1   | Reckless, Nimble  |
+| 5+ / 4+ / 6  | 6+ / 12” |       -       |   4   |  4+   |   1   | Reckless, Nimble  |
 
 ## Teri
 
@@ -160,8 +160,8 @@ Yisharu fights beside a Group of Footmen as Captain. When joined to the Footmen,
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |  Traits   |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  13   |  4+   |   2   | Defensive |
-| Champion | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   2   |  4+   |   1   | -         |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  13   |  4+   |   2   | Defensive |
+| Champion | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   2   |  4+   |   1   | -         |
 
 ## Sikira
 
@@ -176,8 +176,8 @@ Pijaseme fights beside a Group of Footmen as Captain. When joined to the Footmen
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |  Traits   |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  10   |  4+   |   2   | Defensive |
-| Champion | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   2   |  4+   |   2   | -         |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  10   |  4+   |   2   | Defensive |
+| Champion | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   2   |  4+   |   2   | -         |
 
 ## Meza
 
@@ -192,8 +192,8 @@ Pijasiros fights beside a Group of Footmen as Captain. When joined to the Footme
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |  Traits   |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  10   |  4+   |   2   | Defensive |
-| Champion | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   2   |  4+   |   2   | -         |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  10   |  4+   |   2   | Defensive |
+| Champion | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   2   |  4+   |   2   | -         |
 
 ## Didikane
 
@@ -201,7 +201,7 @@ Didikane has 3 Fame and 15 Glory. She fights as a Champion and rolls 4d6 to hit.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" |   -   |   4   |  4+   |   2   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” |   -   |   4   |  4+   |   2   | Champion, Challenger |
 
 ## Muru
 
@@ -215,7 +215,7 @@ If using the [Routine Procedures][1], the forces of Muru are Ferocious.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |       Traits        |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :------------------ |
-| 6+ / 4+ / 4+ | 5+ / 6" |   -   |  18   |  3+   |   2   | Terrifying, Vicious |
+| 6+ / 4+ / 4+ | 5+ / 6” |   -   |  18   |  3+   |   2   | Terrifying, Vicious |
 
 ## Amidao
 
@@ -227,7 +227,7 @@ Kikeru fights as a Champion. He rolls 2d6 to hit with his sling, 1d6 otherwise.
 
 |     ME     |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :--------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 6 / 6 | 5+ / 8" | 6+ / 5+ / 18" |   2   |  4+   |   1   | Champion, Challenger |
+| 5+ / 6 / 6 | 5+ / 8” | 6+ / 5+ / 18” |   2   |  4+   |   1   | Champion, Challenger |
 
 ## Ermelandus
 
@@ -235,7 +235,7 @@ Ermelandus has 0 Fame and 10 Glory. He fights as a Champion and rolls 4d6 to hit
 
 |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   4   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   4   |  4+   |   3   | Champion, Challenger |
 
 ## Inamdi
 
@@ -250,8 +250,8 @@ Bansabira fights beside 4 Footmen as Captain. When joined to the Footmen, the Gr
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |  Traits   |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |   7   |  4+   |   2   | Defensive |
-| Champion | 5+ / 5+ / 5+ | 5+ / 8" |      -       |   2   |  4+   |   1   | -         |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |   7   |  4+   |   2   | Defensive |
+| Champion | 5+ / 5+ / 5+ | 5+ / 8” |      -       |   2   |  4+   |   1   | -         |
 
 ## Stymied Beach Camp
 
@@ -263,7 +263,7 @@ If using the [Routine Procedures][1], the Skeleton Legionaries are Ferocious.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |              Traits              |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :------------------------------- |
-| 6+ / 5+ / 5+ | 5+ / 6" |   -   |   7   |  4+   |   3   | Defensive, Shieldwall, Unfeeling |
+| 6+ / 5+ / 5+ | 5+ / 6” |   -   |   7   |  4+   |   3   | Defensive, Shieldwall, Unfeeling |
 
 ## Istvaeonic Raid
 
@@ -276,7 +276,7 @@ If using the [Routine Procedures][1], the Istvaeonic Raiders are Bold.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |        Traits         |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :-------------------- |
-| 6+ / 5+ / 5+ | 5+ / 6" |   -   |  12   |  4+   |   3   | Defensive, Shieldwall |
+| 6+ / 5+ / 5+ | 5+ / 6” |   -   |  12   |  4+   |   3   | Defensive, Shieldwall |
 
 ## Panina
 
@@ -292,8 +292,8 @@ Widina fights beside 5 Footmen as Captain. When joined to the Footmen, the Group
 
 |   Mode   |      ME      |   MO    |      MI      |  FS   |   R   |   T   |  Traits   |
 | :------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :-------- |
-| Footmen  | 6+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |   9   |  4+   |   2   | Defensive |
-| Champion | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   6   |  4+   |   2   | -         |
+| Footmen  | 6+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |   9   |  4+   |   2   | Defensive |
+| Champion | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   6   |  4+   |   2   | -         |
 
 ## Spring Kobolds
 
@@ -306,16 +306,16 @@ If using the [Routine Procedures][1], the Kobolds are Guarded.
 
 |     ME     |   MO    |      MI      |  FS   |   R   |   T   |    Traits    |
 | :--------: | :-----: | :----------: | :---: | :---: | :---: | :----------- |
-| 6+ / 6 / 6 | 5+ / 8" | 6+ / 5+ / 6" |  10   |  5+   |   2   | Nimble, Bark |
+| 6+ / 6 / 6 | 5+ / 8” | 6+ / 5+ / 6” |  10   |  5+   |   2   | Nimble, Bark |
 
 Bark
-: A Group of Kobolds may activate (5+) to have the Basilisk Glare at an enemy within 12".
+: A Group of Kobolds may activate (5+) to have the Basilisk Glare at an enemy within 12”.
 
 ### Basilisk
 
 |     ME      |    MO    |  MI   |  FS   |   R   |   T   |     Traits      |
 | :---------: | :------: | :---: | :---: | :---: | :---: | :-------------- |
-| 5+ / 4+ / 6 | 6+ / 10" |   -   |  12   |  3+   |   4   | Reckless, Glare |
+| 5+ / 4+ / 6 | 6+ / 10” |   -   |  12   |  3+   |   4   | Reckless, Glare |
 
 Glare
 : The Basilisk fights with its eyes closed unless told otherwise or hurt. The turn after
@@ -330,7 +330,7 @@ If using the [Routine Procedures][1], the Tongueless Elves are Incompetent.
 
 |  Mode   |      ME      |   MO    |  MI   |  FS   |   R   |   T   | Traits |
 | :------ | :----------: | :-----: | :---: | :---: | :---: | :---: | :----- |
-| Footmen | 6+ / 5+ / 5+ | 5+ / 8" |   -   |   6   |  4+   |   1   | Nimble |
+| Footmen | 6+ / 5+ / 5+ | 5+ / 8” |   -   |   6   |  4+   |   1   | Nimble |
 
 ## Outlaw Hunters
 
@@ -347,8 +347,8 @@ Duelling, Waltgaud rolls 12d6 to hit.
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |   Traits    |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :---------- |
-| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  10   |  4+   |   3   | Shieldwall  |
-| Champion         | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   8   |  4+   |   2   | Caster-Bane |
+| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  10   |  4+   |   3   | Shieldwall  |
+| Champion         | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   8   |  4+   |   2   | Caster-Bane |
 
 ## Dirina
 
@@ -371,23 +371,23 @@ The first head to activate moves the body and may Shoot or Move it. All three he
 
 |   Name   |     ME      |    MO    |  MI   |  FS   |   R   |   T   |              Traits               |
 | :------: | :---------: | :------: | :---: | :---: | :---: | :---: | :-------------------------------- |
-|  Berith  | 5+ / 3+ / 6 | 6+ / 10" |   -   |   6   |  3+   |   4   | Defiant, Dominate, Vicious        |
-|  Beleth  | 5+ / 3+ / 6 | 6+ / 10" |   -   |   6   |  3+   |   4   | Breathe Flame, Illusion, Reckless |
-| Bifronze | 5+ / 3+ / 6 | 6+ / 10" |   -   |   6   |  3+   |   4   | Elusive, Soul-Steal, Unfeeling    |
+|  Berith  | 5+ / 3+ / 6 | 6+ / 10” |   -   |   6   |  3+   |   4   | Defiant, Dominate, Vicious        |
+|  Beleth  | 5+ / 3+ / 6 | 6+ / 10” |   -   |   6   |  3+   |   4   | Breathe Flame, Illusion, Reckless |
+| Bifronze | 5+ / 3+ / 6 | 6+ / 10” |   -   |   6   |  3+   |   4   | Elusive, Soul-Steal, Unfeeling    |
 
 Breathe Flame
-: Beleth may activate (7+) targeting a Group within 6". Roll 12d6 to hit (6d6 if Bloodied) on 4+,
+: Beleth may activate (7+) targeting a Group within 6”. Roll 12d6 to hit (6d6 if Bloodied) on 4+,
   ignoring T.
 
 Dominate
-: Target a Group within 8". They must test Resolve, rerolling if successful. If they fail, Berith may
-  activate (3+) to give all Dominated Groups within 12" an order. They do not test to activate to
+: Target a Group within 8”. They must test Resolve, rerolling if successful. If they fail, Berith may
+  activate (3+) to give all Dominated Groups within 12” an order. They do not test to activate to
   carry it out.
 Illusion
-: Target a Group within 8". They must test Resolve, rerolling if successful. If they fail, Beleth
-  may choose: the Group Attacks itself, Retreats, or is inactive while within 12" of Beleth.
+: Target a Group within 8”. They must test Resolve, rerolling if successful. If they fail, Beleth
+  may choose: the Group Attacks itself, Retreats, or is inactive while within 12” of Beleth.
 Soul-Steal
-: Target a Group within 8". They must test Resolve, rerolling if successful. If they fail, when the
+: Target a Group within 8”. They must test Resolve, rerolling if successful. If they fail, when the
   Group tests Resolve from now on, they fail regardless of their roll (but unless the result is 0 or
   less, they do not Rout or Surrender). If they would Rout before Bifronze, they Surrender instead.
 
@@ -401,8 +401,8 @@ Edicia fights as a Champion and rolls 6d6 to hit.
 
 |    Name     |      ME      |   MO    |      MI      |  FS   |   R   |   T   |            Traits            |
 | :---------: | :----------: | :-----: | :----------: | :---: | :---: | :---: | :--------------------------- |
-|   Edicia    | 5+ / 5+ / 5+ | 5+ / 8" |      -       |   6   |  4+   |   2   | Caster, Champion, Challenger |
-| Painted Men | 5+ / 4+ / 5+ | 5+ / 8" | 5+ / 5+ / 6" |  12   |  4+   |   1   | Nimble, Unfeeling            |
+|   Edicia    | 5+ / 5+ / 5+ | 5+ / 8” |      -       |   6   |  4+   |   2   | Caster, Champion, Challenger |
+| Painted Men | 5+ / 4+ / 5+ | 5+ / 8” | 5+ / 5+ / 6” |  12   |  4+   |   1   | Nimble, Unfeeling            |
 
 <!-- Reference Links -->
 

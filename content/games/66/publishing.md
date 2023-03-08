@@ -31,7 +31,7 @@ EPUB, or other accessible format. Drop a line if you want your work linked on th
 
 ### Use tags on Itch
 
-- Anything tagged flagrant66 will become a part of a broader grassroots library.
-- Tag with the license you’re using - `CCBY`, `CC0`, `OGL`, `NoLaywers`, whatever you’re using.
+- Anything tagged `flagrant66` will become a part of a broader grassroots library.
+- Tag with the license you're using - `CCBY`, `CC0`, `OGL`, `NoLaywers`, whatever you're using.
 - If you're writing a tech pack, please also use the `#techpack` tag if you licensed your work as
   `CCBY` or `CC0`--this allows us to include your work in _that_ broader library too!

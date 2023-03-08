@@ -40,10 +40,10 @@ see what it is:
 
 | Result           | Effect                                                                                                                                                                                                                                            |
 | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1. Grenade       | Activate to Throw (4+) at enemy group within 8". Roll 12d6, hitting on 6+. Count all hits twice. Remove this token after use. +2 Excitement.                                                                                                      |
+| 1. Grenade       | Activate to Throw (4+) at enemy group within 8”. Roll 12d6, hitting on 6+. Count all hits twice. Remove this token after use. +2 Excitement.                                                                                                      |
 | 2. Flaming Sword | Activate to Attack in melee to ignite. Each round it remains ignited, --1 FS to the Group bearing this token. The bearing Group ignores enemy Toughness. +1 Excitement when ignited. --3 Excitement when extinguished.                            |
 | 3. Shrooms       | Make a free activation to ingest, gaining the Reckless, Unfeeling, Unerring, and Vicious traits. Must Test Resolve every turn. On failure, become Reckless even against allies. +1 excitement when ingested, +2 if they turn on their allies.     |
-| 4. Sandscroll    | Activate to Cast to use the scroll. For the remainder of the skirmish, the Group has MO 12" and ignores all terrain except the edge of the arena. +1 Excitement.                                                                                  |
+| 4. Sandscroll    | Activate to Cast to use the scroll. For the remainder of the skirmish, the Group has MO 12” and ignores all terrain except the edge of the arena. +1 Excitement.                                                                                  |
 | 5. Glacial Surge | Test Resolve to activate the crystal. On failure, the Group Routs as they freeze solid (+3 Excitement). On success, the Group gains the Unfeeling and Terrifying traits, +1 T, and halves their MO distance (+1 Excitement).                      |
 | 6. Bloody Roar   | Make a free activation to eat the bloody hearts. The Group is replaced with a Heavy Beast at full FS with the Terrifying, Unerring, and Vicious traits (+3 Excitement). If Bloodied, the Beast Self-Destructs the following turn (+3 Excitement). |
 
@@ -63,14 +63,14 @@ they vote to shake things up. Roll 2d6:
 | Result         | Effect                                                                                                                                                                                           |
 | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2. Chant       | +3 Excitement.                                                                                                                                                                                   |
-| 3. Stone       | All Groups within 12" of the field edge are at risk of being hit with stones from the audience. Roll 6d6 for each at-risk Group, hitting on 6. +2 Excitement.                                    |
+| 3. Stone       | All Groups within 12” of the field edge are at risk of being hit with stones from the audience. Roll 6d6 for each at-risk Group, hitting on 6. +2 Excitement.                                    |
 | 4. Favor       | The Group that has done the most damage to enemies regains up to 2 FS and may activate successfully without testing next turn. +2 Excitement.                                                    |
 | 5. Duel        | The Groups that most recently fought each other in melee must fight until one of them Routs. All other activations and effects outside of the duel are on hold until then. +4 Excitement.        |
 | 6. Inebriate   | Any Group that moves adjacent to the edge of the field may make a free activation to drink divine wine. If they do, +1 T and they gain the Reckless and Unfeeling traits. +2 Excitement.         |
 | 7. Blessing    | The Group that has done the most damage to enemies gains FS up to their starting value, and rolls +3 dice to hit. +1 Excitement.                                                                 |
 | 8. Unleash     | Add 3 Light Beast Groups to the arena. After each of the defender's turns, they activate to Attack the nearest Group if possible, or Move towards it if not. +3 Excitement.                      |
 | 9. Second Wind | All Groups in the arena set their FS to half its starting value if Bloodied, or to its full starting value if not. +1 Excitement.                                                                |
-| 10. Wallscythe | Blades swing out of the walls at the edge of the arena—all Groups within 6" of the field edge are at risk. Roll 12d6 for each Group, hitting on 4+. +2 Excitement.                               |
+| 10. Wallscythe | Blades swing out of the walls at the edge of the arena—all Groups within 6” of the field edge are at risk. Roll 12d6 for each Group, hitting on 4+. +2 Excitement.                               |
 | 11. Earthquake | All Groups are at risk. Roll 12d6 for each Group, hitting on 5+. +3 Excitement.                                                                                                                  |
 | 12. Flood      | The entire arena becomes Difficult terrain. +2 Excitement.                                                                                                                                       |
 | 13. Curse      | The Group that has hurt enemies the least loses 1 T. Roll 12d6 against that Group immediately, hitting on 3+. +1 Excitement.                                                                     |
@@ -94,7 +94,7 @@ The arena goes up in flames, and burns to ash.
 ### Setup
 
 When placing terrain, at least two-thirds of the field should thick woods and uneven ground—all
-Difficult terrain. In every clear space of 6" or more, place a Hungry Fig token (2" diameter). There
+Difficult terrain. In every clear space of 6” or more, place a Hungry Fig token (2” diameter). There
 must be at least 3 Hungry Figs.
 
 ### Hungry Figs
@@ -105,10 +105,10 @@ must be at least 3 Hungry Figs.
 
 |   ME    |   MI   |  FS   |   R   |   T   |                          Traits                          |
 | :-----: | :----: | :---: | :---: | :---: | :------------------------------------------------------: |
-| 4+ / 4+ | 6 / 6" |  12   |   3   |   4   | Capricious Tree, Eldritch Fruit, Self-Destruct, Unmoving |
+| 4+ / 4+ | 6 / 6” |  12   |   3   |   4   | Capricious Tree, Eldritch Fruit, Self-Destruct, Unmoving |
 
 Capricious Tree
-: When any Group passes within 3" of a Hungry Fig, roll 1d6.
+: When any Group passes within 3” of a Hungry Fig, roll 1d6.
 
   | Result | Event                                                                   |
   | :----: | :---------------------------------------------------------------------- |
@@ -131,13 +131,13 @@ Eldritch Fruit
   | Bloodied                        | Regain 1d6 FS. When testing Resolve in response to a Hungry Fig, they reroll the highest die. |
   | Reckless or Defiant             | -1 FS. May lose 1 FS to automatically succeed each time they activate to Attack.              |
   | Neither Nimble nor Engine       | -1 FS. Gain the Nimble trait.                                                                 |
-  | Beast                           | +2" MO. Gain the Defiant trait.                                                               |
+  | Beast                           | +2” MO. Gain the Defiant trait.                                                               |
   | Self-Destruct                   | Automatically succeed when activating to Self-Destruct.                                       |
   | -                               | Gain the Self-Destruct trait.                                                                 |
 
 Splintering Throes
 : When a Hungry Fig would Rout due to a failed Resolve test, they roll 6d6 against each other Group.
-  within 6", hitting on 3+. Then they Rout.
+  within 6”, hitting on 3+. Then they Rout.
 
 Unmoving
 : Hungry Figs cannot Move or Retreat. They only activate when triggered by Capricious Tree
@@ -159,7 +159,7 @@ disappears from the skirmish.
 
 |      ME      |  MI   |  MO   |  FS   |   R   |   T   |                  Traits                  |
 | :----------: | :---: | :---: | :---: | :---: | :---: | :--------------------------------------: |
-| 3+ / 4+ / 5+ |   -   |  10"  |   6   |   4   |   3   | Move Freely, Reckless, Stealthy, Vicious |
+| 3+ / 4+ / 5+ |   -   |  10”  |   6   |   4   |   3   | Move Freely, Reckless, Stealthy, Vicious |
 
 Move Freely
 : This Group ignores all friends, enemies, and terrain while Moving. Cannot end movement overlapping
@@ -182,10 +182,10 @@ Vicious
 
 ### Setup
 
-One third of the field is the sea. Treat the first 6" of water closest to the land as difficult
+One third of the field is the sea. Treat the first 6” of water closest to the land as difficult
 terrain, and the rest as impassable.
 
-Before the first turn, both sides roll 2d6. Place a number of Crab Boil tokens (2" across) equal to
+Before the first turn, both sides roll 2d6. Place a number of Crab Boil tokens (2” across) equal to
 the higher result, alternating placement between each side, starting with the side that rolled
 higher.
 
@@ -193,7 +193,7 @@ The lower result is the number of player turns before the Reaping Tide arrives.
 
 ### Crab Boils
 
-Each time a Group moves within 6" of a Crab Boil token, roll 1d6.
+Each time a Group moves within 6” of a Crab Boil token, roll 1d6.
 
 | Result | Effect                                                                                                                                                                             |
 | :----: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -216,8 +216,8 @@ Crab is not Dancing, it must Attack the nearest enemy Group if able, or move tow
 
 |  Crab  |      ME      |  MI   |  MO   |  FS   |   R   |   T   | Traits                      |
 | :----: | :----------: | :---: | :---: | :---: | :---: | :---: | :-------------------------- |
-| Little | 4+ / 5+ / 6  |   -   |  8"   |   6   |   4   |   3   | Move Freely, Unfeeling      |
-| Great  | 3+ / 4+ / 5+ |   -   |  6"   |  12   |   4   |   3   | Dancer, Terrifying, Vicious |
+| Little | 4+ / 5+ / 6  |   -   |  8”   |   6   |   4   |   3   | Move Freely, Unfeeling      |
+| Great  | 3+ / 4+ / 5+ |   -   |  6”   |  12   |   4   |   3   | Dancer, Terrifying, Vicious |
 
 Dancer
 : When a Great Crab dances, roll 2d6:
@@ -293,13 +293,13 @@ Well-Armed (1)
 When placing terrain, build a maze using this procedure:
 
 1. Note that the entire field is impassable terrain unless otherwise noted.
-1. Each side rolls 1d6. The combined total is the number of plazas (a 6" square of open space) that
+1. Each side rolls 1d6. The combined total is the number of plazas (a 6” square of open space) that
    must be placed. Players take turns placing one plaza at a time, starting with the side that
    rolled higher.
-1. Each side rolls 1d6. From highest roll to lowest, players take turns placing an exit (4" wide) on
-   the edge of the field. No exit may be placed within 12" of another. Exits are normal terrain.
+1. Each side rolls 1d6. From highest roll to lowest, players take turns placing an exit (4” wide) on
+   the edge of the field. No exit may be placed within 12” of another. Exits are normal terrain.
 1. Each side rolls 3d6. The combined total is the number of corridors (a rectangle of normal
-   terrain, 2" wide and up to 12" long) that must be placed. Players take turns placing one corridor
+   terrain, 2” wide and up to 12” long) that must be placed. Players take turns placing one corridor
    at a time, starting with the side that rolled highest. Every corridor must connect to an exit, a
    plaza, or another corridor. By the end of this placement step, every plaza and exit must
    connected by corridors. Corridors may create loops and dead ends, but all plazas and exits must
@@ -313,12 +313,12 @@ must place the Minotaur within that many inches of the center of the maze.
 Any Group may activate freely to strike or douse a Light. Once they strike a Light, the Group is
 considered to be carrying Light until they douse it.
 
-Groups not carrying Light move at half speed and cannot see more than 6" through the dark. When
+Groups not carrying Light move at half speed and cannot see more than 6” through the dark. When
 Shooting at a Group that is not carrying Light, reroll hits.
 
 When two Groups fight in melee and neither side is carrying Light, reroll all hits.
 
-Groups carrying Light can see up to 12", and can be seen by any Group which has line of sight, even
+Groups carrying Light can see up to 12”, and can be seen by any Group which has line of sight, even
 if they are in the dark themselves.
 
 When any Group carrying Light enters a plaza, roll 1d6. For that many turns, all Groups in the plaza
@@ -336,7 +336,7 @@ possible, or toward the nearest Group not carrying Light otherwise.
 
 |      ME      |  MI   |  MO   |  FS   |   R   |   T   |                      Traits                       |
 | :----------: | :---: | :---: | :---: | :---: | :---: | :-----------------------------------------------: |
-| 3+ / 3+ / 4+ |   -   |  10"  |   6   |   3   |   5   | Defiant, Lightbane, Reckless, Terrifying, Vicious |
+| 3+ / 3+ / 4+ |   -   |  10”  |   6   |   3   |   5   | Defiant, Lightbane, Reckless, Terrifying, Vicious |
 
 Defiant
 : If this Group is not Shaken and not already in melee, when an enemy successfully activates to
@@ -362,9 +362,9 @@ Vicious
 
 ### Setup
 
-Before placing terrain, both sides roll 2d6. Each side places that many airships (6" long and 3"
+Before placing terrain, both sides roll 2d6. Each side places that many airships (6” long and 3”
 wide) anywhere where they may deploy their Groups. After placing airships, the side with fewer
-airships (or the Defender, if tied) places the Leviathan (12" long and 6" wide) anywhere within 12"
+airships (or the Defender, if tied) places the Leviathan (12” long and 6” wide) anywhere within 12”
 of the center of the field.
 
 The entire field is impassable terrain—this skirmish takes place in the sky. Groups may cross the
@@ -375,13 +375,13 @@ the back of the Leviathan. No Group may be deployed onto an airship already hold
 
 ### Sky Fighting
 
-Any Group (except Engines) may activate to Glide, Moving across the open air up to 12" (10" instead
+Any Group (except Engines) may activate to Glide, Moving across the open air up to 12” (10” instead
 if Heavy). Foot activate to Glide on 5+, Beasts on 6+, and Cavalry on 7+. Any Group that does not
 end their Glide on another airship or the Leviathan remains in the air—they must activate to Glide
 again on their next turn. If they fail that activation, they plummet to the ground below and Rout.
 
 A side with uncontested control of an airship (with no enemies present) may activate a Group on that
-airship on 5+ to maneuver the airship 6" in any direction.
+airship on 5+ to maneuver the airship 6” in any direction.
 
 ### The Leviathan
 
@@ -389,7 +389,7 @@ airship on 5+ to maneuver the airship 6" in any direction.
 > _catastrophic war weapon, if it wants to be._
 
 At the start of the first turn of the skirmish, roll 1d6. The Leviathan will act after that many
-turns unless attacked. If attacked, the Leviathan activates next. After each of the Leviathan’s
+turns unless attacked. If attacked, the Leviathan activates next. After each of the Leviathan's
 turns, roll 1d6 again. It activates again after that many turns unless attacked, as above.
 
 <!-- vale Jared.CleverestPunctuation = NO -->
@@ -413,7 +413,7 @@ gain 3 VP. If any side kills the Leviathan, they gain 2VP.
 
 |     ME     |  MI   |  MO   |  FS   |   R   |                         Traits                          |
 | :--------: | :---: | :---: | :---: | :---: | :-----------------------------------------------------: |
-| - / - / 3+ |   -   |  6"   |  12   |   4   | Annihilator, Mournful Ignition, Skysunder Song, Vicious |
+| - / - / 3+ |   -   |  6”   |  12   |   4   | Annihilator, Mournful Ignition, Skysunder Song, Vicious |
 
 Annihilator
 : Whenever this Group moves into any model from another Group, roll to-hit as if the Leviathan is
@@ -436,16 +436,16 @@ Vicious
 ### Setup
 
 Before placing terrain, each side rolls 1d6. The total is the number of ticks on the Pyroclasm
-clock. The lower result is the number of Fissure tokens (3" across) to place. The higher result is
-the number of Soothing Stone tokens (1" across) to place.
+clock. The lower result is the number of Fissure tokens (3” across) to place. The higher result is
+the number of Soothing Stone tokens (1” across) to place.
 
-The side that rolled higher places the first Fissure token at least 12" from the edge of the field.
+The side that rolled higher places the first Fissure token at least 12” from the edge of the field.
 The sides then alternate placing the remaining Fissure tokens. Fissures are Impassable terrain, and
-everything within 6" of the token is Difficult terrain.
+everything within 6” of the token is Difficult terrain.
 
 After the Fissure tokens have been placed, the side that rolled lower places the first Soothing
 Stone token. The sides then alternate placing the remaining Soothing Stone tokens. Soothing Stone
-tokens must be placed at least 6" from any Fissure token or other Soothing Stone token.
+tokens must be placed at least 6” from any Fissure token or other Soothing Stone token.
 
 ### Fissures
 
@@ -455,7 +455,7 @@ turns.
 | Result | Effect                                                                                      |
 | :----: | :------------------------------------------------------------------------------------------ |
 |   1.   | Spawn a Magmatic Hound in base contact with the Fissure.                                    |
-| 2--3.  | The Fissure belches flame and magma. Roll 6d6 against every Group within 6", hitting on 3+. |
+| 2--3.  | The Fissure belches flame and magma. Roll 6d6 against every Group within 6”, hitting on 3+. |
 |  4+.   | The Fissure burbles and shakes, steaming ominously.                                         |
 
 ### Soothing Stones
@@ -475,11 +475,11 @@ to or less than that Group's T, they survive.
 
 After rolling for every Fissure, each Magmatic Hound Group activates. If any of them fail, the
 rest continue to activate. Magmatic Hounds attempt to Attack a Group, or move toward a Group
- within 12" if they cannot Attack. Otherwise, they Howl.
+ within 12” if they cannot Attack. Otherwise, they Howl.
 
 |     ME      |  MI   |    MO    |  FS   |   R   |   T   | Traits                          |
 | :---------: | :---: | :------: | :---: | :---: | :---: | :------------------------------ |
-| 5+ / 3+ / 6 |   -   | 6+ / 10" |   6   |  3+   |   4   | Defiant, Howl, Nimble, Reckless |
+| 5+ / 3+ / 6 |   -   | 6+ / 10” |   6   |  3+   |   4   | Defiant, Howl, Nimble, Reckless |
 
 Defiant
 : If this Group is not Shaken and not already in melee, when an enemy successfully activates to

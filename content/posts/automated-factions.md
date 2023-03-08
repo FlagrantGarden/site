@@ -11,7 +11,7 @@ tags:
   - flagrant factions
   - experimental
 weight: 10
-type: Post
+type: posts
 ---
 
 <!-- vale Microsoft.HeadingPunctuation = NO -->
@@ -95,12 +95,12 @@ Unless otherwise specified, follow this process:
    - If the result is _higher_ than the previous roll, deploy in the opposite quadrant
 1. Depending on the Company's Personality, these deployments may need to be adjusted, either
    swapping Groups or moving them within their deployment quadrant:
-   - Arcane Companies must deploy their magic using Groups within 6" of a friendly group if possible
+   - Arcane Companies must deploy their magic using Groups within 6” of a friendly group if possible
    - Bold Companies must deploy their Groups as near as possible to an enemy or objective
    - Cautious Companies must deploy their Groups with Shooting, Casting, or Summoning orders within
-     6" of a friendly group and as far from enemy Groups as possible
+     6” of a friendly group and as far from enemy Groups as possible
    - Ferocious Companies must deploy their Groups within range to Attack or Shoot if at all possible
-   - Guarded Companies must deploy their groups within 6" of a friendly Group. If any Groups have
+   - Guarded Companies must deploy their groups within 6” of a friendly Group. If any Groups have
      the Defensive trait, they must be evenly dispersed amongst Group clusters
 
 ### Ambitions
@@ -152,7 +152,7 @@ Group, and so on. Groups capable of seizing an objective or attacking an enemy m
 ### Cautious Group Activations
 
 Cautious Companies activate as normal but may not activate to Attack an enemy Group whose R is equal
-to or greater than their own. Groups more than 6" away from a friendly Group must Move towards one
+to or greater than their own. Groups more than 6” away from a friendly Group must Move towards one
 if possible.
 
 ### Ferocious Group Activations
@@ -165,7 +165,7 @@ enemy Group.
 ### Guarded Group Activations
 
 Guarded Companies activate as normal but may not activate to Attack an enemy Group unless a friendly
-Group is within 12". Groups not within 12" of a friendly Group must move towards the nearest
+Group is within 12”. Groups not within 12” of a friendly Group must move towards the nearest
 friendly Group or defensible position.
 
 ## Eccentrics
@@ -182,7 +182,7 @@ friendly Group or defensible position.
      same spell until all known spells have been attempted at least once
   1. Otherwise, cast randomly against nearest valid target
 - Groups with Foe or Bane traits _must_ Move towards and attempt to Attack the nearest specified
-  Kind of Group if within 18"
+  Kind of Group if within 18”
 - Groups with Self-Destruct trait _must_ attempt to activate it once they're under half their
   starting R
 

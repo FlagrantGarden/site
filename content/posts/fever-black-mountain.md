@@ -10,7 +10,7 @@ tags:
   - flagrant picaresque
   - experimental
 weight: 10
-type: Post
+type: posts
 ---
 
 This short post is an experimental sample adventure for [Flagrant Picaresque][fp] which builds on
@@ -37,10 +37,10 @@ To make the constitution save vs the fever, each Adventurer must roll 1d6 under 
 
 | Group                            |      ME      |    MO    |      MI      |    R    |   T   | Traits                                      |   XP   |
 | :------------------------------- | :----------: | :------: | :----------: | :-----: | :---: | :------------------------------------------ | :----: |
-| Centipede Men (Light Cavalry)    | 5+ / 4+ / 5+ | 5+ / 10" |  - / - / -   | x / 4+  |   3   | Defiant, Stealthy, Move Freely              | 1 each |
-| Crimson Monks (Heavy Foot)       | 5+ / 3+ / 4+ | 5+ / 6"  | 6+ / 5+ / 6" | 2x / 4+ |   3   | Offensive, Throwers, Well-Armed             | 2 each |
-| Black-Eyed Children (Light Foot) | 6+ / 4+ / 4+ | 5+ / 8"  |  - / - / -   | x / 4+  |   2   | Offensive, Vicious                          | 1 each |
-| Mulsevnious† (Heavy Beast)       | 5+ / 3+ / 6+ | 6+ / 10" |  - / - / -   | 18 / 3+ |   4   | Reckless, Terrifying, Apprentice‡, Unerring |   12   |
+| Centipede Men (Light Cavalry)    | 5+ / 4+ / 5+ | 5+ / 10” |  - / - / -   | x / 4+  |   3   | Defiant, Stealthy, Move Freely              | 1 each |
+| Crimson Monks (Heavy Foot)       | 5+ / 3+ / 4+ | 5+ / 6”  | 6+ / 5+ / 6” | 2x / 4+ |   3   | Offensive, Throwers, Well-Armed             | 2 each |
+| Black-Eyed Children (Light Foot) | 6+ / 4+ / 4+ | 5+ / 8”  |  - / - / -   | x / 4+  |   2   | Offensive, Vicious                          | 1 each |
+| Mulsevnious† (Heavy Beast)       | 5+ / 3+ / 6+ | 6+ / 10” |  - / - / -   | 18 / 3+ |   4   | Reckless, Terrifying, Apprentice‡, Unerring |   12   |
 
 > † Mulsevnious regains 2R per hour and can only die if his body is burned.
 >

@@ -17,8 +17,8 @@ The trolls all fight as Champions. Hjalmar rolls 12d6 to hit. The others roll 8d
 
 |  Group  |      ME      |   MO    |     MI      |  FS   |   R   |   T   | Traits |
 | :------ | :----------: | :-----: | :---------: | :---: | :---: | :---: | :----- |
-| Hjalmar | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   8   |  4+   |   4   | Troll  |
-| Sibling | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   8   |  4+   |   2   | Troll  |
+| Hjalmar | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   8   |  4+   |   4   | Troll  |
+| Sibling | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   8   |  4+   |   2   | Troll  |
 
 Troll
 : Each turn, roll 2d6. Regain FS up to the lower result.
@@ -33,7 +33,7 @@ If using the [Routine Procedures][1], the Purple Worm is Ferocious.
 
 |      ME      |    MO    |  MI   |  FS   |   R   |   T   |      Traits       |
 | :----------: | :------: | :---: | :---: | :---: | :---: | :---------------- |
-| 5+ / 3+ / 5+ | 6+ / 10" |   -   |  30   |  3+   |   2   | Reckless, Swallow |
+| 5+ / 3+ / 5+ | 6+ / 10” |   -   |  30   |  3+   |   2   | Reckless, Swallow |
 
 Swallow
 : If the Group inflicts enough hits to bring an enemy to 0 FS, it swallows the Group whole instead.
@@ -50,7 +50,7 @@ She rolls 14d6 to hit.
 
 |     ME      |    MO    |  MI   |  FS   |   R   |   T   |             Traits             |
 | :---------: | :------: | :---: | :---: | :---: | :---: | :----------------------------- |
-| 5+ / 4+ / 6 | 6+ / 12" |   -   |  14   |  4+   |   2   | Move Freely, Reckless, Vicious |
+| 5+ / 4+ / 6 | 6+ / 12” |   -   |  14   |  4+   |   2   | Move Freely, Reckless, Vicious |
 
 ## Ortaq
 
@@ -64,7 +64,7 @@ The Giants each roll 15d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   | Traits |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :----- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |  20   |  4+   |   1   | -      |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |  20   |  4+   |   1   | -      |
 
 ### Goblins
 
@@ -72,7 +72,7 @@ The Goblins fight in Groups of 6 worth 4 points each. They roll 6d6 to hit.
 
 |      ME      |   MO    |  MI   |  FS   |   R   |   T   |          Traits           |
 | :----------: | :-----: | :---: | :---: | :---: | :---: | :------------------------ |
-| 6+ / 5+ / 5+ | 5+ / 8" |   -   |   3   |  5+   |   2   | Cowardly, Nimble, Vicious |
+| 6+ / 5+ / 5+ | 5+ / 8” |   -   |   3   |  5+   |   2   | Cowardly, Nimble, Vicious |
 
 ## Hlesey
 
@@ -86,8 +86,8 @@ The Unmade fight in Small Groups of 5 (worth 4 points) or Large Groups of 10 (wo
 
 | Size  |      ME      |   MO    |     MI      |  FS   |   R   |   T   |      Traits       |
 | :---- | :----------: | :-----: | :---------: | :---: | :---: | :---: | :---------------- |
-| Small | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   6   |  4+   |   5   | Reform, Unfeeling |
-| Large | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |  12   |  4+   |   5   | Reform, Unfeeling |
+| Small | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   6   |  4+   |   5   | Reform, Unfeeling |
+| Large | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |  12   |  4+   |   5   | Reform, Unfeeling |
 
 Reform
 : When this Group is reduced to 0 FS, roll 1d6. They return to full FS after that many turns.
@@ -105,7 +105,7 @@ All fight as Champions and roll 4d6 to hit. The Old Berserkers have the [Berserk
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |          Traits          |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :----------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / - |   4   |  4+   |   2   | Self-Destruct, Unfeeling |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / - |   4   |  4+   |   2   | Self-Destruct, Unfeeling |
 
 ## Rhus
 
@@ -113,16 +113,16 @@ Merfolk fight in Small Groups of 6 worth 4 points and Large Groups of 12 worth 8
 
 |      Size       |      ME      |   MO    |     MI      |  FS   |   R   |   T   |   Traits   |
 | :-------------- | :----------: | :-----: | :---------: | :---: | :---: | :---: | :--------- |
-| Armoured, Small | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / - |  12   |  4+   |   3   | Shieldwall |
-| Armoured, Large | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / - |  24   |  4+   |   3   | Shieldwall |
-| Small           | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / - |  12   |  4+   |   1   | -          |
-| Large           | 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / - |  24   |  4+   |   1   | -          |
+| Armoured, Small | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / - |  12   |  4+   |   3   | Shieldwall |
+| Armoured, Large | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / - |  24   |  4+   |   3   | Shieldwall |
+| Small           | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / - |  12   |  4+   |   1   | -          |
+| Large           | 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / - |  24   |  4+   |   1   | -          |
 
 Giant Lobsters roll 15d6 to hit and are worth 12 points each.
 
 |     ME      |    MO    |  MI   |  FS   |   R   |   T   |  Traits  |
 | :---------: | :------: | :---: | :---: | :---: | :---: | :------- |
-| 5+ / 3+ / 6 | 6+ / 10" |   -   |  10   |  3+   |   4   | Reckless |
+| 5+ / 3+ / 6 | 6+ / 10” |   -   |  10   |  3+   |   4   | Reckless |
 
 ### Dead Boat
 
@@ -149,7 +149,7 @@ If using the [Routine Procedures][1], they are Ferocious.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / - |   4   |  4+   |   3   | Champion, Challenger |
+| 5+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / - |   4   |  4+   |   3   | Champion, Challenger |
 
 ### Rohel
 
@@ -159,7 +159,7 @@ If using the [Routine Procedures][1], they are Guarded.
 
 |     ME      |   MO    |     MI      |  FS   |   R   |   T   | Traits |
 | :---------: | :-----: | :---------: | :---: | :---: | :---: | :----- |
-| 6+ / 6 / 5+ | 5+ / 6" | 6+ / 6 / 6" |   6   |  4+   |   1   | -      |
+| 6+ / 6 / 5+ | 5+ / 6” | 6+ / 6 / 6” |   6   |  4+   |   1   | -      |
 
 ### Butchered Hamlet
 
@@ -181,7 +181,7 @@ Maurits fights as a Champion and rolls 4d6 to hit.
 
 |      ME      |   MO    |     MI      |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :---------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 6" | 6+ / 5+ / - |   4   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 6” | 6+ / 5+ / - |   4   |  4+   |   3   | Champion, Challenger |
 
 #### Sophia
 
@@ -189,7 +189,7 @@ Sophia fights as a Champion and rolls 6d6 to hit.
 
 |      ME      |   MO    |      MI       |  FS   |   R   |   T   |        Traits        |
 | :----------: | :-----: | :-----------: | :---: | :---: | :---: | :------------------- |
-| 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 12" |   6   |  4+   |   3   | Champion, Challenger |
+| 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 12” |   6   |  4+   |   3   | Champion, Challenger |
 
 #### Louise
 
@@ -198,8 +198,8 @@ Louise fights beside a Group of Armoured Footmen. When joined to the Armoured Fo
 
 |       Mode       |      ME      |   MO    |      MI      |  FS   |   R   |   T   |        Traits        |
 | :--------------- | :----------: | :-----: | :----------: | :---: | :---: | :---: | :------------------- |
-| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6" | 6+ / 5+ / 6" |  14   |  4+   |   3   | Shieldwall           |
-| Duelling         | 5+ / 5+ / 5+ | 5+ / 8" | 6+ / 5+ / 6" |   4   |  4+   |   3   | Champion, Challenger |
+| Armoured Footmen | 6+ / 4+ / 5+ | 5+ / 6” | 6+ / 5+ / 6” |  14   |  4+   |   3   | Shieldwall           |
+| Duelling         | 5+ / 5+ / 5+ | 5+ / 8” | 6+ / 5+ / 6” |   4   |  4+   |   3   | Champion, Challenger |
 
 ### Follega
 

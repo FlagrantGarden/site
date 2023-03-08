@@ -1,13 +1,11 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
-  "frontMatter.framework.id": "hugo",
+  "frontMatter.extends": [
+    "https://platen.io/frontmatter/platen.json"
+  ],
   "frontMatter.content.publicFolder": "static",
   "frontMatter.site.baseURL": "https://flagrant.garden",
   "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.taxonomy.seoDescriptionField": "summary",
-  "frontMatter.taxonomy.seoDescriptionLength": 160,
-  "frontMatter.taxonomy.seoSlugLength": 60,
-  "frontMatter.taxonomy.seoTitleLength": 60,
   "frontMatter.taxonomy.tags": [
     "experimental",
     "flagrant factions",
@@ -17,14 +15,5 @@
     "tools",
     "workflow"
   ],
-  "frontMatter.taxonomy.categories": ["mechanisms", "meta", "preview", "site"],
-  "frontMatter.content.sorting": [
-    {
-      "id": "byWeight",
-      "title": "By Weight",
-      "name": "weight",
-      "order": "asc",
-      "type": "number"
-    }
-  ]
+  "frontMatter.taxonomy.categories": ["mechanisms", "meta", "preview", "site"]
 }

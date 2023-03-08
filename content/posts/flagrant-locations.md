@@ -10,7 +10,7 @@ tags:
   - flagrant factions
   - experimental
 weight: 10
-type: Post
+type: posts
 ---
 
 So, as usual, I've been talk to [Sean Richer](https://twitter.com/HypatiasAngst) [again]({{% ref
@@ -36,12 +36,12 @@ Let's look at a few examples:
 Any Group may activate freely to strike or douse a Light. Once a Light is struck, the Group is
 considered to be carrying Light until they douse it.
 
-Groups not carrying Light move at half speed and can't see more than 6" through the dark. When
+Groups not carrying Light move at half speed and can't see more than 6” through the dark. When
 Shooting at a Group not carrying Light, reroll hits.
 
 When fighting in melee and neither side is carrying Light, reroll hits.
 
-Groups carrying Light can see up to 12" and can be seen by any Group which has line of sight, even
+Groups carrying Light can see up to 12” and can be seen by any Group which has line of sight, even
 if they're in the dark.
 
 ### The Minotaur
@@ -56,7 +56,7 @@ Light.
 
 |      ME      |  MI   |  MO   |   R   |   T   | Traits                                            |
 | :----------: | :---: | :---: | :---: | :---: | :------------------------------------------------ |
-| 3+ / 3+ / 4+ |   -   |  10"  |   6   |   5   | Defiant, Lightbane, Reckless, Terrifying, Vicious |
+| 3+ / 3+ / 4+ |   -   |  10”  |   6   |   5   | Defiant, Lightbane, Reckless, Terrifying, Vicious |
 
 Defiant
 : If the Minotaur isn't Shaken and not already in melee, when anyone successfully activates to
@@ -84,10 +84,10 @@ Vicious
 
 Players must deploy their Groups onto one of the airships or the back of the Leviathan.
 
-Any Group except for Engines may attempt to activate to Glide and Move across the open air up to 12"
-(10" if Heavy). Foot do so on a 5+, Beasts on a 6+, and Cavalry on a 7+.
+Any Group except for Engines may attempt to activate to Glide and Move across the open air up to 12”
+(10” if Heavy). Foot do so on a 5+, Beasts on a 6+, and Cavalry on a 7+.
 
-A Group in uncontested control of an airship may activate on a 5+ to maneuver the airship 6" in any
+A Group in uncontested control of an airship may activate on a 5+ to maneuver the airship 6” in any
 direction.
 
 If any side has sole control of the Leviathan at the end of play, +3VP.
@@ -117,7 +117,7 @@ automatically Routing any Group still aboard.
 
 |     ME     |  MI   |  MO   |   R   |   T   |                       Traits                        |
 | :--------: | :---: | :---: | :---: | :---: | :-------------------------------------------------: |
-| - / - / 3+ |   -   |  6"   |  12   |   4   | Annihilator, Self-Destruct, Skysunder Song, Vicious |
+| - / - / 3+ |   -   |  6”   |  12   |   4   | Annihilator, Self-Destruct, Skysunder Song, Vicious |
 
 Annihilator
 : Whenever the Leviathan moves into any model from a Group, roll to-hit as if the Leviathan is
@@ -125,7 +125,7 @@ Annihilator
   airship was carrying are now on the Leviathan.
 
 Self-Destruct
-: Shoot every Group within 6", hitting on 3+. any Group aboard the Leviathan when it self-destructs
+: Shoot every Group within 6”, hitting on 3+. any Group aboard the Leviathan when it self-destructs
   is automatically Routed.
 
 Skysunder Song
@@ -153,14 +153,14 @@ If the Crowd's Excitement reaches zero, roll 2d6 as they vote to shake things up
 | Result |    Name     | Effect                                                                                                                                 | Excitement Bonus |
 | :----: | :---------: | :------------------------------------------------------------------------------------------------------------------------------------- | :--------------: |
 |   2    |    Chant    | None.                                                                                                                                  |        +3        |
-|   3    |    Stone    | All groups within 12" of the table edge are at risk; 6d6, hitting on 6                                                                 |        +2        |
+|   3    |    Stone    | All groups within 12” of the table edge are at risk; 6d6, hitting on 6                                                                 |        +2        |
 |   4    |   Favour    | The Group that has hurt enemies the most regains up to 2R and may activate freely next turn                                            |        +2        |
 |   5    |    Duel     | The most recent Groups to fight in melee must fight until one side is Routed; all other activations and effects are on hold until then |        +4        |
 |   6    |  Inebriate  | Any Group that moves adjacent to the table edge may activate freely to drink divine wine; +1T but become Reckless and Unfeeling        |        +2        |
 |   7    |  Blessing   | The Group that has hurt enemies the most returns to their starting R and rolls an additional 3 dice to hit                             |        +1        |
 |   8    |   Unleash   | Add three Light Beast Groups to the arena; they always Attack the nearest Group if possible, else Move towards it                      |        +3        |
 |   9    | Second Wind | All Groups in the Arena return to half their R if Bloodied or full if not                                                              |        +1        |
-|   10   | Wallscythe  | All Groups within 6" of the table edge are at risk; 12d6, hitting on 4+                                                                |        +2        |
+|   10   | Wallscythe  | All Groups within 6” of the table edge are at risk; 12d6, hitting on 4+                                                                |        +2        |
 |   11   | Earthquake  | All Groups are at risk; 12d6, hitting on 5+                                                                                            |        +3        |
 |   12   |    Flood    | The entire Arena becomes Difficult terrain                                                                                             |        +2        |
 |   13   |    Curse    | The Group that has hurt enemies the least is targeted; 12d6, hitting on 3+; for the rest of the skirmish, -1T                          |        +1        |
@@ -187,7 +187,7 @@ supplement for _Flagrant Factions_:
 > ### The Wide House
 >
 > wide enough to be a grocery store. Also has a good selection of local music. Also has a bowling
->alley. Also does like glow-in-the-dark smoothies after dark. > > That’s decidedly NOT crappy.
+>alley. Also does like glow-in-the-dark smoothies after dark. > > That's decidedly NOT crappy.
 >
 > Passive
 > : Shaken Groups are knocked prone and must spend a move Action to get back up.
